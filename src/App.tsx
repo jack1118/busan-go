@@ -1,6 +1,7 @@
 import { lazy, Suspense, useMemo, useRef, useState } from "react";
 import raw from "./data/itinerary.json";
-import type { Day, Itinerary, TimelineItem } from "./types";
+import type { Day, Itinerary, RainPlace, RainPlan, TimelineItem } from "./types";
+import TaxiCard from "./components/TaxiCard";
 import TabBar, { type TabKey } from "./components/TabBar";
 import DaySwitcher from "./components/DaySwitcher";
 import Timeline from "./components/Timeline";
@@ -53,14 +54,63 @@ function Header({ subtitle }: { subtitle: string }) {
   );
 }
 
-function RainPlanCard({ plans }: { plans: string[] }) {
+function RainPlaceCard({ place }: { place: RainPlace }) {
+  const [taxi, setTaxi] = useState(false);
+  return (
+    <div className="rounded-xl bg-white p-3 shadow-sm ring-1 ring-black/[0.03] dark:bg-neutral-800 dark:ring-white/5">
+      <div className="text-[14px] font-bold">{place.nameZh}</div>
+      <div className="text-[13px] font-semibold text-busan-blue-deep dark:text-busan-blue">
+        {place.nameKr}
+      </div>
+      {place.note && (
+        <p className="mt-0.5 text-[12px] leading-relaxed text-neutral-500 dark:text-neutral-400">
+          {place.note}
+        </p>
+      )}
+      <div className="mt-2 grid grid-cols-3 gap-2">
+        <a
+          href={place.maps.naver}
+          target="_blank"
+          rel="noreferrer"
+          className="rounded-lg bg-[#03c75a] py-1.5 text-center text-[12px] font-semibold text-white active:scale-[0.98]"
+        >
+          📍 Naver
+        </a>
+        <a
+          href={place.maps.google}
+          target="_blank"
+          rel="noreferrer"
+          className="rounded-lg bg-busan-blue py-1.5 text-center text-[12px] font-semibold text-white active:scale-[0.98]"
+        >
+          🗺 Google
+        </a>
+        <button
+          onClick={() => setTaxi(true)}
+          className="rounded-lg bg-neutral-900 py-1.5 text-center text-[12px] font-semibold text-white active:scale-[0.98] dark:bg-neutral-700"
+        >
+          🚕 給司機
+        </button>
+      </div>
+      <TaxiCard
+        open={taxi}
+        nameZh={place.nameZh}
+        nameKr={place.nameKr}
+        mapG={place.maps.google}
+        mapN={place.maps.naver}
+        onClose={() => setTaxi(false)}
+      />
+    </div>
+  );
+}
+
+function RainPlanCard({ plan }: { plan: RainPlan }) {
   return (
     <div className="rounded-2xl bg-busan-blue/10 p-4">
       <div className="mb-1.5 flex items-center gap-1.5 text-[14px] font-bold text-busan-blue-deep dark:text-busan-blue">
         🌧 雨天備案
       </div>
       <ul className="space-y-2">
-        {plans.map((r, i) => (
+        {plan.text.map((r, i) => (
           <li
             key={i}
             className="text-[13px] leading-relaxed text-neutral-600 dark:text-neutral-300"
@@ -69,6 +119,16 @@ function RainPlanCard({ plans }: { plans: string[] }) {
           </li>
         ))}
       </ul>
+      {plan.places.length > 0 && (
+        <div className="mt-3 space-y-2">
+          <div className="text-[12px] font-semibold text-busan-blue-deep dark:text-busan-blue">
+            室內備案地點（韓文 + 地圖）
+          </div>
+          {plan.places.map((p, i) => (
+            <RainPlaceCard key={i} place={p} />
+          ))}
+        </div>
+      )}
     </div>
   );
 }
@@ -82,7 +142,8 @@ function DayView({
 }) {
   const [rainMode, setRainMode] = useState(false);
   const exportRef = useRef<HTMLDivElement>(null);
-  const hasRain = day.rainPlan.length > 0;
+  const hasRain =
+    day.rainPlan.text.length > 0 || day.rainPlan.places.length > 0;
 
   return (
     <div className="mt-3">
@@ -115,13 +176,13 @@ function DayView({
       <WeatherBanner dateLabel={day.date} />
 
       {rainMode && hasRain ? (
-        <RainPlanCard plans={day.rainPlan} />
+        <RainPlanCard plan={day.rainPlan} />
       ) : (
         <>
           <div ref={exportRef} className="bg-appbg pb-1 dark:bg-black">
             <Timeline day={day} onSelect={onSelect} />
           </div>
-          {hasRain && <RainPlanCard plans={day.rainPlan} />}
+          {hasRain && <RainPlanCard plan={day.rainPlan} />}
           <div className="mt-3">
             <ExportButton
               targetRef={exportRef}

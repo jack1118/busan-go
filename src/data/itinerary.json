@@ -62,7 +62,10 @@
           "activity": "桃園機場出發 BX794",
           "note": "提前 2hr 到機場",
           "icon": "transport",
-          "maps": null,
+          "maps": {
+            "google": "https://www.google.com/maps/search/?api=1&query=%EA%B9%80%ED%95%B4%EA%B5%AD%EC%A0%9C%EA%B3%B5%ED%95%AD&query_place_id=ChIJDfcSIsGSaDUR7DKMmkKpoxU",
+            "naver": "https://map.naver.com/p/search/%EA%B9%80%ED%95%B4%EA%B5%AD%EC%A0%9C%EA%B3%B5%ED%95%AD"
+          },
           "tags": [],
           "voucher": null,
           "coord": {
@@ -70,7 +73,8 @@
             "lng": 128.9471783,
             "name": "金海國際機場",
             "nameKr": "김해국제공항",
-            "addr": "부산 강서구 공항진입로 108"
+            "addr": "부산 강서구 공항진입로 108",
+            "placeId": "ChIJDfcSIsGSaDUR7DKMmkKpoxU"
           },
           "nameKr": "김해국제공항",
           "addr": "부산 강서구 공항진입로 108",
@@ -81,7 +85,10 @@
           "activity": "抵達金海機場",
           "note": "入境+領行李約 30-40 分",
           "icon": "transport",
-          "maps": null,
+          "maps": {
+            "google": "https://www.google.com/maps/search/?api=1&query=%EA%B9%80%ED%95%B4%EA%B5%AD%EC%A0%9C%EA%B3%B5%ED%95%AD&query_place_id=ChIJDfcSIsGSaDUR7DKMmkKpoxU",
+            "naver": "https://map.naver.com/p/search/%EA%B9%80%ED%95%B4%EA%B5%AD%EC%A0%9C%EA%B3%B5%ED%95%AD"
+          },
           "tags": [],
           "voucher": null,
           "coord": {
@@ -89,7 +96,8 @@
             "lng": 128.9471783,
             "name": "金海國際機場",
             "nameKr": "김해국제공항",
-            "addr": "부산 강서구 공항진입로 108"
+            "addr": "부산 강서구 공항진입로 108",
+            "placeId": "ChIJDfcSIsGSaDUR7DKMmkKpoxU"
           },
           "nameKr": "김해국제공항",
           "addr": "부산 강서구 공항진입로 108",
@@ -100,7 +108,10 @@
           "activity": "搭計程車前往海雲台飯店",
           "note": "車程約 40-50 分",
           "icon": "transport",
-          "maps": null,
+          "maps": {
+            "google": "https://www.google.com/maps/search/?api=1&query=%ED%86%A0%EC%9A%94%EC%BD%94%EC%9D%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%202&query_place_id=ChIJ_0E5KRKNaDURKSPthqrI1-I",
+            "naver": "https://map.naver.com/p/search/%ED%86%A0%EC%9A%94%EC%BD%94%EC%9D%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%202"
+          },
           "tags": [],
           "voucher": null,
           "coord": {
@@ -108,7 +119,8 @@
             "lng": 129.1573807,
             "name": "東橫INN 海雲台2號店",
             "nameKr": "토요코인 부산 해운대 2",
-            "addr": "부산 해운대구 해운대해변로237번길 5"
+            "addr": "부산 해운대구 해운대해변로237번길 5",
+            "placeId": "ChIJ_0E5KRKNaDURKSPthqrI1-I"
           },
           "nameKr": "토요코인 부산 해운대 2",
           "addr": "부산 해운대구 해운대해변로237번길 5",
@@ -119,7 +131,10 @@
           "activity": "Check-in、整頓",
           "note": "讓雨樂適應環境",
           "icon": "rest",
-          "maps": null,
+          "maps": {
+            "google": "https://www.google.com/maps/search/?api=1&query=%ED%86%A0%EC%9A%94%EC%BD%94%EC%9D%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%202&query_place_id=ChIJ_0E5KRKNaDURKSPthqrI1-I",
+            "naver": "https://map.naver.com/p/search/%ED%86%A0%EC%9A%94%EC%BD%94%EC%9D%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%202"
+          },
           "tags": [],
           "voucher": null,
           "coord": {
@@ -127,7 +142,8 @@
             "lng": 129.1573807,
             "name": "東橫INN 海雲台2號店",
             "nameKr": "토요코인 부산 해운대 2",
-            "addr": "부산 해운대구 해운대해변로237번길 5"
+            "addr": "부산 해운대구 해운대해변로237번길 5",
+            "placeId": "ChIJ_0E5KRKNaDURKSPthqrI1-I"
           },
           "nameKr": "토요코인 부산 해운대 2",
           "addr": "부산 해운대구 해운대해변로237번길 5",
@@ -138,7 +154,10 @@
           "activity": "晚餐：海雲台市場 해운대시장",
           "note": "推薦：名品糖餅（排隊人氣王）、爐紅餃子刀削麵（60 年老店）、魚板串、海鮮煎餅。順便在市場水果攤買참외（韓國香瓜）+ 水蜜桃帶回飯店吃！",
           "icon": "food",
-          "maps": null,
+          "maps": {
+            "google": "https://www.google.com/maps/search/?api=1&query=%ED%95%B4%EC%9A%B4%EB%8C%80%EC%8B%9C%EC%9E%A5&query_place_id=ChIJCXner12NaDURvTHbPe3S9tU",
+            "naver": "https://map.naver.com/p/search/%ED%95%B4%EC%9A%B4%EB%8C%80%EC%8B%9C%EC%9E%A5"
+          },
           "tags": [],
           "voucher": null,
           "coord": {
@@ -146,7 +165,8 @@
             "lng": 129.1622489,
             "name": "海雲台市場",
             "nameKr": "해운대시장",
-            "addr": "부산 해운대구 구남로41번길"
+            "addr": "부산 해운대구 구남로41번길",
+            "placeId": "ChIJCXner12NaDURvTHbPe3S9tU"
           },
           "nameKr": "해운대시장",
           "addr": "부산 해운대구 구남로41번길",
@@ -157,7 +177,10 @@
           "activity": "散步海雲台海灘夜景",
           "note": "吹海風、看夜景，雨樂放電",
           "icon": "spot",
-          "maps": null,
+          "maps": {
+            "google": "https://www.google.com/maps/search/?api=1&query=%ED%95%B4%EC%9A%B4%EB%8C%80%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5&query_place_id=ChIJXwf-DlyNaDURmKxjwdWxY5k",
+            "naver": "https://map.naver.com/p/search/%ED%95%B4%EC%9A%B4%EB%8C%80%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5"
+          },
           "tags": [
             {
               "emoji": "🧸",
@@ -170,16 +193,30 @@
             "lng": 129.1603842,
             "name": "海雲台海灘",
             "nameKr": "해운대해수욕장",
-            "addr": "부산 해운대구 우동"
+            "addr": "부산 해운대구 우동",
+            "placeId": "ChIJXwf-DlyNaDURmKxjwdWxY5k"
           },
           "nameKr": "해운대해수욕장",
           "addr": "부산 해운대구 우동",
           "photo": null
         }
       ],
-      "rainPlan": [
-        "雨天備案：直接在飯店附近覓食，不勉強外出"
-      ]
+      "rainPlan": {
+        "text": [
+          "雨天備案：直接在飯店附近覓食，不勉強外出"
+        ],
+        "places": [
+          {
+            "nameZh": "海雲台市場（飯店附近覓食）",
+            "nameKr": "해운대시장",
+            "note": "飯店步行可達，雨天就近吃",
+            "maps": {
+              "google": "https://www.google.com/maps/search/?api=1&query=%ED%95%B4%EC%9A%B4%EB%8C%80%EC%8B%9C%EC%9E%A5&query_place_id=ChIJCXner12NaDURvTHbPe3S9tU",
+              "naver": "https://map.naver.com/p/search/%ED%95%B4%EC%9A%B4%EB%8C%80%EC%8B%9C%EC%9E%A5"
+            }
+          }
+        ]
+      }
     },
     {
       "id": "D2",
@@ -193,7 +230,10 @@
           "activity": "早餐：飯店免費早餐（東橫INN）",
           "note": "飯糰、味噌湯、小菜，省時方便",
           "icon": "food",
-          "maps": null,
+          "maps": {
+            "google": "https://www.google.com/maps/search/?api=1&query=%ED%86%A0%EC%9A%94%EC%BD%94%EC%9D%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%202&query_place_id=ChIJ_0E5KRKNaDURKSPthqrI1-I",
+            "naver": "https://map.naver.com/p/search/%ED%86%A0%EC%9A%94%EC%BD%94%EC%9D%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%202"
+          },
           "tags": [],
           "voucher": null,
           "coord": {
@@ -201,7 +241,8 @@
             "lng": 129.1573807,
             "name": "東橫INN 海雲台2號店",
             "nameKr": "토요코인 부산 해운대 2",
-            "addr": "부산 해운대구 해운대해변로237번길 5"
+            "addr": "부산 해운대구 해운대해변로237번길 5",
+            "placeId": "ChIJ_0E5KRKNaDURKSPthqrI1-I"
           },
           "nameKr": "토요코인 부산 해운대 2",
           "addr": "부산 해운대구 해운대해변로237번길 5",
@@ -213,8 +254,8 @@
           "note": "沙灘玩沙、踩水。帶換洗衣物和小毛巾",
           "icon": "spot",
           "maps": {
-            "google": "https://maps.google.com/?q=%ED%95%B4%EC%9A%B4%EB%8C%80%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5",
-            "naver": "https://map.naver.com/v5/search/%ED%95%B4%EC%9A%B4%EB%8C%80%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5"
+            "google": "https://www.google.com/maps/search/?api=1&query=%ED%95%B4%EC%9A%B4%EB%8C%80%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5&query_place_id=ChIJXwf-DlyNaDURmKxjwdWxY5k",
+            "naver": "https://map.naver.com/p/search/%ED%95%B4%EC%9A%B4%EB%8C%80%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5"
           },
           "tags": [
             {
@@ -228,7 +269,8 @@
             "lng": 129.1603842,
             "name": "海雲台海灘",
             "nameKr": "해운대해수욕장",
-            "addr": "부산 해운대구 우동"
+            "addr": "부산 해운대구 우동",
+            "placeId": "ChIJXwf-DlyNaDURmKxjwdWxY5k"
           },
           "nameKr": "해운대해수욕장",
           "addr": "부산 해운대구 우동",
@@ -240,8 +282,8 @@
           "note": "就在海灘旁。海底隧道、觸摸池。未滿 3 歲免費（帶護照證明年齡）。平日 10:00-19:00。約 1-1.5hr",
           "icon": "spot",
           "maps": {
-            "google": "https://maps.google.com/?q=SEA%20LIFE%20%EB%B6%80%EC%82%B0%EC%95%84%EC%BF%A0%EC%95%84%EB%A6%AC%EC%9B%80",
-            "naver": "https://map.naver.com/v5/search/SEA%20LIFE%20%EB%B6%80%EC%82%B0%EC%95%84%EC%BF%A0%EC%95%84%EB%A6%AC%EC%9B%80"
+            "google": "https://www.google.com/maps/search/?api=1&query=%EC%94%A8%EB%9D%BC%EC%9D%B4%ED%94%84%20%EB%B6%80%EC%82%B0%EC%95%84%EC%BF%A0%EC%95%84%EB%A6%AC%EC%9B%80&query_place_id=ChIJq7TCXVyNaDURsEf5F93nr84",
+            "naver": "https://map.naver.com/p/search/%EC%94%A8%EB%9D%BC%EC%9D%B4%ED%94%84%20%EB%B6%80%EC%82%B0%EC%95%84%EC%BF%A0%EC%95%84%EB%A6%AC%EC%9B%80"
           },
           "tags": [
             {
@@ -255,7 +297,8 @@
             "lng": 129.1610038,
             "name": "SEA LIFE 釜山水族館",
             "nameKr": "씨라이프 부산아쿠아리움",
-            "addr": "부산 해운대구 해운대해변로 266"
+            "addr": "부산 해운대구 해운대해변로 266",
+            "placeId": "ChIJq7TCXVyNaDURsEf5F93nr84"
           },
           "nameKr": "씨라이프 부산아쿠아리움",
           "addr": "부산 해운대구 해운대해변로 266",
@@ -279,7 +322,10 @@
           "activity": "午睡時間 💤",
           "note": "回飯店或推車裡睡",
           "icon": "rest",
-          "maps": null,
+          "maps": {
+            "google": "https://www.google.com/maps/search/?api=1&query=%ED%86%A0%EC%9A%94%EC%BD%94%EC%9D%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%202&query_place_id=ChIJ_0E5KRKNaDURKSPthqrI1-I",
+            "naver": "https://map.naver.com/p/search/%ED%86%A0%EC%9A%94%EC%BD%94%EC%9D%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%202"
+          },
           "tags": [],
           "voucher": null,
           "coord": {
@@ -287,7 +333,8 @@
             "lng": 129.1573807,
             "name": "東橫INN 海雲台2號店",
             "nameKr": "토요코인 부산 해운대 2",
-            "addr": "부산 해운대구 해운대해변로237번길 5"
+            "addr": "부산 해운대구 해운대해변로237번길 5",
+            "placeId": "ChIJ_0E5KRKNaDURKSPthqrI1-I"
           },
           "nameKr": "토요코인 부산 해운대 2",
           "addr": "부산 해운대구 해운대해변로237번길 5",
@@ -299,7 +346,8 @@
           "note": "A. Club D Oasis （水上樂園+泳池，雨樂免費，走路到，₩69,000/大人 6hr 或 VBP 免費入場）\nB. 新世界百貨 Centum City（Hello Kitty Cafe B1 + Zooraji 兒童樂園頂樓 + SPAO 聯名款 + 6F 童裝館）",
           "icon": "shop",
           "maps": {
-            "google": "https://www.google.com/maps/place/?q=place_id:ChIJN0Cv_r2NaDURKwfew3pTqi8"
+            "google": "https://www.google.com/maps/search/?api=1&query=%ED%81%B4%EB%9F%BD%EB%94%94%20%EC%98%A4%EC%95%84%EC%8B%9C%EC%8A%A4&query_place_id=ChIJN0Cv_r2NaDURKwfew3pTqi8",
+            "naver": "https://map.naver.com/p/search/%ED%81%B4%EB%9F%BD%EB%94%94%20%EC%98%A4%EC%95%84%EC%8B%9C%EC%8A%A4"
           },
           "tags": [
             {
@@ -313,7 +361,8 @@
             "lng": 129.1684719,
             "name": "Club D Oasis",
             "nameKr": "클럽디 오아시스",
-            "addr": "부산 해운대구 달맞이길 30"
+            "addr": "부산 해운대구 달맞이길 30",
+            "placeId": "ChIJN0Cv_r2NaDURKwfew3pTqi8"
           },
           "nameKr": "클럽디 오아시스",
           "addr": "부산 해운대구 달맞이길 30",
@@ -324,7 +373,10 @@
           "activity": "晚餐：The Bay 101 더베이101 🌃",
           "note": "面對海雲台天際線的露天美食區，邊吃邊看夕陽（19:40 日落）→ 夜景！",
           "icon": "food",
-          "maps": null,
+          "maps": {
+            "google": "https://www.google.com/maps/search/?api=1&query=%EB%8D%94%EB%B2%A0%EC%9D%B4101&query_place_id=ChIJcSqHWSKTaDURtVMxseKq6zY",
+            "naver": "https://map.naver.com/p/search/%EB%8D%94%EB%B2%A0%EC%9D%B4101"
+          },
           "tags": [],
           "voucher": null,
           "coord": {
@@ -332,7 +384,8 @@
             "lng": 129.1520357,
             "name": "The Bay 101",
             "nameKr": "더베이101",
-            "addr": "부산 해운대구 동백로 52"
+            "addr": "부산 해운대구 동백로 52",
+            "placeId": "ChIJcSqHWSKTaDURtVMxseKq6zY"
           },
           "nameKr": "더베이101",
           "addr": "부산 해운대구 동백로 52",
@@ -343,7 +396,10 @@
           "activity": "回飯店",
           "note": "便利商店買消夜 + 컵과일 水果杯（切好的當季水果）",
           "icon": "food",
-          "maps": null,
+          "maps": {
+            "google": "https://www.google.com/maps/search/?api=1&query=%ED%86%A0%EC%9A%94%EC%BD%94%EC%9D%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%202&query_place_id=ChIJ_0E5KRKNaDURKSPthqrI1-I",
+            "naver": "https://map.naver.com/p/search/%ED%86%A0%EC%9A%94%EC%BD%94%EC%9D%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%202"
+          },
           "tags": [],
           "voucher": null,
           "coord": {
@@ -351,17 +407,49 @@
             "lng": 129.1573807,
             "name": "東橫INN 海雲台2號店",
             "nameKr": "토요코인 부산 해운대 2",
-            "addr": "부산 해운대구 해운대해변로237번길 5"
+            "addr": "부산 해운대구 해운대해변로237번길 5",
+            "placeId": "ChIJ_0E5KRKNaDURKSPthqrI1-I"
           },
           "nameKr": "토요코인 부산 해운대 2",
           "addr": "부산 해운대구 해운대해변로237번길 5",
           "photo": null
         }
       ],
-      "rainPlan": [
-        "雨天備案 A：上午去水族館（室內），下午改去 Centum City 新世界百貨（世界最大百貨公司，頂樓有 Zooraji 兒童樂園 — 海盜船遊樂場+恐龍）或 Pororo Park（波露露主題室內遊樂場，幼兒最愛）。B1 先去 Hello Kitty Apple Cafe （蘋果×Kitty 主題咖啡廳，飲品 ₩5,500~8,500，拍照區+周邊商品，雨樂認得 Kitty 會很開心），再逛 6F 兒童館（韓國童裝品牌）+ SPAO Centum City 店（聯名款）+ 旁邊 Homeplus Centum City 店補貨嬰兒零食",
-        "雨天備案 B：Club D Oasis — 海雲台 LCT 大樓 3-6F 的高級水上樂園+汗蒸幕，離飯店走路可到。無邊際泳池正對海雲台海景、兒童戲水池、滑水道、室外溫泉足湯。雨樂 36 個月以下免費！ 大人旺季 ₩69,000/人（水上樂園 6hr）或 ₩30,000/人（純 SPA 5hr）。⚠️ 需自備泳帽（泳池區必戴），救生衣可租。可用 Visit Busan Pass 免費入場。營業 10:00–22:00（週二到 18:00）。室內設施不怕下雨，也適合太熱不想在外面走的日子"
-      ]
+      "rainPlan": {
+        "text": [
+          "雨天備案 A：上午去水族館（室內），下午改去 Centum City 新世界百貨（世界最大百貨公司，頂樓有 Zooraji 兒童樂園 — 海盜船遊樂場+恐龍）或 Pororo Park（波露露主題室內遊樂場，幼兒最愛）。B1 先去 Hello Kitty Apple Cafe （蘋果×Kitty 主題咖啡廳，飲品 ₩5,500~8,500，拍照區+周邊商品，雨樂認得 Kitty 會很開心），再逛 6F 兒童館（韓國童裝品牌）+ SPAO Centum City 店（聯名款）+ 旁邊 Homeplus Centum City 店補貨嬰兒零食",
+          "雨天備案 B：Club D Oasis — 海雲台 LCT 大樓 3-6F 的高級水上樂園+汗蒸幕，離飯店走路可到。無邊際泳池正對海雲台海景、兒童戲水池、滑水道、室外溫泉足湯。雨樂 36 個月以下免費！ 大人旺季 ₩69,000/人（水上樂園 6hr）或 ₩30,000/人（純 SPA 5hr）。⚠️ 需自備泳帽（泳池區必戴），救生衣可租。可用 Visit Busan Pass 免費入場。營業 10:00–22:00（週二到 18:00）。室內設施不怕下雨，也適合太熱不想在外面走的日子"
+        ],
+        "places": [
+          {
+            "nameZh": "新世界百貨 Centum City",
+            "nameKr": "신세계백화점 센텀시티점",
+            "note": "頂樓 Zooraji 兒童樂園 + 6F 兒童館 + Hello Kitty Cafe",
+            "maps": {
+              "google": "https://www.google.com/maps/search/?api=1&query=%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90&query_place_id=ChIJSSw7slWTaDURjMs-oU61YYc",
+              "naver": "https://map.naver.com/p/search/%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90"
+            }
+          },
+          {
+            "nameZh": "Pororo Park 釜山店（室內樂園）",
+            "nameKr": "뽀로로파크 부산점",
+            "note": "波露露主題室內遊樂場（南區 W Square），幼兒最愛",
+            "maps": {
+              "google": "https://www.google.com/maps/search/?api=1&query=%EB%BD%80%EB%A1%9C%EB%A1%9C%ED%8C%8C%ED%81%AC%20%EB%B6%80%EC%82%B0%EC%A0%90",
+              "naver": "https://map.naver.com/p/search/%EB%BD%80%EB%A1%9C%EB%A1%9C%ED%8C%8C%ED%81%AC%20%EB%B6%80%EC%82%B0%EC%A0%90"
+            }
+          },
+          {
+            "nameZh": "Club D Oasis（室內水樂園）",
+            "nameKr": "클럽디 오아시스",
+            "note": "海雲台 LCT，室內泳池+汗蒸幕，雨樂免費",
+            "maps": {
+              "google": "https://www.google.com/maps/search/?api=1&query=%ED%81%B4%EB%9F%BD%EB%94%94%20%EC%98%A4%EC%95%84%EC%8B%9C%EC%8A%A4&query_place_id=ChIJN0Cv_r2NaDURKwfew3pTqi8",
+              "naver": "https://map.naver.com/p/search/%ED%81%B4%EB%9F%BD%EB%94%94%20%EC%98%A4%EC%95%84%EC%8B%9C%EC%8A%A4"
+            }
+          }
+        ]
+      }
     },
     {
       "id": "D3",
@@ -389,8 +477,8 @@
           "note": "彩色房屋、壁畫巷、小王子雕像。⚠️ 推車不適用！全程階梯+窄巷，務必帶背帶。走入口附近主路線拍照即可，約 1-1.5hr。免費入園（集章地圖 ~2,000 KRW）",
           "icon": "spot",
           "maps": {
-            "google": "https://maps.google.com/?q=%EA%B0%90%EC%B2%9C%EB%AC%B8%ED%99%94%EB%A7%88%EC%9D%84",
-            "naver": "https://map.naver.com/v5/search/%EA%B0%90%EC%B2%9C%EB%AC%B8%ED%99%94%EB%A7%88%EC%9D%84"
+            "google": "https://www.google.com/maps/search/?api=1&query=%EA%B0%90%EC%B2%9C%EB%AC%B8%ED%99%94%EB%A7%88%EC%9D%84&query_place_id=ChIJUToRo7fpaDURo_ZMItcBfpc",
+            "naver": "https://map.naver.com/p/search/%EA%B0%90%EC%B2%9C%EB%AC%B8%ED%99%94%EB%A7%88%EC%9D%84"
           },
           "tags": [
             {
@@ -408,7 +496,8 @@
             "lng": 129.0105924,
             "name": "甘川洞文化村",
             "nameKr": "감천문화마을",
-            "addr": "부산 사하구 감내2로 203"
+            "addr": "부산 사하구 감내2로 203",
+            "placeId": "ChIJUToRo7fpaDURo_ZMItcBfpc"
           },
           "nameKr": "감천문화마을",
           "addr": "부산 사하구 감내2로 203",
@@ -419,17 +508,21 @@
           "activity": "午餐：南浦洞 남포동",
           "note": "搭計程車下山（5 分鐘）。到 BIFF 廣場 吃 씨앗호떡（堅果黑糖糖餅）、魚板串",
           "icon": "food",
-          "maps": null,
+          "maps": {
+            "google": "https://www.google.com/maps/search/?api=1&query=%EB%B9%84%ED%94%84%EA%B4%91%EC%9E%A5&query_place_id=ChIJL1scg6DpaDURxXQZg1kWGZ4",
+            "naver": "https://map.naver.com/p/search/%EB%B9%84%ED%94%84%EA%B4%91%EC%9E%A5"
+          },
           "tags": [],
           "voucher": null,
           "coord": {
             "lat": 35.098243,
             "lng": 129.029212,
-            "name": "南浦洞",
-            "nameKr": "남포동 / BIFF광장",
-            "addr": "부산 중구 비프광장로"
+            "name": "南浦洞 BIFF廣場",
+            "nameKr": "비프광장",
+            "addr": "부산 중구 비프광장로",
+            "placeId": "ChIJL1scg6DpaDURxXQZg1kWGZ4"
           },
-          "nameKr": "남포동 / BIFF광장",
+          "nameKr": "비프광장",
           "addr": "부산 중구 비프광장로",
           "photo": null
         },
@@ -439,8 +532,8 @@
           "note": "一樓逛海鮮、看活魚。幼兒看魚很開心。可在 2 樓吃新鮮生魚片（회）或海鮮鍋",
           "icon": "food",
           "maps": {
-            "google": "https://maps.google.com/?q=%EC%9E%90%EA%B0%88%EC%B9%98%EC%8B%9C%EC%9E%A5",
-            "naver": "https://map.naver.com/v5/search/%EC%9E%90%EA%B0%88%EC%B9%98%EC%8B%9C%EC%9E%A5"
+            "google": "https://www.google.com/maps/search/?api=1&query=%EC%9E%90%EA%B0%88%EC%B9%98%EC%8B%9C%EC%9E%A5&query_place_id=ChIJudkrFArpaDURbbCzajeQs0c",
+            "naver": "https://map.naver.com/p/search/%EC%9E%90%EA%B0%88%EC%B9%98%EC%8B%9C%EC%9E%A5"
           },
           "tags": [],
           "voucher": null,
@@ -449,7 +542,8 @@
             "lng": 129.0307965,
             "name": "札嘎其市場",
             "nameKr": "자갈치시장",
-            "addr": "부산 중구 자갈치해안로 52"
+            "addr": "부산 중구 자갈치해안로 52",
+            "placeId": "ChIJudkrFArpaDURbbCzajeQs0c"
           },
           "nameKr": "자갈치시장",
           "addr": "부산 중구 자갈치해안로 52",
@@ -460,7 +554,10 @@
           "activity": "午睡時間 💤",
           "note": "附近咖啡廳坐坐或計程車回飯店",
           "icon": "food",
-          "maps": null,
+          "maps": {
+            "google": "https://www.google.com/maps/search/?api=1&query=%ED%86%A0%EC%9A%94%EC%BD%94%EC%9D%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%202&query_place_id=ChIJ_0E5KRKNaDURKSPthqrI1-I",
+            "naver": "https://map.naver.com/p/search/%ED%86%A0%EC%9A%94%EC%BD%94%EC%9D%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%202"
+          },
           "tags": [],
           "voucher": null,
           "coord": {
@@ -468,7 +565,8 @@
             "lng": 129.1573807,
             "name": "東橫INN 海雲台2號店",
             "nameKr": "토요코인 부산 해운대 2",
-            "addr": "부산 해운대구 해운대해변로237번길 5"
+            "addr": "부산 해운대구 해운대해변로237번길 5",
+            "placeId": "ChIJ_0E5KRKNaDURKSPthqrI1-I"
           },
           "nameKr": "토요코인 부산 해운대 2",
           "addr": "부산 해운대구 해운대해변로237번길 5",
@@ -480,7 +578,8 @@
           "note": "光復路商店街：TOPTEN + 8SECONDS （都在光復路上，韓版 Uniqlo/ZARA 順路逛）、樂天百貨光復店（逛童裝特價花車 + 買 Busan Bada Sand、二代名菓）、Olive Young 買 Green Finger 嬰兒防曬。樂天超市 B1 買西瓜🍉（切半包裝）+ 참외 帶回飯店",
           "icon": "shop",
           "maps": {
-            "google": "https://www.google.com/maps/place/?q=place_id:ChIJBY2rnKDpaDURxohkZrjXWEw"
+            "google": "https://www.google.com/maps/search/?api=1&query=%ED%83%91%ED%85%90%20%EB%82%A8%ED%8F%AC%EB%8F%99%EC%A0%90&query_place_id=ChIJBY2rnKDpaDURxohkZrjXWEw",
+            "naver": "https://map.naver.com/p/search/%ED%83%91%ED%85%90%20%EB%82%A8%ED%8F%AC%EB%8F%99%EC%A0%90"
           },
           "tags": [],
           "voucher": null,
@@ -489,7 +588,8 @@
             "lng": 129.029212,
             "name": "南浦洞 TOPTEN",
             "nameKr": "탑텐 남포동점",
-            "addr": "부산 중구 광복로"
+            "addr": "부산 중구 광복로",
+            "placeId": "ChIJBY2rnKDpaDURxohkZrjXWEw"
           },
           "nameKr": "탑텐 남포동점",
           "addr": "부산 중구 광복로",
@@ -501,8 +601,8 @@
           "note": "南浦洞搭地鐵 2 站到釜田站（부전역）步行 10 分。免費，超大沙坑+噴泉戲水（整點噴水，帶換洗衣物）+充氣跳跳丘。有尿布台+哺乳室。玩 1hr 後搭地鐵回海雲台。看時間決定要不要去，不去就直接回海雲台吃晚餐",
           "icon": "food",
           "maps": {
-            "google": "https://www.google.com/maps/place/?q=place_id:ChIJPbq4_UHraDURSKskEXfxKno",
-            "naver": "https://map.naver.com/v5/search/%EB%B6%80%EC%82%B0%EC%8B%9C%EB%AF%BC%EA%B3%B5%EC%9B%90"
+            "google": "https://www.google.com/maps/search/?api=1&query=%EB%B6%80%EC%82%B0%EC%8B%9C%EB%AF%BC%EA%B3%B5%EC%9B%90&query_place_id=ChIJPbq4_UHraDURSKskEXfxKno",
+            "naver": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EC%8B%9C%EB%AF%BC%EA%B3%B5%EC%9B%90"
           },
           "tags": [
             {
@@ -524,7 +624,8 @@
             "lng": 129.0573853,
             "name": "釜山市民公園",
             "nameKr": "부산시민공원",
-            "addr": "부산 부산진구 시민공원로 73"
+            "addr": "부산 부산진구 시민공원로 73",
+            "placeId": "ChIJPbq4_UHraDURSKskEXfxKno"
           },
           "nameKr": "부산시민공원",
           "addr": "부산 부산진구 시민공원로 73",
@@ -561,7 +662,10 @@
           "activity": "回飯店休息",
           "note": "",
           "icon": "rest",
-          "maps": null,
+          "maps": {
+            "google": "https://www.google.com/maps/search/?api=1&query=%ED%86%A0%EC%9A%94%EC%BD%94%EC%9D%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%202&query_place_id=ChIJ_0E5KRKNaDURKSPthqrI1-I",
+            "naver": "https://map.naver.com/p/search/%ED%86%A0%EC%9A%94%EC%BD%94%EC%9D%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%202"
+          },
           "tags": [],
           "voucher": null,
           "coord": {
@@ -569,16 +673,30 @@
             "lng": 129.1573807,
             "name": "東橫INN 海雲台2號店",
             "nameKr": "토요코인 부산 해운대 2",
-            "addr": "부산 해운대구 해운대해변로237번길 5"
+            "addr": "부산 해운대구 해운대해변로237번길 5",
+            "placeId": "ChIJ_0E5KRKNaDURKSPthqrI1-I"
           },
           "nameKr": "토요코인 부산 해운대 2",
           "addr": "부산 해운대구 해운대해변로237번길 5",
           "photo": null
         }
       ],
-      "rainPlan": [
-        "雨天備案：跳過甘川洞（雨天階梯濕滑不安全），改排 Centum City 新世界百貨 室內行程，下午照原計畫南浦+西面"
-      ]
+      "rainPlan": {
+        "text": [
+          "雨天備案：跳過甘川洞（雨天階梯濕滑不安全），改排 Centum City 新世界百貨 室內行程，下午照原計畫南浦+西面"
+        ],
+        "places": [
+          {
+            "nameZh": "新世界百貨 Centum City（室內）",
+            "nameKr": "신세계백화점 센텀시티점",
+            "note": "雨天跳過甘川洞，改室內百貨",
+            "maps": {
+              "google": "https://www.google.com/maps/search/?api=1&query=%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90&query_place_id=ChIJSSw7slWTaDURjMs-oU61YYc",
+              "naver": "https://map.naver.com/p/search/%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90"
+            }
+          }
+        ]
+      }
     },
     {
       "id": "D4",
@@ -606,8 +724,8 @@
           "note": "搭地鐵到廣安站。沙灘看廣安大橋、咖啡廳拍照。比海雲台人少",
           "icon": "food",
           "maps": {
-            "google": "https://maps.google.com/?q=%EA%B4%91%EC%95%88%EB%A6%AC%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5",
-            "naver": "https://map.naver.com/v5/search/%EA%B4%91%EC%95%88%EB%A6%AC%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5"
+            "google": "https://www.google.com/maps/search/?api=1&query=%EA%B4%91%EC%95%88%EB%A6%AC%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5&query_place_id=ChIJxw7HJy_taDUR-xaSTeHwbf8",
+            "naver": "https://map.naver.com/p/search/%EA%B4%91%EC%95%88%EB%A6%AC%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5"
           },
           "tags": [],
           "voucher": null,
@@ -616,7 +734,8 @@
             "lng": 129.118666,
             "name": "廣安里海灘",
             "nameKr": "광안리해수욕장",
-            "addr": "부산 수영구 광안해변로"
+            "addr": "부산 수영구 광안해변로",
+            "placeId": "ChIJxw7HJy_taDUR-xaSTeHwbf8"
           },
           "nameKr": "광안리해수욕장",
           "addr": "부산 수영구 광안해변로",
@@ -640,7 +759,10 @@
           "activity": "午睡時間 💤",
           "note": "回飯店或在咖啡廳休息",
           "icon": "food",
-          "maps": null,
+          "maps": {
+            "google": "https://www.google.com/maps/search/?api=1&query=%ED%86%A0%EC%9A%94%EC%BD%94%EC%9D%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%202&query_place_id=ChIJ_0E5KRKNaDURKSPthqrI1-I",
+            "naver": "https://map.naver.com/p/search/%ED%86%A0%EC%9A%94%EC%BD%94%EC%9D%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%202"
+          },
           "tags": [],
           "voucher": null,
           "coord": {
@@ -648,7 +770,8 @@
             "lng": 129.1573807,
             "name": "東橫INN 海雲台2號店",
             "nameKr": "토요코인 부산 해운대 2",
-            "addr": "부산 해운대구 해운대해변로237번길 5"
+            "addr": "부산 해운대구 해운대해변로237번길 5",
+            "placeId": "ChIJ_0E5KRKNaDURKSPthqrI1-I"
           },
           "nameKr": "토요코인 부산 해운대 2",
           "addr": "부산 해운대구 해운대해변로237번길 5",
@@ -673,8 +796,8 @@
           "note": "尾浦站搭海灘列車前往青沙浦（₩8,000/人，Visit Busan Pass 含），約 25 分",
           "icon": "transport",
           "maps": {
-            "google": "https://maps.google.com/?q=%ED%95%B4%EC%9A%B4%EB%8C%80%EB%B8%94%EB%A3%A8%EB%9D%BC%EC%9D%B8%ED%8C%8C%ED%81%AC",
-            "naver": "https://map.naver.com/v5/search/%ED%95%B4%EC%9A%B4%EB%8C%80%EB%B8%94%EB%A3%A8%EB%9D%BC%EC%9D%B8%ED%8C%8C%ED%81%AC"
+            "google": "https://www.google.com/maps/search/?api=1&query=%ED%95%B4%EC%9A%B4%EB%8C%80%EB%B8%94%EB%A3%A8%EB%9D%BC%EC%9D%B8%ED%8C%8C%ED%81%AC%20%EB%AF%B8%ED%8F%AC%EC%A0%95%EA%B1%B0%EC%9E%A5&query_place_id=ChIJfdIYWwuNaDURDx-eqtUjCkg",
+            "naver": "https://map.naver.com/p/search/%ED%95%B4%EC%9A%B4%EB%8C%80%EB%B8%94%EB%A3%A8%EB%9D%BC%EC%9D%B8%ED%8C%8C%ED%81%AC%20%EB%AF%B8%ED%8F%AC%EC%A0%95%EA%B1%B0%EC%9E%A5"
           },
           "tags": [],
           "voucher": {
@@ -685,7 +808,8 @@
             "lng": 129.1727672,
             "name": "海雲台藍線公園(尾浦)",
             "nameKr": "해운대블루라인파크 미포정거장",
-            "addr": "부산 해운대구 달맞이길62번길 13"
+            "addr": "부산 해운대구 달맞이길62번길 13",
+            "placeId": "ChIJfdIYWwuNaDURDx-eqtUjCkg"
           },
           "nameKr": "해운대블루라인파크 미포정거장",
           "addr": "부산 해운대구 달맞이길62번길 13",
@@ -697,8 +821,8 @@
           "note": "紅白燈塔拍照 → 踏石觀景台（天空步道）走透明玻璃棧道看海（免費，夏季開到 20:00）→ 挑一間海景咖啡廳坐（推薦 青沙森林 Cheongsa Foret 4F 落地窗看海、Broni 巴斯克乳酪蛋糕必點）。時間超充裕，慢慢逛",
           "icon": "food",
           "maps": {
-            "google": "https://maps.google.com/?q=%EC%B2%AD%EC%82%AC%ED%8F%AC",
-            "naver": "https://map.naver.com/v5/search/%EC%B2%AD%EC%82%AC%ED%8F%AC"
+            "google": "https://www.google.com/maps/search/?api=1&query=%EC%B2%AD%EC%82%AC%ED%8F%AC&query_place_id=ChIJGcDcTCeNaDURouI8V8vtsX0",
+            "naver": "https://map.naver.com/p/search/%EC%B2%AD%EC%82%AC%ED%8F%AC"
           },
           "tags": [],
           "voucher": null,
@@ -707,7 +831,8 @@
             "lng": 129.1923456,
             "name": "青沙浦",
             "nameKr": "청사포",
-            "addr": "부산 해운대구 중동"
+            "addr": "부산 해운대구 중동",
+            "placeId": "ChIJGcDcTCeNaDURouI8V8vtsX0"
           },
           "nameKr": "청사포",
           "addr": "부산 해운대구 중동",
@@ -733,7 +858,10 @@
           "activity": "晚餐：The Bay 101 더베이101 🌃",
           "note": "膠囊下車走路 10 分鐘到。面對海雲台天際線的露天美食區，最後一晚看夜景收尾！",
           "icon": "food",
-          "maps": null,
+          "maps": {
+            "google": "https://www.google.com/maps/search/?api=1&query=%EB%8D%94%EB%B2%A0%EC%9D%B4101&query_place_id=ChIJcSqHWSKTaDURtVMxseKq6zY",
+            "naver": "https://map.naver.com/p/search/%EB%8D%94%EB%B2%A0%EC%9D%B4101"
+          },
           "tags": [],
           "voucher": null,
           "coord": {
@@ -741,7 +869,8 @@
             "lng": 129.1520357,
             "name": "The Bay 101",
             "nameKr": "더베이101",
-            "addr": "부산 해운대구 동백로 52"
+            "addr": "부산 해운대구 동백로 52",
+            "placeId": "ChIJcSqHWSKTaDURtVMxseKq6zY"
           },
           "nameKr": "더베이101",
           "addr": "부산 해운대구 동백로 52",
@@ -752,7 +881,10 @@
           "activity": "回飯店、打包行李",
           "note": "隔天早起",
           "icon": "rest",
-          "maps": null,
+          "maps": {
+            "google": "https://www.google.com/maps/search/?api=1&query=%ED%86%A0%EC%9A%94%EC%BD%94%EC%9D%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%202&query_place_id=ChIJ_0E5KRKNaDURKSPthqrI1-I",
+            "naver": "https://map.naver.com/p/search/%ED%86%A0%EC%9A%94%EC%BD%94%EC%9D%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%202"
+          },
           "tags": [],
           "voucher": null,
           "coord": {
@@ -760,16 +892,30 @@
             "lng": 129.1573807,
             "name": "東橫INN 海雲台2號店",
             "nameKr": "토요코인 부산 해운대 2",
-            "addr": "부산 해운대구 해운대해변로237번길 5"
+            "addr": "부산 해운대구 해운대해변로237번길 5",
+            "placeId": "ChIJ_0E5KRKNaDURKSPthqrI1-I"
           },
           "nameKr": "토요코인 부산 해운대 2",
           "addr": "부산 해운대구 해운대해변로237번길 5",
           "photo": null
         }
       ],
-      "rainPlan": [
-        "雨天備案：跳過藍線公園（膠囊票不可取消，雨天也能搭但景色打折）。下午改去 Centum City 新世界百貨 室內逛，傍晚再去搭膠囊"
-      ]
+      "rainPlan": {
+        "text": [
+          "雨天備案：跳過藍線公園（膠囊票不可取消，雨天也能搭但景色打折）。下午改去 Centum City 新世界百貨 室內逛，傍晚再去搭膠囊"
+        ],
+        "places": [
+          {
+            "nameZh": "新世界百貨 Centum City（室內）",
+            "nameKr": "신세계백화점 센텀시티점",
+            "note": "雨天室內逛，傍晚再搭膠囊",
+            "maps": {
+              "google": "https://www.google.com/maps/search/?api=1&query=%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90&query_place_id=ChIJSSw7slWTaDURjMs-oU61YYc",
+              "naver": "https://map.naver.com/p/search/%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90"
+            }
+          }
+        ]
+      }
     },
     {
       "id": "D5",
@@ -796,7 +942,10 @@
           "activity": "退房",
           "note": "",
           "icon": "rest",
-          "maps": null,
+          "maps": {
+            "google": "https://www.google.com/maps/search/?api=1&query=%ED%86%A0%EC%9A%94%EC%BD%94%EC%9D%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%202&query_place_id=ChIJ_0E5KRKNaDURKSPthqrI1-I",
+            "naver": "https://map.naver.com/p/search/%ED%86%A0%EC%9A%94%EC%BD%94%EC%9D%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%202"
+          },
           "tags": [],
           "voucher": null,
           "coord": {
@@ -804,7 +953,8 @@
             "lng": 129.1573807,
             "name": "東橫INN 海雲台2號店",
             "nameKr": "토요코인 부산 해운대 2",
-            "addr": "부산 해운대구 해운대해변로237번길 5"
+            "addr": "부산 해운대구 해운대해변로237번길 5",
+            "placeId": "ChIJ_0E5KRKNaDURKSPthqrI1-I"
           },
           "nameKr": "토요코인 부산 해운대 2",
           "addr": "부산 해운대구 해운대해변로237번길 5",
@@ -815,7 +965,10 @@
           "activity": "搭計程車前往金海機場",
           "note": "預抓 50 分鐘車程（週二早上可能塞車）",
           "icon": "transport",
-          "maps": null,
+          "maps": {
+            "google": "https://www.google.com/maps/search/?api=1&query=%EA%B9%80%ED%95%B4%EA%B5%AD%EC%A0%9C%EA%B3%B5%ED%95%AD&query_place_id=ChIJDfcSIsGSaDUR7DKMmkKpoxU",
+            "naver": "https://map.naver.com/p/search/%EA%B9%80%ED%95%B4%EA%B5%AD%EC%A0%9C%EA%B3%B5%ED%95%AD"
+          },
           "tags": [],
           "voucher": null,
           "coord": {
@@ -823,7 +976,8 @@
             "lng": 128.9471783,
             "name": "金海國際機場",
             "nameKr": "김해국제공항",
-            "addr": "부산 강서구 공항진입로 108"
+            "addr": "부산 강서구 공항진입로 108",
+            "placeId": "ChIJDfcSIsGSaDUR7DKMmkKpoxU"
           },
           "nameKr": "김해국제공항",
           "addr": "부산 강서구 공항진입로 108",
@@ -869,7 +1023,10 @@
           "photo": null
         }
       ],
-      "rainPlan": []
+      "rainPlan": {
+        "text": [],
+        "places": []
+      }
     }
   ],
   "packing": [
@@ -3024,8 +3181,8 @@
         "nameKr": "신세계백화점 센텀시티점",
         "note": "6F 兒童館、哺乳室、頂樓 Zooraji 樂園、B1 Hello Kitty Cafe",
         "q": "신세계백화점 센텀시티점",
-        "mapG": "https://maps.google.com/?q=%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90",
-        "mapN": "https://map.naver.com/v5/search/%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90"
+        "mapG": "https://www.google.com/maps/search/?api=1&query=%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90&query_place_id=ChIJSSw7slWTaDURjMs-oU61YYc",
+        "mapN": "https://map.naver.com/p/search/%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90"
       },
       {
         "category": "百貨",
@@ -3033,8 +3190,8 @@
         "nameKr": "롯데백화점 광복점",
         "note": "童裝特價花車、Busan Bada Sand、二代名菓",
         "q": "롯데백화점 광복점",
-        "mapG": "https://maps.google.com/?q=%EB%A1%AF%EB%8D%B0%EB%B0%B1%ED%99%94%EC%A0%90%20%EA%B4%91%EB%B3%B5%EC%A0%90",
-        "mapN": "https://map.naver.com/v5/search/%EB%A1%AF%EB%8D%B0%EB%B0%B1%ED%99%94%EC%A0%90%20%EA%B4%91%EB%B3%B5%EC%A0%90"
+        "mapG": "https://www.google.com/maps/search/?api=1&query=%EB%A1%AF%EB%8D%B0%EB%B0%B1%ED%99%94%EC%A0%90%20%EA%B4%91%EB%B3%B5%EC%A0%90&query_place_id=ChIJxycp5AzpaDUR62VgFgUIPV0",
+        "mapN": "https://map.naver.com/p/search/%EB%A1%AF%EB%8D%B0%EB%B0%B1%ED%99%94%EC%A0%90%20%EA%B4%91%EB%B3%B5%EC%A0%90"
       },
       {
         "category": "超市",
@@ -3042,8 +3199,8 @@
         "nameKr": "홈플러스 센텀시티점",
         "note": "離飯店近，嬰兒零食、切片水果盒",
         "q": "홈플러스 센텀시티점",
-        "mapG": "https://maps.google.com/?q=%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90",
-        "mapN": "https://map.naver.com/v5/search/%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90"
+        "mapG": "https://www.google.com/maps/search/?api=1&query=%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90",
+        "mapN": "https://map.naver.com/p/search/%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90"
       },
       {
         "category": "超市",
@@ -3051,17 +3208,17 @@
         "nameKr": "이마트 해운대점",
         "note": "泡麵、海苔、咖啡、零食掃貨",
         "q": "이마트 해운대점",
-        "mapG": "https://maps.google.com/?q=%EC%9D%B4%EB%A7%88%ED%8A%B8%20%ED%95%B4%EC%9A%B4%EB%8C%80%EC%A0%90",
-        "mapN": "https://map.naver.com/v5/search/%EC%9D%B4%EB%A7%88%ED%8A%B8%20%ED%95%B4%EC%9A%B4%EB%8C%80%EC%A0%90"
+        "mapG": "https://www.google.com/maps/search/?api=1&query=%EC%9D%B4%EB%A7%88%ED%8A%B8%20%ED%95%B4%EC%9A%B4%EB%8C%80%EC%A0%90&query_place_id=ChIJ-7v-H2-NaDURDTZz5tvHP4M",
+        "mapN": "https://map.naver.com/p/search/%EC%9D%B4%EB%A7%88%ED%8A%B8%20%ED%95%B4%EC%9A%B4%EB%8C%80%EC%A0%90"
       },
       {
         "category": "美妝",
         "nameZh": "Olive Young 西面 Town",
-        "nameKr": "올리브영 서면타운점",
+        "nameKr": "올리브영 서면 타운",
         "note": "全韓最大旗艦之一，滿 ₩15,000 可免稅",
-        "q": "올리브영 서면타운점",
-        "mapG": "https://maps.google.com/?q=%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%ED%83%80%EC%9A%B4%EC%A0%90",
-        "mapN": "https://map.naver.com/v5/search/%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%ED%83%80%EC%9A%B4%EC%A0%90"
+        "q": "올리브영 서면 타운",
+        "mapG": "https://www.google.com/maps/search/?api=1&query=%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4",
+        "mapN": "https://map.naver.com/p/search/%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4"
       },
       {
         "category": "美妝",
@@ -3069,8 +3226,8 @@
         "nameKr": "올리브영 해운대점",
         "note": "海雲台分店，順路補貨",
         "q": "올리브영 해운대",
-        "mapG": "https://maps.google.com/?q=%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%ED%95%B4%EC%9A%B4%EB%8C%80",
-        "mapN": "https://map.naver.com/v5/search/%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+        "mapG": "https://www.google.com/maps/search/?api=1&query=%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+        "mapN": "https://map.naver.com/p/search/%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%ED%95%B4%EC%9A%B4%EB%8C%80"
       },
       {
         "category": "門市",
@@ -3078,8 +3235,8 @@
         "nameKr": "탑텐 남포동점",
         "note": "韓版 Uniqlo，光復路上",
         "q": "탑텐 남포동",
-        "mapG": "https://maps.google.com/?q=%ED%83%91%ED%85%90%20%EB%82%A8%ED%8F%AC%EB%8F%99",
-        "mapN": "https://map.naver.com/v5/search/%ED%83%91%ED%85%90%20%EB%82%A8%ED%8F%AC%EB%8F%99"
+        "mapG": "https://www.google.com/maps/search/?api=1&query=%ED%83%91%ED%85%90%20%EB%82%A8%ED%8F%AC%EB%8F%99&query_place_id=ChIJBY2rnKDpaDURxohkZrjXWEw",
+        "mapN": "https://map.naver.com/p/search/%ED%83%91%ED%85%90%20%EB%82%A8%ED%8F%AC%EB%8F%99"
       },
       {
         "category": "門市",
@@ -3087,8 +3244,8 @@
         "nameKr": "스파오 서면점",
         "note": "超多 IP 聯名（哈利波特/蠟筆小新）",
         "q": "스파오 서면",
-        "mapG": "https://maps.google.com/?q=%EC%8A%A4%ED%8C%8C%EC%98%A4%20%EC%84%9C%EB%A9%B4",
-        "mapN": "https://map.naver.com/v5/search/%EC%8A%A4%ED%8C%8C%EC%98%A4%20%EC%84%9C%EB%A9%B4"
+        "mapG": "https://www.google.com/maps/search/?api=1&query=%EC%8A%A4%ED%8C%8C%EC%98%A4%20%EC%84%9C%EB%A9%B4&query_place_id=ChIJR_AMB2_raDURtkNgS_8-3FQ",
+        "mapN": "https://map.naver.com/p/search/%EC%8A%A4%ED%8C%8C%EC%98%A4%20%EC%84%9C%EB%A9%B4"
       },
       {
         "category": "門市",
@@ -3096,8 +3253,8 @@
         "nameKr": "에잇세컨즈 남포동점",
         "note": "像 ZARA，三星集團旗下",
         "q": "에잇세컨즈 남포동",
-        "mapG": "https://maps.google.com/?q=%EC%97%90%EC%9E%87%EC%84%B8%EC%BB%A8%EC%A6%88%20%EB%82%A8%ED%8F%AC%EB%8F%99",
-        "mapN": "https://map.naver.com/v5/search/%EC%97%90%EC%9E%87%EC%84%B8%EC%BB%A8%EC%A6%88%20%EB%82%A8%ED%8F%AC%EB%8F%99"
+        "mapG": "https://www.google.com/maps/search/?api=1&query=%EC%97%90%EC%9E%87%EC%84%B8%EC%BB%A8%EC%A6%88%20%EB%82%A8%ED%8F%AC%EB%8F%99",
+        "mapN": "https://map.naver.com/p/search/%EC%97%90%EC%9E%87%EC%84%B8%EC%BB%A8%EC%A6%88%20%EB%82%A8%ED%8F%AC%EB%8F%99"
       },
       {
         "category": "門市",
@@ -3105,8 +3262,8 @@
         "nameKr": "다이소 남포동점",
         "note": "VT 微針、平替護手霜、小物",
         "q": "다이소 남포동",
-        "mapG": "https://maps.google.com/?q=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EB%82%A8%ED%8F%AC%EB%8F%99",
-        "mapN": "https://map.naver.com/v5/search/%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EB%82%A8%ED%8F%AC%EB%8F%99"
+        "mapG": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EB%82%A8%ED%8F%AC%EB%8F%99&query_place_id=ChIJm6rkQgrpaDURZmVLWHVIibQ",
+        "mapN": "https://map.naver.com/p/search/%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EB%82%A8%ED%8F%AC%EB%8F%99"
       },
       {
         "category": "伴手禮",
@@ -3114,8 +3271,8 @@
         "nameKr": "부산바다샌드",
         "note": "海理團路巷內，11:00-19:00，每日限量 ~100 盒",
         "q": "부산바다샌드",
-        "mapG": "https://maps.google.com/?q=%EB%B6%80%EC%82%B0%EB%B0%94%EB%8B%A4%EC%83%8C%EB%93%9C",
-        "mapN": "https://map.naver.com/v5/search/%EB%B6%80%EC%82%B0%EB%B0%94%EB%8B%A4%EC%83%8C%EB%93%9C"
+        "mapG": "https://www.google.com/maps/search/?api=1&query=%EB%B6%80%EC%82%B0%EB%B0%94%EB%8B%A4%EC%83%8C%EB%93%9C",
+        "mapN": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EB%B0%94%EB%8B%A4%EC%83%8C%EB%93%9C"
       },
       {
         "category": "伴手禮",
@@ -3123,8 +3280,8 @@
         "nameKr": "고래사어묵 해운대",
         "note": "海雲台站 5 號出口往海灘方向",
         "q": "고래사어묵 해운대",
-        "mapG": "https://maps.google.com/?q=%EA%B3%A0%EB%9E%98%EC%82%AC%EC%96%B4%EB%AC%B5%20%ED%95%B4%EC%9A%B4%EB%8C%80",
-        "mapN": "https://map.naver.com/v5/search/%EA%B3%A0%EB%9E%98%EC%82%AC%EC%96%B4%EB%AC%B5%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+        "mapG": "https://www.google.com/maps/search/?api=1&query=%EA%B3%A0%EB%9E%98%EC%82%AC%EC%96%B4%EB%AC%B5%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+        "mapN": "https://map.naver.com/p/search/%EA%B3%A0%EB%9E%98%EC%82%AC%EC%96%B4%EB%AC%B5%20%ED%95%B4%EC%9A%B4%EB%8C%80"
       },
       {
         "category": "免稅",
@@ -3132,8 +3289,8 @@
         "nameKr": "롯데면세점 김해공항",
         "note": "正官莊紅蔘、化妝品（D5 回程）",
         "q": "롯데면세점 김해공항",
-        "mapG": "https://maps.google.com/?q=%EB%A1%AF%EB%8D%B0%EB%A9%B4%EC%84%B8%EC%A0%90%20%EA%B9%80%ED%95%B4%EA%B3%B5%ED%95%AD",
-        "mapN": "https://map.naver.com/v5/search/%EB%A1%AF%EB%8D%B0%EB%A9%B4%EC%84%B8%EC%A0%90%20%EA%B9%80%ED%95%B4%EA%B3%B5%ED%95%AD"
+        "mapG": "https://www.google.com/maps/search/?api=1&query=%EB%A1%AF%EB%8D%B0%EB%A9%B4%EC%84%B8%EC%A0%90%20%EA%B9%80%ED%95%B4%EA%B3%B5%ED%95%AD&query_place_id=ChIJ2bjxgaDBaDUR_bo-HcZByj8",
+        "mapN": "https://map.naver.com/p/search/%EB%A1%AF%EB%8D%B0%EB%A9%B4%EC%84%B8%EC%A0%90%20%EA%B9%80%ED%95%B4%EA%B3%B5%ED%95%AD"
       }
     ],
     "products": [

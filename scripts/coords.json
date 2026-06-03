@@ -1,23 +1,39 @@
 {
   "byQuery": {
-    "해운대해수욕장": { "lat": 35.1586975, "lng": 129.1603842, "name": "海雲台海灘", "nameKr": "해운대해수욕장", "addr": "부산 해운대구 우동" },
-    "SEA LIFE 부산아쿠아리움": { "lat": 35.1592713, "lng": 129.1610038, "name": "SEA LIFE 釜山水族館", "nameKr": "씨라이프 부산아쿠아리움", "addr": "부산 해운대구 해운대해변로 266" },
-    "place_id:ChIJN0Cv_r2NaDURKwfew3pTqi8": { "lat": 35.1600514, "lng": 129.1684719, "name": "Club D Oasis", "nameKr": "클럽디 오아시스", "addr": "부산 해운대구 달맞이길 30" },
-    "감천문화마을": { "lat": 35.0973904, "lng": 129.0105924, "name": "甘川洞文化村", "nameKr": "감천문화마을", "addr": "부산 사하구 감내2로 203" },
-    "자갈치시장": { "lat": 35.0966339, "lng": 129.0307965, "name": "札嘎其市場", "nameKr": "자갈치시장", "addr": "부산 중구 자갈치해안로 52" },
-    "place_id:ChIJBY2rnKDpaDURxohkZrjXWEw": { "lat": 35.098243, "lng": 129.029212, "name": "南浦洞 TOPTEN", "nameKr": "탑텐 남포동점", "addr": "부산 중구 광복로" },
-    "place_id:ChIJPbq4_UHraDURSKskEXfxKno": { "lat": 35.1681608, "lng": 129.0573853, "name": "釜山市民公園", "nameKr": "부산시민공원", "addr": "부산 부산진구 시민공원로 73" },
-    "광안리해수욕장": { "lat": 35.1531696, "lng": 129.118666, "name": "廣安里海灘", "nameKr": "광안리해수욕장", "addr": "부산 수영구 광안해변로" },
-    "해운대블루라인파크": { "lat": 35.158284, "lng": 129.1727672, "name": "海雲台藍線公園(尾浦)", "nameKr": "해운대블루라인파크 미포정거장", "addr": "부산 해운대구 달맞이길62번길 13" },
-    "청사포": { "lat": 35.1603874, "lng": 129.1923456, "name": "青沙浦", "nameKr": "청사포", "addr": "부산 해운대구 중동" }
+    "해운대해수욕장": { "lat": 35.1586975, "lng": 129.1603842, "name": "海雲台海灘", "nameKr": "해운대해수욕장", "addr": "부산 해운대구 우동", "placeId": "ChIJXwf-DlyNaDURmKxjwdWxY5k" },
+    "SEA LIFE 부산아쿠아리움": { "lat": 35.1592713, "lng": 129.1610038, "name": "SEA LIFE 釜山水族館", "nameKr": "씨라이프 부산아쿠아리움", "addr": "부산 해운대구 해운대해변로 266", "placeId": "ChIJq7TCXVyNaDURsEf5F93nr84" },
+    "place_id:ChIJN0Cv_r2NaDURKwfew3pTqi8": { "lat": 35.1600514, "lng": 129.1684719, "name": "Club D Oasis", "nameKr": "클럽디 오아시스", "addr": "부산 해운대구 달맞이길 30", "placeId": "ChIJN0Cv_r2NaDURKwfew3pTqi8" },
+    "감천문화마을": { "lat": 35.0973904, "lng": 129.0105924, "name": "甘川洞文化村", "nameKr": "감천문화마을", "addr": "부산 사하구 감내2로 203", "placeId": "ChIJUToRo7fpaDURo_ZMItcBfpc" },
+    "자갈치시장": { "lat": 35.0966339, "lng": 129.0307965, "name": "札嘎其市場", "nameKr": "자갈치시장", "addr": "부산 중구 자갈치해안로 52", "placeId": "ChIJudkrFArpaDURbbCzajeQs0c" },
+    "place_id:ChIJBY2rnKDpaDURxohkZrjXWEw": { "lat": 35.098243, "lng": 129.029212, "name": "南浦洞 TOPTEN", "nameKr": "탑텐 남포동점", "addr": "부산 중구 광복로", "placeId": "ChIJBY2rnKDpaDURxohkZrjXWEw" },
+    "place_id:ChIJPbq4_UHraDURSKskEXfxKno": { "lat": 35.1681608, "lng": 129.0573853, "name": "釜山市民公園", "nameKr": "부산시민공원", "addr": "부산 부산진구 시민공원로 73", "placeId": "ChIJPbq4_UHraDURSKskEXfxKno" },
+    "광안리해수욕장": { "lat": 35.1531696, "lng": 129.118666, "name": "廣安里海灘", "nameKr": "광안리해수욕장", "addr": "부산 수영구 광안해변로", "placeId": "ChIJxw7HJy_taDUR-xaSTeHwbf8" },
+    "해운대블루라인파크": { "lat": 35.158284, "lng": 129.1727672, "name": "海雲台藍線公園(尾浦)", "nameKr": "해운대블루라인파크 미포정거장", "addr": "부산 해운대구 달맞이길62번길 13", "placeId": "ChIJfdIYWwuNaDURDx-eqtUjCkg" },
+    "청사포": { "lat": 35.1603874, "lng": 129.1923456, "name": "青沙浦", "nameKr": "청사포", "addr": "부산 해운대구 중동", "placeId": "ChIJGcDcTCeNaDURouI8V8vtsX0" }
   },
   "byKeyword": [
-    { "kw": "金海機場|金海机场|金海|機場出發|抵達金海", "lat": 35.1728688, "lng": 128.9471783, "name": "金海國際機場", "nameKr": "김해국제공항", "addr": "부산 강서구 공항진입로 108" },
-    { "kw": "The Bay 101|더베이101", "lat": 35.1565954, "lng": 129.1520357, "name": "The Bay 101", "nameKr": "더베이101", "addr": "부산 해운대구 동백로 52" },
-    { "kw": "海雲台市場|해운대시장", "lat": 35.1614537, "lng": 129.1622489, "name": "海雲台市場", "nameKr": "해운대시장", "addr": "부산 해운대구 구남로41번길" },
-    { "kw": "Centum|新世界|센텀", "lat": 35.1689218, "lng": 129.1296311, "name": "新世界 Centum City", "nameKr": "신세계백화점 센텀시티점", "addr": "부산 해운대구 센텀남대로 35" },
-    { "kw": "南浦|남포|BIFF|國際市場|札嘎其下山|光復路", "lat": 35.098243, "lng": 129.029212, "name": "南浦洞", "nameKr": "남포동 / BIFF광장", "addr": "부산 중구 비프광장로" },
-    { "kw": "海雲台飯店|Check-in|토요코인|東橫|退房|回飯店", "lat": 35.1595422, "lng": 129.1573807, "name": "東橫INN 海雲台2號店", "nameKr": "토요코인 부산 해운대 2", "addr": "부산 해운대구 해운대해변로237번길 5" },
-    { "kw": "海雲台海灘夜景|海雲台海邊|散步海雲台", "lat": 35.1586975, "lng": 129.1603842, "name": "海雲台海灘", "nameKr": "해운대해수욕장", "addr": "부산 해운대구 우동" }
-  ]
+    { "kw": "金海機場|金海机场|金海|機場出發|抵達金海", "lat": 35.1728688, "lng": 128.9471783, "name": "金海國際機場", "nameKr": "김해국제공항", "addr": "부산 강서구 공항진입로 108", "placeId": "ChIJDfcSIsGSaDUR7DKMmkKpoxU" },
+    { "kw": "The Bay 101|더베이101", "lat": 35.1565954, "lng": 129.1520357, "name": "The Bay 101", "nameKr": "더베이101", "addr": "부산 해운대구 동백로 52", "placeId": "ChIJcSqHWSKTaDURtVMxseKq6zY" },
+    { "kw": "海雲台市場|해운대시장", "lat": 35.1614537, "lng": 129.1622489, "name": "海雲台市場", "nameKr": "해운대시장", "addr": "부산 해운대구 구남로41번길", "placeId": "ChIJCXner12NaDURvTHbPe3S9tU" },
+    { "kw": "Centum|新世界|센텀", "lat": 35.1689218, "lng": 129.1296311, "name": "新世界 Centum City", "nameKr": "신세계백화점 센텀시티점", "addr": "부산 해운대구 센텀남대로 35", "placeId": "ChIJSSw7slWTaDURjMs-oU61YYc" },
+    { "kw": "南浦|남포|BIFF|國際市場|札嘎其下山|光復路", "lat": 35.098243, "lng": 129.029212, "name": "南浦洞 BIFF廣場", "nameKr": "비프광장", "addr": "부산 중구 비프광장로", "placeId": "ChIJL1scg6DpaDURxXQZg1kWGZ4" },
+    { "kw": "海雲台飯店|Check-in|토요코인|東橫|退房|回飯店", "lat": 35.1595422, "lng": 129.1573807, "name": "東橫INN 海雲台2號店", "nameKr": "토요코인 부산 해운대 2", "addr": "부산 해운대구 해운대해변로237번길 5", "placeId": "ChIJ_0E5KRKNaDURKSPthqrI1-I" },
+    { "kw": "海雲台海灘夜景|海雲台海邊|散步海雲台", "lat": 35.1586975, "lng": 129.1603842, "name": "海雲台海灘", "nameKr": "해운대해수욕장", "addr": "부산 해운대구 우동", "placeId": "ChIJXwf-DlyNaDURmKxjwdWxY5k" }
+  ],
+  "rainByDay": {
+    "D1": [
+      { "nameZh": "海雲台市場（飯店附近覓食）", "nameKr": "해운대시장", "lat": 35.1614537, "lng": 129.1622489, "placeId": "ChIJCXner12NaDURvTHbPe3S9tU", "note": "飯店步行可達，雨天就近吃" }
+    ],
+    "D2": [
+      { "nameZh": "新世界百貨 Centum City", "nameKr": "신세계백화점 센텀시티점", "lat": 35.1689218, "lng": 129.1296311, "placeId": "ChIJSSw7slWTaDURjMs-oU61YYc", "note": "頂樓 Zooraji 兒童樂園 + 6F 兒童館 + Hello Kitty Cafe" },
+      { "nameZh": "Pororo Park 釜山店（室內樂園）", "nameKr": "뽀로로파크 부산점", "note": "波露露主題室內遊樂場（南區 W Square），幼兒最愛" },
+      { "nameZh": "Club D Oasis（室內水樂園）", "nameKr": "클럽디 오아시스", "lat": 35.1600514, "lng": 129.1684719, "placeId": "ChIJN0Cv_r2NaDURKwfew3pTqi8", "note": "海雲台 LCT，室內泳池+汗蒸幕，雨樂免費" }
+    ],
+    "D3": [
+      { "nameZh": "新世界百貨 Centum City（室內）", "nameKr": "신세계백화점 센텀시티점", "lat": 35.1689218, "lng": 129.1296311, "placeId": "ChIJSSw7slWTaDURjMs-oU61YYc", "note": "雨天跳過甘川洞，改室內百貨" }
+    ],
+    "D4": [
+      { "nameZh": "新世界百貨 Centum City（室內）", "nameKr": "신세계백화점 센텀시티점", "lat": 35.1689218, "lng": 129.1296311, "placeId": "ChIJSSw7slWTaDURjMs-oU61YYc", "note": "雨天室內逛，傍晚再搭膠囊" }
+    ]
+  }
 }

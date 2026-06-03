@@ -7,6 +7,24 @@ function firstKorean(text: string): string | null {
   return m ? m[0].trim() : null;
 }
 
+// Prefer the full official Korean name embedded in the node's Naver link query
+// (the md author put the complete name there) over a partial title extraction.
+function nodeKorean(node: RefNode): string | null {
+  const nav = node.maps?.naver;
+  if (nav) {
+    const m = nav.match(/search\/([^?]+)/);
+    if (m) {
+      try {
+        const dec = decodeURIComponent(m[1]);
+        if (/[가-힣]/.test(dec)) return dec;
+      } catch {
+        /* fall through */
+      }
+    }
+  }
+  return firstKorean(node.title);
+}
+
 function MapButtons({ maps }: { maps: MapLinks | null | undefined }) {
   if (!maps || (!maps.google && !maps.naver)) return null;
   return (
@@ -129,7 +147,7 @@ function NodeCard({
   speakable?: boolean;
 }) {
   const [taxiOpen, setTaxiOpen] = useState(false);
-  const kr = speakable ? firstKorean(node.title) : null;
+  const kr = speakable ? nodeKorean(node) : null;
   return (
     <section className="mb-3 rounded-2xl bg-white p-4 shadow-sm shadow-black/[0.04] ring-1 ring-black/[0.03] dark:bg-neutral-800 dark:ring-white/5">
       {node.title && (
@@ -154,11 +172,13 @@ function NodeCard({
           open={taxiOpen}
           nameZh={node.title}
           nameKr={kr}
-          mapG={node.maps?.google}
-          mapN={
-            node.maps?.naver ||
-            `https://map.naver.com/v5/search/${encodeURIComponent(kr)}`
+          mapG={
+            node.maps?.google ||
+            `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+              kr
+            )}`
           }
+          mapN={`https://map.naver.com/p/search/${encodeURIComponent(kr)}`}
           onClose={() => setTaxiOpen(false)}
         />
       )}

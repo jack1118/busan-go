@@ -86,6 +86,18 @@ export interface Shopping {
   products: ShopProduct[];
 }
 
+export interface RainPlace {
+  nameZh: string;
+  nameKr: string;
+  note: string;
+  maps: MapLinks;
+}
+
+export interface RainPlan {
+  text: string[];
+  places: RainPlace[];
+}
+
 export interface Day {
   id: string;
   date: string;
@@ -93,7 +105,7 @@ export interface Day {
   theme: string;
   colorIndex: number;
   items: TimelineItem[];
-  rainPlan: string[];
+  rainPlan: RainPlan;
 }
 
 export interface PackingItem {

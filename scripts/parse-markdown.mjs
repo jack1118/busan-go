@@ -21,6 +21,37 @@ const SHOP = JSON.parse(readFileSync(join(__dirname, "shopping.json"), "utf8"));
 const raw = readFileSync(SRC, "utf8");
 const lines = raw.split(/\r?\n/);
 
+// ---------- reliable map-link generation ----------
+// Google: pin to the exact place via query_place_id when known (else coords,
+// else Korean-name search). Naver: search by the official Korean name on the
+// current /p/search/ endpoint. Both resolve to the real place.
+const enc = encodeURIComponent;
+function gmap(p) {
+  const q = enc(p.nameKr || p.nameZh || "");
+  if (p.placeId)
+    return `https://www.google.com/maps/search/?api=1&query=${q}&query_place_id=${p.placeId}`;
+  if (p.lat != null)
+    return `https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lng}`;
+  return `https://www.google.com/maps/search/?api=1&query=${q}`;
+}
+function nmap(p) {
+  return `https://map.naver.com/p/search/${enc(p.nameKr || p.nameZh || "")}`;
+}
+function placeLinks(p) {
+  return { google: gmap(p), naver: nmap(p) };
+}
+
+// Verified Google place IDs for shopping venues (keyed by their Korean query).
+const VENUE_PLACE_IDS = {
+  "신세계백화점 센텀시티점": "ChIJSSw7slWTaDURjMs-oU61YYc",
+  "롯데백화점 광복점": "ChIJxycp5AzpaDUR62VgFgUIPV0",
+  "이마트 해운대점": "ChIJ-7v-H2-NaDURDTZz5tvHP4M",
+  "탑텐 남포동": "ChIJBY2rnKDpaDURxohkZrjXWEw",
+  "스파오 서면": "ChIJR_AMB2_raDURtkNgS_8-3FQ",
+  "다이소 남포동": "ChIJm6rkQgrpaDURZmVLWHVIibQ",
+  "롯데면세점 김해공항": "ChIJ2bjxgaDBaDUR_bo-HcZByj8",
+};
+
 // ---------- helpers ----------
 
 // Pull [G](url) / [N](url) map links from a chunk of text, including the
@@ -255,6 +286,8 @@ function parseDays() {
           item.coord = attachCoord(item);
           item.nameKr = item.coord?.nameKr || firstKorean(rawActivity) || null;
           item.addr = item.coord?.addr || null;
+          // Regenerate map links from the verified place (exact + Korean).
+          if (item.coord) item.maps = placeLinks(item.coord);
           items.push(item);
         }
       } else {
@@ -262,12 +295,18 @@ function parseDays() {
       }
     }
 
-    // rain backup: lines beginning with > 🌧
-    const rain = [];
+    // rain backup: prose lines beginning with > 🌧 + curated places (韓文 + 地圖)
+    const rainText = [];
     for (const l of block) {
       const m = l.match(/^>\s*🌧\s*(.*)$/);
-      if (m) rain.push(clean(m[1]));
+      if (m) rainText.push(clean(m[1]));
     }
+    const rainPlaces = (COORDS.rainByDay?.[id] || []).map((p) => ({
+      nameZh: p.nameZh,
+      nameKr: p.nameKr,
+      note: p.note || "",
+      maps: placeLinks(p),
+    }));
 
     days.push({
       id,
@@ -276,7 +315,7 @@ function parseDays() {
       theme,
       colorIndex: d,
       items,
-      rainPlan: rain,
+      rainPlan: { text: rainText, places: rainPlaces },
     });
   }
   return days;
@@ -494,11 +533,14 @@ const data = {
   exhibitions: parseSectionByHeading(/^##\s+期間限定活動/),
   preTrip: parseSectionByHeading(/^##\s+行前須知/),
   shopping: {
-    venues: SHOP.venues.map((v) => ({
-      ...v,
-      mapG: "https://maps.google.com/?q=" + encodeURIComponent(v.q),
-      mapN: "https://map.naver.com/v5/search/" + encodeURIComponent(v.q),
-    })),
+    venues: SHOP.venues.map((v) => {
+      const links = placeLinks({
+        nameKr: v.q,
+        nameZh: v.nameZh,
+        placeId: VENUE_PLACE_IDS[v.q],
+      });
+      return { ...v, mapG: links.google, mapN: links.naver };
+    }),
     products: SHOP.products.map((p) => ({
       slug: p.slug,
       category: p.category,
