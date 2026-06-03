@@ -1,0 +1,853 @@
+{
+  "title": "釜山親子行 2026/6/26-30",
+  "subtitle": "Jack + 太太 + 雨樂（1y9m）｜4 晚｜輕鬆慢玩",
+  "dateRange": "2026/6/26-30",
+  "generatedFrom": "busan-2026-06.md",
+  "flights": {
+    "bookingRef": "KI4VC6",
+    "totalPrice": "24,619 TWD",
+    "flights": [
+      {
+        "kind": "去程",
+        "flightNo": "BX794",
+        "route": "桃園 TPE → 金海 PUS",
+        "date": "6/26（五）",
+        "depart": "13:30",
+        "arrive": "17:05"
+      },
+      {
+        "kind": "回程",
+        "flightNo": "BX793",
+        "route": "金海 PUS → 桃園 TPE",
+        "date": "6/30（二）",
+        "depart": "10:50",
+        "arrive": "12:35"
+      }
+    ],
+    "passengers": [
+      {
+        "name": "LIN / CHIHHSIEN（Jack）",
+        "type": "成人"
+      },
+      {
+        "name": "CHOU / MINGCHIEH（太太）",
+        "type": "成人"
+      },
+      {
+        "name": "LIN / YULE（雨樂）",
+        "type": "嬰兒票（未滿 2 歲）"
+      }
+    ]
+  },
+  "hotel": {
+    "name": "東橫INN 釜山海雲台2號店",
+    "nameKr": "토요코인 부산 해운대 2 (Toyoko Inn Busan Haeundae No.2)",
+    "address": "5, Haeundaehaebyeon-ro237 Haeundae-gu, Busan 48093",
+    "phone": "+82-(0)51-741-1045",
+    "checkIn": "6/26（五）預定 19:00~20:00",
+    "checkOut": "6/30（二）",
+    "room": "禁煙雙床房 Twin（2 張單人床）",
+    "price": "₩410,000（≈ TWD 8,500），含稅，當地付款"
+  },
+  "days": [
+    {
+      "id": "D1",
+      "date": "6/26（五）",
+      "title": "抵達日",
+      "theme": "",
+      "colorIndex": 0,
+      "items": [
+        {
+          "time": "13:30",
+          "activity": "桃園機場出發 BX794",
+          "note": "提前 2hr 到機場",
+          "icon": "transport",
+          "maps": null,
+          "tags": [],
+          "voucher": null,
+          "coord": {
+            "lat": 35.1728688,
+            "lng": 128.9471783,
+            "name": "金海國際機場"
+          }
+        },
+        {
+          "time": "17:05",
+          "activity": "抵達金海機場",
+          "note": "入境+領行李約 30-40 分",
+          "icon": "transport",
+          "maps": null,
+          "tags": [],
+          "voucher": null,
+          "coord": {
+            "lat": 35.1728688,
+            "lng": 128.9471783,
+            "name": "金海國際機場"
+          }
+        },
+        {
+          "time": "~18:00",
+          "activity": "搭計程車前往海雲台飯店",
+          "note": "車程約 40-50 分",
+          "icon": "transport",
+          "maps": null,
+          "tags": [],
+          "voucher": null,
+          "coord": {
+            "lat": 35.1595422,
+            "lng": 129.1573807,
+            "name": "東橫INN 海雲台2號店"
+          }
+        },
+        {
+          "time": "~19:00",
+          "activity": "Check-in、整頓",
+          "note": "讓雨樂適應環境",
+          "icon": "rest",
+          "maps": null,
+          "tags": [],
+          "voucher": null,
+          "coord": {
+            "lat": 35.1595422,
+            "lng": 129.1573807,
+            "name": "東橫INN 海雲台2號店"
+          }
+        },
+        {
+          "time": "19:30",
+          "activity": "晚餐：海雲台市場 해운대시장",
+          "note": "推薦：名品糖餅（排隊人氣王）、爐紅餃子刀削麵（60 年老店）、魚板串、海鮮煎餅。順便在市場水果攤買참외（韓國香瓜）+ 水蜜桃帶回飯店吃！",
+          "icon": "food",
+          "maps": null,
+          "tags": [],
+          "voucher": null,
+          "coord": {
+            "lat": 35.1614537,
+            "lng": 129.1622489,
+            "name": "海雲台市場"
+          }
+        },
+        {
+          "time": "20:30",
+          "activity": "散步海雲台海灘夜景",
+          "note": "吹海風、看夜景，雨樂放電",
+          "icon": "spot",
+          "maps": null,
+          "tags": [
+            {
+              "emoji": "🧸",
+              "label": "適合幼兒"
+            }
+          ],
+          "voucher": null,
+          "coord": {
+            "lat": 35.1586975,
+            "lng": 129.1603842,
+            "name": "海雲台海灘"
+          }
+        }
+      ],
+      "rainPlan": [
+        "雨天備案：直接在飯店附近覓食，不勉強外出"
+      ]
+    },
+    {
+      "id": "D2",
+      "date": "6/27（六）",
+      "title": "海雲台一日 — 海灘 × 水族館 × 悠閒下午",
+      "theme": "海邊親子日，全部走路可達，不趕行程",
+      "colorIndex": 1,
+      "items": [
+        {
+          "time": "09:00",
+          "activity": "早餐：飯店免費早餐（東橫INN）",
+          "note": "飯糰、味噌湯、小菜，省時方便",
+          "icon": "food",
+          "maps": null,
+          "tags": [],
+          "voucher": null,
+          "coord": {
+            "lat": 35.1595422,
+            "lng": 129.1573807,
+            "name": "東橫INN 海雲台2號店"
+          }
+        },
+        {
+          "time": "10:00",
+          "activity": "海雲台海灘 해운대해수욕장 🏖",
+          "note": "沙灘玩沙、踩水。帶換洗衣物和小毛巾",
+          "icon": "spot",
+          "maps": {
+            "google": "https://maps.google.com/?q=%ED%95%B4%EC%9A%B4%EB%8C%80%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5",
+            "naver": "https://map.naver.com/v5/search/%ED%95%B4%EC%9A%B4%EB%8C%80%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5"
+          },
+          "tags": [
+            {
+              "emoji": "🧸",
+              "label": "適合幼兒"
+            }
+          ],
+          "voucher": null,
+          "coord": {
+            "lat": 35.1586975,
+            "lng": 129.1603842,
+            "name": "海雲台海灘"
+          }
+        },
+        {
+          "time": "11:30",
+          "activity": "SEA LIFE 釜山水族館 🐠",
+          "note": "就在海灘旁。海底隧道、觸摸池。未滿 3 歲免費（帶護照證明年齡）。平日 10:00-19:00。約 1-1.5hr",
+          "icon": "spot",
+          "maps": {
+            "google": "https://maps.google.com/?q=SEA%20LIFE%20%EB%B6%80%EC%82%B0%EC%95%84%EC%BF%A0%EC%95%84%EB%A6%AC%EC%9B%80",
+            "naver": "https://map.naver.com/v5/search/SEA%20LIFE%20%EB%B6%80%EC%82%B0%EC%95%84%EC%BF%A0%EC%95%84%EB%A6%AC%EC%9B%80"
+          },
+          "tags": [
+            {
+              "emoji": "👶",
+              "label": "兒童免費"
+            }
+          ],
+          "voucher": null,
+          "coord": {
+            "lat": 35.1592713,
+            "lng": 129.1610038,
+            "name": "SEA LIFE 釜山水族館"
+          }
+        },
+        {
+          "time": "13:00",
+          "activity": "午餐：水族館附近餐廳",
+          "note": "推薦韓式豆腐鍋、拌飯等方便幼兒共食",
+          "icon": "food",
+          "maps": null,
+          "tags": [],
+          "voucher": null,
+          "coord": null
+        },
+        {
+          "time": "13:30-15:30",
+          "activity": "午睡時間 💤",
+          "note": "回飯店或推車裡睡",
+          "icon": "rest",
+          "maps": null,
+          "tags": [],
+          "voucher": null,
+          "coord": {
+            "lat": 35.1595422,
+            "lng": 129.1573807,
+            "name": "東橫INN 海雲台2號店"
+          }
+        },
+        {
+          "time": "16:00",
+          "activity": "下午悠閒二選一",
+          "note": "A. Club D Oasis （水上樂園+泳池，雨樂免費，走路到，₩69,000/大人 6hr 或 VBP 免費入場）\nB. 新世界百貨 Centum City（Hello Kitty Cafe B1 + Zooraji 兒童樂園頂樓 + SPAO 聯名款 + 6F 童裝館）",
+          "icon": "shop",
+          "maps": {
+            "google": "https://www.google.com/maps/place/?q=place_id:ChIJN0Cv_r2NaDURKwfew3pTqi8"
+          },
+          "tags": [
+            {
+              "emoji": "👶",
+              "label": "兒童免費"
+            }
+          ],
+          "voucher": null,
+          "coord": {
+            "lat": 35.1600514,
+            "lng": 129.1684719,
+            "name": "Club D Oasis"
+          }
+        },
+        {
+          "time": "18:30",
+          "activity": "晚餐：The Bay 101 더베이101 🌃",
+          "note": "面對海雲台天際線的露天美食區，邊吃邊看夕陽（19:40 日落）→ 夜景！",
+          "icon": "food",
+          "maps": null,
+          "tags": [],
+          "voucher": null,
+          "coord": {
+            "lat": 35.1565954,
+            "lng": 129.1520357,
+            "name": "The Bay 101"
+          }
+        },
+        {
+          "time": "20:00",
+          "activity": "回飯店",
+          "note": "便利商店買消夜 + 컵과일 水果杯（切好的當季水果）",
+          "icon": "food",
+          "maps": null,
+          "tags": [],
+          "voucher": null,
+          "coord": {
+            "lat": 35.1595422,
+            "lng": 129.1573807,
+            "name": "東橫INN 海雲台2號店"
+          }
+        }
+      ],
+      "rainPlan": [
+        "雨天備案 A：上午去水族館（室內），下午改去 Centum City 新世界百貨（世界最大百貨公司，頂樓有 Zooraji 兒童樂園 — 海盜船遊樂場+恐龍）或 Pororo Park（波露露主題室內遊樂場，幼兒最愛）。B1 先去 Hello Kitty Apple Cafe （蘋果×Kitty 主題咖啡廳，飲品 ₩5,500~8,500，拍照區+周邊商品，雨樂認得 Kitty 會很開心），再逛 6F 兒童館（韓國童裝品牌）+ SPAO Centum City 店（聯名款）+ 旁邊 Homeplus Centum City 店補貨嬰兒零食",
+        "雨天備案 B：Club D Oasis — 海雲台 LCT 大樓 3-6F 的高級水上樂園+汗蒸幕，離飯店走路可到。無邊際泳池正對海雲台海景、兒童戲水池、滑水道、室外溫泉足湯。雨樂 36 個月以下免費！ 大人旺季 ₩69,000/人（水上樂園 6hr）或 ₩30,000/人（純 SPA 5hr）。⚠️ 需自備泳帽（泳池區必戴），救生衣可租。可用 Visit Busan Pass 免費入場。營業 10:00–22:00（週二到 18:00）。室內設施不怕下雨，也適合太熱不想在外面走的日子"
+      ]
+    },
+    {
+      "id": "D3",
+      "date": "6/28（日）",
+      "title": "甘川洞 × 南浦洞 — 文化 × 購物 × 美食",
+      "theme": "彩色村拍照 + 市場美食 + 南浦購物",
+      "colorIndex": 2,
+      "items": [
+        {
+          "time": "09:00",
+          "activity": "飯店免費早餐後出發",
+          "note": "搭地鐵到土城站（토성역），轉公車或搭計程車上山",
+          "icon": "food",
+          "maps": null,
+          "tags": [],
+          "voucher": null,
+          "coord": null
+        },
+        {
+          "time": "10:00",
+          "activity": "甘川洞文化村 감천문화마을 🎨",
+          "note": "彩色房屋、壁畫巷、小王子雕像。⚠️ 推車不適用！全程階梯+窄巷，務必帶背帶。走入口附近主路線拍照即可，約 1-1.5hr。免費入園（集章地圖 ~2,000 KRW）",
+          "icon": "spot",
+          "maps": {
+            "google": "https://maps.google.com/?q=%EA%B0%90%EC%B2%9C%EB%AC%B8%ED%99%94%EB%A7%88%EC%9D%84",
+            "naver": "https://map.naver.com/v5/search/%EA%B0%90%EC%B2%9C%EB%AC%B8%ED%99%94%EB%A7%88%EC%9D%84"
+          },
+          "tags": [
+            {
+              "emoji": "👶",
+              "label": "兒童免費"
+            },
+            {
+              "emoji": "⚠️",
+              "label": "推車不適用"
+            }
+          ],
+          "voucher": null,
+          "coord": {
+            "lat": 35.0973904,
+            "lng": 129.0105924,
+            "name": "甘川洞文化村"
+          }
+        },
+        {
+          "time": "12:00",
+          "activity": "午餐：南浦洞 남포동",
+          "note": "搭計程車下山（5 分鐘）。到 BIFF 廣場 吃 씨앗호떡（堅果黑糖糖餅）、魚板串",
+          "icon": "food",
+          "maps": null,
+          "tags": [],
+          "voucher": null,
+          "coord": {
+            "lat": 35.098243,
+            "lng": 129.029212,
+            "name": "南浦洞"
+          }
+        },
+        {
+          "time": "12:30",
+          "activity": "札嘎其市場 자갈치시장 🐟",
+          "note": "一樓逛海鮮、看活魚。幼兒看魚很開心。可在 2 樓吃新鮮生魚片（회）或海鮮鍋",
+          "icon": "food",
+          "maps": {
+            "google": "https://maps.google.com/?q=%EC%9E%90%EA%B0%88%EC%B9%98%EC%8B%9C%EC%9E%A5",
+            "naver": "https://map.naver.com/v5/search/%EC%9E%90%EA%B0%88%EC%B9%98%EC%8B%9C%EC%9E%A5"
+          },
+          "tags": [],
+          "voucher": null,
+          "coord": {
+            "lat": 35.0966339,
+            "lng": 129.0307965,
+            "name": "札嘎其市場"
+          }
+        },
+        {
+          "time": "13:30-15:30",
+          "activity": "午睡時間 💤",
+          "note": "附近咖啡廳坐坐或計程車回飯店",
+          "icon": "food",
+          "maps": null,
+          "tags": [],
+          "voucher": null,
+          "coord": {
+            "lat": 35.1595422,
+            "lng": 129.1573807,
+            "name": "東橫INN 海雲台2號店"
+          }
+        },
+        {
+          "time": "16:00",
+          "activity": "南浦洞購物 + 國際市場 국제시장 🛍",
+          "note": "光復路商店街：TOPTEN + 8SECONDS （都在光復路上，韓版 Uniqlo/ZARA 順路逛）、樂天百貨光復店（逛童裝特價花車 + 買 Busan Bada Sand、二代名菓）、Olive Young 買 Green Finger 嬰兒防曬。樂天超市 B1 買西瓜🍉（切半包裝）+ 참외 帶回飯店",
+          "icon": "shop",
+          "maps": {
+            "google": "https://www.google.com/maps/place/?q=place_id:ChIJBY2rnKDpaDURxohkZrjXWEw"
+          },
+          "tags": [],
+          "voucher": null,
+          "coord": {
+            "lat": 35.098243,
+            "lng": 129.029212,
+            "name": "南浦洞 TOPTEN"
+          }
+        },
+        {
+          "time": "17:30",
+          "activity": "🅱️ Plan B：釜山市民公園 부산시민공원",
+          "note": "南浦洞搭地鐵 2 站到釜田站（부전역）步行 10 分。免費，超大沙坑+噴泉戲水（整點噴水，帶換洗衣物）+充氣跳跳丘。有尿布台+哺乳室。玩 1hr 後搭地鐵回海雲台。看時間決定要不要去，不去就直接回海雲台吃晚餐",
+          "icon": "food",
+          "maps": {
+            "google": "https://www.google.com/maps/place/?q=place_id:ChIJPbq4_UHraDURSKskEXfxKno",
+            "naver": "https://map.naver.com/v5/search/%EB%B6%80%EC%82%B0%EC%8B%9C%EB%AF%BC%EA%B3%B5%EC%9B%90"
+          },
+          "tags": [
+            {
+              "emoji": "🍼",
+              "label": "哺乳室"
+            },
+            {
+              "emoji": "🚼",
+              "label": "尿布台"
+            },
+            {
+              "emoji": "🧸",
+              "label": "適合幼兒"
+            }
+          ],
+          "voucher": null,
+          "coord": {
+            "lat": 35.1681608,
+            "lng": 129.0573853,
+            "name": "釜山市民公園"
+          }
+        },
+        {
+          "time": "18:00",
+          "activity": "晚餐：海雲台牛肋排 해운대암소갈비집 🥩",
+          "note": "1964 年創業的米其林烤肉名店，有私人榻榻米包廂。建議 18:00 前到避開排隊。替代：伍班長燒肉 오반장（海雲台 CP 值最高烤肉，Google 評價超高）。⚠️ 如果去了市民公園，晚餐順延到 18:30-19:00",
+          "icon": "food",
+          "maps": null,
+          "tags": [],
+          "voucher": null,
+          "coord": null
+        },
+        {
+          "time": "19:30",
+          "activity": "海雲台散步消化",
+          "note": "便利商店、咖啡廳",
+          "icon": "food",
+          "maps": null,
+          "tags": [],
+          "voucher": null,
+          "coord": null
+        },
+        {
+          "time": "20:00",
+          "activity": "回飯店休息",
+          "note": "",
+          "icon": "rest",
+          "maps": null,
+          "tags": [],
+          "voucher": null,
+          "coord": {
+            "lat": 35.1595422,
+            "lng": 129.1573807,
+            "name": "東橫INN 海雲台2號店"
+          }
+        }
+      ],
+      "rainPlan": [
+        "雨天備案：跳過甘川洞（雨天階梯濕滑不安全），改排 Centum City 新世界百貨 室內行程，下午照原計畫南浦+西面"
+      ]
+    },
+    {
+      "id": "D4",
+      "date": "6/29（一）",
+      "title": "廣安里 × 藍線公園 — 另一片海 × 膠囊夕陽 × 最後一晚",
+      "theme": "廣安里散策 + 青沙浦 + 天空膠囊 Golden Hour 🌅",
+      "colorIndex": 3,
+      "items": [
+        {
+          "time": "08:30",
+          "activity": "飯店免費早餐 + 整理行李 + 吃昨天買的水果 🍈🍉",
+          "note": "隔天一早要出發去機場",
+          "icon": "food",
+          "maps": null,
+          "tags": [],
+          "voucher": null,
+          "coord": null
+        },
+        {
+          "time": "10:00",
+          "activity": "廣安里海灘 광안리해수욕장 🌊",
+          "note": "搭地鐵到廣安站。沙灘看廣安大橋、咖啡廳拍照。比海雲台人少",
+          "icon": "food",
+          "maps": {
+            "google": "https://maps.google.com/?q=%EA%B4%91%EC%95%88%EB%A6%AC%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5",
+            "naver": "https://map.naver.com/v5/search/%EA%B4%91%EC%95%88%EB%A6%AC%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5"
+          },
+          "tags": [],
+          "voucher": null,
+          "coord": {
+            "lat": 35.1531696,
+            "lng": 129.118666,
+            "name": "廣安里海灘"
+          }
+        },
+        {
+          "time": "11:30",
+          "activity": "午餐：廣安里海邊餐廳",
+          "note": "돼지국밥（豬肉湯飯） — 釜山代表美食！或海鮮칼국수（刀削麵）",
+          "icon": "food",
+          "maps": null,
+          "tags": [],
+          "voucher": null,
+          "coord": null
+        },
+        {
+          "time": "12:30-14:30",
+          "activity": "午睡時間 💤",
+          "note": "回飯店或在咖啡廳休息",
+          "icon": "food",
+          "maps": null,
+          "tags": [],
+          "voucher": null,
+          "coord": {
+            "lat": 35.1595422,
+            "lng": 129.1573807,
+            "name": "東橫INN 海雲台2號店"
+          }
+        },
+        {
+          "time": "15:00",
+          "activity": "回海雲台，走到尾浦站",
+          "note": "",
+          "icon": "spot",
+          "maps": null,
+          "tags": [],
+          "voucher": null,
+          "coord": null
+        },
+        {
+          "time": "15:30",
+          "activity": "海灘列車去青沙浦 🚂",
+          "note": "尾浦站搭海灘列車前往青沙浦（₩8,000/人，Visit Busan Pass 含），約 25 分",
+          "icon": "transport",
+          "maps": {
+            "google": "https://maps.google.com/?q=%ED%95%B4%EC%9A%B4%EB%8C%80%EB%B8%94%EB%A3%A8%EB%9D%BC%EC%9D%B8%ED%8C%8C%ED%81%AC",
+            "naver": "https://map.naver.com/v5/search/%ED%95%B4%EC%9A%B4%EB%8C%80%EB%B8%94%EB%A3%A8%EB%9D%BC%EC%9D%B8%ED%8C%8C%ED%81%AC"
+          },
+          "tags": [],
+          "voucher": {
+            "code": ""
+          },
+          "coord": {
+            "lat": 35.158284,
+            "lng": 129.1727672,
+            "name": "海雲台藍線公園(尾浦)"
+          }
+        },
+        {
+          "time": "16:00-18:45",
+          "activity": "青沙浦 청사포",
+          "note": "紅白燈塔拍照 → 踏石觀景台（天空步道）走透明玻璃棧道看海（免費，夏季開到 20:00）→ 挑一間海景咖啡廳坐（推薦 青沙森林 Cheongsa Foret 4F 落地窗看海、Broni 巴斯克乳酪蛋糕必點）。時間超充裕，慢慢逛",
+          "icon": "food",
+          "maps": {
+            "google": "https://maps.google.com/?q=%EC%B2%AD%EC%82%AC%ED%8F%AC",
+            "naver": "https://map.naver.com/v5/search/%EC%B2%AD%EC%82%AC%ED%8F%AC"
+          },
+          "tags": [],
+          "voucher": null,
+          "coord": {
+            "lat": 35.1603874,
+            "lng": 129.1923456,
+            "name": "青沙浦"
+          }
+        },
+        {
+          "time": "19:00",
+          "activity": "🌅 天空膠囊回尾浦（Golden Hour！）",
+          "note": "青沙浦→尾浦，2 人座（雨樂坐腿上），全程 30 分鐘正好在 golden hour（日落 ~19:40），夕照打在海面超美！已訂 KKday #26KK270020066",
+          "icon": "transport",
+          "maps": null,
+          "tags": [],
+          "voucher": {
+            "code": "26KK270020066"
+          },
+          "coord": null
+        },
+        {
+          "time": "19:30",
+          "activity": "晚餐：The Bay 101 더베이101 🌃",
+          "note": "膠囊下車走路 10 分鐘到。面對海雲台天際線的露天美食區，最後一晚看夜景收尾！",
+          "icon": "food",
+          "maps": null,
+          "tags": [],
+          "voucher": null,
+          "coord": {
+            "lat": 35.1565954,
+            "lng": 129.1520357,
+            "name": "The Bay 101"
+          }
+        },
+        {
+          "time": "21:00",
+          "activity": "回飯店、打包行李",
+          "note": "隔天早起",
+          "icon": "rest",
+          "maps": null,
+          "tags": [],
+          "voucher": null,
+          "coord": {
+            "lat": 35.1595422,
+            "lng": 129.1573807,
+            "name": "東橫INN 海雲台2號店"
+          }
+        }
+      ],
+      "rainPlan": [
+        "雨天備案：跳過藍線公園（膠囊票不可取消，雨天也能搭但景色打折）。下午改去 Centum City 新世界百貨 室內逛，傍晚再去搭膠囊"
+      ]
+    },
+    {
+      "id": "D5",
+      "date": "6/30（二）",
+      "title": "回家 — 機場最後掃貨",
+      "theme": "",
+      "colorIndex": 4,
+      "items": [
+        {
+          "time": "07:00",
+          "activity": "起床、最後整理",
+          "note": "",
+          "icon": "rest",
+          "maps": null,
+          "tags": [],
+          "voucher": null,
+          "coord": null
+        },
+        {
+          "time": "07:30",
+          "activity": "退房",
+          "note": "",
+          "icon": "rest",
+          "maps": null,
+          "tags": [],
+          "voucher": null,
+          "coord": {
+            "lat": 35.1595422,
+            "lng": 129.1573807,
+            "name": "東橫INN 海雲台2號店"
+          }
+        },
+        {
+          "time": "08:00",
+          "activity": "搭計程車前往金海機場",
+          "note": "預抓 50 分鐘車程（週二早上可能塞車）",
+          "icon": "transport",
+          "maps": null,
+          "tags": [],
+          "voucher": null,
+          "coord": {
+            "lat": 35.1728688,
+            "lng": 128.9471783,
+            "name": "金海國際機場"
+          }
+        },
+        {
+          "time": "08:50",
+          "activity": "抵達機場 3F 美食街吃早餐",
+          "note": "설빙 雪冰（9 號登機門旁）：紅豆雪花冰 + 飯捲 + 咖啡，邊吃邊看飛機！或 K라면바 吃最後一碗韓式拉麵",
+          "icon": "food",
+          "maps": null,
+          "tags": [],
+          "voucher": null,
+          "coord": null
+        },
+        {
+          "time": "09:20",
+          "activity": "2F 最後掃貨",
+          "note": "① 退稅（海關後右手邊）→ ② 樂天免稅店（最後機會買正官莊紅蔘、化妝品）→ ③ Boogie Shop 釜山主題店（釜山觀光公社聯名，~300 種釜山限定商品，最後補伴手禮）→ ④ CU 便利商店（管制區內唯一超商，最後買香蕉牛奶、零食上飛機）",
+          "icon": "shop",
+          "maps": null,
+          "tags": [],
+          "voucher": null,
+          "coord": null
+        },
+        {
+          "time": "10:50",
+          "activity": "BX793 起飛 → 12:35 抵達桃園",
+          "note": "",
+          "icon": "transport",
+          "maps": null,
+          "tags": [],
+          "voucher": null,
+          "coord": null
+        }
+      ],
+      "rainPlan": []
+    }
+  ],
+  "packing": [
+    {
+      "category": "證件 & 入境",
+      "items": [
+        {
+          "text": "確認三人護照效期 三人都 OK",
+          "done": true
+        },
+        {
+          "text": "確認 K-ETA 政策（台灣目前免簽 90 天，但請出發前再查最新規定）",
+          "done": false
+        }
+      ]
+    },
+    {
+      "category": "預訂",
+      "items": [
+        {
+          "text": "訂住宿 — 東橫INN 釜山海雲台2號店（預約號碼 5429619，₩410,000 當地付）",
+          "done": true
+        },
+        {
+          "text": "⚠️ 取消路易斯漢密爾頓（Booking.com 確認碼 5304.325.257，6/23 前免費取消）",
+          "done": false
+        },
+        {
+          "text": "預訂天空膠囊 KKday #26KK270020066 — 6/29（一）19:00 青沙浦→尾浦 2 人座 NT$1,034",
+          "done": true
+        },
+        {
+          "text": "購買 Visit Busan Pass 48hr（KKday/Klook）",
+          "done": false
+        },
+        {
+          "text": "購買 SEA LIFE 水族館門票（線上購票省 30%）",
+          "done": false
+        },
+        {
+          "text": "購買 eSIM 或 Wi-Fi 分享器",
+          "done": false
+        }
+      ]
+    },
+    {
+      "category": "打包",
+      "items": [
+        {
+          "text": "折疊輕便推車 + 推車雨罩",
+          "done": false
+        },
+        {
+          "text": "背帶（甘川洞、札嘎其等推車不方便的地方用）",
+          "done": false
+        },
+        {
+          "text": "輕便雨衣 × 2 + 折疊傘",
+          "done": false
+        },
+        {
+          "text": "防水涼鞋、速乾衣物",
+          "done": false
+        },
+        {
+          "text": "幼兒常備藥品、防曬乳、防蚊液",
+          "done": false
+        },
+        {
+          "text": "常備零食、水壺",
+          "done": false
+        },
+        {
+          "text": "雨樂護照（水族館免費入場需出示）",
+          "done": false
+        }
+      ]
+    },
+    {
+      "category": "APP 下載",
+      "items": [
+        {
+          "text": "Naver Map（韓國地圖導航，比 Google Maps 準）",
+          "done": false
+        },
+        {
+          "text": "Papago（韓文翻譯 APP，比 Google 翻譯好用）",
+          "done": false
+        },
+        {
+          "text": "KakaoTaxi（韓國叫車 APP，類似 Uber）",
+          "done": false
+        }
+      ]
+    }
+  ],
+  "budget": {
+    "items": [
+      {
+        "category": "機票",
+        "cost": "24,619（已付）"
+      },
+      {
+        "category": "住宿 4 晚（東橫INN）",
+        "cost": "~8,500（已訂，當地付 ₩410,000）"
+      },
+      {
+        "category": "餐飲（4 天，3 餐/天）",
+        "cost": "8,000 - 12,000"
+      },
+      {
+        "category": "交通（計程車+地鐵）",
+        "cost": "3,000 - 5,000"
+      },
+      {
+        "category": "門票/體驗（含 Pass）",
+        "cost": "3,000 - 5,000"
+      },
+      {
+        "category": "購物/其他",
+        "cost": "依個人"
+      }
+    ],
+    "total": "~48,000 - 54,000"
+  },
+  "emergency": {
+    "korea": [
+      {
+        "label": "報警",
+        "number": "112",
+        "note": "犯罪 / 治安"
+      },
+      {
+        "label": "火災・救護車",
+        "number": "119",
+        "note": "急救 / 消防"
+      },
+      {
+        "label": "觀光諮詢專線",
+        "number": "1330",
+        "note": "24h 中文 / 英文翻譯協助"
+      }
+    ],
+    "others": [
+      {
+        "label": "Air Busan 客服",
+        "number": "1666-3060",
+        "note": "航班異動"
+      },
+      {
+        "label": "駐釜山辦事處",
+        "number": "+82-51-463-7964",
+        "note": "出發前向外交部再確認最新號碼"
+      }
+    ]
+  }
+}

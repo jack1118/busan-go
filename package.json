@@ -1,0 +1,34 @@
+{
+  "name": "busan-go",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "parse": "node scripts/parse-markdown.mjs",
+    "icons": "node scripts/generate-icons.mjs",
+    "dev": "node scripts/parse-markdown.mjs && vite",
+    "build": "node scripts/parse-markdown.mjs && tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "html2canvas": "^1.4.1",
+    "leaflet": "^1.9.4",
+    "qrcode": "^1.5.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/leaflet": "^1.9.21",
+    "@types/node": "^25.9.1",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "sharp": "^0.33.5",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.0",
+    "vite-plugin-pwa": "^0.21.1"
+  }
+}

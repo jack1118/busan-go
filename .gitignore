@@ -1,0 +1,8 @@
+node_modules/
+dist/
+dev-dist/
+preview.log
+*.tsbuildinfo
+.DS_Store
+
+bash.exe.stackdump
