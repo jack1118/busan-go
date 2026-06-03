@@ -1,10 +1,11 @@
-export type TabKey = "itinerary" | "map" | "tools" | "settings";
+export type TabKey = "itinerary" | "food" | "shop" | "map" | "tools";
 
 const TABS: { key: TabKey; label: string; icon: string }[] = [
   { key: "itinerary", label: "行程", icon: "🗓" },
+  { key: "food", label: "美食", icon: "🍽" },
+  { key: "shop", label: "購物", icon: "🛍" },
   { key: "map", label: "地圖", icon: "🗺" },
   { key: "tools", label: "工具", icon: "🧰" },
-  { key: "settings", label: "設定", icon: "⚙️" },
 ];
 
 export default function TabBar({

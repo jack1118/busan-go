@@ -29,6 +29,31 @@ export interface TimelineItem {
   tags: ToddlerTag[];
   voucher: Voucher | null;
   coord: Coord | null;
+  photo: string | null;
+}
+
+// Generic block model for the rich reference sections (food / shopping /
+// exhibitions / pre-trip). One loose shape keeps the renderer simple.
+export interface Block {
+  type: "text" | "note" | "subheading" | "list" | "table" | "image";
+  text?: string;
+  items?: string[];
+  headers?: string[];
+  rows?: string[][];
+  alt?: string;
+  url?: string;
+  maps?: MapLinks | null;
+}
+
+export interface RefNode {
+  title: string;
+  maps: MapLinks | null;
+  blocks: Block[];
+}
+
+export interface RefSection {
+  title: string;
+  nodes: RefNode[];
 }
 
 export interface Day {
@@ -115,6 +140,10 @@ export interface Itinerary {
   packing: PackingCategory[];
   budget: Budget | null;
   emergency: Emergency;
+  food: RefSection | null;
+  pocket: RefSection | null;
+  exhibitions: RefSection | null;
+  preTrip: RefSection | null;
 }
 
 // Per-day marker colours for the map (indexed by Day.colorIndex).

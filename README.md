@@ -59,6 +59,12 @@ via GitHub Actions (Pages build source = "GitHub Actions").
   card, per-day image export (html2canvas + share sheet), Gist comments link.
 - **部署 — done**: live at https://jack1118.github.io/busan-go/ via GitHub
   Actions (auto-deploy on push to main).
+- **內容分頁 (v0.3)**: 美食 (餐廳圖鑑含照片/菜單/評價 + 海景咖啡廳) and 購物
+  (伴手禮 / Olive Young / 嬰幼兒 / 超市 / 平價服飾 / 便利商店爆紅品 / 大創) tabs,
+  plus 工具 sub-tabs 景點 / 展覽 / 行前須知 / 機場攻略 / 資訊. The whole reference
+  half of the markdown is parsed by a generic block parser (`parseSectionByHeading`
+  → headings / paragraphs / lists / tables / images / map links) and rendered by
+  `ReferenceView`. Timeline cards/detail sheets show food photos matched by name.
 
 Heavy libs (Leaflet, html2canvas, qrcode) are code-split and load on demand;
 the initial JS bundle is ~65 KB gzip.

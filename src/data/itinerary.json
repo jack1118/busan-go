@@ -69,7 +69,8 @@
             "lat": 35.1728688,
             "lng": 128.9471783,
             "name": "金海國際機場"
-          }
+          },
+          "photo": null
         },
         {
           "time": "17:05",
@@ -83,7 +84,8 @@
             "lat": 35.1728688,
             "lng": 128.9471783,
             "name": "金海國際機場"
-          }
+          },
+          "photo": null
         },
         {
           "time": "~18:00",
@@ -97,7 +99,8 @@
             "lat": 35.1595422,
             "lng": 129.1573807,
             "name": "東橫INN 海雲台2號店"
-          }
+          },
+          "photo": null
         },
         {
           "time": "~19:00",
@@ -111,7 +114,8 @@
             "lat": 35.1595422,
             "lng": 129.1573807,
             "name": "東橫INN 海雲台2號店"
-          }
+          },
+          "photo": null
         },
         {
           "time": "19:30",
@@ -125,7 +129,8 @@
             "lat": 35.1614537,
             "lng": 129.1622489,
             "name": "海雲台市場"
-          }
+          },
+          "photo": "https://lh3.googleusercontent.com/place-photos/AJRVUZNRA52FaP-sbABoE-FhDmU4H4iyaIdJUrC5N0Lfg5NB9Vd2SsRzT8r2bvwQqZTFC3FKB47Otf-BWX_jkWGCYyjsHs6HJ47yZ0n1flIecpNEQLadf3pW0DXiPW5Y4W8MfEMa0KSAaM1vEAKQlg=s4800-w800"
         },
         {
           "time": "20:30",
@@ -144,7 +149,8 @@
             "lat": 35.1586975,
             "lng": 129.1603842,
             "name": "海雲台海灘"
-          }
+          },
+          "photo": null
         }
       ],
       "rainPlan": [
@@ -170,7 +176,8 @@
             "lat": 35.1595422,
             "lng": 129.1573807,
             "name": "東橫INN 海雲台2號店"
-          }
+          },
+          "photo": null
         },
         {
           "time": "10:00",
@@ -192,7 +199,8 @@
             "lat": 35.1586975,
             "lng": 129.1603842,
             "name": "海雲台海灘"
-          }
+          },
+          "photo": "https://lh3.googleusercontent.com/place-photos/AJRVUZNRA52FaP-sbABoE-FhDmU4H4iyaIdJUrC5N0Lfg5NB9Vd2SsRzT8r2bvwQqZTFC3FKB47Otf-BWX_jkWGCYyjsHs6HJ47yZ0n1flIecpNEQLadf3pW0DXiPW5Y4W8MfEMa0KSAaM1vEAKQlg=s4800-w800"
         },
         {
           "time": "11:30",
@@ -214,7 +222,8 @@
             "lat": 35.1592713,
             "lng": 129.1610038,
             "name": "SEA LIFE 釜山水族館"
-          }
+          },
+          "photo": null
         },
         {
           "time": "13:00",
@@ -224,7 +233,8 @@
           "maps": null,
           "tags": [],
           "voucher": null,
-          "coord": null
+          "coord": null,
+          "photo": null
         },
         {
           "time": "13:30-15:30",
@@ -238,7 +248,8 @@
             "lat": 35.1595422,
             "lng": 129.1573807,
             "name": "東橫INN 海雲台2號店"
-          }
+          },
+          "photo": null
         },
         {
           "time": "16:00",
@@ -259,7 +270,8 @@
             "lat": 35.1600514,
             "lng": 129.1684719,
             "name": "Club D Oasis"
-          }
+          },
+          "photo": null
         },
         {
           "time": "18:30",
@@ -273,7 +285,8 @@
             "lat": 35.1565954,
             "lng": 129.1520357,
             "name": "The Bay 101"
-          }
+          },
+          "photo": "https://lh3.googleusercontent.com/places/ANXAkqGyDmkti7Whd0pXsjzuhSIh3wjxd6eQucHsi81WHtafOXrYOhtQqW8enIcYUnwMRpiJ31hyivfWGROaZSrtq5mXXizsZ_5Ckc4=s4800-w800"
         },
         {
           "time": "20:00",
@@ -287,7 +300,8 @@
             "lat": 35.1595422,
             "lng": 129.1573807,
             "name": "東橫INN 海雲台2號店"
-          }
+          },
+          "photo": null
         }
       ],
       "rainPlan": [
@@ -310,7 +324,8 @@
           "maps": null,
           "tags": [],
           "voucher": null,
-          "coord": null
+          "coord": null,
+          "photo": null
         },
         {
           "time": "10:00",
@@ -336,7 +351,8 @@
             "lat": 35.0973904,
             "lng": 129.0105924,
             "name": "甘川洞文化村"
-          }
+          },
+          "photo": null
         },
         {
           "time": "12:00",
@@ -350,7 +366,8 @@
             "lat": 35.098243,
             "lng": 129.029212,
             "name": "南浦洞"
-          }
+          },
+          "photo": null
         },
         {
           "time": "12:30",
@@ -367,7 +384,8 @@
             "lat": 35.0966339,
             "lng": 129.0307965,
             "name": "札嘎其市場"
-          }
+          },
+          "photo": "https://lh3.googleusercontent.com/place-photos/AJRVUZM3m92MuaGjrQEPWkctkeAcHrNyo7HTL03tNeUqxt0M0GEISlAlWti7LvPuh521PMlkI2ZFYyW1BK_Zpj1mvgSvQTL4USzYg1vvG_EJtEl8q2oDheqGAjRu6OSkbkfiJSkLOzqu4JjP8zG2k40j856t5Q=s4800-w800"
         },
         {
           "time": "13:30-15:30",
@@ -381,7 +399,8 @@
             "lat": 35.1595422,
             "lng": 129.1573807,
             "name": "東橫INN 海雲台2號店"
-          }
+          },
+          "photo": null
         },
         {
           "time": "16:00",
@@ -397,7 +416,8 @@
             "lat": 35.098243,
             "lng": 129.029212,
             "name": "南浦洞 TOPTEN"
-          }
+          },
+          "photo": null
         },
         {
           "time": "17:30",
@@ -427,7 +447,8 @@
             "lat": 35.1681608,
             "lng": 129.0573853,
             "name": "釜山市民公園"
-          }
+          },
+          "photo": null
         },
         {
           "time": "18:00",
@@ -437,7 +458,8 @@
           "maps": null,
           "tags": [],
           "voucher": null,
-          "coord": null
+          "coord": null,
+          "photo": "https://lh3.googleusercontent.com/place-photos/AJRVUZOUuM1C0uryfsUlarFfO2zQx6HC_-6kGUVGnv9XWqahBomGQZcmsgcLGLbiRDhngPWuHDGkjdN_GoPru58khrwTkF9mxFdLQlArFgXKaaKHLx180TCDlAw1rj_50wokXPdKUB-67fABH7ln=s4800-w800"
         },
         {
           "time": "19:30",
@@ -447,7 +469,8 @@
           "maps": null,
           "tags": [],
           "voucher": null,
-          "coord": null
+          "coord": null,
+          "photo": null
         },
         {
           "time": "20:00",
@@ -461,7 +484,8 @@
             "lat": 35.1595422,
             "lng": 129.1573807,
             "name": "東橫INN 海雲台2號店"
-          }
+          },
+          "photo": null
         }
       ],
       "rainPlan": [
@@ -483,7 +507,8 @@
           "maps": null,
           "tags": [],
           "voucher": null,
-          "coord": null
+          "coord": null,
+          "photo": null
         },
         {
           "time": "10:00",
@@ -500,7 +525,8 @@
             "lat": 35.1531696,
             "lng": 129.118666,
             "name": "廣安里海灘"
-          }
+          },
+          "photo": null
         },
         {
           "time": "11:30",
@@ -510,7 +536,8 @@
           "maps": null,
           "tags": [],
           "voucher": null,
-          "coord": null
+          "coord": null,
+          "photo": null
         },
         {
           "time": "12:30-14:30",
@@ -524,7 +551,8 @@
             "lat": 35.1595422,
             "lng": 129.1573807,
             "name": "東橫INN 海雲台2號店"
-          }
+          },
+          "photo": null
         },
         {
           "time": "15:00",
@@ -534,7 +562,8 @@
           "maps": null,
           "tags": [],
           "voucher": null,
-          "coord": null
+          "coord": null,
+          "photo": null
         },
         {
           "time": "15:30",
@@ -553,7 +582,8 @@
             "lat": 35.158284,
             "lng": 129.1727672,
             "name": "海雲台藍線公園(尾浦)"
-          }
+          },
+          "photo": null
         },
         {
           "time": "16:00-18:45",
@@ -570,7 +600,8 @@
             "lat": 35.1603874,
             "lng": 129.1923456,
             "name": "青沙浦"
-          }
+          },
+          "photo": null
         },
         {
           "time": "19:00",
@@ -582,7 +613,8 @@
           "voucher": {
             "code": "26KK270020066"
           },
-          "coord": null
+          "coord": null,
+          "photo": null
         },
         {
           "time": "19:30",
@@ -596,7 +628,8 @@
             "lat": 35.1565954,
             "lng": 129.1520357,
             "name": "The Bay 101"
-          }
+          },
+          "photo": "https://lh3.googleusercontent.com/places/ANXAkqGyDmkti7Whd0pXsjzuhSIh3wjxd6eQucHsi81WHtafOXrYOhtQqW8enIcYUnwMRpiJ31hyivfWGROaZSrtq5mXXizsZ_5Ckc4=s4800-w800"
         },
         {
           "time": "21:00",
@@ -610,7 +643,8 @@
             "lat": 35.1595422,
             "lng": 129.1573807,
             "name": "東橫INN 海雲台2號店"
-          }
+          },
+          "photo": null
         }
       ],
       "rainPlan": [
@@ -632,7 +666,8 @@
           "maps": null,
           "tags": [],
           "voucher": null,
-          "coord": null
+          "coord": null,
+          "photo": null
         },
         {
           "time": "07:30",
@@ -646,7 +681,8 @@
             "lat": 35.1595422,
             "lng": 129.1573807,
             "name": "東橫INN 海雲台2號店"
-          }
+          },
+          "photo": null
         },
         {
           "time": "08:00",
@@ -660,7 +696,8 @@
             "lat": 35.1728688,
             "lng": 128.9471783,
             "name": "金海國際機場"
-          }
+          },
+          "photo": null
         },
         {
           "time": "08:50",
@@ -670,7 +707,8 @@
           "maps": null,
           "tags": [],
           "voucher": null,
-          "coord": null
+          "coord": null,
+          "photo": null
         },
         {
           "time": "09:20",
@@ -680,7 +718,8 @@
           "maps": null,
           "tags": [],
           "voucher": null,
-          "coord": null
+          "coord": null,
+          "photo": null
         },
         {
           "time": "10:50",
@@ -690,7 +729,8 @@
           "maps": null,
           "tags": [],
           "voucher": null,
-          "coord": null
+          "coord": null,
+          "photo": null
         }
       ],
       "rainPlan": []
@@ -847,6 +887,1996 @@
         "label": "駐釜山辦事處",
         "number": "+82-51-463-7964",
         "note": "出發前向外交部再確認最新號碼"
+      }
+    ]
+  },
+  "food": {
+    "title": "必吃美食 — 社群狂推 × 必點菜單 × 地圖連結",
+    "nodes": [
+      {
+        "title": "",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "note",
+            "text": "G = Google Maps / N = Naver Map"
+          }
+        ]
+      },
+      {
+        "title": "🥩 海雲台암소갈비집 — 米其林烤肉（1964 年老店）",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "text",
+            "text": "해운대해변로 333｜11:30-22:00（休 15:00-17:00）",
+            "maps": {
+              "google": "https://maps.google.com/?q=%ED%95%B4%EC%9A%B4%EB%8C%80%EC%95%94%EC%86%8C%EA%B0%88%EB%B9%84%EC%A7%91",
+              "naver": "https://map.naver.com/v5/search/%ED%95%B4%EC%9A%B4%EB%8C%80%EC%95%94%EC%86%8C%EA%B0%88%EB%B9%84%EC%A7%91"
+            }
+          },
+          {
+            "type": "image",
+            "alt": "해운대암소갈비집",
+            "url": "https://lh3.googleusercontent.com/place-photos/AJRVUZOUuM1C0uryfsUlarFfO2zQx6HC_-6kGUVGnv9XWqahBomGQZcmsgcLGLbiRDhngPWuHDGkjdN_GoPru58khrwTkF9mxFdLQlArFgXKaaKHLx180TCDlAw1rj_50wokXPdKUB-67fABH7ln=s4800-w800"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "必點",
+              "價格",
+              "社群評價"
+            ],
+            "rows": [
+              [
+                "생갈비 生牛肋排",
+                "₩63,000/份(180g)",
+                "招牌中的招牌，鑽石切法，每日限量！"
+              ],
+              [
+                "양념갈비 醬燒牛肋排",
+                "₩59,000/份(180g)",
+                "48hr 醃製，微甜"
+              ],
+              [
+                "감자사리 馬鈴薯粉條",
+                "₩3,000",
+                "社群說「必加！」用肉汁煮超香"
+              ],
+              [
+                "뚝배기 된장 味噌鍋",
+                "₩7,000",
+                "配飯吃"
+              ]
+            ]
+          },
+          {
+            "type": "list",
+            "items": [
+              "💡 店員會幫烤，不要自己動手",
+              "💡 生牛肋排每日限量，建議用 CatchTable APP 預約",
+              "💡 有私人榻榻米包廂，帶雨樂很方便",
+              "親子：⭐⭐⭐ 可夾肉配飯給幼兒"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🥩 伍班長燒肉 오반장 — 海雲台 CP 值之王",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "text",
+            "text": "구남로24번길 20｜11:00-06:00（全年無休）",
+            "maps": {
+              "google": "https://maps.google.com/?q=%EC%98%A4%EB%B0%98%EC%9E%A5%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+              "naver": "https://map.naver.com/v5/search/%EC%98%A4%EB%B0%98%EC%9E%A5%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+            }
+          },
+          {
+            "type": "image",
+            "alt": "伍班長燒肉",
+            "url": "https://lh3.googleusercontent.com/place-photos/AJRVUZNz3-g_IhA8USXo9y3VOSkO5DrRhhfB2P4QFEmNSwx6Z4wKPgzdLEEUO71pYufhOGpHIeH0Eg0bQkr5-BcC27LYZRFc9lgC6EtWU1DVguivV7DckU2CyMpc87SW_u8ni_P4NdfSGrxwWaTh=s4800-w800"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "必點",
+              "價格",
+              "社群評價"
+            ],
+            "rows": [
+              [
+                "꽃갈비살 花肋排肉",
+                "₩15,000",
+                "CP 值最高牛肉"
+              ],
+              [
+                "항정살 豬頸肉",
+                "₩13,000",
+                "油花豐富、入口即化"
+              ],
+              [
+                "진짜 생갈매기살 豬橫隔膜",
+                "₩13,000",
+                "很受歡迎"
+              ],
+              [
+                "볶음라면 炒泡麵",
+                "₩4,000",
+                "加點"
+              ],
+              [
+                "蒸蛋 계란찜",
+                "免費",
+                "招牌！無限續（續碗 ₩1,000），烤爐邊煮的蒸蛋最上鏡"
+              ]
+            ]
+          },
+          {
+            "type": "list",
+            "items": [
+              "💡 有中文菜單！觀光客友善",
+              "💡 平均每人 ~₩15,000（約 350 TWD），超划算",
+              "💡 避開 12:00-14:00 尖峰",
+              "親子：⭐⭐⭐ 價格親民、免費蒸蛋幼兒可吃"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🍜 수변최고 水邊最高豬肉湯飯 — 釜山三大湯飯",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "text",
+            "text": "구남로 39（海雲台店）｜24 小時營業",
+            "maps": {
+              "google": "https://maps.google.com/?q=%EB%AC%BC%EA%B0%80%EC%97%90%EC%B5%9C%EA%B3%A0%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+              "naver": "https://map.naver.com/v5/search/%EB%AC%BC%EA%B0%80%EC%97%90%EC%B5%9C%EA%B3%A0%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+            }
+          },
+          {
+            "type": "image",
+            "alt": "수변최고 豬肉湯飯",
+            "url": "https://lh3.googleusercontent.com/place-photos/AJRVUZMVmGREtAk8zePt2cAQK5dZdjVIWov1c7yHF4CMgdDLncy3QMDIpR1rf1oixavZmI4MW9rgfRSwgOqSnCjBPDSkJJ0NRAIzLU98YcY35LUU4eOv6aS0dxzciaoBGbpA8tU1WI9oz2W3owC0NqkqDlTJVA=s4800-w800"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "必點",
+              "價格",
+              "社群評價"
+            ],
+            "rows": [
+              [
+                "항정국밥 豬頸肉湯飯",
+                "₩13,000",
+                "必點！Q彈無腥味，濃郁牛奶白湯"
+              ],
+              [
+                "고기국밥 豬肉湯飯",
+                "₩11,000",
+                "經典款"
+              ],
+              [
+                "어린이국밥 兒童湯飯",
+                "₩5,000",
+                "雨樂專屬！韓國餐廳少見的兒童餐"
+              ],
+              [
+                "수육 水煮肉片",
+                "₩13,000-38,000",
+                "小/中/大"
+              ]
+            ]
+          },
+          {
+            "type": "list",
+            "items": [
+              "💡 先喝原味湯頭，再加蝦醬（새우젓）調味",
+              "💡 平日等 35 分、假日 1 小時+，點餐機有中文介面",
+              "💡 24hr 營業 — 宵夜或早餐都行",
+              "親子：⭐⭐⭐ 有兒童湯飯！白飯+清湯，幼兒友善首選"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🍜 해운대 31cm 해물칼국수 — 31 公分海鮮刀削麵",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "text",
+            "text": "구남로41번길 46｜~11:00-21:00（週一休）",
+            "maps": {
+              "google": "https://maps.google.com/?q=%ED%95%B4%EC%9A%B4%EB%8C%80%2031cm%20%EC%B9%BC%EA%B5%AD%EC%88%98",
+              "naver": "https://map.naver.com/v5/search/%ED%95%B4%EC%9A%B4%EB%8C%80%2031cm%20%EC%B9%BC%EA%B5%AD%EC%88%98"
+            }
+          },
+          {
+            "type": "image",
+            "alt": "31cm 海鮮刀削麵",
+            "url": "https://lh3.googleusercontent.com/place-photos/AJRVUZNRA52FaP-sbABoE-FhDmU4H4iyaIdJUrC5N0Lfg5NB9Vd2SsRzT8r2bvwQqZTFC3FKB47Otf-BWX_jkWGCYyjsHs6HJ47yZ0n1flIecpNEQLadf3pW0DXiPW5Y4W8MfEMa0KSAaM1vEAKQlg=s4800-w800"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "必點",
+              "價格",
+              "社群評價"
+            ],
+            "rows": [
+              [
+                "31cm 해물칼국수 海鮮刀削麵",
+                "₩10,000",
+                "31cm 大碗，蛤蜊貽貝鋪滿看不到麵！₩10,000 超佛"
+              ],
+              [
+                "해물파전 海鮮蔥煎餅",
+                "₩14,000",
+                "酥脆、料多"
+              ],
+              [
+                "전복 鮑魚（加點）",
+                "₩10,000/2 顆",
+                ""
+              ]
+            ]
+          },
+          {
+            "type": "list",
+            "items": [
+              "💡 湯頭天然鮮甜（全靠貝類），加青辣椒更提味",
+              "💡 泡菜極辣，先嚐一小口",
+              "💡 海雲台市場直營店最推",
+              "親子：⭐⭐⭐ 湯麵幼兒友善，麵條 Q 彈"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🍜 노홍만두칼국수 爐紅餃子刀削麵 — 海雲台市場 60 年老店",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "text",
+            "text": "海雲台傳統市場內｜10:30-22:30",
+            "maps": {
+              "google": "https://maps.google.com/?q=%EB%85%B8%ED%99%8D%EB%A7%8C%EB%91%90%EC%B9%BC%EA%B5%AD%EC%88%98%20%ED%95%B4%EC%9A%B4%EB%8C%80%EC%8B%9C%EC%9E%A5",
+              "naver": "https://map.naver.com/v5/search/%EB%85%B8%ED%99%8D%EB%A7%8C%EB%91%90%EC%B9%BC%EA%B5%AD%EC%88%98%20%ED%95%B4%EC%9A%B4%EB%8C%80%EC%8B%9C%EC%9E%A5"
+            }
+          },
+          {
+            "type": "image",
+            "alt": "爐紅餃子刀削麵",
+            "url": "https://lh3.googleusercontent.com/place-photos/AJRVUZPSeXqIOzhk5i4XWKMwwiaTSQ8mkvSg0uRjU8r4N2QMUCtIi8BzL8ugxBzJBTqM33mYEKciGM_HVM0u2e2QmqKu3B6GUwWfmROoKaQkmIsfjMvJnSoxArSokKlNHQy3yrBj-92-oWqApuwk=s4800-w800"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "必點",
+              "價格",
+              "社群評價"
+            ],
+            "rows": [
+              [
+                "조개칼국수 蛤蜊刀削麵",
+                "~₩10,000",
+                "濃郁蛤蜊湯頭"
+              ],
+              [
+                "새우만두 蝦仁水餃",
+                "~₩8,000-9,000",
+                "招牌！皮薄餡多，整隻蝦仁"
+              ]
+            ]
+          },
+          {
+            "type": "list",
+            "items": [
+              "💡 沒有中英文菜單，看牆上照片點",
+              "💡 要自己找位子坐，手寫單點餐",
+              "💡 份量超大，女生可以 share",
+              "親子：⭐⭐⭐ 在地口味，湯麵幼兒可吃"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🫓 해운대명품호떡 海雲台市場名品糖餅",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "text",
+            "text": "中東1路 38（市場入口）｜11:30-23:00（週三休）｜只收現金",
+            "maps": {
+              "google": "https://maps.google.com/?q=%ED%95%B4%EC%9A%B4%EB%8C%80%EB%AA%85%ED%92%88%ED%98%B8%EB%96%A1",
+              "naver": "https://map.naver.com/v5/search/%ED%95%B4%EC%9A%B4%EB%8C%80%EB%AA%85%ED%92%88%ED%98%B8%EB%96%A1"
+            }
+          },
+          {
+            "type": "image",
+            "alt": "名品糖餅",
+            "url": "https://lh3.googleusercontent.com/place-photos/AJRVUZN2lo6jfYU-kA7otCh9qt6Sd7IosxGfbU6JVwiBkSon0ka3b7V9e4JVEbjJ1I2T0AA5BoGWHlIUNLH2Nk3o-59qoZ6kbvFD_Q2W4zoCh_4u9WxmzVFiDPNcJ3SNdusm8zxokwW21d_RkovQ2_afNzFdJQ=s4800-w800"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "必點",
+              "價格",
+              "社群評價"
+            ],
+            "rows": [
+              [
+                "꿀호떡 蜂蜜糖餅",
+                "₩2,000",
+                "經典款"
+              ],
+              [
+                "씨앗호떡 堅果糖餅",
+                "₩2,500",
+                "葵花籽+南瓜籽"
+              ],
+              [
+                "치즈호떡 起司糖餅",
+                "₩2,500",
+                "IG 最愛！起司拉絲超上鏡"
+              ],
+              [
+                "치즈씨앗호떡 起司堅果",
+                "~₩3,000",
+                "終極版"
+              ]
+            ]
+          },
+          {
+            "type": "list",
+            "items": [
+              "⚠️ 起司口味週一二沒有，週三~日 18:00 後才供應",
+              "💡 現做現吃，排隊約 10-15 分鐘",
+              "💡 內餡超燙！放涼 1-2 分鐘再咬",
+              "親子：⭐⭐ 大人吃為主，雨樂注意燙口"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🍞 Standard Bread 스탠다드브레드 — 海雲台最紅麵包店",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "text",
+            "text": "해운대로 571｜09:00-21:00",
+            "maps": {
+              "google": "https://maps.google.com/?q=Standard%20Bread%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+              "naver": "https://map.naver.com/v5/search/Standard%20Bread%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+            }
+          },
+          {
+            "type": "image",
+            "alt": "Standard Bread",
+            "url": "https://lh3.googleusercontent.com/places/ANXAkqH51ubJjlAq3fzG_7fWa_-gwrvf5lqBavXvRhKuJXKVCMOdXjHz_RuX3HB6WIeiUEw_5b9iiYE9sF9WDkroWqi-dRYZwpKadUM=s4800-w800"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "必買",
+              "價格",
+              "社群評價"
+            ],
+            "rows": [
+              [
+                "솔티드버터 생식빵 鹽奶油生吐司",
+                "₩5,500",
+                "招牌！每日現烤，鬆軟奶油香"
+              ],
+              [
+                "부산 Spannar White",
+                "₩7,000",
+                "釜山限定飲品"
+              ],
+              [
+                "부산 Spannar Black",
+                "₩7,800",
+                "釜山限定飲品"
+              ],
+              [
+                "季節限定麵包",
+                "不定",
+                "看黑板出爐時刻表"
+              ]
+            ]
+          },
+          {
+            "type": "list",
+            "items": [
+              "💡 首爾聖水洞名店，海雲台分店是釜山最紅",
+              "💡 假日下午會賣完 — 建議早上去",
+              "💡 可用 CatchTable APP 預約",
+              "親子：⭐⭐ 麵包當點心很棒"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🐟 고래사어묵 古來思魚糕（1963 年）— 吃 + 帶回台灣",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "text",
+            "text": "海雲台站 5 號出口往海灘方向",
+            "maps": {
+              "google": "https://maps.google.com/?q=%EA%B3%A0%EB%9E%98%EC%82%AC%EC%96%B4%EB%AC%B5%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+              "naver": "https://map.naver.com/v5/search/%EA%B3%A0%EB%9E%98%EC%82%AC%EC%96%B4%EB%AC%B5%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+            }
+          },
+          {
+            "type": "image",
+            "alt": "古來思魚糕",
+            "url": "https://lh3.googleusercontent.com/place-photos/AJRVUZPB7d3L1QhbrL68vC3Gs9vW2Ja8w9SsS7p5Pl9-yRjSOMIcxIRYp3_PfdRHXkgt3-Yagic0yaAjiRPqDMlLO4s7ld4yYR7n0Np3Dpe7ULpXpyb7O5nOTe3vCtVO-_koN9pDLaEINO9---31fM6t5GD5=s4800-w800"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "現吃必點",
+              "價格",
+              "社群評價"
+            ],
+            "rows": [
+              [
+                "통새우어묵 整隻蝦魚糕",
+                "₩3,800",
+                "社群 #1 推薦！整隻蝦+微起司"
+              ],
+              [
+                "치즈스플래시 起司爆漿",
+                "₩3,500",
+                "雙重起司，會爆漿"
+              ],
+              [
+                "문어볼 章魚球",
+                "₩3,500",
+                "微辣"
+              ],
+              [
+                "어묵탕 魚糕熱湯",
+                "免費",
+                "櫃檯自取，無限喝！"
+              ]
+            ]
+          },
+          {
+            "type": "table",
+            "headers": [
+              "必買伴手禮",
+              "備註"
+            ],
+            "rows": [
+              [
+                "真空包裝魚糕禮盒",
+                "多種組合，可帶回台灣"
+              ],
+              [
+                "⚠️ 避開含肉類的款式",
+                "台灣海關禁止肉類入境，選純海鮮款"
+              ],
+              [
+                "Baby Shark 聯名包裝",
+                "可愛，送小孩朋友"
+              ]
+            ]
+          },
+          {
+            "type": "list",
+            "items": [
+              "💡 微波 1 分 30 秒最好吃",
+              "💡 真空包裝不需冰袋，可放託運行李",
+              "親子：⭐⭐⭐ 軟嫩好咬，雨樂可吃"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🐟 삼진어묵 三進魚糕（1953 年）— 70 年傳統",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "image",
+            "alt": "三進魚糕",
+            "url": "https://lh3.googleusercontent.com/places/ANXAkqH_PEe3wOCOLIxhh4yd-S5FCdbRnd4yMhQNj15nCCz2OoYhW-mWmpEbFKfT3K73MF8Us7kxmxt27QY7FD0nqMjAnMGAn1a66b4=s4800-w800"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "現吃必點",
+              "價格",
+              "社群評價"
+            ],
+            "rows": [
+              [
+                "어묵고로케 魚糕可樂餅",
+                "₩2,000",
+                "人氣 #1！外酥內軟，₩2,000 超值"
+              ],
+              [
+                "쉬림프어묵바 蝦魚糕棒",
+                "₩4,900",
+                ""
+              ],
+              [
+                "오코노미야끼 大阪燒風味",
+                "₩4,900",
+                "日式融合"
+              ]
+            ]
+          },
+          {
+            "type": "table",
+            "headers": [
+              "必買禮盒",
+              "價格"
+            ],
+            "rows": [
+              [
+                "실속모듬어묵 實惠綜合",
+                "₩28,000"
+              ],
+              [
+                "1953 세트 1 號",
+                "₩35,000"
+              ],
+              [
+                "1953 세트 2 號",
+                "₩45,000"
+              ]
+            ]
+          },
+          {
+            "type": "list",
+            "items": [
+              "💡 影島本店有 DIY 魚糕體驗（需前一天預約）",
+              "💡 釜山站店有免費寄放行李（平日 8hr / 假日 3hr，消費即可）",
+              "親子：⭐⭐⭐ 可樂餅軟嫩，幼兒友善"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🌃 The Bay 101 더베이101 — 釜山夜景第一名",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "text",
+            "text": "동백로 52｜08:00-24:00｜免費入場",
+            "maps": {
+              "google": "https://maps.google.com/?q=%EB%8D%94%EB%B2%A0%EC%9D%B4101",
+              "naver": "https://map.naver.com/v5/search/%EB%8D%94%EB%B2%A0%EC%9D%B4101"
+            }
+          },
+          {
+            "type": "image",
+            "alt": "The Bay 101 夜景",
+            "url": "https://lh3.googleusercontent.com/places/ANXAkqGyDmkti7Whd0pXsjzuhSIh3wjxd6eQucHsi81WHtafOXrYOhtQqW8enIcYUnwMRpiJ31hyivfWGROaZSrtq5mXXizsZ_5Ckc4=s4800-w800"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "Fingers & Chat 餐廳必點",
+              "價格"
+            ],
+            "rows": [
+              [
+                "피쉬앤칩스 炸鱈魚薯條",
+                "₩28,000"
+              ],
+              [
+                "메가콤보세트 超值分享組",
+                "₩33,000"
+              ],
+              [
+                "생맥주 生啤酒",
+                "₩6,500 起"
+              ]
+            ]
+          },
+          {
+            "type": "list",
+            "items": [
+              "💡 黃昏時到、待到天黑 — 拍夜景倒影最美",
+              "💡 免費入場，消費任一店家送 2hr 免費停車",
+              "💡 平日晚上人少，假日超擁擠",
+              "親子：⭐⭐⭐ 戶外空間大，推車 OK"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🐟 자갈치시장 札嘎其市場 — 韓國最大海鮮市場",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "text",
+            "text": "자갈치해안로 52｜1F 05:00-22:00 / 本館 09:00-21:00｜每月第 1、3 個週二休",
+            "maps": {
+              "google": "https://maps.google.com/?q=%EC%9E%90%EA%B0%88%EC%B9%98%EC%8B%9C%EC%9E%A5",
+              "naver": "https://map.naver.com/v5/search/%EC%9E%90%EA%B0%88%EC%B9%98%EC%8B%9C%EC%9E%A5"
+            }
+          },
+          {
+            "type": "image",
+            "alt": "札嘎其市場",
+            "url": "https://lh3.googleusercontent.com/place-photos/AJRVUZM3m92MuaGjrQEPWkctkeAcHrNyo7HTL03tNeUqxt0M0GEISlAlWti7LvPuh521PMlkI2ZFYyW1BK_Zpj1mvgSvQTL4USzYg1vvG_EJtEl8q2oDheqGAjRu6OSkbkfiJSkLOzqu4JjP8zG2k40j856t5Q=s4800-w800"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "推薦吃法",
+              "費用",
+              "備註"
+            ],
+            "rows": [
+              [
+                "帝王蟹",
+                "₩50,000-80,000/kg",
+                "比台灣便宜 ~50%"
+              ],
+              [
+                "花蟹/雪蟹",
+                "依季節",
+                ""
+              ],
+              [
+                "生魚片",
+                "依種類",
+                ""
+              ],
+              [
+                "蟹殼炒飯 볶음밥",
+                "含在料理費",
+                "隱藏必吃！用剩餘蟹黃在殼裡炒飯"
+              ]
+            ]
+          },
+          {
+            "type": "list",
+            "items": [
+              "⚠️ 至少比價 3-5 攤再買，確認秤歸零",
+              "⚠️ 所有費用（座位費 ₩5,000/人 + 料理費 ₩10,000-15,000/道）先確認再點",
+              "💡 1F 買→2F 吃，靠窗座有海景",
+              "💡 很多攤位會說中文",
+              "親子：⭐⭐ 看活魚雨樂會很開心"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🫓 BIFF 廣場 씨앗호떡 — 南浦洞原祖堅果糖餅",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "text",
+            "text": "BIFF 廣場｜~10:00-22:00",
+            "maps": {
+              "google": "https://maps.google.com/?q=BIFF%EA%B4%91%EC%9E%A5%20%EC%94%A8%EC%95%97%ED%98%B8%EB%96%A1",
+              "naver": "https://map.naver.com/v5/search/BIFF%EA%B4%91%EC%9E%A5%20%EC%94%A8%EC%95%97%ED%98%B8%EB%96%A1"
+            }
+          },
+          {
+            "type": "image",
+            "alt": "BIFF 씨앗호떡",
+            "url": "https://lh3.googleusercontent.com/place-photos/AJRVUZPpUzHTAb6cV8EDy7lnK2F91xsfHDzDS_5RQOZXU43QzwUlQcZNp93pJZbNp7IIq9hz0xxOnj95oijl6WHNVSBDfD98pFMEi7x-8xHqu03NhNZD4FS-hTS3UZCDgy9eNo6UxWKCIwgV5AJb=s4800-w800"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "必點",
+              "價格"
+            ],
+            "rows": [
+              [
+                "씨앗호떡 堅果糖餅",
+                "~₩2,000"
+              ],
+              [
+                "치즈호떡 起司糖餅",
+                "~₩2,500"
+              ]
+            ]
+          },
+          {
+            "type": "list",
+            "items": [
+              "💡 找排隊最長的攤位（通常最好吃）",
+              "💡 多為現金交易",
+              "親子：⭐⭐ 燙口注意"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🎁 必買伴手禮店",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "부산바다샌드 Busan Bada Sand — 2025-2026 釜山最紅伴手禮",
+            "maps": null
+          },
+          {
+            "type": "text",
+            "text": "海理團路巷內｜11:00-19:00",
+            "maps": {
+              "google": "https://maps.google.com/?q=%EB%B6%80%EC%82%B0%EB%B0%94%EB%8B%A4%EC%83%8C%EB%93%9C",
+              "naver": "https://map.naver.com/v5/search/%EB%B6%80%EC%82%B0%EB%B0%94%EB%8B%A4%EC%83%8C%EB%93%9C"
+            }
+          },
+          {
+            "type": "image",
+            "alt": "Busan Bada Sand",
+            "url": "https://lh3.googleusercontent.com/place-photos/AJRVUZOPYo0acQ7PFDu7D1QdLNBPbkxTv-HPhYQ9miOkQ5wvePZ-UFLXvGlcxVFlkpDY2VVAugLUfKf4etJp6v6ovQnRnCVCgksAwl-cXXFUxO_2tBfflEAnBz37JIqA6BbZdYZw0KHKef6RZ2W6LlMB1UymEg=s4800-w800"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "品項",
+              "價格",
+              "備註"
+            ],
+            "rows": [
+              [
+                "Original 9 入",
+                "₩17,000-17,500",
+                "招牌！蜂蜜焦糖+法國奶油+奶油起司"
+              ],
+              [
+                "覆盆莓 / 藍莓 / 巧克力 9 入",
+                "₩18,000",
+                "其他口味"
+              ]
+            ]
+          },
+          {
+            "type": "list",
+            "items": [
+              "⚠️ 每日限量 ~100 盒，假日會排隊 — 平日 11:00 開門去最保險",
+              "💡 小紅書爆紅款，獨立包裝適合分送",
+              "💡 室溫可放 1 週，冷凍更好吃"
+            ]
+          },
+          {
+            "type": "subheading",
+            "text": "이대명과 二代名菓 — 70 年老店傳統煎餅（1954 年）",
+            "maps": null
+          },
+          {
+            "type": "text",
+            "text": "海雲台站 1 號出口附近｜09:30-21:00",
+            "maps": {
+              "google": "https://maps.google.com/?q=%EC%9D%B4%EB%8C%80%EB%AA%85%EA%B3%BC",
+              "naver": "https://map.naver.com/v5/search/%EC%9D%B4%EB%8C%80%EB%AA%85%EA%B3%BC"
+            }
+          },
+          {
+            "type": "image",
+            "alt": "二代名菓",
+            "url": "https://lh3.googleusercontent.com/place-photos/AJRVUZPvI6S4zzG0Vn57zOglvvqhs0gjCkGisbBefxXFkq8UUqZtEVt6N0gRWOXF_oopebcXiHKgqKIwyf8BlTTxf2E5fXrFZ9bmmhN0xi-azaH_tuPUR0twL3oAvwfW7RSSniqtK3inb4RXFPo-tek=s4800-w800"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "品項",
+              "價格",
+              "備註"
+            ],
+            "rows": [
+              [
+                "여행 Travel Set",
+                "₩17,000",
+                "最小禮盒，好攜帶"
+              ],
+              [
+                "미니모아 Mini 試吃組",
+                "₩7,000",
+                "預算款"
+              ],
+              [
+                "해운대 2-1 號",
+                "₩21,000",
+                ""
+              ],
+              [
+                "해운대 3 號",
+                "₩32,000",
+                ""
+              ]
+            ]
+          },
+          {
+            "type": "list",
+            "items": [
+              "6 種口味：花生、芝麻花生（最人氣）、海苔、松子、開心果、胡桃",
+              "💡 烤的不是炸的，無防腐劑，送長輩最適合",
+              "💡 獨立包裝，辦公室分送方便"
+            ]
+          },
+          {
+            "type": "subheading",
+            "text": "치플레 CHEFFLE — 糖葫蘆起司蛋糕",
+            "maps": null
+          },
+          {
+            "type": "image",
+            "alt": "CHEFFLE",
+            "url": "https://lh3.googleusercontent.com/place-photos/AJRVUZObhXcFkd6yesZJa98D8RBzQgVJk9UNdXeyOtuXVJ161dKj2UVWkeK6sWkeP9xZiKNt7iHnMAG5BloV0jIHY7eviByaz4j2tzNth9DkxD4bGEzx_J2FTdfuogfNBeBomvqSrqpCDM5v3AXX4TAvJnNEeA=s4800-w800"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "品項",
+              "價格"
+            ],
+            "rows": [
+              [
+                "4 入禮盒（單一口味）",
+                "₩16,000"
+              ],
+              [
+                "8 入禮盒（2 口味各 4）",
+                "₩29,000"
+              ],
+              [
+                "保冷袋",
+                "+₩1,000"
+              ]
+            ]
+          },
+          {
+            "type": "list",
+            "items": [
+              "口味：Original / Brulee / 巧克力 / 抹茶 / 開心果（季節限定）",
+              "💡 冷凍 4hr 後吃 = 冰淇淋口感 — 社群公認最佳吃法",
+              "💡 假日 14:00 前賣完，建議開門就去",
+              "💡 新世界百貨也有櫃，比較不用排隊"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🍗 其他必吃（隨機吃）",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              "美食",
+              "推薦",
+              "親子"
+            ],
+            "rows": [
+              [
+                "韓式炸雞",
+                "BBQ / BHC / 橋村，任一品牌",
+                "⭐⭐ 去骨肉給幼兒"
+              ],
+              [
+                "海苔飯捲 김밥",
+                "便利商店或 김밥천국",
+                "⭐⭐⭐ 幼兒最愛"
+              ],
+              [
+                "韓式炸醬麵 짜장면",
+                "任一中華料理店",
+                "⭐⭐⭐ 幼兒愛吃"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🍈 當季水果 — 6 月底正值夏果爆發期！",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "note",
+            "text": "6 月底的韓國水果又甜又便宜，台灣吃不到或貴很多，務必把握！"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "水果",
+              "韓文",
+              "產季",
+              "價格參考",
+              "備註"
+            ],
+            "rows": [
+              [
+                "🟡 韓國香瓜",
+                "참외",
+                "6-8 月",
+                "~₩5,000-8,000/袋(3-5 顆)",
+                "⭐ 台灣吃不到的韓國特有水果！ 金黃色橢圓形，脆甜多汁。籽最甜，韓國人連籽一起吃"
+              ],
+              [
+                "🍑 水蜜桃",
+                "복숭아",
+                "6-9 月",
+                "~₩8,000-15,000/盒",
+                "剛進入產季，白桃清甜、黃桃濃郁"
+              ],
+              [
+                "🍉 西瓜",
+                "수박",
+                "6-8 月",
+                "~₩15,000-20,000/顆",
+                "韓國西瓜超甜！超市有賣切半或 1/4 的小包裝"
+              ],
+              [
+                "🍒 櫻桃",
+                "체리",
+                "5-6 月（尾聲）",
+                "~₩10,000-15,000/盒",
+                "產季快結束，能遇到算幸運"
+              ],
+              [
+                "🫐 藍莓",
+                "블루베리",
+                "6-8 月",
+                "~₩5,000-8,000/盒",
+                "韓國國產藍莓剛上市"
+              ]
+            ]
+          },
+          {
+            "type": "subheading",
+            "text": "哪裡買最划算？",
+            "maps": null
+          },
+          {
+            "type": "list",
+            "items": [
+              "Homeplus Centum City 店（D2 雨天備案順路）— 超市水果區種類齊全，有切好的水果盒",
+              "便利商店（CU / GS25）— 有賣切好的「컵과일 水果杯」，約 ₩3,000-5,000，帶推車邊走邊吃最方便",
+              "海雲台傳統市場（D1 晚上）— 市場水果攤最便宜",
+              "釜田市場 부전시장（如果有經過西面）— 釜山最大傳統市場，水果價格最殺"
+            ]
+          },
+          {
+            "type": "subheading",
+            "text": "怎麼吃참외（香瓜）？",
+            "maps": null
+          },
+          {
+            "type": "text",
+            "text": "1. 洗淨後削掉金黃色外皮",
+            "maps": null
+          },
+          {
+            "type": "text",
+            "text": "2. 對切 — 籽不要挖掉！ 籽的部分糖分最高，是最甜的地方",
+            "maps": null
+          },
+          {
+            "type": "text",
+            "text": "3. 直接咬，脆甜像哈密瓜 × 小黃瓜的混合體",
+            "maps": null
+          },
+          {
+            "type": "text",
+            "text": "4. 冰過更好吃！",
+            "maps": null
+          },
+          {
+            "type": "note",
+            "text": "💡 雨樂也能吃：참외果肉軟脆、水蜜桃軟嫩，都是幼兒友善水果。西瓜注意去籽"
+          }
+        ]
+      }
+    ]
+  },
+  "pocket": {
+    "title": "行程參考 — 社群推薦口袋名單",
+    "nodes": [
+      {
+        "title": "",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "note",
+            "text": "以下整理自 IG / 小紅書 / Dcard / PTT / 部落格 2025-2026 最新推薦，可視時間彈性加入"
+          }
+        ]
+      },
+      {
+        "title": "海景咖啡廳（IG / 小紅書熱搜）",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              "咖啡廳",
+              "位置",
+              "特色",
+              "建議搭配"
+            ],
+            "rows": [
+              [
+                "Working Holiday 海雲台",
+                "海雲台",
+                "2025 新開，一整面白沙灘海景",
+                "D1/D2 晚上散步時"
+              ],
+              [
+                "TIDE Coffee Roasters",
+                "海雲台月見丘 달맞이길",
+                "極簡灰白系 + 大片落地窗海景",
+                "D2 午睡後"
+              ],
+              [
+                "Simmian Cafe",
+                "青沙浦站附近",
+                "日式禪風 + 抹茶甜點",
+                "⚠️ 노키즈존（禁止兒童入場），帶雨樂無法進入"
+              ],
+              [
+                "Cafe Coralani",
+                "機張（離海雲台 30 分車程）",
+                "清水模 4 層樓，每層海景，社群熱搜度極高",
+                "需額外排半天"
+              ],
+              [
+                "P.ARK",
+                "影島",
+                "360 度玻璃建築，看整個釜山港",
+                "D4 搭配松島/影島行程"
+              ],
+              [
+                "Motiver",
+                "田浦商圈（西面附近）",
+                "2025 爆紅，心型法式吐司",
+                "如果有去西面"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "title": "隱藏版景點",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              "景點",
+              "特色",
+              "親子適合度",
+              "備註"
+            ],
+            "rows": [
+              [
+                "흰여울문화마을 白淺灘文化村",
+                "海邊版甘川洞，人少文青",
+                "⭐⭐ 有階梯但比甘川好走",
+                "在影島，可搭配 D4 松島行程"
+              ],
+              [
+                "五六島 Skywalk",
+                "15m 玻璃棧道，腳下是大海，免費",
+                "⭐ 雨樂可能會怕",
+                "海雲台搭車 15 分"
+              ],
+              [
+                "Dakbatgol 壁畫村",
+                "比甘川洞冷門的彩色壁畫村",
+                "⭐⭐ 人少好拍",
+                "可替代甘川洞"
+              ],
+              [
+                "海東龍宮寺",
+                "海崖上的寺廟，釜山 Top 3 景點",
+                "⭐ 階梯多不利推車",
+                "離海雲台 30 分車程"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "title": "釜山限定伴手禮",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              "品項",
+              "特色",
+              "在哪買"
+            ],
+            "rows": [
+              [
+                "Busan Bada Sand",
+                "海沙造型奶油餅乾，用釜山蜂蜜",
+                "南浦洞、海雲台門市（D3 已排入）"
+              ],
+              [
+                "Busan Butter Pie",
+                "釜山奶油派",
+                "南浦洞、海雲台"
+              ],
+              [
+                "CHEFFLE 舒芙蕾起司蛋糕",
+                "現烤舒芙蕾",
+                "海雲台、西面"
+              ],
+              [
+                "二代名菓 이대명과",
+                "韓式傳統糕點禮盒",
+                "機場、南浦洞（D3 已排入）"
+              ],
+              [
+                "古來思魚糕禮盒 고래사어묵",
+                "釜山代表性魚糕",
+                "海雲台有分店"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Olive Young 必買（西面 Town 店最齊全）",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "零食",
+            "maps": null
+          },
+          {
+            "type": "list",
+            "items": [
+              "Delight Project 貝果餅乾（蜂蜜奶油 / 大蒜奶油）— 人手一包",
+              "大蒜番茄義大利麵餅乾 — 2026 新品，筆管麵造型",
+              "HBAF 杏仁果（蜂蜜奶油 / 芥末）— 送禮自用"
+            ]
+          },
+          {
+            "type": "subheading",
+            "text": "美妝保養",
+            "maps": null
+          },
+          {
+            "type": "list",
+            "items": [
+              "VT CICA 積雪草舒緩霜 + 面膜 — 敏感肌必買",
+              "Abib 口香糖面膜 — 社群口碑款",
+              "消費滿 ₩15,000 可直接免稅結帳"
+            ]
+          },
+          {
+            "type": "subheading",
+            "text": "購物地點 ：Olive Young 西面 Town 店（全韓最大旗艦店之一）或海雲台分店",
+            "maps": null
+          }
+        ]
+      },
+      {
+        "title": "嬰幼兒用品採買",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "note",
+            "text": "韓國沒有像日本阿卡將的大型母嬰一站式賣場，韓國爸媽主要靠網購。實體購物建議分散在以下地點："
+          },
+          {
+            "type": "subheading",
+            "text": "百貨童裝",
+            "maps": null
+          },
+          {
+            "type": "table",
+            "headers": [
+              "地點",
+              "特色",
+              "建議搭配"
+            ],
+            "rows": [
+              [
+                "新世界百貨 Centum City 6F",
+                "兒童館：韓國本土童裝 + 精品童裝（Baby Dior 等），有哺乳室 & Little Lounge 親子休息區",
+                "D2 雨天備案"
+              ],
+              [
+                "樂天百貨光復店",
+                "童裝特價花車 CP 值高（PTT 媽媽推薦）",
+                "D3 南浦洞（已排入）"
+              ]
+            ]
+          },
+          {
+            "type": "subheading",
+            "text": "大賣場嬰兒區（Homeplus / E-Mart）",
+            "maps": null
+          },
+          {
+            "type": "list",
+            "items": [
+              "Homeplus Centum City 店 — 離飯店近，順路補貨",
+              "推薦：ildong 日東嬰兒米餅、Maeil 每日幼兒牛奶/果汁、韓國嬰兒零食（米菓、海苔點心）",
+              "尿布、副食品、基本童裝也有"
+            ]
+          },
+          {
+            "type": "subheading",
+            "text": "Olive Young 嬰幼兒好物",
+            "maps": null
+          },
+          {
+            "type": "list",
+            "items": [
+              "Green Finger 嬰幼兒防曬乳 / 護膚 — 韓國媽媽愛用品牌",
+              "Goongbe 궁비 嬰兒沐浴 / 護膚系列",
+              "MOTHER-K 拋棄式圍兜、吸管杯等外出用品",
+              "B&B 嬰兒洗衣精、奶瓶清潔液"
+            ]
+          },
+          {
+            "type": "subheading",
+            "text": "韓國值得買的嬰幼兒品牌",
+            "maps": null
+          },
+          {
+            "type": "table",
+            "headers": [
+              "品牌",
+              "品項",
+              "在哪買"
+            ],
+            "rows": [
+              [
+                "Agabang 아가방",
+                "有機棉嬰兒衣物",
+                "百貨專櫃"
+              ],
+              [
+                "OZKIZ",
+                "潮流童裝，韓劇常出現",
+                "百貨 / 網購"
+              ],
+              [
+                "Green Finger",
+                "嬰幼兒防曬、護膚",
+                "Olive Young / 大賣場"
+              ],
+              [
+                "ildong 日東",
+                "嬰兒米餅零食",
+                "E-Mart / Homeplus"
+              ],
+              [
+                "Goongbe 궁비",
+                "嬰兒護膚、沐浴",
+                "Olive Young"
+              ],
+              [
+                "MOTHER-K",
+                "拋棄式圍兜、外出用品",
+                "大賣場 / Olive Young"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "title": "超市掃貨清單（E-Mart / Homeplus）",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "大人伴手禮",
+            "maps": null
+          },
+          {
+            "type": "list",
+            "items": [
+              "韓國泡麵（辛拉麵、不倒翁起司拉麵、三養辣雞麵）",
+              "韓國海苔大包裝",
+              "Maxim 即溶咖啡（金色包裝最經典）",
+              "蜂蜜奶油洋芋片",
+              "韓國柚子茶 / 紅棗茶"
+            ]
+          },
+          {
+            "type": "subheading",
+            "text": "雨樂補貨",
+            "maps": null
+          },
+          {
+            "type": "list",
+            "items": [
+              "ildong 日東嬰兒米餅 / 米菓",
+              "Maeil 每日幼兒牛奶 / 果汁",
+              "韓國嬰兒海苔點心",
+              "備用尿布（韓國 Huggies 好奇品質好）"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "韓國平價服飾品牌（韓版 Uniqlo — 台灣買不到！）",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "note",
+            "text": "韓國有自己的國民平價服飾，價格跟 Uniqlo 差不多但韓系設計，台灣沒有門市"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "品牌",
+              "定位",
+              "價格帶",
+              "特色",
+              "釜山門市"
+            ],
+            "rows": [
+              [
+                "TOPTEN 탑텐",
+                "最像 Uniqlo",
+                "T-shirt ₩9,900~、褲子 ₩19,900~",
+                "基本款、高品質素材、男女老少都有，被稱為「韓國的 Uniqlo」。素 T、牛仔褲、內衣褲 CP 值超高",
+                "南浦洞光復路 BIFF 광장로 37（D3） 、西面 Lotte 百貨 7F"
+              ],
+              [
+                "SPAO 스파오",
+                "Uniqlo + 聯名",
+                "T-shirt ₩12,900~、外套 ₩29,900~",
+                "基本款 + 超多 IP 聯名（哈利波特🧙、蠟筆小新、迪士尼等），韓國年輕人最愛。聯名睡衣/T-shirt 在台灣代購賣翻",
+                "西面 中央大路 692 番街 26（D3 順路） 、新世界 Centum City（D2 雨天）"
+              ],
+              [
+                "8SECONDS 에잇세컨즈",
+                "比較像 ZARA",
+                "略高，T-shirt ₩19,900~",
+                "三星集團旗下，設計感強、剪裁時尚。適合想買韓系穿搭的人",
+                "南浦洞光復路 63-2（D3）"
+              ]
+            ]
+          },
+          {
+            "type": "subheading",
+            "text": "比 Uniqlo 的優勢：",
+            "maps": null
+          },
+          {
+            "type": "list",
+            "items": [
+              "韓國設計版型 → 更合亞洲人身材，穿起來更韓",
+              "聯名款在韓國買最便宜（SPAO × 哈利波特 / 蠟筆小新系列台灣代購很貴）",
+              "台灣完全買不到 TOPTEN 和 SPAO — 只有來韓國才能逛"
+            ]
+          },
+          {
+            "type": "subheading",
+            "text": "建議逛法：",
+            "maps": null
+          },
+          {
+            "type": "list",
+            "items": [
+              "D3 南浦洞（已排購物）→ 光復路上 TOPTEN 和 8SECONDS 就在隔壁，順路逛 30 分鐘",
+              "D3 西面（回程順路）→ SPAO 西面店在中央大路上，逛聯名款",
+              "D2 雨天備案 Centum City → 新世界百貨內有 SPAO"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "連鎖店爆紅商品 & 限定（2026 夏季）",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "麥當勞 Happy Meal 해피밀",
+            "maps": null
+          },
+          {
+            "type": "list",
+            "items": [
+              "6 月玩具款式出發前查 韓國麥當勞官網",
+              "套餐約 ₩5,900-6,900，雨樂年紀剛好可以收集玩具",
+              "2026 已出過蠟筆小新（3 月）、超級瑪利歐銀河（4-5 月）"
+            ]
+          },
+          {
+            "type": "subheading",
+            "text": "韓國星巴克 限定周邊",
+            "maps": null
+          },
+          {
+            "type": "image",
+            "alt": "Starbucks Korea Summer 2026 隨行杯",
+            "url": "https://cdn.store-assets.com/s/749828/i/104424226.jpeg"
+          },
+          {
+            "type": "image",
+            "alt": "Starbucks Korea 玩具總動員 Bearista",
+            "url": "https://static.wixstatic.com/media/8346c3_e40bb6a683bd46338e44835968086a41~mv2.png"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "系列",
+              "亮點"
+            ],
+            "rows": [
+              [
+                "Summer 2026 夏季系列",
+                "公路旅行主題隨行杯、帆布迷你托特包、折疊野餐墊"
+              ],
+              [
+                "玩具總動員 5 × Bearista",
+                "胡迪/巴斯小熊公仔杯、聯名馬克杯（4/15 開賣）"
+              ],
+              [
+                "Miffy 聯名",
+                "杯子、隨行杯、提袋（5 月開賣）"
+              ]
+            ]
+          },
+          {
+            "type": "note",
+            "text": "韓國星巴克限定是代購熱門，自己買最便宜！海雲台有分店"
+          },
+          {
+            "type": "subheading",
+            "text": "便利商店 必吃爆紅品（CU / GS25）",
+            "maps": null
+          },
+          {
+            "type": "note",
+            "text": "到店直接拿圖給店員看！"
+          },
+          {
+            "type": "image",
+            "alt": "延世大學生乳包 연세우유 생크림빵 — CU",
+            "url": "https://tqklhszfkvzk6518638.edge.naverncp.com/product/8801753108478.png"
+          },
+          {
+            "type": "image",
+            "alt": "聖水貝果 성수베이글 — GS25",
+            "url": "https://file.newswire.co.kr/data/datafile2/thumb_640/2024/06/1028147215_20240606100719_1106909142.jpg"
+          },
+          {
+            "type": "image",
+            "alt": "金惠子便當 김혜자 도시락 — GS25",
+            "url": "https://cdn.foodnews.co.kr/news/photo/202410/110215_74040_254.jpg"
+          },
+          {
+            "type": "image",
+            "alt": "蜂巢蜂蜜希臘優格 — GS25",
+            "url": "https://blog.kakaocdn.net/dna/UDFka/btsNkwpRGVu/AAAAAAAAAAAAAAAAAAAAAOQ9dw5mD-rDgDENwYUIKatzVocfiQ5pN5bTgdQKuQej/img.png"
+          },
+          {
+            "type": "image",
+            "alt": "杜拜巧克力Q餅 — CU",
+            "url": "https://tqklhszfkvzk6518638.edge.naverncp.com/product/8801121288764.png"
+          },
+          {
+            "type": "image",
+            "alt": "CU 音樂棒棒糖",
+            "url": "https://ojsfile.ohmynews.com/STD_IMG_FILE/2025/1030/IE003541822_STD.jpg"
+          },
+          {
+            "type": "image",
+            "alt": "Banana Kicks 바나나킥",
+            "url": "https://image.nongshim.com/non/pro/1448612776313.jpg"
+          },
+          {
+            "type": "image",
+            "alt": "香蕉牛奶 바나나맛우유",
+            "url": "https://img-cf.kurly.com/hdims/resize/%5E%3E720x%3E936/cropcenter/720x936/quality/85/src/shop/data/goods/1637921126423l0.jpeg"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "商品",
+              "超商",
+              "價格",
+              "備註"
+            ],
+            "rows": [
+              [
+                "延世大學生乳包 연세우유 생크림빵",
+                "CU",
+                "~₩2,500",
+                "爆漿鮮奶油，口味：原味/巧克力/抹茶/花生"
+              ],
+              [
+                "聖水貝果 성수베이글",
+                "GS25",
+                "~₩3,000",
+                "軟Q貝果，媲美聖水洞名店"
+              ],
+              [
+                "金惠子便當 김혜자 도시락",
+                "GS25",
+                "~₩4,900",
+                "國民媽媽聯名，CP 值爆表"
+              ],
+              [
+                "蜂巢蜂蜜希臘優格",
+                "GS25",
+                "~₩3,500",
+                "整塊蜂巢 + 優格，IG 洗版"
+              ],
+              [
+                "杜拜巧克力 Q 餅",
+                "CU",
+                "~₩2,000",
+                "韓國版杜拜巧克力"
+              ],
+              [
+                "CU 音樂棒棒糖",
+                "CU",
+                "~₩2,000",
+                "吃的時候會播音樂，雨樂會愛！"
+              ],
+              [
+                "Banana Kicks 香蕉玉米脆果",
+                "各超商",
+                "~₩1,500",
+                "BLACKPINK Jennie 最愛零食"
+              ],
+              [
+                "香蕉牛奶 바나나맛우유",
+                "各超商",
+                "~₩1,500",
+                "經典 + 草莓/咖啡限定口味"
+              ]
+            ]
+          },
+          {
+            "type": "subheading",
+            "text": "Olive Young 2026 爆紅零食",
+            "maps": null
+          },
+          {
+            "type": "image",
+            "alt": "Delight Project 貝果餅乾 蜂蜜奶油",
+            "url": "https://cdn-image.oliveyoung.com/prdtImg/1260/160284a7-2ce3-4f03-8aa3-2d3667a1a4e0.jpg?RS=1500x1500&AR=0&QT=80"
+          },
+          {
+            "type": "image",
+            "alt": "大蒜番茄義大利麵餅乾 筆管麵造型",
+            "url": "https://cdn-image.oliveyoung.com/prdtImg/1643/293de3e4-8e35-4644-920e-fe4a026772c0.jpg?RS=1500x1500&AR=0&QT=80"
+          },
+          {
+            "type": "image",
+            "alt": "O'sulloc 抹茶椒鹽蝴蝶餅",
+            "url": "https://image.osulloc.com/upload/kr/ko/adminImage/TU/XV/20250529163813346ZH.png"
+          },
+          {
+            "type": "image",
+            "alt": "HBAF 杏仁果 蜂蜜奶油",
+            "url": "https://cdn-image.oliveyoung.com/prdtImg/1456/0a364738-3177-40c0-8170-35b03c56967d.jpg?RS=1500x1500&AR=0&QT=80"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "商品",
+              "價格",
+              "備註"
+            ],
+            "rows": [
+              [
+                "Delight Project 貝果餅乾（蜂蜜奶油/大蒜奶油）",
+                "~₩4,500",
+                "2025-2026 韓國零食冠軍，人手一包"
+              ],
+              [
+                "大蒜番茄義大利麵餅乾（筆管麵造型）",
+                "~₩4,500",
+                "2026 新品"
+              ],
+              [
+                "O'sulloc 抹茶椒鹽蝴蝶餅",
+                "~₩6,900",
+                "Olive Young 獨家大容量版"
+              ],
+              [
+                "HBAF 杏仁果（蜂蜜奶油/芥末）",
+                "~₩5,000",
+                "送禮自用"
+              ],
+              [
+                "BTS 柾國同款康普茶",
+                "~₩3,000",
+                "粉絲狂推"
+              ]
+            ]
+          },
+          {
+            "type": "note",
+            "text": "消費滿 ₩15,000 可直接免稅結帳"
+          },
+          {
+            "type": "subheading",
+            "text": "韓國大創 DAISO 小物",
+            "maps": null
+          },
+          {
+            "type": "image",
+            "alt": "VT 微針精華 CICA Reedle Shot — Daiso",
+            "url": "https://cdn.daisomall.co.kr/file/PD/20241008/QLdsMWSQ3MZfZBvd5eqR1049275_01_00QLdsMWSQ3MZfZBvd5eqR.jpg/dims/resize/850/quality/100"
+          },
+          {
+            "type": "image",
+            "alt": "Le Labo 平替護手霜 Daily Comma — Daiso",
+            "url": "https://img.danuri.io/catalog-image/718/456/076/67cf7ff298974776a9000d09000d715e.jpg?shrink=330:*&_v=20260417021002"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "商品",
+              "價格",
+              "備註"
+            ],
+            "rows": [
+              [
+                "VT 微針精華",
+                "~₩3,000",
+                "Daiso 銷量 #1"
+              ],
+              [
+                "Le Labo 平替護手霜",
+                "~₩2,000",
+                "小紅書爆紅"
+              ],
+              [
+                "固體香膏（DAILY COMMA）",
+                "~₩3,000",
+                "4 款香味，體積小好帶"
+              ],
+              [
+                "拍貼保護套",
+                "₩1,000",
+                "20-40 張入，追星必備"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "title": "親子加碼景點（雨樂大一點可以玩）",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              "景點",
+              "特色",
+              "備註"
+            ],
+            "rows": [
+              [
+                "釜山樂天世界",
+                "韓國最大主題樂園，童話主題",
+                "在奧西利亞站，需半天以上"
+              ],
+              [
+                "Skyline Luge 斜坡滑車",
+                "纜車上山 + 滑車下山",
+                "6 歲以上才能自己駕駛，大人可輪流"
+              ],
+              [
+                "Club D Oasis 水上樂園",
+                "造浪池 + 滑水道 + 溫泉",
+                "想玩水的話可考慮"
+              ],
+              [
+                "釜山國立科學館",
+                "互動體驗、VR、戶外水上區",
+                "離市區遠，需半天"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "title": "金海機場攻略（D5 回程）",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "note",
+            "text": "金海機場不大，但最後掃貨 + 吃飯的時間要抓好！安檢後選擇極少，盡量在安檢前搞定"
+          },
+          {
+            "type": "subheading",
+            "text": "3F 美食街（安檢前，營業 06:00-21:00）",
+            "maps": null
+          },
+          {
+            "type": "table",
+            "headers": [
+              "餐廳",
+              "推薦",
+              "備註"
+            ],
+            "rows": [
+              [
+                "설빙 雪冰",
+                "紅豆雪花冰、飯捲、烏龍麵、咖啡",
+                "9 號登機門旁，可邊吃邊看飛機起降！"
+              ],
+              [
+                "K라면바 韓式拉麵吧",
+                "各種韓式泡麵料理",
+                "最後一碗韓國拉麵"
+              ],
+              [
+                "SOBAN 한와담",
+                "韓式定食",
+                "正式的最後一餐韓食"
+              ],
+              [
+                "LOTTERIA 儂特利",
+                "韓式漢堡（比台灣便宜）",
+                "快速解決"
+              ],
+              [
+                "EDIYA Coffee",
+                "平價咖啡",
+                "韓國本土連鎖，比星巴克便宜一半"
+              ]
+            ]
+          },
+          {
+            "type": "subheading",
+            "text": "2F 免稅店 & 購物（安檢前）",
+            "maps": null
+          },
+          {
+            "type": "table",
+            "headers": [
+              "店家",
+              "重點",
+              "備註"
+            ],
+            "rows": [
+              [
+                "樂天免稅店",
+                "化妝品（Sulwhasoo、LANEIGE、HERA、SK-II）、香水、正官莊紅蔘",
+                "週二 09:30-20:00"
+              ],
+              [
+                "景福宮免稅店",
+                "品牌化妝品、酒類",
+                "樂天旁邊"
+              ],
+              [
+                "Boogie Shop 釜山主題店",
+                "~300 種釜山限定商品（釜山觀光公社聯名）",
+                "2025 新開，最後補伴手禮的救星！"
+              ],
+              [
+                "7-11",
+                "零食伴手禮、飲料",
+                "葵花子巧克力、海苔、小點心"
+              ]
+            ]
+          },
+          {
+            "type": "subheading",
+            "text": "安檢後（管制區內）— 選擇很少！",
+            "maps": null
+          },
+          {
+            "type": "table",
+            "headers": [
+              "店家",
+              "備註"
+            ],
+            "rows": [
+              [
+                "CU 便利商店",
+                "管制區唯一超商！最後買香蕉牛奶、零食上飛機"
+              ],
+              [
+                "退稅櫃檯",
+                "安檢後右手邊，景福宮免稅店對面"
+              ],
+              [
+                "餐廳只有 3 間",
+                "Angels、Dunkin' Donuts、韓式餐廳"
+              ]
+            ]
+          },
+          {
+            "type": "subheading",
+            "text": "休息區 ：3F Hollys Coffee 左手邊，有靠背躺椅 + 充電插座",
+            "maps": null
+          }
+        ]
+      }
+    ]
+  },
+  "exhibitions": {
+    "title": "期間限定活動 & 展覽",
+    "nodes": [
+      {
+        "title": "⭐ 機會難得",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "Busan One Asia Festival (BOF) — K-pop 演唱會 + 市集",
+            "maps": null
+          },
+          {
+            "type": "list",
+            "items": [
+              "日期：6/27（六）- 6/28（日）",
+              "地點：釜山亞運主場館",
+              "內容：釜山最大 K-culture 慶典（第 10 屆）。大型 K-pop 演唱會 + 美妝/美食/品牌體驗 pop-up 區",
+              "已公布陣容：AKMU、RIIZE、CRAVITY、8TURN、Haechan (NCT) 等",
+              "親子：演唱會不適合帶幼兒（大聲擁擠），白天場外 pop-up 市集可以逛",
+              "需購票（KKday / NOL 平台）"
+            ]
+          },
+          {
+            "type": "subheading",
+            "text": "Arte Museum「月兔 Moon Rabbit」特展 🐰",
+            "maps": {
+              "google": "https://maps.google.com/?q=Arte%20Museum%20%EB%B6%80%EC%82%B0",
+              "naver": "https://map.naver.com/v5/search/Arte%20Museum%20%EB%B6%80%EC%82%B0"
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "展期：~6/30（最後一天！）",
+              "地點：Arte Museum，影島區（29 Haeyang-ro 247beon-gil, Yeongdo-gu）",
+              "內容：世界最大沉浸式數位藝術館 + 巨型可愛兔子裝置，花園/叢林/星空光影投影",
+              "親子：⭐⭐⭐ 超適合幼兒（類似 teamLab），室內冷氣，也是絕佳雨天備案",
+              "每日 10:00-20:00，免費停車 2hr"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "👍 值得排入",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "subheading",
+            "text": "MUSEUM 1「Again, Ubermensch」沉浸式光影展",
+            "maps": {
+              "google": "https://maps.google.com/?q=MUSEUM%201%20%EB%B6%80%EC%82%B0",
+              "naver": "https://map.naver.com/v5/search/MUSEUM%201%20%EB%B6%80%EC%82%B0"
+            }
+          },
+          {
+            "type": "list",
+            "items": [
+              "展期：~10/11",
+              "地點：Centum City 附近（20 Centumseo-ro, Haeundae-gu），離新世界百貨很近",
+              "內容：8000 萬顆 LED 地板+牆面，浪漫主義主題沉浸式體驗，約 60 分鐘",
+              "親子：⭐⭐⭐ 幼兒愛光影，可跟新世界百貨雨天備案合併",
+              "平日 10-19 / 週末 10-20，Klook 可買折扣票"
+            ]
+          },
+          {
+            "type": "subheading",
+            "text": "釜山現代美術館 MoCA「犀牛與獨角獸」繪本藝術展",
+            "maps": null
+          },
+          {
+            "type": "list",
+            "items": [
+              "展期：~7/19",
+              "地點：乙淑島 MoCA（離市區較遠）",
+              "內容：繪本風格視覺藝術裝置，無文字敘事，7 組藝術家",
+              "親子：⭐⭐ 繪本風格適合小孩，免費入場",
+              "週二~日 10-18"
+            ]
+          },
+          {
+            "type": "subheading",
+            "text": "Loop Lab Busan 2026 — 國際數位媒體藝術節",
+            "maps": null
+          },
+          {
+            "type": "list",
+            "items": [
+              "展期：~6/28（只剩 2 天重疊）",
+              "地點：釜山市區 30+ 場館（釜山美術館衛星場館、F1963 等）",
+              "內容：錄像藝術、VR、AI 裝置、表演",
+              "需確認個別場館時間"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "❌ 剛好錯過",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "table",
+            "headers": [
+              "活動",
+              "結束日期"
+            ],
+            "rows": [
+              [
+                "BTS「ARIRANG」演唱會 + THE CITY 聯名",
+                "6/13（城市企劃 6/21）"
+              ],
+              [
+                "釜山港慶典（煙火秀）",
+                "6/20"
+              ],
+              [
+                "海雲台沙雕展",
+                "~6/14"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "preTrip": {
+    "title": "行前須知",
+    "nodes": [
+      {
+        "title": "天氣 — 梅雨季",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "text",
+            "text": "6 月底是韓國 장마（梅雨季），預期 24-26°C、濕度 71-76%、間歇性陣雨（月均 ~172mm / 9 個雨天）。",
+            "maps": null
+          },
+          {
+            "type": "list",
+            "items": [
+              "必帶：輕便雨衣 × 2、推車雨罩、折疊傘、防水涼鞋、速乾衣物",
+              "策略：每天安排 1 個室內備案，下雨就啟動",
+              "好消息：不會整天下，通常是陣雨夾晴天"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "幼兒準備",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "推車：必帶（折疊輕便型），釜山地鐵有電梯但部分站需找一下",
+              "午睡：每天 13:00-15:00 預留回飯店或推車睡覺時間",
+              "飲食：韓國餐廳大多有兒童餐具，白飯免費續、海苔飯捲 적합幼兒",
+              "備品：常備零食、水壺、防曬、防蚊"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "交通",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "機場→市區：金海機場搭計程車到海雲台約 25-35 分鐘，費用約 30,000-40,000 KRW（~700-950 TWD）。帶推車+行李搭計程車最方便",
+              "市區移動：地鐵 + 計程車混用。雨樂未滿 6 歲，搭地鐵/公車免費",
+              "T-money 卡：便利商店購入（~2,500-4,000 KRW），儲值搭地鐵/公車/便利商店/計程車。單程地鐵 ~1,400 KRW",
+              "Visit Busan Pass（強烈推薦 48hr 版，~55,000 KRW）：含水族館（29,000）+ 藍線公園海灘列車（8,000）+ 松島纜車（17,000）+ 釜山塔 + 30 多個景點。實體卡版本還兼 T-money 功能，一卡搞定"
+            ]
+          }
+        ]
       }
     ]
   }

@@ -77,6 +77,15 @@ export default function BottomSheet({
             {data.activity}
           </h2>
 
+          {data.photo && (
+            <img
+              src={data.photo}
+              alt={data.activity}
+              loading="lazy"
+              className="mt-3 max-h-52 w-full rounded-2xl object-cover"
+            />
+          )}
+
           {data.tags.length > 0 && (
             <div className="mt-3 flex flex-wrap gap-2">
               {data.tags.map((t, i) => (

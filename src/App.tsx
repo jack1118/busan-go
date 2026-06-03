@@ -11,6 +11,8 @@ import PackingList from "./components/PackingList";
 import BudgetTracker from "./components/BudgetTracker";
 import EmergencyCard from "./components/EmergencyCard";
 import ExportButton from "./components/DayExport";
+import ReferenceView from "./components/ReferenceView";
+import type { RefNode } from "./types";
 
 // Leaflet (~150KB) only loads when the map tab is opened.
 const MapView = lazy(() => import("./components/MapView"));
@@ -138,14 +140,55 @@ function ItineraryPage() {
   );
 }
 
-function ToolsPage() {
-  const [tool, setTool] = useState<"packing" | "budget" | "emergency">(
-    "packing"
+// Split the 行程參考 pocket list into themed buckets by section title.
+const pocketNodes: RefNode[] = data.pocket?.nodes ?? [];
+const byTitle = (re: RegExp) => pocketNodes.filter((n) => re.test(n.title));
+const cafeNodes = byTitle(/咖啡廳/);
+const spotNodes = byTitle(/景點/);
+const airportNodes = byTitle(/機場/);
+const shopNodes = pocketNodes.filter(
+  (n) => n.title && !/咖啡廳|景點|機場/.test(n.title)
+);
+
+function FoodPage() {
+  // 必吃美食 + 海景咖啡廳
+  const nodes = [...(data.food?.nodes ?? []), ...cafeNodes];
+  return (
+    <div className="px-4">
+      <ReferenceView nodes={nodes} />
+    </div>
   );
-  const tabs: { key: typeof tool; label: string }[] = [
+}
+
+function ShopPage() {
+  return (
+    <div className="px-4">
+      <ReferenceView nodes={shopNodes} withTabs />
+    </div>
+  );
+}
+
+type ToolKey =
+  | "packing"
+  | "budget"
+  | "emergency"
+  | "spots"
+  | "exhibitions"
+  | "pretrip"
+  | "airport"
+  | "info";
+
+function ToolsPage() {
+  const [tool, setTool] = useState<ToolKey>("packing");
+  const tabs: { key: ToolKey; label: string }[] = [
     { key: "packing", label: "🧳 打包" },
     { key: "budget", label: "💰 預算" },
     { key: "emergency", label: "🚨 緊急" },
+    { key: "spots", label: "📍 景點" },
+    { key: "exhibitions", label: "🎨 展覽" },
+    { key: "pretrip", label: "📋 須知" },
+    { key: "airport", label: "✈️ 機場" },
+    { key: "info", label: "ℹ️ 資訊" },
   ];
   return (
     <div className="px-4">
@@ -172,14 +215,23 @@ function ToolsPage() {
       {tool === "emergency" && (
         <EmergencyCard emergency={data.emergency} hotel={data.hotel} />
       )}
+      {tool === "spots" && <ReferenceView nodes={spotNodes} />}
+      {tool === "exhibitions" && (
+        <ReferenceView nodes={data.exhibitions?.nodes ?? []} />
+      )}
+      {tool === "pretrip" && (
+        <ReferenceView nodes={data.preTrip?.nodes ?? []} />
+      )}
+      {tool === "airport" && <ReferenceView nodes={airportNodes} />}
+      {tool === "info" && <InfoSection />}
     </div>
   );
 }
 
-function SettingsPage() {
+function InfoSection() {
   const h = data.hotel;
   return (
-    <div className="space-y-4 px-4">
+    <div className="space-y-4">
       {h && (
         <section className="rounded-3xl bg-white p-4 shadow-sm dark:bg-neutral-800">
           <h2 className="mb-2 text-[15px] font-bold">🏨 住宿</h2>
@@ -220,7 +272,7 @@ function SettingsPage() {
       </a>
 
       <p className="px-2 text-center text-[12px] text-neutral-400">
-        資料來源：{data.generatedFrom} · 釜山去 v0.2（Phase 1-3）
+        資料來源：{data.generatedFrom} · 釜山去 v0.3
       </p>
     </div>
   );
@@ -245,6 +297,8 @@ export default function App() {
 
       <main className="pb-[calc(5.5rem+var(--safe-bottom))] pt-2">
         {tab === "itinerary" && <ItineraryPage />}
+        {tab === "food" && <FoodPage />}
+        {tab === "shop" && <ShopPage />}
         {tab === "map" && (
           <Suspense
             fallback={
@@ -257,7 +311,6 @@ export default function App() {
           </Suspense>
         )}
         {tab === "tools" && <ToolsPage />}
-        {tab === "settings" && <SettingsPage />}
       </main>
 
       <TabBar active={tab} onChange={setTab} />

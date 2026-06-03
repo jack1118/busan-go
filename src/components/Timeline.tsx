@@ -35,9 +35,18 @@ export default function Timeline({
               <span className="text-[15px] font-semibold leading-snug">
                 {item.activity}
               </span>
-              <span className="mt-0.5 shrink-0 text-neutral-300 dark:text-neutral-600">
-                ›
-              </span>
+              {item.photo ? (
+                <img
+                  src={item.photo}
+                  alt=""
+                  loading="lazy"
+                  className="h-12 w-12 shrink-0 rounded-xl object-cover"
+                />
+              ) : (
+                <span className="mt-0.5 shrink-0 text-neutral-300 dark:text-neutral-600">
+                  ›
+                </span>
+              )}
             </div>
             {item.note && (
               <p className="mt-1 line-clamp-2 text-[13px] text-neutral-500 dark:text-neutral-400">

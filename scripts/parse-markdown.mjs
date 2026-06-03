@@ -337,6 +337,131 @@ function emergencyInfo() {
   };
 }
 
+// ---------- generic section parser (food / shopping / exhibitions / pre-trip) ----------
+// These md sections are heterogeneous (tables + lists + images + prose), so we
+// parse them into an ordered block tree and render generically — nothing dropped.
+
+function parseBlocks(ls) {
+  const blocks = [];
+  let curList = null;
+  let curTable = null;
+  const flush = () => {
+    if (curList) {
+      blocks.push({ type: "list", items: curList });
+      curList = null;
+    }
+    if (curTable && curTable.length) {
+      const [headers, ...rows] = curTable;
+      blocks.push({ type: "table", headers, rows });
+      curTable = null;
+    }
+  };
+  for (const l of ls) {
+    if (/^\s*[-*_]{3,}\s*$/.test(l)) continue; // horizontal rule noise
+    const img = l.match(/!\[([^\]]*)\]\(([^)]+)\)/);
+    if (img) {
+      flush();
+      blocks.push({ type: "image", alt: clean(img[1]), url: img[2] });
+      continue;
+    }
+    if (isTableRow(l)) {
+      if (isSeparatorRow(l)) continue;
+      if (!curTable) curTable = [];
+      curTable.push(splitRow(l).map(clean));
+      continue;
+    } else if (curTable) {
+      flush();
+    }
+    const li = l.match(/^\s*-\s+(.*)$/);
+    if (li) {
+      if (!curList) curList = [];
+      curList.push(clean(li[1]));
+      continue;
+    } else if (curList) {
+      flush();
+    }
+    const trimmed = l.trim();
+    const bold = trimmed.match(/^\*\*(.+?)\*\*(.*)$/);
+    if (bold) {
+      flush();
+      const extra = clean(bold[2]);
+      blocks.push({
+        type: "subheading",
+        text: clean(bold[1]) + (extra ? " " + extra : ""),
+        maps: extractMaps(l),
+      });
+      continue;
+    }
+    const q = l.match(/^>\s*(.*)$/);
+    if (q) {
+      const t = clean(q[1]);
+      if (t) {
+        flush();
+        blocks.push({ type: "note", text: t });
+      }
+      continue;
+    }
+    const t = clean(l).replace(/^[｜|\s]+/, "");
+    if (t) {
+      flush();
+      blocks.push({ type: "text", text: t, maps: extractMaps(l) });
+    }
+  }
+  flush();
+  return blocks;
+}
+
+function parseNodes(ls) {
+  const nodes = [];
+  let cur = { title: "", maps: null, lines: [] };
+  for (const l of ls) {
+    const h = l.match(/^###\s+(.+)$/);
+    if (h) {
+      nodes.push(cur);
+      cur = { title: clean(h[1]), maps: extractMaps(l), lines: [] };
+    } else {
+      cur.lines.push(l);
+    }
+  }
+  nodes.push(cur);
+  return nodes
+    .filter((n) => n.title || n.lines.some((x) => x.trim()))
+    .map((n) => ({
+      title: n.title,
+      maps: n.maps,
+      blocks: parseBlocks(n.lines),
+    }));
+}
+
+function parseSectionByHeading(re) {
+  const start = findIndex((l) => re.test(l));
+  if (start < 0) return null;
+  const end = findIndex((l) => /^##\s+/.test(l), start + 1);
+  const body = lines.slice(start + 1, end < 0 ? lines.length : end);
+  return {
+    title: clean(lines[start].replace(/^##\s+/, "")),
+    nodes: parseNodes(body),
+  };
+}
+
+// Attach a thumbnail photo to timeline items by matching a food card's Korean
+// name against the item's activity text (Phase: 行程卡照片縮圖).
+function attachPhotos(days, food) {
+  const photoIndex = [];
+  for (const n of food?.nodes || []) {
+    const img = n.blocks.find((b) => b.type === "image");
+    if (!img) continue;
+    const kr = (n.title.match(/[가-힣][가-힣\s]*[가-힣]/) || [])[0];
+    if (kr) photoIndex.push({ key: kr.trim(), url: img.url });
+  }
+  for (const d of days) {
+    for (const it of d.items) {
+      const hit = photoIndex.find((p) => it.activity.includes(p.key));
+      it.photo = hit ? hit.url : null;
+    }
+  }
+}
+
 // ---------- assemble ----------
 const data = {
   title,
@@ -349,7 +474,13 @@ const data = {
   packing: parsePacking(),
   budget: parseBudget(),
   emergency: emergencyInfo(),
+  food: parseSectionByHeading(/^##\s+必吃美食/),
+  pocket: parseSectionByHeading(/^##\s+行程參考/),
+  exhibitions: parseSectionByHeading(/^##\s+期間限定活動/),
+  preTrip: parseSectionByHeading(/^##\s+行前須知/),
 };
+
+attachPhotos(data.days, data.food);
 
 mkdirSync(dirname(OUT), { recursive: true });
 writeFileSync(OUT, JSON.stringify(data, null, 2), "utf8");
@@ -360,8 +491,14 @@ const coordCount = data.days.reduce(
   0
 );
 const packCount = data.packing.reduce((n, c) => n + c.items.length, 0);
+const photoCount = data.days.reduce(
+  (n, d) => n + d.items.filter((i) => i.photo).length,
+  0
+);
 console.log(
-  `[parse] ${data.days.length} days, ${itemCount} items (${coordCount} geo), ` +
+  `[parse] ${data.days.length} days, ${itemCount} items (${coordCount} geo, ${photoCount} photo), ` +
     `${data.packing.length} packing groups/${packCount} items, ` +
-    `${data.budget?.items.length || 0} budget rows -> ${OUT}`
+    `${data.budget?.items.length || 0} budget rows | ` +
+    `food ${data.food?.nodes.length || 0} / pocket ${data.pocket?.nodes.length || 0} / ` +
+    `exhibitions ${data.exhibitions?.nodes.length || 0} / preTrip ${data.preTrip?.nodes.length || 0} nodes -> ${OUT}`
 );
