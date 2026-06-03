@@ -20,22 +20,28 @@ npm run build            # parse + typecheck + production build -> dist/
 npm run preview          # serve dist/ locally
 ```
 
-## Update flow (after edits to busan-2026-06.md)
+## Live site
+
+**https://jack1118.github.io/busan-go/** — repo `jack1118/busan-go` (public).
+
+## Update flow (after edits to the itinerary)
+
+The repo's data file is `pwa/busan-2026-06.md`. Edit it, then:
 
 ```bash
-npm run build            # regenerates itinerary.json + dist/
-# then push dist/ to GitHub Pages (gh-pages) — see Phase「部署」
+git add busan-2026-06.md && git commit -m "更新行程" && git push
 ```
+
+Pushing to `main` triggers `.github/workflows/deploy.yml`, which runs
+`npm run build` (with `VITE_BASE=/busan-go/`) and publishes `dist/` to Pages
+automatically. (The original source copy lives at `ccTravel/busan-2026-06.md`;
+keep the in-repo copy in sync when editing.)
 
 ## Deploy note
 
-GitHub Pages **project** sites live under `/<repo>/`. Build with the base set:
-
-```bash
-VITE_BASE=/<repo>/ npm run build
-```
-
-(`base` defaults to `/` for local dev/preview.)
+GitHub Pages **project** sites live under `/<repo>/`. CI builds with
+`VITE_BASE=/busan-go/`; `base` defaults to `/` for local dev/preview. Deploy is
+via GitHub Actions (Pages build source = "GitHub Actions").
 
 ## Status
 
@@ -51,8 +57,8 @@ VITE_BASE=/<repo>/ npm run build
 - **Phase 3 — done**: QR voucher viewer (upload image or auto-QR from booking
   code), toddler-friendly tags (👶♿⚠️ parsed from notes), taxi big-address
   card, per-day image export (html2canvas + share sheet), Gist comments link.
-- **部署 — todo**: create the GitHub repo, then `VITE_BASE=/<repo>/ npm run build`
-  and publish `dist/` to GitHub Pages.
+- **部署 — done**: live at https://jack1118.github.io/busan-go/ via GitHub
+  Actions (auto-deploy on push to main).
 
 Heavy libs (Leaflet, html2canvas, qrcode) are code-split and load on demand;
 the initial JS bundle is ~65 KB gzip.
