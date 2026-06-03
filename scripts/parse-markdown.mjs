@@ -97,9 +97,19 @@ function attachCoord(item) {
   }
   const hay = item.activity + " " + item.note;
   for (const e of COORDS.byKeyword) {
-    if (new RegExp(e.kw).test(hay)) return { lat: e.lat, lng: e.lng, name: e.name };
+    if (new RegExp(e.kw).test(hay)) {
+      const { kw, ...rest } = e;
+      return rest;
+    }
   }
   return null;
+}
+
+// First run of Korean (Hangul) text in a string — used as a fallback Korean
+// name for spots/restaurants that embed 한글 in their activity label.
+function firstKorean(text) {
+  const m = text.match(/[가-힣][가-힣\s·,()]*[가-힣]/);
+  return m ? m[0].trim() : null;
 }
 
 function splitRow(line) {
@@ -239,8 +249,12 @@ function parseDays() {
             tags: detectTags(blob),
             voucher: detectVoucher(blob),
             coord: null,
+            nameKr: null,
+            addr: null,
           };
           item.coord = attachCoord(item);
+          item.nameKr = item.coord?.nameKr || firstKorean(rawActivity) || null;
+          item.addr = item.coord?.addr || null;
           items.push(item);
         }
       } else {

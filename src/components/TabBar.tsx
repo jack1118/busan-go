@@ -32,10 +32,10 @@ export default function TabBar({
                 <span className="text-[22px] leading-none">{t.icon}</span>
                 <span
                   className={
-                    "text-[11px] font-medium " +
+                    "text-[11px] " +
                     (on
-                      ? "text-coral"
-                      : "text-neutral-400 dark:text-neutral-500")
+                      ? "font-bold text-coral"
+                      : "font-medium text-neutral-500 dark:text-neutral-400")
                   }
                 >
                   {t.label}

@@ -68,8 +68,12 @@
           "coord": {
             "lat": 35.1728688,
             "lng": 128.9471783,
-            "name": "金海國際機場"
+            "name": "金海國際機場",
+            "nameKr": "김해국제공항",
+            "addr": "부산 강서구 공항진입로 108"
           },
+          "nameKr": "김해국제공항",
+          "addr": "부산 강서구 공항진입로 108",
           "photo": null
         },
         {
@@ -83,8 +87,12 @@
           "coord": {
             "lat": 35.1728688,
             "lng": 128.9471783,
-            "name": "金海國際機場"
+            "name": "金海國際機場",
+            "nameKr": "김해국제공항",
+            "addr": "부산 강서구 공항진입로 108"
           },
+          "nameKr": "김해국제공항",
+          "addr": "부산 강서구 공항진입로 108",
           "photo": null
         },
         {
@@ -98,8 +106,12 @@
           "coord": {
             "lat": 35.1595422,
             "lng": 129.1573807,
-            "name": "東橫INN 海雲台2號店"
+            "name": "東橫INN 海雲台2號店",
+            "nameKr": "토요코인 부산 해운대 2",
+            "addr": "부산 해운대구 해운대해변로237번길 5"
           },
+          "nameKr": "토요코인 부산 해운대 2",
+          "addr": "부산 해운대구 해운대해변로237번길 5",
           "photo": null
         },
         {
@@ -113,8 +125,12 @@
           "coord": {
             "lat": 35.1595422,
             "lng": 129.1573807,
-            "name": "東橫INN 海雲台2號店"
+            "name": "東橫INN 海雲台2號店",
+            "nameKr": "토요코인 부산 해운대 2",
+            "addr": "부산 해운대구 해운대해변로237번길 5"
           },
+          "nameKr": "토요코인 부산 해운대 2",
+          "addr": "부산 해운대구 해운대해변로237번길 5",
           "photo": null
         },
         {
@@ -128,8 +144,12 @@
           "coord": {
             "lat": 35.1614537,
             "lng": 129.1622489,
-            "name": "海雲台市場"
+            "name": "海雲台市場",
+            "nameKr": "해운대시장",
+            "addr": "부산 해운대구 구남로41번길"
           },
+          "nameKr": "해운대시장",
+          "addr": "부산 해운대구 구남로41번길",
           "photo": "https://lh3.googleusercontent.com/place-photos/AJRVUZNRA52FaP-sbABoE-FhDmU4H4iyaIdJUrC5N0Lfg5NB9Vd2SsRzT8r2bvwQqZTFC3FKB47Otf-BWX_jkWGCYyjsHs6HJ47yZ0n1flIecpNEQLadf3pW0DXiPW5Y4W8MfEMa0KSAaM1vEAKQlg=s4800-w800"
         },
         {
@@ -148,8 +168,12 @@
           "coord": {
             "lat": 35.1586975,
             "lng": 129.1603842,
-            "name": "海雲台海灘"
+            "name": "海雲台海灘",
+            "nameKr": "해운대해수욕장",
+            "addr": "부산 해운대구 우동"
           },
+          "nameKr": "해운대해수욕장",
+          "addr": "부산 해운대구 우동",
           "photo": null
         }
       ],
@@ -175,8 +199,12 @@
           "coord": {
             "lat": 35.1595422,
             "lng": 129.1573807,
-            "name": "東橫INN 海雲台2號店"
+            "name": "東橫INN 海雲台2號店",
+            "nameKr": "토요코인 부산 해운대 2",
+            "addr": "부산 해운대구 해운대해변로237번길 5"
           },
+          "nameKr": "토요코인 부산 해운대 2",
+          "addr": "부산 해운대구 해운대해변로237번길 5",
           "photo": null
         },
         {
@@ -198,8 +226,12 @@
           "coord": {
             "lat": 35.1586975,
             "lng": 129.1603842,
-            "name": "海雲台海灘"
+            "name": "海雲台海灘",
+            "nameKr": "해운대해수욕장",
+            "addr": "부산 해운대구 우동"
           },
+          "nameKr": "해운대해수욕장",
+          "addr": "부산 해운대구 우동",
           "photo": "https://lh3.googleusercontent.com/place-photos/AJRVUZNRA52FaP-sbABoE-FhDmU4H4iyaIdJUrC5N0Lfg5NB9Vd2SsRzT8r2bvwQqZTFC3FKB47Otf-BWX_jkWGCYyjsHs6HJ47yZ0n1flIecpNEQLadf3pW0DXiPW5Y4W8MfEMa0KSAaM1vEAKQlg=s4800-w800"
         },
         {
@@ -221,8 +253,12 @@
           "coord": {
             "lat": 35.1592713,
             "lng": 129.1610038,
-            "name": "SEA LIFE 釜山水族館"
+            "name": "SEA LIFE 釜山水族館",
+            "nameKr": "씨라이프 부산아쿠아리움",
+            "addr": "부산 해운대구 해운대해변로 266"
           },
+          "nameKr": "씨라이프 부산아쿠아리움",
+          "addr": "부산 해운대구 해운대해변로 266",
           "photo": null
         },
         {
@@ -234,6 +270,8 @@
           "tags": [],
           "voucher": null,
           "coord": null,
+          "nameKr": null,
+          "addr": null,
           "photo": null
         },
         {
@@ -247,8 +285,12 @@
           "coord": {
             "lat": 35.1595422,
             "lng": 129.1573807,
-            "name": "東橫INN 海雲台2號店"
+            "name": "東橫INN 海雲台2號店",
+            "nameKr": "토요코인 부산 해운대 2",
+            "addr": "부산 해운대구 해운대해변로237번길 5"
           },
+          "nameKr": "토요코인 부산 해운대 2",
+          "addr": "부산 해운대구 해운대해변로237번길 5",
           "photo": null
         },
         {
@@ -269,8 +311,12 @@
           "coord": {
             "lat": 35.1600514,
             "lng": 129.1684719,
-            "name": "Club D Oasis"
+            "name": "Club D Oasis",
+            "nameKr": "클럽디 오아시스",
+            "addr": "부산 해운대구 달맞이길 30"
           },
+          "nameKr": "클럽디 오아시스",
+          "addr": "부산 해운대구 달맞이길 30",
           "photo": null
         },
         {
@@ -284,8 +330,12 @@
           "coord": {
             "lat": 35.1565954,
             "lng": 129.1520357,
-            "name": "The Bay 101"
+            "name": "The Bay 101",
+            "nameKr": "더베이101",
+            "addr": "부산 해운대구 동백로 52"
           },
+          "nameKr": "더베이101",
+          "addr": "부산 해운대구 동백로 52",
           "photo": "https://lh3.googleusercontent.com/places/ANXAkqGyDmkti7Whd0pXsjzuhSIh3wjxd6eQucHsi81WHtafOXrYOhtQqW8enIcYUnwMRpiJ31hyivfWGROaZSrtq5mXXizsZ_5Ckc4=s4800-w800"
         },
         {
@@ -299,8 +349,12 @@
           "coord": {
             "lat": 35.1595422,
             "lng": 129.1573807,
-            "name": "東橫INN 海雲台2號店"
+            "name": "東橫INN 海雲台2號店",
+            "nameKr": "토요코인 부산 해운대 2",
+            "addr": "부산 해운대구 해운대해변로237번길 5"
           },
+          "nameKr": "토요코인 부산 해운대 2",
+          "addr": "부산 해운대구 해운대해변로237번길 5",
           "photo": null
         }
       ],
@@ -325,6 +379,8 @@
           "tags": [],
           "voucher": null,
           "coord": null,
+          "nameKr": null,
+          "addr": null,
           "photo": null
         },
         {
@@ -350,8 +406,12 @@
           "coord": {
             "lat": 35.0973904,
             "lng": 129.0105924,
-            "name": "甘川洞文化村"
+            "name": "甘川洞文化村",
+            "nameKr": "감천문화마을",
+            "addr": "부산 사하구 감내2로 203"
           },
+          "nameKr": "감천문화마을",
+          "addr": "부산 사하구 감내2로 203",
           "photo": null
         },
         {
@@ -365,8 +425,12 @@
           "coord": {
             "lat": 35.098243,
             "lng": 129.029212,
-            "name": "南浦洞"
+            "name": "南浦洞",
+            "nameKr": "남포동 / BIFF광장",
+            "addr": "부산 중구 비프광장로"
           },
+          "nameKr": "남포동 / BIFF광장",
+          "addr": "부산 중구 비프광장로",
           "photo": null
         },
         {
@@ -383,8 +447,12 @@
           "coord": {
             "lat": 35.0966339,
             "lng": 129.0307965,
-            "name": "札嘎其市場"
+            "name": "札嘎其市場",
+            "nameKr": "자갈치시장",
+            "addr": "부산 중구 자갈치해안로 52"
           },
+          "nameKr": "자갈치시장",
+          "addr": "부산 중구 자갈치해안로 52",
           "photo": "https://lh3.googleusercontent.com/place-photos/AJRVUZM3m92MuaGjrQEPWkctkeAcHrNyo7HTL03tNeUqxt0M0GEISlAlWti7LvPuh521PMlkI2ZFYyW1BK_Zpj1mvgSvQTL4USzYg1vvG_EJtEl8q2oDheqGAjRu6OSkbkfiJSkLOzqu4JjP8zG2k40j856t5Q=s4800-w800"
         },
         {
@@ -398,8 +466,12 @@
           "coord": {
             "lat": 35.1595422,
             "lng": 129.1573807,
-            "name": "東橫INN 海雲台2號店"
+            "name": "東橫INN 海雲台2號店",
+            "nameKr": "토요코인 부산 해운대 2",
+            "addr": "부산 해운대구 해운대해변로237번길 5"
           },
+          "nameKr": "토요코인 부산 해운대 2",
+          "addr": "부산 해운대구 해운대해변로237번길 5",
           "photo": null
         },
         {
@@ -415,8 +487,12 @@
           "coord": {
             "lat": 35.098243,
             "lng": 129.029212,
-            "name": "南浦洞 TOPTEN"
+            "name": "南浦洞 TOPTEN",
+            "nameKr": "탑텐 남포동점",
+            "addr": "부산 중구 광복로"
           },
+          "nameKr": "탑텐 남포동점",
+          "addr": "부산 중구 광복로",
           "photo": null
         },
         {
@@ -446,8 +522,12 @@
           "coord": {
             "lat": 35.1681608,
             "lng": 129.0573853,
-            "name": "釜山市民公園"
+            "name": "釜山市民公園",
+            "nameKr": "부산시민공원",
+            "addr": "부산 부산진구 시민공원로 73"
           },
+          "nameKr": "부산시민공원",
+          "addr": "부산 부산진구 시민공원로 73",
           "photo": null
         },
         {
@@ -459,6 +539,8 @@
           "tags": [],
           "voucher": null,
           "coord": null,
+          "nameKr": "해운대암소갈비집",
+          "addr": null,
           "photo": "https://lh3.googleusercontent.com/place-photos/AJRVUZOUuM1C0uryfsUlarFfO2zQx6HC_-6kGUVGnv9XWqahBomGQZcmsgcLGLbiRDhngPWuHDGkjdN_GoPru58khrwTkF9mxFdLQlArFgXKaaKHLx180TCDlAw1rj_50wokXPdKUB-67fABH7ln=s4800-w800"
         },
         {
@@ -470,6 +552,8 @@
           "tags": [],
           "voucher": null,
           "coord": null,
+          "nameKr": null,
+          "addr": null,
           "photo": null
         },
         {
@@ -483,8 +567,12 @@
           "coord": {
             "lat": 35.1595422,
             "lng": 129.1573807,
-            "name": "東橫INN 海雲台2號店"
+            "name": "東橫INN 海雲台2號店",
+            "nameKr": "토요코인 부산 해운대 2",
+            "addr": "부산 해운대구 해운대해변로237번길 5"
           },
+          "nameKr": "토요코인 부산 해운대 2",
+          "addr": "부산 해운대구 해운대해변로237번길 5",
           "photo": null
         }
       ],
@@ -508,6 +596,8 @@
           "tags": [],
           "voucher": null,
           "coord": null,
+          "nameKr": null,
+          "addr": null,
           "photo": null
         },
         {
@@ -524,8 +614,12 @@
           "coord": {
             "lat": 35.1531696,
             "lng": 129.118666,
-            "name": "廣安里海灘"
+            "name": "廣安里海灘",
+            "nameKr": "광안리해수욕장",
+            "addr": "부산 수영구 광안해변로"
           },
+          "nameKr": "광안리해수욕장",
+          "addr": "부산 수영구 광안해변로",
           "photo": null
         },
         {
@@ -537,6 +631,8 @@
           "tags": [],
           "voucher": null,
           "coord": null,
+          "nameKr": null,
+          "addr": null,
           "photo": null
         },
         {
@@ -550,8 +646,12 @@
           "coord": {
             "lat": 35.1595422,
             "lng": 129.1573807,
-            "name": "東橫INN 海雲台2號店"
+            "name": "東橫INN 海雲台2號店",
+            "nameKr": "토요코인 부산 해운대 2",
+            "addr": "부산 해운대구 해운대해변로237번길 5"
           },
+          "nameKr": "토요코인 부산 해운대 2",
+          "addr": "부산 해운대구 해운대해변로237번길 5",
           "photo": null
         },
         {
@@ -563,6 +663,8 @@
           "tags": [],
           "voucher": null,
           "coord": null,
+          "nameKr": null,
+          "addr": null,
           "photo": null
         },
         {
@@ -581,8 +683,12 @@
           "coord": {
             "lat": 35.158284,
             "lng": 129.1727672,
-            "name": "海雲台藍線公園(尾浦)"
+            "name": "海雲台藍線公園(尾浦)",
+            "nameKr": "해운대블루라인파크 미포정거장",
+            "addr": "부산 해운대구 달맞이길62번길 13"
           },
+          "nameKr": "해운대블루라인파크 미포정거장",
+          "addr": "부산 해운대구 달맞이길62번길 13",
           "photo": null
         },
         {
@@ -599,8 +705,12 @@
           "coord": {
             "lat": 35.1603874,
             "lng": 129.1923456,
-            "name": "青沙浦"
+            "name": "青沙浦",
+            "nameKr": "청사포",
+            "addr": "부산 해운대구 중동"
           },
+          "nameKr": "청사포",
+          "addr": "부산 해운대구 중동",
           "photo": null
         },
         {
@@ -614,6 +724,8 @@
             "code": "26KK270020066"
           },
           "coord": null,
+          "nameKr": null,
+          "addr": null,
           "photo": null
         },
         {
@@ -627,8 +739,12 @@
           "coord": {
             "lat": 35.1565954,
             "lng": 129.1520357,
-            "name": "The Bay 101"
+            "name": "The Bay 101",
+            "nameKr": "더베이101",
+            "addr": "부산 해운대구 동백로 52"
           },
+          "nameKr": "더베이101",
+          "addr": "부산 해운대구 동백로 52",
           "photo": "https://lh3.googleusercontent.com/places/ANXAkqGyDmkti7Whd0pXsjzuhSIh3wjxd6eQucHsi81WHtafOXrYOhtQqW8enIcYUnwMRpiJ31hyivfWGROaZSrtq5mXXizsZ_5Ckc4=s4800-w800"
         },
         {
@@ -642,8 +758,12 @@
           "coord": {
             "lat": 35.1595422,
             "lng": 129.1573807,
-            "name": "東橫INN 海雲台2號店"
+            "name": "東橫INN 海雲台2號店",
+            "nameKr": "토요코인 부산 해운대 2",
+            "addr": "부산 해운대구 해운대해변로237번길 5"
           },
+          "nameKr": "토요코인 부산 해운대 2",
+          "addr": "부산 해운대구 해운대해변로237번길 5",
           "photo": null
         }
       ],
@@ -667,6 +787,8 @@
           "tags": [],
           "voucher": null,
           "coord": null,
+          "nameKr": null,
+          "addr": null,
           "photo": null
         },
         {
@@ -680,8 +802,12 @@
           "coord": {
             "lat": 35.1595422,
             "lng": 129.1573807,
-            "name": "東橫INN 海雲台2號店"
+            "name": "東橫INN 海雲台2號店",
+            "nameKr": "토요코인 부산 해운대 2",
+            "addr": "부산 해운대구 해운대해변로237번길 5"
           },
+          "nameKr": "토요코인 부산 해운대 2",
+          "addr": "부산 해운대구 해운대해변로237번길 5",
           "photo": null
         },
         {
@@ -695,8 +821,12 @@
           "coord": {
             "lat": 35.1728688,
             "lng": 128.9471783,
-            "name": "金海國際機場"
+            "name": "金海國際機場",
+            "nameKr": "김해국제공항",
+            "addr": "부산 강서구 공항진입로 108"
           },
+          "nameKr": "김해국제공항",
+          "addr": "부산 강서구 공항진입로 108",
           "photo": null
         },
         {
@@ -708,6 +838,8 @@
           "tags": [],
           "voucher": null,
           "coord": null,
+          "nameKr": null,
+          "addr": null,
           "photo": null
         },
         {
@@ -719,6 +851,8 @@
           "tags": [],
           "voucher": null,
           "coord": null,
+          "nameKr": null,
+          "addr": null,
           "photo": null
         },
         {
@@ -730,6 +864,8 @@
           "tags": [],
           "voucher": null,
           "coord": null,
+          "nameKr": null,
+          "addr": null,
           "photo": null
         }
       ],

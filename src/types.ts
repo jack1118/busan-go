@@ -18,6 +18,8 @@ export interface Coord {
   lat: number;
   lng: number;
   name: string;
+  nameKr?: string;
+  addr?: string;
 }
 
 export interface TimelineItem {
@@ -30,6 +32,8 @@ export interface TimelineItem {
   voucher: Voucher | null;
   coord: Coord | null;
   photo: string | null;
+  nameKr: string | null;
+  addr: string | null;
 }
 
 // Generic block model for the rich reference sections (food / shopping /

@@ -77,6 +77,12 @@ export default function BottomSheet({
             {data.activity}
           </h2>
 
+          {data.nameKr && (
+            <p className="mt-0.5 text-[15px] font-semibold text-busan-blue-deep dark:text-busan-blue">
+              {data.nameKr}
+            </p>
+          )}
+
           {data.photo && (
             <img
               src={data.photo}
@@ -105,7 +111,7 @@ export default function BottomSheet({
             </p>
           )}
 
-          {(data.voucher || data.coord || /[가-힣]/.test(data.activity)) && (
+          {(data.voucher || data.nameKr || data.coord) && (
             <div className="mt-4 grid grid-cols-2 gap-3">
               {data.voucher && (
                 <button
@@ -117,9 +123,9 @@ export default function BottomSheet({
               )}
               <button
                 onClick={() => setTaxiOpen(true)}
-                className="col-span-2 flex items-center justify-center gap-1.5 rounded-2xl bg-neutral-900 py-3 text-[15px] font-semibold text-white active:scale-[0.98] dark:bg-neutral-700"
+                className="col-span-2 flex items-center justify-center gap-1.5 rounded-2xl bg-neutral-900 py-3.5 text-[15px] font-semibold text-white active:scale-[0.98] dark:bg-neutral-700"
               >
-                🚕 放大地址給司機看
+                🚕 給司機看（韓文地址）
               </button>
             </div>
           )}
@@ -167,8 +173,23 @@ export default function BottomSheet({
       />
       <TaxiCard
         open={taxiOpen}
-        name={data.coord?.name || data.activity}
-        address={data.coord ? data.activity : undefined}
+        nameZh={data.coord?.name || data.activity}
+        nameKr={data.nameKr}
+        addr={data.addr}
+        mapG={
+          data.maps?.google ||
+          (data.coord
+            ? `https://www.google.com/maps/search/?api=1&query=${data.coord.lat},${data.coord.lng}`
+            : undefined)
+        }
+        mapN={
+          data.maps?.naver ||
+          (data.nameKr
+            ? `https://map.naver.com/v5/search/${encodeURIComponent(
+                data.addr ? data.nameKr + " " + data.addr : data.nameKr
+              )}`
+            : undefined)
+        }
         onClose={() => setTaxiOpen(false)}
       />
     </div>

@@ -20,13 +20,31 @@ const MapView = lazy(() => import("./components/MapView"));
 
 const data = raw as Itinerary;
 
+function countdownLabel(): string | null {
+  const start = new Date("2026-06-26T00:00:00+09:00");
+  const end = new Date("2026-06-30T23:59:59+09:00");
+  const now = new Date();
+  if (now > end) return null;
+  const days = Math.ceil((start.getTime() - now.getTime()) / 86400000);
+  if (days > 0) return `距出發 ${days} 天`;
+  return "旅程進行中 🎉";
+}
+
 function Header({ subtitle }: { subtitle: string }) {
+  const cd = countdownLabel();
   return (
     <div
       className="bg-gradient-to-b from-busan-blue/15 to-transparent px-4 pb-2"
       style={{ paddingTop: "calc(var(--safe-top) + 0.75rem)" }}
     >
-      <h1 className="text-[26px] font-extrabold tracking-tight">釜山去</h1>
+      <div className="flex items-center justify-between">
+        <h1 className="text-[26px] font-extrabold tracking-tight">釜山去</h1>
+        {cd && (
+          <span className="rounded-full bg-coral px-3 py-1 text-[12px] font-bold text-white shadow-sm shadow-coral/30">
+            {cd}
+          </span>
+        )}
+      </div>
       <p className="text-[13px] text-neutral-500 dark:text-neutral-400">
         {subtitle}
       </p>

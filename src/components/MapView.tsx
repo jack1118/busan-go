@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
-import type { Day } from "../types";
+import type { Coord, Day } from "../types";
 import { DAY_COLORS } from "../types";
 
 interface MapViewProps {
@@ -31,7 +31,7 @@ export default function MapView({ days }: MapViewProps) {
       const dayNum = day.colorIndex + 1;
 
       // Gather this day's coords, dropping consecutive duplicates by name.
-      const coords: { lat: number; lng: number; name: string }[] = [];
+      const coords: Coord[] = [];
       let lastName: string | null = null;
       day.items.forEach((item) => {
         if (!item.coord) return;
@@ -50,8 +50,15 @@ export default function MapView({ days }: MapViewProps) {
         });
 
         const marker = L.marker([coord.lat, coord.lng], { icon }).addTo(map);
+        const kr = coord.nameKr
+          ? `<div style="color:#4FA8CC;font-weight:600;font-size:13px;margin-top:1px;">${coord.nameKr}</div>`
+          : "";
+        const nq = encodeURIComponent(coord.nameKr || coord.name);
         marker.bindPopup(
-          `<b>${coord.name}</b><br/>${day.id}<br/><a href="https://www.google.com/maps/search/?api=1&query=${coord.lat},${coord.lng}" target="_blank">Google 導航</a>`
+          `<div style="min-width:150px;"><b style="font-size:14px;">${coord.name}</b>${kr}` +
+            `<div style="color:#999;font-size:12px;margin:2px 0 6px;">${day.id} · ${day.title}</div>` +
+            `<a href="https://map.naver.com/v5/search/${nq}" target="_blank" style="color:#03a64a;font-weight:700;">📍 Naver</a>` +
+            ` &nbsp; <a href="https://www.google.com/maps/search/?api=1&query=${coord.lat},${coord.lng}" target="_blank" style="color:#4FA8CC;font-weight:700;">🗺 Google</a></div>`
         );
         allMarkers.push(marker);
       });
