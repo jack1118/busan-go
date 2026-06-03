@@ -1,0 +1,427 @@
+{
+  "venues": [
+    {
+      "category": "百貨",
+      "nameZh": "新世界百貨 Centum City",
+      "nameKr": "신세계백화점 센텀시티점",
+      "note": "6F 兒童館、哺乳室、頂樓 Zooraji 樂園、B1 Hello Kitty Cafe",
+      "q": "신세계백화점 센텀시티점"
+    },
+    {
+      "category": "百貨",
+      "nameZh": "樂天百貨 光復店",
+      "nameKr": "롯데백화점 광복점",
+      "note": "童裝特價花車、Busan Bada Sand、二代名菓",
+      "q": "롯데백화점 광복점"
+    },
+    {
+      "category": "超市",
+      "nameZh": "Homeplus Centum City",
+      "nameKr": "홈플러스 센텀시티점",
+      "note": "離飯店近，嬰兒零食、切片水果盒",
+      "q": "홈플러스 센텀시티점"
+    },
+    {
+      "category": "超市",
+      "nameZh": "E-Mart 海雲台",
+      "nameKr": "이마트 해운대점",
+      "note": "泡麵、海苔、咖啡、零食掃貨",
+      "q": "이마트 해운대점"
+    },
+    {
+      "category": "美妝",
+      "nameZh": "Olive Young 西面 Town",
+      "nameKr": "올리브영 서면타운점",
+      "note": "全韓最大旗艦之一，滿 ₩15,000 可免稅",
+      "q": "올리브영 서면타운점"
+    },
+    {
+      "category": "美妝",
+      "nameZh": "Olive Young 海雲台",
+      "nameKr": "올리브영 해운대점",
+      "note": "海雲台分店，順路補貨",
+      "q": "올리브영 해운대"
+    },
+    {
+      "category": "門市",
+      "nameZh": "TOPTEN 南浦洞",
+      "nameKr": "탑텐 남포동점",
+      "note": "韓版 Uniqlo，光復路上",
+      "q": "탑텐 남포동"
+    },
+    {
+      "category": "門市",
+      "nameZh": "SPAO 西面",
+      "nameKr": "스파오 서면점",
+      "note": "超多 IP 聯名（哈利波特/蠟筆小新）",
+      "q": "스파오 서면"
+    },
+    {
+      "category": "門市",
+      "nameZh": "8SECONDS 南浦洞",
+      "nameKr": "에잇세컨즈 남포동점",
+      "note": "像 ZARA，三星集團旗下",
+      "q": "에잇세컨즈 남포동"
+    },
+    {
+      "category": "門市",
+      "nameZh": "大創 DAISO 南浦洞",
+      "nameKr": "다이소 남포동점",
+      "note": "VT 微針、平替護手霜、小物",
+      "q": "다이소 남포동"
+    },
+    {
+      "category": "伴手禮",
+      "nameZh": "Busan Bada Sand",
+      "nameKr": "부산바다샌드",
+      "note": "海理團路巷內，11:00-19:00，每日限量 ~100 盒",
+      "q": "부산바다샌드"
+    },
+    {
+      "category": "伴手禮",
+      "nameZh": "古來思魚糕 海雲台",
+      "nameKr": "고래사어묵 해운대",
+      "note": "海雲台站 5 號出口往海灘方向",
+      "q": "고래사어묵 해운대"
+    },
+    {
+      "category": "免稅",
+      "nameZh": "樂天免稅店 金海機場",
+      "nameKr": "롯데면세점 김해공항",
+      "note": "正官莊紅蔘、化妝品（D5 回程）",
+      "q": "롯데면세점 김해공항"
+    }
+  ],
+  "products": [
+    {
+      "slug": "yonsei-cream-bread",
+      "category": "便利商店",
+      "nameZh": "延世大學生乳包",
+      "nameKr": "연세우유 생크림빵",
+      "store": "CU",
+      "price": "~₩2,500",
+      "note": "爆漿鮮奶油，口味：原味/巧克力/抹茶/花生",
+      "srcUrl": "https://tqklhszfkvzk6518638.edge.naverncp.com/product/8801753108478.png",
+      "img": "shopping/yonsei-cream-bread.png"
+    },
+    {
+      "slug": "seongsu-bagel",
+      "category": "便利商店",
+      "nameZh": "聖水貝果",
+      "nameKr": "성수베이글",
+      "store": "GS25",
+      "price": "~₩3,000",
+      "note": "軟Q貝果，媲美聖水洞名店",
+      "srcUrl": "https://file.newswire.co.kr/data/datafile2/thumb_640/2024/06/1028147215_20240606100719_1106909142.jpg",
+      "img": "shopping/seongsu-bagel.jpg"
+    },
+    {
+      "slug": "kimhyeja-dosirak",
+      "category": "便利商店",
+      "nameZh": "金惠子便當",
+      "nameKr": "김혜자 도시락",
+      "store": "GS25",
+      "price": "~₩4,900",
+      "note": "國民媽媽聯名，CP 值爆表",
+      "srcUrl": "https://cdn.foodnews.co.kr/news/photo/202410/110215_74040_254.jpg",
+      "img": "shopping/kimhyeja-dosirak.jpg"
+    },
+    {
+      "slug": "honeycomb-yogurt",
+      "category": "便利商店",
+      "nameZh": "蜂巢蜂蜜希臘優格",
+      "nameKr": "벌집 그릭요거트",
+      "store": "GS25",
+      "price": "~₩3,500",
+      "note": "整塊蜂巢 + 優格，IG 洗版",
+      "srcUrl": "https://lookaside.fbsbx.com/lookaside/crawler/threads/DIEMAiDSK43/0/image.jpg",
+      "img": "https://lookaside.fbsbx.com/lookaside/crawler/threads/DIEMAiDSK43/0/image.jpg"
+    },
+    {
+      "slug": "dubai-choco",
+      "category": "便利商店",
+      "nameZh": "杜拜巧克力 Q 餅",
+      "nameKr": "두바이 초콜릿",
+      "store": "CU",
+      "price": "~₩2,000",
+      "note": "韓國版杜拜巧克力",
+      "srcUrl": "https://tqklhszfkvzk6518638.edge.naverncp.com/product/8801121288764.png",
+      "img": "shopping/dubai-choco.png"
+    },
+    {
+      "slug": "cu-music-candy",
+      "category": "便利商店",
+      "nameZh": "CU 音樂棒棒糖",
+      "nameKr": "노래하는 막대사탕",
+      "store": "CU",
+      "price": "~₩2,000",
+      "note": "吃的時候會播音樂，雨樂會愛！",
+      "srcUrl": "https://mblogthumb-phinf.pstatic.net/MjAyNTEwMTNfNTUg/MDAxNzYwMzQyMTU3MTg3.Qi9ZUQzuhDsR6XtI8V-pTUG1HC_TXjOdsvkeBPfna2kg.Zbahqqh4FtQzQwZuuPvsvlY6JORuuZ1AAs22F2Pt_2Qg.JPEG/3Y2A1734.JPG?type=w800",
+      "img": "shopping/cu-music-candy.jpg"
+    },
+    {
+      "slug": "banana-kick",
+      "category": "便利商店",
+      "nameZh": "Banana Kicks 香蕉玉米脆果",
+      "nameKr": "바나나킥",
+      "store": "各超商",
+      "price": "~₩1,500",
+      "note": "BLACKPINK Jennie 最愛零食",
+      "srcUrl": "https://image.nongshim.com/non/pro/1448612776313.jpg",
+      "img": "shopping/banana-kick.jpg"
+    },
+    {
+      "slug": "banana-milk",
+      "category": "便利商店",
+      "nameZh": "香蕉牛奶",
+      "nameKr": "바나나맛우유",
+      "store": "各超商",
+      "price": "~₩1,500",
+      "note": "經典 + 草莓/咖啡限定口味",
+      "srcUrl": "https://img-cf.kurly.com/hdims/resize/%5E%3E720x%3E936/cropcenter/720x936/quality/85/src/shop/data/goods/1637921126423l0.jpeg",
+      "img": "shopping/banana-milk.jpg"
+    },
+    {
+      "slug": "delight-bagel",
+      "category": "零食",
+      "nameZh": "Delight Project 貝果餅乾",
+      "nameKr": "딜라이트 프로젝트 베이글칩",
+      "store": "Olive Young",
+      "price": "~₩4,500",
+      "note": "2025-2026 韓國零食冠軍（蜂蜜奶油/大蒜奶油）",
+      "srcUrl": "https://cdn-image.oliveyoung.com/prdtImg/1260/160284a7-2ce3-4f03-8aa3-2d3667a1a4e0.jpg?RS=1500x1500&AR=0&QT=80",
+      "img": "shopping/delight-bagel.jpg"
+    },
+    {
+      "slug": "garlic-tomato-chip",
+      "category": "零食",
+      "nameZh": "大蒜番茄義大利麵餅乾",
+      "nameKr": "마늘토마토 파스타칩",
+      "store": "Olive Young",
+      "price": "~₩4,500",
+      "note": "2026 新品，筆管麵造型",
+      "srcUrl": "https://cdn-image.oliveyoung.com/prdtImg/1643/293de3e4-8e35-4644-920e-fe4a026772c0.jpg?RS=1500x1500&AR=0&QT=80",
+      "img": "shopping/garlic-tomato-chip.jpg"
+    },
+    {
+      "slug": "osulloc-pretzel",
+      "category": "零食",
+      "nameZh": "O'sulloc 抹茶椒鹽蝴蝶餅",
+      "nameKr": "오설록 말차 프레첼",
+      "store": "Olive Young",
+      "price": "~₩6,900",
+      "note": "Olive Young 獨家大容量版",
+      "srcUrl": "https://image.osulloc.com/upload/kr/ko/adminImage/TU/XV/20250529163813346ZH.png",
+      "img": "shopping/osulloc-pretzel.png"
+    },
+    {
+      "slug": "hbaf-almond",
+      "category": "零食",
+      "nameZh": "HBAF 杏仁果",
+      "nameKr": "바프 허니버터 아몬드",
+      "store": "Olive Young",
+      "price": "~₩5,000",
+      "note": "蜂蜜奶油/芥末，送禮自用",
+      "srcUrl": "https://cdn-image.oliveyoung.com/prdtImg/1456/0a364738-3177-40c0-8170-35b03c56967d.jpg?RS=1500x1500&AR=0&QT=80",
+      "img": "shopping/hbaf-almond.jpg"
+    },
+    {
+      "slug": "shin-ramyun",
+      "category": "零食",
+      "nameZh": "辛拉麵",
+      "nameKr": "신라면",
+      "store": "E-Mart / 超市",
+      "price": "多包裝最划算",
+      "note": "必買國民泡麵",
+      "srcUrl": "https://cdn.shopify.com/s/files/1/1358/5943/files/ae44a831d95d3ad3f46c870dc2e2d867.png?v=1593188194",
+      "img": "shopping/shin-ramyun.png"
+    },
+    {
+      "slug": "buldak",
+      "category": "零食",
+      "nameZh": "三養辣雞麵",
+      "nameKr": "불닭볶음면",
+      "store": "超市",
+      "price": "5 包裝",
+      "note": "超辣人氣，挑戰款",
+      "srcUrl": "https://img06.weeecdn.com/item/image/251/895/15BC55DAE238AEB2.jpeg",
+      "img": "shopping/buldak.jpg"
+    },
+    {
+      "slug": "honey-butter-chip",
+      "category": "零食",
+      "nameZh": "蜂蜜奶油洋芋片",
+      "nameKr": "허니버터칩",
+      "store": "超市",
+      "price": "~₩1,700",
+      "note": "經典，回購率高",
+      "srcUrl": "https://megakfood.com/cdn/shop/products/8801019608940_460x@2x.jpg?v=1614802101",
+      "img": "shopping/honey-butter-chip.jpg"
+    },
+    {
+      "slug": "maxim-mocha",
+      "category": "零食",
+      "nameZh": "Maxim 摩卡金即溶咖啡",
+      "nameKr": "맥심 모카골드",
+      "store": "超市",
+      "price": "100 入划算",
+      "note": "金色包裝最經典",
+      "srcUrl": "https://img06.weeecdn.com/product/image/523/363/72795DF75B415F6A.png",
+      "img": "shopping/maxim-mocha.png"
+    },
+    {
+      "slug": "yuja-tea",
+      "category": "零食",
+      "nameZh": "蜂蜜柚子茶",
+      "nameKr": "유자차",
+      "store": "超市",
+      "price": "罐裝",
+      "note": "沖泡冷熱皆宜",
+      "srcUrl": "https://global.gochujar.com/cdn/shop/products/a9a65d7152eefb0bef9dac175a2ab1aa.jpg?v=1680076720",
+      "img": "shopping/yuja-tea.jpg"
+    },
+    {
+      "slug": "vt-cica",
+      "category": "美妝",
+      "nameZh": "VT CICA 微針精華/舒緩霜",
+      "nameKr": "VT 시카 리들샷",
+      "store": "Olive Young / 大創",
+      "price": "大創版 ~₩3,000",
+      "note": "積雪草舒緩，大創銷量 #1",
+      "srcUrl": "https://m.vt-cosmetics.com/web/product/big/202601/e0f2c32fd07b6a1d44cc133610673e9f.jpg",
+      "img": "shopping/vt-cica.jpg"
+    },
+    {
+      "slug": "abib-mask",
+      "category": "美妝",
+      "nameZh": "Abib 魚腥草面膜",
+      "nameKr": "아비브 어성초 마스크",
+      "store": "Olive Young",
+      "price": "單片/盒裝",
+      "note": "社群口碑款，敏感肌",
+      "srcUrl": "https://megakfood.com/cdn/shop/files/abib_heartleaf_fit_mild_acidic_ph_sheet_mask_soothing_sheet_mask_1_pc_20250409_144240_460x@2x.jpg?v=1775588162",
+      "img": "shopping/abib-mask.jpg"
+    },
+    {
+      "slug": "lelabo-handcream",
+      "category": "美妝",
+      "nameZh": "Le Labo 平替護手霜",
+      "nameKr": "데일리콤마 핸드크림",
+      "store": "大創 DAISO",
+      "price": "~₩2,000",
+      "note": "小紅書爆紅，4 款香味",
+      "srcUrl": "https://img.danuri.io/catalog-image/718/456/076/67cf7ff298974776a9000d09000d715e.jpg?shrink=330:*&_v=20260417021002",
+      "img": "shopping/lelabo-handcream.jpg"
+    },
+    {
+      "slug": "green-finger",
+      "category": "嬰幼兒",
+      "nameZh": "Green Finger 嬰幼兒乳液/防曬",
+      "nameKr": "그린핑거",
+      "store": "Olive Young / 大賣場",
+      "price": "",
+      "note": "韓國媽媽愛用品牌",
+      "srcUrl": "https://www.costco.co.kr/medias/sys_master/images/h11/hdd/116596945879070.jpg",
+      "img": "shopping/green-finger.jpg"
+    },
+    {
+      "slug": "goongbe",
+      "category": "嬰幼兒",
+      "nameZh": "Goongbe 宮中秘策 護膚/沐浴",
+      "nameKr": "궁중비책",
+      "store": "Olive Young",
+      "price": "",
+      "note": "王室嬰兒護膚配方",
+      "srcUrl": "https://m.goongbe.com/image/img/250627-mo-intro-product-01.jpg",
+      "img": "shopping/goongbe.jpg"
+    },
+    {
+      "slug": "ildong-rice",
+      "category": "嬰幼兒",
+      "nameZh": "日東米餅（嬰兒零食）",
+      "nameKr": "일동후디스 아이얌 쌀과자",
+      "store": "E-Mart / Homeplus",
+      "price": "",
+      "note": "嬰兒米餅/米菓，雨樂可吃",
+      "srcUrl": "https://img06.weeecdn.com/item/image/490/794/1C4463974040F930.jpeg",
+      "img": "shopping/ildong-rice.jpg"
+    },
+    {
+      "slug": "busan-bada-sand",
+      "category": "伴手禮",
+      "nameZh": "Busan Bada Sand",
+      "nameKr": "부산바다샌드",
+      "store": "南浦洞 / 海雲台門市",
+      "price": "₩17,000（9 入）",
+      "note": "蜂蜜焦糖+奶油起司，小紅書爆紅",
+      "srcUrl": "https://lh3.googleusercontent.com/place-photos/AJRVUZOPYo0acQ7PFDu7D1QdLNBPbkxTv-HPhYQ9miOkQ5wvePZ-UFLXvGlcxVFlkpDY2VVAugLUfKf4etJp6v6ovQnRnCVCgksAwl-cXXFUxO_2tBfflEAnBz37JIqA6BbZdYZw0KHKef6RZ2W6LlMB1UymEg=s4800-w800",
+      "img": "shopping/busan-bada-sand.jpg"
+    },
+    {
+      "slug": "idae-myeonggwa",
+      "category": "伴手禮",
+      "nameZh": "二代名菓 傳統煎餅禮盒",
+      "nameKr": "이대명과",
+      "store": "海雲台站 1 號出口",
+      "price": "₩17,000 起",
+      "note": "1954 年老店，烤的無防腐劑，送長輩",
+      "srcUrl": "https://lh3.googleusercontent.com/place-photos/AJRVUZPvI6S4zzG0Vn57zOglvvqhs0gjCkGisbBefxXFkq8UUqZtEVt6N0gRWOXF_oopebcXiHKgqKIwyf8BlTTxf2E5fXrFZ9bmmhN0xi-azaH_tuPUR0twL3oAvwfW7RSSniqtK3inb4RXFPo-tek=s4800-w800",
+      "img": "shopping/idae-myeonggwa.jpg"
+    },
+    {
+      "slug": "cheffle",
+      "category": "伴手禮",
+      "nameZh": "CHEFFLE 舒芙蕾起司蛋糕",
+      "nameKr": "치플",
+      "store": "海雲台 / 西面 / 新世界",
+      "price": "₩16,000（4 入）",
+      "note": "冷凍 4hr = 冰淇淋口感",
+      "srcUrl": "https://lh3.googleusercontent.com/place-photos/AJRVUZObhXcFkd6yesZJa98D8RBzQgVJk9UNdXeyOtuXVJ161dKj2UVWkeK6sWkeP9xZiKNt7iHnMAG5BloV0jIHY7eviByaz4j2tzNth9DkxD4bGEzx_J2FTdfuogfNBeBomvqSrqpCDM5v3AXX4TAvJnNEeA=s4800-w800",
+      "img": "shopping/cheffle.jpg"
+    },
+    {
+      "slug": "goraesa",
+      "category": "伴手禮",
+      "nameZh": "古來思魚糕禮盒",
+      "nameKr": "고래사어묵",
+      "store": "海雲台分店",
+      "price": "",
+      "note": "真空包可帶回台（選純海鮮款）",
+      "srcUrl": "https://lh3.googleusercontent.com/place-photos/AJRVUZPB7d3L1QhbrL68vC3Gs9vW2Ja8w9SsS7p5Pl9-yRjSOMIcxIRYp3_PfdRHXkgt3-Yagic0yaAjiRPqDMlLO4s7ld4yYR7n0Np3Dpe7ULpXpyb7O5nOTe3vCtVO-_koN9pDLaEINO9---31fM6t5GD5=s4800-w800",
+      "img": "shopping/goraesa.jpg"
+    },
+    {
+      "slug": "samjin",
+      "category": "伴手禮",
+      "nameZh": "三進魚糕禮盒",
+      "nameKr": "삼진어묵",
+      "store": "釜山站店（可寄物）",
+      "price": "₩28,000 起",
+      "note": "1953 年 70 年傳統",
+      "srcUrl": "https://lh3.googleusercontent.com/places/ANXAkqH_PEe3wOCOLIxhh4yd-S5FCdbRnd4yMhQNj15nCCz2OoYhW-mWmpEbFKfT3K73MF8Us7kxmxt27QY7FD0nqMjAnMGAn1a66b4=s4800-w800",
+      "img": "shopping/samjin.jpg"
+    },
+    {
+      "slug": "starbucks-summer",
+      "category": "周邊",
+      "nameZh": "星巴克 夏季公路旅行隨行杯",
+      "nameKr": "스타벅스 서머",
+      "store": "海雲台星巴克",
+      "price": "",
+      "note": "韓國星巴克限定，自己買最便宜",
+      "srcUrl": "https://cdn.store-assets.com/s/749828/i/104424226.jpeg",
+      "img": "shopping/starbucks-summer.webp"
+    },
+    {
+      "slug": "starbucks-toystory",
+      "category": "周邊",
+      "nameZh": "星巴克 × 玩具總動員 Bearista",
+      "nameKr": "스타벅스 토이스토리",
+      "store": "海雲台星巴克",
+      "price": "",
+      "note": "胡迪/巴斯小熊公仔杯",
+      "srcUrl": "https://static.wixstatic.com/media/8346c3_e40bb6a683bd46338e44835968086a41~mv2.png",
+      "img": "shopping/starbucks-toystory.png"
+    }
+  ]
+}

@@ -56,6 +56,32 @@ export interface RefSection {
   nodes: RefNode[];
 }
 
+export interface Venue {
+  category: string;
+  nameZh: string;
+  nameKr: string;
+  note: string;
+  q: string;
+  mapG: string;
+  mapN: string;
+}
+
+export interface ShopProduct {
+  slug: string;
+  category: string;
+  nameZh: string;
+  nameKr: string;
+  store: string;
+  price: string;
+  note: string;
+  img: string | null;
+}
+
+export interface Shopping {
+  venues: Venue[];
+  products: ShopProduct[];
+}
+
 export interface Day {
   id: string;
   date: string;
@@ -144,6 +170,7 @@ export interface Itinerary {
   pocket: RefSection | null;
   exhibitions: RefSection | null;
   preTrip: RefSection | null;
+  shopping: Shopping;
 }
 
 // Per-day marker colours for the map (indexed by Day.colorIndex).

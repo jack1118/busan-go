@@ -12,6 +12,7 @@ import BudgetTracker from "./components/BudgetTracker";
 import EmergencyCard from "./components/EmergencyCard";
 import ExportButton from "./components/DayExport";
 import ReferenceView from "./components/ReferenceView";
+import ShoppingPage from "./components/ShoppingPage";
 import type { RefNode } from "./types";
 
 // Leaflet (~150KB) only loads when the map tab is opened.
@@ -161,11 +162,7 @@ function FoodPage() {
 }
 
 function ShopPage() {
-  return (
-    <div className="px-4">
-      <ReferenceView nodes={shopNodes} withTabs />
-    </div>
-  );
+  return <ShoppingPage shopping={data.shopping} moreNodes={shopNodes} />;
 }
 
 type ToolKey =

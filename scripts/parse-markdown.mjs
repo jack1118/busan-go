@@ -16,6 +16,7 @@ const SRC =
   SRC_CANDIDATES.find((p) => existsSync(p)) || SRC_CANDIDATES[0];
 const OUT = join(__dirname, "..", "src", "data", "itinerary.json");
 const COORDS = JSON.parse(readFileSync(join(__dirname, "coords.json"), "utf8"));
+const SHOP = JSON.parse(readFileSync(join(__dirname, "shopping.json"), "utf8"));
 
 const raw = readFileSync(SRC, "utf8");
 const lines = raw.split(/\r?\n/);
@@ -478,6 +479,23 @@ const data = {
   pocket: parseSectionByHeading(/^##\s+行程參考/),
   exhibitions: parseSectionByHeading(/^##\s+期間限定活動/),
   preTrip: parseSectionByHeading(/^##\s+行前須知/),
+  shopping: {
+    venues: SHOP.venues.map((v) => ({
+      ...v,
+      mapG: "https://maps.google.com/?q=" + encodeURIComponent(v.q),
+      mapN: "https://map.naver.com/v5/search/" + encodeURIComponent(v.q),
+    })),
+    products: SHOP.products.map((p) => ({
+      slug: p.slug,
+      category: p.category,
+      nameZh: p.nameZh,
+      nameKr: p.nameKr,
+      store: p.store,
+      price: p.price,
+      note: p.note,
+      img: p.img || p.srcUrl || null,
+    })),
+  },
 };
 
 attachPhotos(data.days, data.food);
