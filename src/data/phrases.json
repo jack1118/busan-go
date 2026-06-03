@@ -1,0 +1,86 @@
+{
+  "categories": [
+    {
+      "key": "basic",
+      "label": "🙋 基本",
+      "items": [
+        { "zh": "你好", "kr": "안녕하세요", "rr": "an-nyeong-ha-se-yo" },
+        { "zh": "謝謝", "kr": "감사합니다", "rr": "gam-sa-ham-ni-da" },
+        { "zh": "對不起 / 不好意思", "kr": "죄송합니다", "rr": "joe-song-ham-ni-da" },
+        { "zh": "是 / 好", "kr": "네", "rr": "ne" },
+        { "zh": "不是 / 不要", "kr": "아니요", "rr": "a-ni-yo" },
+        { "zh": "多少錢？", "kr": "얼마예요?", "rr": "eol-ma-ye-yo?" },
+        { "zh": "我不太會韓文", "kr": "한국어 잘 못해요", "rr": "han-gu-geo jal mot-hae-yo" },
+        { "zh": "有中文/英文嗎？", "kr": "중국어 / 영어 되나요?", "rr": "jung-gu-geo / yeong-eo doe-na-yo?" },
+        { "zh": "請說慢一點", "kr": "천천히 말해주세요", "rr": "cheon-cheon-hi mal-hae-ju-se-yo" },
+        { "zh": "廁所在哪裡？", "kr": "화장실 어디예요?", "rr": "hwa-jang-sil eo-di-ye-yo?" }
+      ]
+    },
+    {
+      "key": "food",
+      "label": "🍽 點餐",
+      "items": [
+        { "zh": "兩位大人、一位小孩", "kr": "어른 둘, 아이 하나요", "rr": "eo-reun dul, a-i ha-na-yo" },
+        { "zh": "有兒童椅嗎？", "kr": "아기 의자 있어요?", "rr": "a-gi ui-ja i-sseo-yo?" },
+        { "zh": "請給我這個（用手指）", "kr": "이거 주세요", "rr": "i-geo ju-se-yo" },
+        { "zh": "不要辣", "kr": "안 맵게 해주세요", "rr": "an maep-ge hae-ju-se-yo" },
+        { "zh": "小辣一點", "kr": "덜 맵게 해주세요", "rr": "deol maep-ge hae-ju-se-yo" },
+        { "zh": "可以打包嗎？", "kr": "포장 되나요?", "rr": "po-jang doe-na-yo?" },
+        { "zh": "請結帳", "kr": "계산해 주세요", "rr": "gye-san-hae ju-se-yo" },
+        { "zh": "有中文菜單嗎？", "kr": "중국어 메뉴 있어요?", "rr": "jung-gu-geo me-nyu i-sseo-yo?" },
+        { "zh": "請給我水", "kr": "물 주세요", "rr": "mul ju-se-yo" },
+        { "zh": "請給我兒童餐具", "kr": "아기 수저 주세요", "rr": "a-gi su-jeo ju-se-yo" },
+        { "zh": "很好吃！", "kr": "맛있어요!", "rr": "ma-si-sseo-yo!" }
+      ]
+    },
+    {
+      "key": "taxi",
+      "label": "🚕 交通",
+      "items": [
+        { "zh": "請到這個地址（出示手機）", "kr": "이 주소로 가주세요", "rr": "i ju-so-ro ga-ju-se-yo" },
+        { "zh": "請按表計費", "kr": "미터기로 가주세요", "rr": "mi-teo-gi-ro ga-ju-se-yo" },
+        { "zh": "在這裡停", "kr": "여기서 세워주세요", "rr": "yeo-gi-seo se-wo-ju-se-yo" },
+        { "zh": "到海雲台多少錢？", "kr": "해운대까지 얼마예요?", "rr": "hae-un-dae-kka-ji eol-ma-ye-yo?" },
+        { "zh": "請開後車廂（放推車）", "kr": "트렁크 열어주세요", "rr": "teu-reong-keu yeo-reo-ju-se-yo" },
+        { "zh": "我要去機場", "kr": "공항 가주세요", "rr": "gong-hang ga-ju-se-yo" }
+      ]
+    },
+    {
+      "key": "shop",
+      "label": "🛍 購物",
+      "items": [
+        { "zh": "這個多少錢？", "kr": "이거 얼마예요?", "rr": "i-geo eol-ma-ye-yo?" },
+        { "zh": "可以試穿嗎？", "kr": "입어봐도 돼요?", "rr": "i-beo-bwa-do dwae-yo?" },
+        { "zh": "有別的顏色嗎？", "kr": "다른 색 있어요?", "rr": "da-reun saek i-sseo-yo?" },
+        { "zh": "可以刷卡嗎？", "kr": "카드 되나요?", "rr": "ka-deu doe-na-yo?" },
+        { "zh": "可以退稅嗎？", "kr": "택스 리펀 되나요?", "rr": "taek-seu ri-peon doe-na-yo?" },
+        { "zh": "請給我袋子", "kr": "봉투 주세요", "rr": "bong-tu ju-se-yo" }
+      ]
+    },
+    {
+      "key": "kids",
+      "label": "👶 育兒",
+      "items": [
+        { "zh": "有尿布台嗎？", "kr": "기저귀 갈이대 있어요?", "rr": "gi-jeo-gwi ga-ri-dae i-sseo-yo?" },
+        { "zh": "哺乳室在哪裡？", "kr": "수유실 어디예요?", "rr": "su-yu-sil eo-di-ye-yo?" },
+        { "zh": "小孩可以免費嗎？", "kr": "아이는 무료예요?", "rr": "a-i-neun mu-ryo-ye-yo?" },
+        { "zh": "可以給我熱水嗎？", "kr": "따뜻한 물 주세요", "rr": "tta-tteu-tan mul ju-se-yo" },
+        { "zh": "可以幫我加熱嗎？", "kr": "데워 주세요", "rr": "de-wo ju-se-yo" }
+      ]
+    },
+    {
+      "key": "sos",
+      "label": "🚨 緊急",
+      "items": [
+        { "zh": "請幫我叫救護車", "kr": "구급차 불러주세요", "rr": "gu-geup-cha bul-leo-ju-se-yo" },
+        { "zh": "請幫我報警", "kr": "경찰 불러주세요", "rr": "gyeong-chal bul-leo-ju-se-yo" },
+        { "zh": "救命！", "kr": "도와주세요!", "rr": "do-wa-ju-se-yo!" },
+        { "zh": "最近的醫院在哪？", "kr": "가까운 병원 어디예요?", "rr": "ga-kka-un byeong-won eo-di-ye-yo?" },
+        { "zh": "藥局在哪裡？", "kr": "약국 어디예요?", "rr": "yak-guk eo-di-ye-yo?" },
+        { "zh": "我的小孩發燒了", "kr": "아이가 열이 나요", "rr": "a-i-ga yeo-ri na-yo" },
+        { "zh": "我迷路了", "kr": "길을 잃었어요", "rr": "gi-reul i-reo-sseo-yo" },
+        { "zh": "我對食物過敏", "kr": "음식 알레르기가 있어요", "rr": "eum-sik al-le-reu-gi-ga i-sseo-yo" }
+      ]
+    }
+  ]
+}

@@ -13,6 +13,7 @@ import EmergencyCard from "./components/EmergencyCard";
 import ExportButton from "./components/DayExport";
 import ReferenceView from "./components/ReferenceView";
 import ShoppingPage from "./components/ShoppingPage";
+import PhraseBook from "./components/PhraseBook";
 import type { RefNode } from "./types";
 
 // Leaflet (~150KB) only loads when the map tab is opened.
@@ -174,7 +175,7 @@ function FoodPage() {
   const nodes = [...(data.food?.nodes ?? []), ...cafeNodes];
   return (
     <div className="px-4">
-      <ReferenceView nodes={nodes} />
+      <ReferenceView nodes={nodes} speakable />
     </div>
   );
 }
@@ -184,6 +185,7 @@ function ShopPage() {
 }
 
 type ToolKey =
+  | "phrases"
   | "packing"
   | "budget"
   | "emergency"
@@ -194,8 +196,9 @@ type ToolKey =
   | "info";
 
 function ToolsPage() {
-  const [tool, setTool] = useState<ToolKey>("packing");
+  const [tool, setTool] = useState<ToolKey>("phrases");
   const tabs: { key: ToolKey; label: string }[] = [
+    { key: "phrases", label: "💬 韓文" },
     { key: "packing", label: "🧳 打包" },
     { key: "budget", label: "💰 預算" },
     { key: "emergency", label: "🚨 緊急" },
@@ -223,6 +226,7 @@ function ToolsPage() {
           </button>
         ))}
       </div>
+      {tool === "phrases" && <PhraseBook />}
       {tool === "packing" && <PackingList categories={data.packing} />}
       {tool === "budget" && data.budget && (
         <BudgetTracker budget={data.budget} />
@@ -230,7 +234,7 @@ function ToolsPage() {
       {tool === "emergency" && (
         <EmergencyCard emergency={data.emergency} hotel={data.hotel} />
       )}
-      {tool === "spots" && <ReferenceView nodes={spotNodes} />}
+      {tool === "spots" && <ReferenceView nodes={spotNodes} speakable />}
       {tool === "exhibitions" && (
         <ReferenceView nodes={data.exhibitions?.nodes ?? []} />
       )}

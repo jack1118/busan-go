@@ -1,5 +1,11 @@
 import { useState } from "react";
 import type { Block, MapLinks, RefNode } from "../types";
+import TaxiCard from "./TaxiCard";
+
+function firstKorean(text: string): string | null {
+  const m = text.match(/[가-힣][가-힣\s·,()]*[가-힣]/);
+  return m ? m[0].trim() : null;
+}
 
 function MapButtons({ maps }: { maps: MapLinks | null | undefined }) {
   if (!maps || (!maps.google && !maps.naver)) return null;
@@ -115,7 +121,15 @@ function BlockView({ block }: { block: Block }) {
   }
 }
 
-function NodeCard({ node }: { node: RefNode }) {
+function NodeCard({
+  node,
+  speakable,
+}: {
+  node: RefNode;
+  speakable?: boolean;
+}) {
+  const [taxiOpen, setTaxiOpen] = useState(false);
+  const kr = speakable ? firstKorean(node.title) : null;
   return (
     <section className="mb-3 rounded-2xl bg-white p-4 shadow-sm shadow-black/[0.04] ring-1 ring-black/[0.03] dark:bg-neutral-800 dark:ring-white/5">
       {node.title && (
@@ -127,6 +141,27 @@ function NodeCard({ node }: { node: RefNode }) {
       {node.blocks.map((b, i) => (
         <BlockView key={i} block={b} />
       ))}
+      {kr && (
+        <button
+          onClick={() => setTaxiOpen(true)}
+          className="mt-2 w-full rounded-2xl bg-neutral-900 py-2.5 text-[14px] font-semibold text-white active:scale-[0.99] dark:bg-neutral-700"
+        >
+          🚕 給司機 / 店員看（韓文）
+        </button>
+      )}
+      {kr && (
+        <TaxiCard
+          open={taxiOpen}
+          nameZh={node.title}
+          nameKr={kr}
+          mapG={node.maps?.google}
+          mapN={
+            node.maps?.naver ||
+            `https://map.naver.com/v5/search/${encodeURIComponent(kr)}`
+          }
+          onClose={() => setTaxiOpen(false)}
+        />
+      )}
     </section>
   );
 }
@@ -134,9 +169,11 @@ function NodeCard({ node }: { node: RefNode }) {
 export default function ReferenceView({
   nodes,
   withTabs = false,
+  speakable = false,
 }: {
   nodes: RefNode[];
   withTabs?: boolean;
+  speakable?: boolean;
 }) {
   const visible = nodes.filter(
     (n) => n.title || n.blocks.some((b) => b.type !== "text" || b.text)
@@ -173,8 +210,8 @@ export default function ReferenceView({
             </button>
           ))}
         </div>
-        {intro && active === 0 && <NodeCard node={intro} />}
-        {current && <NodeCard node={current} />}
+        {intro && active === 0 && <NodeCard node={intro} speakable={speakable} />}
+        {current && <NodeCard node={current} speakable={speakable} />}
       </div>
     );
   }
@@ -182,7 +219,7 @@ export default function ReferenceView({
   return (
     <div>
       {visible.map((n, i) => (
-        <NodeCard key={i} node={n} />
+        <NodeCard key={i} node={n} speakable={speakable} />
       ))}
     </div>
   );

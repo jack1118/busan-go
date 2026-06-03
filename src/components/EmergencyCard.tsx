@@ -1,7 +1,17 @@
 import { useState } from "react";
 import type { Emergency, EmergencyContact, Hotel } from "../types";
+import phrases from "../data/phrases.json";
+import SpeakCard from "./SpeakCard";
 
 const STORAGE_KEY = "busan:emergency";
+
+interface Phrase {
+  zh: string;
+  kr: string;
+  rr: string;
+}
+const SOS_PHRASES: Phrase[] =
+  phrases.categories.find((c) => c.key === "sos")?.items ?? [];
 
 interface MyInfo {
   insurancePolicy: string;
@@ -43,6 +53,7 @@ export default function EmergencyCard({
 }) {
   const [toast, setToast] = useState<string | null>(null);
   const [myInfo, setMyInfo] = useState<MyInfo>(loadMyInfo);
+  const [phrase, setPhrase] = useState<Phrase | null>(null);
 
   const showToast = (msg: string) => {
     setToast(msg);
@@ -120,6 +131,33 @@ export default function EmergencyCard({
         <ContactList contacts={emergency.korea} callBtnClass={callBtnClass} />
       </section>
 
+      {/* 2b. 緊急韓文求助句 */}
+      {SOS_PHRASES.length > 0 && (
+        <section className={cardClass}>
+          <h3 className={sectionTitleClass}>💬 緊急韓文求助（點→放大給對方看）</h3>
+          <ul className="flex flex-col gap-2">
+            {SOS_PHRASES.map((p, i) => (
+              <li key={i}>
+                <button
+                  onClick={() => setPhrase(p)}
+                  className="flex w-full items-center justify-between gap-3 rounded-xl bg-neutral-100 px-3 py-2.5 text-left active:scale-[0.99] dark:bg-neutral-700"
+                >
+                  <span className="min-w-0">
+                    <span className="block text-[13px] text-neutral-500 dark:text-neutral-400">
+                      {p.zh}
+                    </span>
+                    <span className="block text-[15px] font-bold">{p.kr}</span>
+                  </span>
+                  <span className="shrink-0 text-[12px] font-semibold text-coral">
+                    放大
+                  </span>
+                </button>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
       {/* 3. 其他 */}
       <section className={cardClass}>
         <h3 className={sectionTitleClass}>☎️ 其他</h3>
@@ -178,6 +216,16 @@ export default function EmergencyCard({
           </label>
         </div>
       </section>
+
+      {phrase && (
+        <SpeakCard
+          open={!!phrase}
+          zh={phrase.zh}
+          kr={phrase.kr}
+          rr={phrase.rr}
+          onClose={() => setPhrase(null)}
+        />
+      )}
 
       {/* toast */}
       {toast && (
