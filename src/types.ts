@@ -38,12 +38,24 @@ export interface TimelineItem {
 
 // Generic block model for the rich reference sections (food / shopping /
 // exhibitions / pre-trip). One loose shape keeps the renderer simple.
+export interface BlockListItem {
+  text: string;
+  photo?: string | null;
+  maps?: MapLinks | null;
+}
+
+export interface RowMeta {
+  photo?: string | null;
+  maps?: MapLinks | null;
+}
+
 export interface Block {
   type: "text" | "note" | "subheading" | "list" | "table" | "image";
   text?: string;
-  items?: string[];
+  items?: BlockListItem[];
   headers?: string[];
   rows?: string[][];
+  rowsMeta?: RowMeta[];
   alt?: string;
   url?: string;
   maps?: MapLinks | null;

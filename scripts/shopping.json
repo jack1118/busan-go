@@ -422,6 +422,61 @@
       "note": "胡迪/巴斯小熊公仔杯",
       "srcUrl": "https://static.wixstatic.com/media/8346c3_e40bb6a683bd46338e44835968086a41~mv2.png",
       "img": "shopping/starbucks-toystory.png"
+    },
+    {
+      "slug": "topten",
+      "category": "服飾",
+      "nameZh": "TOPTEN 탑텐（韓版 Uniqlo）",
+      "nameKr": "탑텐 남포동",
+      "store": "南浦洞光復路 / 西面",
+      "price": "T 恤 ₩9,900~",
+      "note": "基本款高 CP，台灣買不到",
+      "srcUrl": "https://static.goodwearmall.com/m/resources/img/og_toptenclub.jpg",
+      "img": "shopping/topten.jpg"
+    },
+    {
+      "slug": "spao",
+      "category": "服飾",
+      "nameZh": "SPAO 스파오（聯名王）",
+      "nameKr": "스파오 서면",
+      "store": "西面 / 新世界 Centum",
+      "price": "T 恤 ₩12,900~",
+      "note": "哈利波特/蠟筆小新等 IP 聯名最便宜",
+      "srcUrl": "https://static.elandrs.com/spao/img/mo/common/logo_meta.png",
+      "img": "shopping/spao.png"
+    },
+    {
+      "slug": "8seconds",
+      "category": "服飾",
+      "nameZh": "8SECONDS 에잇세컨즈（韓版 ZARA）",
+      "nameKr": "에잇세컨즈 남포동",
+      "store": "南浦洞光復路",
+      "price": "T 恤 ₩19,900~",
+      "note": "三星旗下，設計感強",
+      "srcUrl": "https://www.theguru.co.kr/data/photos/20221042/art_16659659942943_12fe72.jpg",
+      "img": "shopping/8seconds.jpg"
+    },
+    {
+      "slug": "ozkiz",
+      "category": "嬰幼兒",
+      "nameZh": "OZKIZ 오즈키즈 潮流童裝",
+      "nameKr": "오즈키즈",
+      "store": "百貨 / 網購",
+      "price": "",
+      "note": "韓劇常出現的童裝品牌",
+      "srcUrl": "http://ozkizcom.cafe24.com/ozkiz/info/26_oz_shop_stco_yu.jpg",
+      "img": "shopping/ozkiz.jpg"
+    },
+    {
+      "slug": "agabang",
+      "category": "嬰幼兒",
+      "nameZh": "Agabang 아가방 有機棉嬰兒衣",
+      "nameKr": "아가방",
+      "store": "百貨專櫃",
+      "price": "",
+      "note": "韓國老牌嬰兒服飾",
+      "srcUrl": "http://item.nextmom.co.kr/magaline_img/goods/agabang/2026/agabang_brand_spring.jpg",
+      "img": "shopping/agabang.jpg"
     }
   ]
 }

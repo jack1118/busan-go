@@ -52,6 +52,62 @@ const VENUE_PLACE_IDS = {
   "롯데면세점 김해공항": "ChIJ2bjxgaDBaDUR_bo-HcZByj8",
 };
 
+// Reuse the curated product photos to illustrate the 行程參考 shopping tables/
+// lists, and map store mentions to verified place links — so every line in
+// 「更多介紹」 can show a photo + Google/Naver.
+// Latin/brand tokens (≥3 chars) so brand rows like "Green Finger | …" match.
+function latinTokens(s) {
+  return (s.match(/[A-Za-z][A-Za-z'’.&]*(?:\s[A-Za-z'’.&]+)*/g) || [])
+    .map((x) => x.trim())
+    .filter((x) => x.length >= 3);
+}
+const PRODUCT_PHOTOS = SHOP.products
+  .map((p) => ({
+    needles: [p.nameZh, p.nameKr, ...latinTokens(p.nameZh)].filter(Boolean),
+    img: p.img || p.srcUrl || null,
+  }))
+  .filter((p) => p.img);
+
+const STORE_LINKS = [
+  { kw: /新世界|센텀|Centum/i, p: { nameKr: "신세계백화점 센텀시티점", placeId: "ChIJSSw7slWTaDURjMs-oU61YYc" } },
+  { kw: /樂天百貨|롯데백화점|樂天.{0,3}光復/i, p: { nameKr: "롯데백화점 광복점", placeId: "ChIJxycp5AzpaDUR62VgFgUIPV0" } },
+  { kw: /Homeplus|홈플러스/i, p: { nameKr: "홈플러스 센텀시티점" } },
+  { kw: /E-?Mart|이마트/i, p: { nameKr: "이마트 해운대점", placeId: "ChIJ-7v-H2-NaDURDTZz5tvHP4M" } },
+  { kw: /Olive ?Young|올리브영/i, p: { nameKr: "올리브영 서면 타운" } },
+  { kw: /大創|다이소|DAISO/i, p: { nameKr: "다이소 남포동", placeId: "ChIJm6rkQgrpaDURZmVLWHVIibQ" } },
+  { kw: /TOPTEN|탑텐/i, p: { nameKr: "탑텐 남포동", placeId: "ChIJBY2rnKDpaDURxohkZrjXWEw" } },
+  { kw: /SPAO|스파오/i, p: { nameKr: "스파오 서면", placeId: "ChIJR_AMB2_raDURtkNgS_8-3FQ" } },
+  { kw: /8 ?SECONDS|에잇세컨즈/i, p: { nameKr: "에잇세컨즈 남포동" } },
+  { kw: /樂天免稅|롯데면세점/i, p: { nameKr: "롯데면세점 김해공항", placeId: "ChIJ2bjxgaDBaDUR_bo-HcZByj8" } },
+  // 伴手禮 shops (Naver finds them by Korean brand name)
+  { kw: /Busan Bada Sand|부산바다샌드/i, p: { nameKr: "부산바다샌드" } },
+  { kw: /CHEFFLE|치플/i, p: { nameKr: "치플 해운대" } },
+  { kw: /二代名菓|이대명과/i, p: { nameKr: "이대명과 해운대" } },
+  { kw: /古來思|고래사/i, p: { nameKr: "고래사어묵 해운대" } },
+  { kw: /三進|삼진/i, p: { nameKr: "삼진어묵" } },
+  { kw: /麥當勞|맥도날드|McDonald/i, p: { nameKr: "맥도날드 해운대" } },
+  { kw: /星巴克|스타벅스|Starbucks/i, p: { nameKr: "스타벅스 해운대" } },
+  { kw: /\bCU\b/, p: { nameKr: "CU 편의점 해운대" } },
+  { kw: /GS25/i, p: { nameKr: "GS25 해운대" } },
+];
+
+function matchPhoto(text) {
+  const hit = PRODUCT_PHOTOS.find((p) => p.needles.some((n) => text.includes(n)));
+  return hit ? hit.img : null;
+}
+function matchStore(text) {
+  const hit = STORE_LINKS.find((s) => s.kw.test(text));
+  return hit ? placeLinks(hit.p) : null;
+}
+// ctxStore = a store inferred from the section heading, used as a fallback so
+// e.g. every item under「Olive Young 必買」links to Olive Young.
+function rowMeta(text, rawLine, ctxStore) {
+  return {
+    photo: matchPhoto(text),
+    maps: extractMaps(rawLine) || matchStore(text) || ctxStore || null,
+  };
+}
+
 // ---------- helpers ----------
 
 // Pull [G](url) / [N](url) map links from a chunk of text, including the
@@ -395,18 +451,24 @@ function emergencyInfo() {
 // These md sections are heterogeneous (tables + lists + images + prose), so we
 // parse them into an ordered block tree and render generically — nothing dropped.
 
-function parseBlocks(ls) {
+function parseBlocks(ls, ctxStore = null) {
   const blocks = [];
   let curList = null;
   let curTable = null;
+  let curStore = ctxStore; // refined by sub-headings that name a store
   const flush = () => {
     if (curList) {
       blocks.push({ type: "list", items: curList });
       curList = null;
     }
     if (curTable && curTable.length) {
-      const [headers, ...rows] = curTable;
-      blocks.push({ type: "table", headers, rows });
+      const [header, ...dataRows] = curTable;
+      blocks.push({
+        type: "table",
+        headers: header.cells,
+        rows: dataRows.map((r) => r.cells),
+        rowsMeta: dataRows.map((r) => rowMeta(r.cells.join(" "), r.raw, curStore)),
+      });
       curTable = null;
     }
   };
@@ -421,7 +483,7 @@ function parseBlocks(ls) {
     if (isTableRow(l)) {
       if (isSeparatorRow(l)) continue;
       if (!curTable) curTable = [];
-      curTable.push(splitRow(l).map(clean));
+      curTable.push({ cells: splitRow(l).map(clean), raw: l });
       continue;
     } else if (curTable) {
       flush();
@@ -429,7 +491,8 @@ function parseBlocks(ls) {
     const li = l.match(/^\s*-\s+(.*)$/);
     if (li) {
       if (!curList) curList = [];
-      curList.push(clean(li[1]));
+      const text = clean(li[1]);
+      curList.push({ text, ...rowMeta(text, l, curStore) });
       continue;
     } else if (curList) {
       flush();
@@ -439,10 +502,13 @@ function parseBlocks(ls) {
     if (bold) {
       flush();
       const extra = clean(bold[2]);
+      const headingText = clean(bold[1]) + (extra ? " " + extra : "");
+      const s = matchStore(headingText);
+      if (s) curStore = s; // subsequent rows inherit this store
       blocks.push({
         type: "subheading",
-        text: clean(bold[1]) + (extra ? " " + extra : ""),
-        maps: extractMaps(l),
+        text: headingText,
+        maps: extractMaps(l) || s,
       });
       continue;
     }
@@ -483,7 +549,7 @@ function parseNodes(ls) {
     .map((n) => ({
       title: n.title,
       maps: n.maps,
-      blocks: parseBlocks(n.lines),
+      blocks: parseBlocks(n.lines, matchStore(n.title)),
     }));
 }
 

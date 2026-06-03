@@ -371,7 +371,7 @@
         {
           "time": "18:30",
           "activity": "晚餐：The Bay 101 더베이101 🌃",
-          "note": "面對海雲台天際線的露天美食區，邊吃邊看夕陽（19:40 日落）→ 夜景！",
+          "note": "面對海雲台天際線的露天美食區，邊吃邊看夕陽（19:40 日落）→ 夜景！💡 想吃烤肉的話這晚改 해운대암소갈비집 牛肋排 / 오반장 伍班長（都在海雲台，最順）",
           "icon": "food",
           "maps": {
             "google": "https://www.google.com/maps/search/?api=1&query=%EB%8D%94%EB%B2%A0%EC%9D%B4101&query_place_id=ChIJcSqHWSKTaDURtVMxseKq6zY",
@@ -596,88 +596,72 @@
           "photo": null
         },
         {
-          "time": "17:30",
-          "activity": "🅱️ Plan B：釜山市民公園 부산시민공원",
-          "note": "南浦洞搭地鐵 2 站到釜田站（부전역）步行 10 分。免費，超大沙坑+噴泉戲水（整點噴水，帶換洗衣物）+充氣跳跳丘。有尿布台+哺乳室。玩 1hr 後搭地鐵回海雲台。看時間決定要不要去，不去就直接回海雲台吃晚餐",
+          "time": "18:00",
+          "activity": "晚餐：南浦／中區就近吃 🍽",
+          "note": "在南浦吃，省去回海雲台約 1 小時車程。選擇多：南浦洞烤肉、돼지국밥 豬肉湯飯、或回札嘎其市場 2 樓吃生魚片/海鮮鍋。💡 海雲台牛肋排（해운대암소갈비집）/ 伍班長（오반장）改到 D1 或 D2 晚上吃，住海雲台那兩天最順",
           "icon": "food",
           "maps": {
-            "google": "https://www.google.com/maps/search/?api=1&query=%EB%B6%80%EC%82%B0%EC%8B%9C%EB%AF%BC%EA%B3%B5%EC%9B%90&query_place_id=ChIJPbq4_UHraDURSKskEXfxKno",
-            "naver": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EC%8B%9C%EB%AF%BC%EA%B3%B5%EC%9B%90"
+            "google": "https://www.google.com/maps/search/?api=1&query=%EB%B9%84%ED%94%84%EA%B4%91%EC%9E%A5&query_place_id=ChIJL1scg6DpaDURxXQZg1kWGZ4",
+            "naver": "https://map.naver.com/p/search/%EB%B9%84%ED%94%84%EA%B4%91%EC%9E%A5"
           },
-          "tags": [
-            {
-              "emoji": "🍼",
-              "label": "哺乳室"
-            },
-            {
-              "emoji": "🚼",
-              "label": "尿布台"
-            },
-            {
-              "emoji": "🧸",
-              "label": "適合幼兒"
-            }
-          ],
+          "tags": [],
           "voucher": null,
           "coord": {
-            "lat": 35.1681608,
-            "lng": 129.0573853,
-            "name": "釜山市民公園",
-            "nameKr": "부산시민공원",
-            "addr": "부산 부산진구 시민공원로 73",
-            "placeId": "ChIJPbq4_UHraDURSKskEXfxKno"
+            "lat": 35.098243,
+            "lng": 129.029212,
+            "name": "南浦洞 BIFF廣場",
+            "nameKr": "비프광장",
+            "addr": "부산 중구 비프광장로",
+            "placeId": "ChIJL1scg6DpaDURxXQZg1kWGZ4"
           },
-          "nameKr": "부산시민공원",
-          "addr": "부산 부산진구 시민공원로 73",
+          "nameKr": "비프광장",
+          "addr": "부산 중구 비프광장로",
           "photo": null
         },
         {
-          "time": "18:00",
-          "activity": "晚餐：海雲台牛肋排 해운대암소갈비집 🥩",
-          "note": "1964 年創業的米其林烤肉名店，有私人榻榻米包廂。建議 18:00 前到避開排隊。替代：伍班長燒肉 오반장（海雲台 CP 值最高烤肉，Google 評價超高）。⚠️ 如果去了市民公園，晚餐順延到 18:30-19:00",
-          "icon": "food",
-          "maps": null,
+          "time": "19:00",
+          "activity": "南浦地下街 / 光復路再逛 🛍",
+          "note": "散步消化、補最後伴手禮",
+          "icon": "shop",
+          "maps": {
+            "google": "https://www.google.com/maps/search/?api=1&query=%EB%B9%84%ED%94%84%EA%B4%91%EC%9E%A5&query_place_id=ChIJL1scg6DpaDURxXQZg1kWGZ4",
+            "naver": "https://map.naver.com/p/search/%EB%B9%84%ED%94%84%EA%B4%91%EC%9E%A5"
+          },
           "tags": [],
           "voucher": null,
-          "coord": null,
-          "nameKr": "해운대암소갈비집",
-          "addr": null,
-          "photo": "https://lh3.googleusercontent.com/place-photos/AJRVUZOUuM1C0uryfsUlarFfO2zQx6HC_-6kGUVGnv9XWqahBomGQZcmsgcLGLbiRDhngPWuHDGkjdN_GoPru58khrwTkF9mxFdLQlArFgXKaaKHLx180TCDlAw1rj_50wokXPdKUB-67fABH7ln=s4800-w800"
-        },
-        {
-          "time": "19:30",
-          "activity": "海雲台散步消化",
-          "note": "便利商店、咖啡廳",
-          "icon": "food",
-          "maps": null,
-          "tags": [],
-          "voucher": null,
-          "coord": null,
-          "nameKr": null,
-          "addr": null,
+          "coord": {
+            "lat": 35.098243,
+            "lng": 129.029212,
+            "name": "南浦洞 BIFF廣場",
+            "nameKr": "비프광장",
+            "addr": "부산 중구 비프광장로",
+            "placeId": "ChIJL1scg6DpaDURxXQZg1kWGZ4"
+          },
+          "nameKr": "비프광장",
+          "addr": "부산 중구 비프광장로",
           "photo": null
         },
         {
           "time": "20:00",
-          "activity": "回飯店休息",
-          "note": "",
+          "activity": "搭地鐵回海雲台休息",
+          "note": "約 1 小時車程，回飯店洗澡睡覺。（已移除原 Plan B 釜山市民公園——它在西面方向、跟南浦回海雲台不順路）",
           "icon": "rest",
           "maps": {
-            "google": "https://www.google.com/maps/search/?api=1&query=%ED%86%A0%EC%9A%94%EC%BD%94%EC%9D%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%202&query_place_id=ChIJ_0E5KRKNaDURKSPthqrI1-I",
-            "naver": "https://map.naver.com/p/search/%ED%86%A0%EC%9A%94%EC%BD%94%EC%9D%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%202"
+            "google": "https://www.google.com/maps/search/?api=1&query=%EB%B9%84%ED%94%84%EA%B4%91%EC%9E%A5&query_place_id=ChIJL1scg6DpaDURxXQZg1kWGZ4",
+            "naver": "https://map.naver.com/p/search/%EB%B9%84%ED%94%84%EA%B4%91%EC%9E%A5"
           },
           "tags": [],
           "voucher": null,
           "coord": {
-            "lat": 35.1595422,
-            "lng": 129.1573807,
-            "name": "東橫INN 海雲台2號店",
-            "nameKr": "토요코인 부산 해운대 2",
-            "addr": "부산 해운대구 해운대해변로237번길 5",
-            "placeId": "ChIJ_0E5KRKNaDURKSPthqrI1-I"
+            "lat": 35.098243,
+            "lng": 129.029212,
+            "name": "南浦洞 BIFF廣場",
+            "nameKr": "비프광장",
+            "addr": "부산 중구 비프광장로",
+            "placeId": "ChIJL1scg6DpaDURxXQZg1kWGZ4"
           },
-          "nameKr": "토요코인 부산 해운대 2",
-          "addr": "부산 해운대구 해운대해변로237번길 5",
+          "nameKr": "비프광장",
+          "addr": "부산 중구 비프광장로",
           "photo": null
         }
       ],
@@ -701,8 +685,8 @@
     {
       "id": "D4",
       "date": "6/29（一）",
-      "title": "廣安里 × 藍線公園 — 另一片海 × 膠囊夕陽 × 最後一晚",
-      "theme": "廣安里散策 + 青沙浦 + 天空膠囊 Golden Hour 🌅",
+      "title": "海雲台慢活 × 藍線公園 — 膠囊夕陽 × 最後一晚",
+      "theme": "上午海雲台慢活留白 + 下午青沙浦 + 天空膠囊 Golden Hour 🌅",
       "colorIndex": 3,
       "items": [
         {
@@ -720,34 +704,44 @@
         },
         {
           "time": "10:00",
-          "activity": "廣安里海灘 광안리해수욕장 🌊",
-          "note": "搭地鐵到廣安站。沙灘看廣安大橋、咖啡廳拍照。比海雲台人少",
+          "activity": "海雲台海邊慢活 🏖",
+          "note": "不趕行程：海灘散步撿貝殼、Standard Bread 스탠다드브레드 買鹽奶油吐司、고래사어묵 現吃魚糕，讓雨樂放電。💡 想看 廣安里廣安大橋夜景（六/日有無人機秀） 的話，挑一晚傍晚專程去，別排在這個早上來回橫跨",
           "icon": "food",
           "maps": {
-            "google": "https://www.google.com/maps/search/?api=1&query=%EA%B4%91%EC%95%88%EB%A6%AC%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5&query_place_id=ChIJxw7HJy_taDUR-xaSTeHwbf8",
-            "naver": "https://map.naver.com/p/search/%EA%B4%91%EC%95%88%EB%A6%AC%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5"
+            "google": "https://www.google.com/maps/search/?api=1&query=%ED%95%B4%EC%9A%B4%EB%8C%80%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5&query_place_id=ChIJXwf-DlyNaDURmKxjwdWxY5k",
+            "naver": "https://map.naver.com/p/search/%ED%95%B4%EC%9A%B4%EB%8C%80%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5"
           },
-          "tags": [],
+          "tags": [
+            {
+              "emoji": "🧸",
+              "label": "適合幼兒"
+            }
+          ],
           "voucher": null,
           "coord": {
-            "lat": 35.1531696,
-            "lng": 129.118666,
-            "name": "廣安里海灘",
-            "nameKr": "광안리해수욕장",
-            "addr": "부산 수영구 광안해변로",
-            "placeId": "ChIJxw7HJy_taDUR-xaSTeHwbf8"
+            "lat": 35.1586975,
+            "lng": 129.1603842,
+            "name": "海雲台海灘",
+            "nameKr": "해운대해수욕장",
+            "addr": "부산 해운대구 우동",
+            "placeId": "ChIJXwf-DlyNaDURmKxjwdWxY5k"
           },
-          "nameKr": "광안리해수욕장",
-          "addr": "부산 수영구 광안해변로",
+          "nameKr": "해운대해수욕장",
+          "addr": "부산 해운대구 우동",
           "photo": null
         },
         {
           "time": "11:30",
-          "activity": "午餐：廣安里海邊餐廳",
-          "note": "돼지국밥（豬肉湯飯） — 釜山代表美食！或海鮮칼국수（刀削麵）",
+          "activity": "午餐：海雲台就近吃",
+          "note": "수변최고 豬肉湯飯（有兒童湯飯 ₩5,000）或 31cm 海鮮刀削麵，幼兒友善",
           "icon": "food",
           "maps": null,
-          "tags": [],
+          "tags": [
+            {
+              "emoji": "🪑",
+              "label": "兒童餐/座椅"
+            }
+          ],
           "voucher": null,
           "coord": null,
           "nameKr": null,
@@ -757,8 +751,8 @@
         {
           "time": "12:30-14:30",
           "activity": "午睡時間 💤",
-          "note": "回飯店或在咖啡廳休息",
-          "icon": "food",
+          "note": "回飯店好好睡，傍晚的藍線+膠囊才是重頭戲",
+          "icon": "rest",
           "maps": {
             "google": "https://www.google.com/maps/search/?api=1&query=%ED%86%A0%EC%9A%94%EC%BD%94%EC%9D%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%202&query_place_id=ChIJ_0E5KRKNaDURKSPthqrI1-I",
             "naver": "https://map.naver.com/p/search/%ED%86%A0%EC%9A%94%EC%BD%94%EC%9D%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%202"
@@ -779,9 +773,9 @@
         },
         {
           "time": "15:00",
-          "activity": "回海雲台，走到尾浦站",
-          "note": "",
-          "icon": "spot",
+          "activity": "走到尾浦站",
+          "note": "海雲台步行或計程車到尾浦，準備搭海灘列車",
+          "icon": "transport",
           "maps": null,
           "tags": [],
           "voucher": null,
@@ -1241,15 +1235,49 @@
                 "₩7,000",
                 "配飯吃"
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              }
             ]
           },
           {
             "type": "list",
             "items": [
-              "💡 店員會幫烤，不要自己動手",
-              "💡 生牛肋排每日限量，建議用 CatchTable APP 預約",
-              "💡 有私人榻榻米包廂，帶雨樂很方便",
-              "親子：⭐⭐⭐ 可夾肉配飯給幼兒"
+              {
+                "text": "💡 店員會幫烤，不要自己動手",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "💡 生牛肋排每日限量，建議用 CatchTable APP 預約",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "💡 有私人榻榻米包廂，帶雨樂很方便",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "親子：⭐⭐⭐ 可夾肉配飯給幼兒",
+                "photo": null,
+                "maps": null
+              }
             ]
           }
         ]
@@ -1304,15 +1332,53 @@
                 "免費",
                 "招牌！無限續（續碗 ₩1,000），烤爐邊煮的蒸蛋最上鏡"
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              }
             ]
           },
           {
             "type": "list",
             "items": [
-              "💡 有中文菜單！觀光客友善",
-              "💡 平均每人 ~₩15,000（約 350 TWD），超划算",
-              "💡 避開 12:00-14:00 尖峰",
-              "親子：⭐⭐⭐ 價格親民、免費蒸蛋幼兒可吃"
+              {
+                "text": "💡 有中文菜單！觀光客友善",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "💡 平均每人 ~₩15,000（約 350 TWD），超划算",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "💡 避開 12:00-14:00 尖峰",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "親子：⭐⭐⭐ 價格親民、免費蒸蛋幼兒可吃",
+                "photo": null,
+                "maps": null
+              }
             ]
           }
         ]
@@ -1362,15 +1428,49 @@
                 "₩13,000-38,000",
                 "小/中/大"
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              }
             ]
           },
           {
             "type": "list",
             "items": [
-              "💡 先喝原味湯頭，再加蝦醬（새우젓）調味",
-              "💡 平日等 35 分、假日 1 小時+，點餐機有中文介面",
-              "💡 24hr 營業 — 宵夜或早餐都行",
-              "親子：⭐⭐⭐ 有兒童湯飯！白飯+清湯，幼兒友善首選"
+              {
+                "text": "💡 先喝原味湯頭，再加蝦醬（새우젓）調味",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "💡 平日等 35 分、假日 1 小時+，點餐機有中文介面",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "💡 24hr 營業 — 宵夜或早餐都行",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "親子：⭐⭐⭐ 有兒童湯飯！白飯+清湯，幼兒友善首選",
+                "photo": null,
+                "maps": null
+              }
             ]
           }
         ]
@@ -1415,15 +1515,45 @@
                 "₩10,000/2 顆",
                 ""
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              }
             ]
           },
           {
             "type": "list",
             "items": [
-              "💡 湯頭天然鮮甜（全靠貝類），加青辣椒更提味",
-              "💡 泡菜極辣，先嚐一小口",
-              "💡 海雲台市場直營店最推",
-              "親子：⭐⭐⭐ 湯麵幼兒友善，麵條 Q 彈"
+              {
+                "text": "💡 湯頭天然鮮甜（全靠貝類），加青辣椒更提味",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "💡 泡菜極辣，先嚐一小口",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "💡 海雲台市場直營店最推",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "親子：⭐⭐⭐ 湯麵幼兒友善，麵條 Q 彈",
+                "photo": null,
+                "maps": null
+              }
             ]
           }
         ]
@@ -1463,15 +1593,41 @@
                 "~₩8,000-9,000",
                 "招牌！皮薄餡多，整隻蝦仁"
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              }
             ]
           },
           {
             "type": "list",
             "items": [
-              "💡 沒有中英文菜單，看牆上照片點",
-              "💡 要自己找位子坐，手寫單點餐",
-              "💡 份量超大，女生可以 share",
-              "親子：⭐⭐⭐ 在地口味，湯麵幼兒可吃"
+              {
+                "text": "💡 沒有中英文菜單，看牆上照片點",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "💡 要自己找位子坐，手寫單點餐",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "💡 份量超大，女生可以 share",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "親子：⭐⭐⭐ 在地口味，湯麵幼兒可吃",
+                "photo": null,
+                "maps": null
+              }
             ]
           }
         ]
@@ -1521,15 +1677,49 @@
                 "~₩3,000",
                 "終極版"
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              }
             ]
           },
           {
             "type": "list",
             "items": [
-              "⚠️ 起司口味週一二沒有，週三~日 18:00 後才供應",
-              "💡 現做現吃，排隊約 10-15 分鐘",
-              "💡 內餡超燙！放涼 1-2 分鐘再咬",
-              "親子：⭐⭐ 大人吃為主，雨樂注意燙口"
+              {
+                "text": "⚠️ 起司口味週一二沒有，週三~日 18:00 後才供應",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "💡 現做現吃，排隊約 10-15 分鐘",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "💡 內餡超燙！放涼 1-2 分鐘再咬",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "親子：⭐⭐ 大人吃為主，雨樂注意燙口",
+                "photo": null,
+                "maps": null
+              }
             ]
           }
         ]
@@ -1579,15 +1769,49 @@
                 "不定",
                 "看黑板出爐時刻表"
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              }
             ]
           },
           {
             "type": "list",
             "items": [
-              "💡 首爾聖水洞名店，海雲台分店是釜山最紅",
-              "💡 假日下午會賣完 — 建議早上去",
-              "💡 可用 CatchTable APP 預約",
-              "親子：⭐⭐ 麵包當點心很棒"
+              {
+                "text": "💡 首爾聖水洞名店，海雲台分店是釜山最紅",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "💡 假日下午會賣完 — 建議早上去",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "💡 可用 CatchTable APP 預約",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "親子：⭐⭐ 麵包當點心很棒",
+                "photo": null,
+                "maps": null
+              }
             ]
           }
         ]
@@ -1637,6 +1861,36 @@
                 "免費",
                 "櫃檯自取，無限喝！"
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EA%B3%A0%EB%9E%98%EC%82%AC%EC%96%B4%EB%AC%B5%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/%EA%B3%A0%EB%9E%98%EC%82%AC%EC%96%B4%EB%AC%B5%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EA%B3%A0%EB%9E%98%EC%82%AC%EC%96%B4%EB%AC%B5%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/%EA%B3%A0%EB%9E%98%EC%82%AC%EC%96%B4%EB%AC%B5%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EA%B3%A0%EB%9E%98%EC%82%AC%EC%96%B4%EB%AC%B5%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/%EA%B3%A0%EB%9E%98%EC%82%AC%EC%96%B4%EB%AC%B5%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EA%B3%A0%EB%9E%98%EC%82%AC%EC%96%B4%EB%AC%B5%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/%EA%B3%A0%EB%9E%98%EC%82%AC%EC%96%B4%EB%AC%B5%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              }
             ]
           },
           {
@@ -1658,14 +1912,58 @@
                 "Baby Shark 聯名包裝",
                 "可愛，送小孩朋友"
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EA%B3%A0%EB%9E%98%EC%82%AC%EC%96%B4%EB%AC%B5%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/%EA%B3%A0%EB%9E%98%EC%82%AC%EC%96%B4%EB%AC%B5%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EA%B3%A0%EB%9E%98%EC%82%AC%EC%96%B4%EB%AC%B5%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/%EA%B3%A0%EB%9E%98%EC%82%AC%EC%96%B4%EB%AC%B5%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EA%B3%A0%EB%9E%98%EC%82%AC%EC%96%B4%EB%AC%B5%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/%EA%B3%A0%EB%9E%98%EC%82%AC%EC%96%B4%EB%AC%B5%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              }
             ]
           },
           {
             "type": "list",
             "items": [
-              "💡 微波 1 分 30 秒最好吃",
-              "💡 真空包裝不需冰袋，可放託運行李",
-              "親子：⭐⭐⭐ 軟嫩好咬，雨樂可吃"
+              {
+                "text": "💡 微波 1 分 30 秒最好吃",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EA%B3%A0%EB%9E%98%EC%82%AC%EC%96%B4%EB%AC%B5%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/%EA%B3%A0%EB%9E%98%EC%82%AC%EC%96%B4%EB%AC%B5%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "text": "💡 真空包裝不需冰袋，可放託運行李",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EA%B3%A0%EB%9E%98%EC%82%AC%EC%96%B4%EB%AC%B5%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/%EA%B3%A0%EB%9E%98%EC%82%AC%EC%96%B4%EB%AC%B5%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "text": "親子：⭐⭐⭐ 軟嫩好咬，雨樂可吃",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EA%B3%A0%EB%9E%98%EC%82%AC%EC%96%B4%EB%AC%B5%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/%EA%B3%A0%EB%9E%98%EC%82%AC%EC%96%B4%EB%AC%B5%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              }
             ]
           }
         ]
@@ -1702,6 +2000,29 @@
                 "₩4,900",
                 "日式融合"
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%82%BC%EC%A7%84%EC%96%B4%EB%AC%B5",
+                  "naver": "https://map.naver.com/p/search/%EC%82%BC%EC%A7%84%EC%96%B4%EB%AC%B5"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%82%BC%EC%A7%84%EC%96%B4%EB%AC%B5",
+                  "naver": "https://map.naver.com/p/search/%EC%82%BC%EC%A7%84%EC%96%B4%EB%AC%B5"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%82%BC%EC%A7%84%EC%96%B4%EB%AC%B5",
+                  "naver": "https://map.naver.com/p/search/%EC%82%BC%EC%A7%84%EC%96%B4%EB%AC%B5"
+                }
+              }
             ]
           },
           {
@@ -1723,14 +2044,58 @@
                 "1953 세트 2 號",
                 "₩45,000"
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%82%BC%EC%A7%84%EC%96%B4%EB%AC%B5",
+                  "naver": "https://map.naver.com/p/search/%EC%82%BC%EC%A7%84%EC%96%B4%EB%AC%B5"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%82%BC%EC%A7%84%EC%96%B4%EB%AC%B5",
+                  "naver": "https://map.naver.com/p/search/%EC%82%BC%EC%A7%84%EC%96%B4%EB%AC%B5"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%82%BC%EC%A7%84%EC%96%B4%EB%AC%B5",
+                  "naver": "https://map.naver.com/p/search/%EC%82%BC%EC%A7%84%EC%96%B4%EB%AC%B5"
+                }
+              }
             ]
           },
           {
             "type": "list",
             "items": [
-              "💡 影島本店有 DIY 魚糕體驗（需前一天預約）",
-              "💡 釜山站店有免費寄放行李（平日 8hr / 假日 3hr，消費即可）",
-              "親子：⭐⭐⭐ 可樂餅軟嫩，幼兒友善"
+              {
+                "text": "💡 影島本店有 DIY 魚糕體驗（需前一天預約）",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%82%BC%EC%A7%84%EC%96%B4%EB%AC%B5",
+                  "naver": "https://map.naver.com/p/search/%EC%82%BC%EC%A7%84%EC%96%B4%EB%AC%B5"
+                }
+              },
+              {
+                "text": "💡 釜山站店有免費寄放行李（平日 8hr / 假日 3hr，消費即可）",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%82%BC%EC%A7%84%EC%96%B4%EB%AC%B5",
+                  "naver": "https://map.naver.com/p/search/%EC%82%BC%EC%A7%84%EC%96%B4%EB%AC%B5"
+                }
+              },
+              {
+                "text": "親子：⭐⭐⭐ 可樂餅軟嫩，幼兒友善",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%82%BC%EC%A7%84%EC%96%B4%EB%AC%B5",
+                  "naver": "https://map.naver.com/p/search/%EC%82%BC%EC%A7%84%EC%96%B4%EB%AC%B5"
+                }
+              }
             ]
           }
         ]
@@ -1771,15 +2136,45 @@
                 "생맥주 生啤酒",
                 "₩6,500 起"
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              }
             ]
           },
           {
             "type": "list",
             "items": [
-              "💡 黃昏時到、待到天黑 — 拍夜景倒影最美",
-              "💡 免費入場，消費任一店家送 2hr 免費停車",
-              "💡 平日晚上人少，假日超擁擠",
-              "親子：⭐⭐⭐ 戶外空間大，推車 OK"
+              {
+                "text": "💡 黃昏時到、待到天黑 — 拍夜景倒影最美",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "💡 免費入場，消費任一店家送 2hr 免費停車",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "💡 平日晚上人少，假日超擁擠",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "親子：⭐⭐⭐ 戶外空間大，推車 OK",
+                "photo": null,
+                "maps": null
+              }
             ]
           }
         ]
@@ -1829,16 +2224,54 @@
                 "含在料理費",
                 "隱藏必吃！用剩餘蟹黃在殼裡炒飯"
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              }
             ]
           },
           {
             "type": "list",
             "items": [
-              "⚠️ 至少比價 3-5 攤再買，確認秤歸零",
-              "⚠️ 所有費用（座位費 ₩5,000/人 + 料理費 ₩10,000-15,000/道）先確認再點",
-              "💡 1F 買→2F 吃，靠窗座有海景",
-              "💡 很多攤位會說中文",
-              "親子：⭐⭐ 看活魚雨樂會很開心"
+              {
+                "text": "⚠️ 至少比價 3-5 攤再買，確認秤歸零",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "⚠️ 所有費用（座位費 ₩5,000/人 + 料理費 ₩10,000-15,000/道）先確認再點",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "💡 1F 買→2F 吃，靠窗座有海景",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "💡 很多攤位會說中文",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "親子：⭐⭐ 看活魚雨樂會很開心",
+                "photo": null,
+                "maps": null
+              }
             ]
           }
         ]
@@ -1875,14 +2308,36 @@
                 "치즈호떡 起司糖餅",
                 "~₩2,500"
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              }
             ]
           },
           {
             "type": "list",
             "items": [
-              "💡 找排隊最長的攤位（通常最好吃）",
-              "💡 多為現金交易",
-              "親子：⭐⭐ 燙口注意"
+              {
+                "text": "💡 找排隊最長的攤位（通常最好吃）",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "💡 多為現金交易",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "親子：⭐⭐ 燙口注意",
+                "photo": null,
+                "maps": null
+              }
             ]
           }
         ]
@@ -1894,7 +2349,10 @@
           {
             "type": "subheading",
             "text": "부산바다샌드 Busan Bada Sand — 2025-2026 釜山最紅伴手禮",
-            "maps": null
+            "maps": {
+              "google": "https://www.google.com/maps/search/?api=1&query=%EB%B6%80%EC%82%B0%EB%B0%94%EB%8B%A4%EC%83%8C%EB%93%9C",
+              "naver": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EB%B0%94%EB%8B%A4%EC%83%8C%EB%93%9C"
+            }
           },
           {
             "type": "text",
@@ -1927,20 +2385,60 @@
                 "₩18,000",
                 "其他口味"
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EB%B6%80%EC%82%B0%EB%B0%94%EB%8B%A4%EC%83%8C%EB%93%9C",
+                  "naver": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EB%B0%94%EB%8B%A4%EC%83%8C%EB%93%9C"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EB%B6%80%EC%82%B0%EB%B0%94%EB%8B%A4%EC%83%8C%EB%93%9C",
+                  "naver": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EB%B0%94%EB%8B%A4%EC%83%8C%EB%93%9C"
+                }
+              }
             ]
           },
           {
             "type": "list",
             "items": [
-              "⚠️ 每日限量 ~100 盒，假日會排隊 — 平日 11:00 開門去最保險",
-              "💡 小紅書爆紅款，獨立包裝適合分送",
-              "💡 室溫可放 1 週，冷凍更好吃"
+              {
+                "text": "⚠️ 每日限量 ~100 盒，假日會排隊 — 平日 11:00 開門去最保險",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EB%B6%80%EC%82%B0%EB%B0%94%EB%8B%A4%EC%83%8C%EB%93%9C",
+                  "naver": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EB%B0%94%EB%8B%A4%EC%83%8C%EB%93%9C"
+                }
+              },
+              {
+                "text": "💡 小紅書爆紅款，獨立包裝適合分送",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EB%B6%80%EC%82%B0%EB%B0%94%EB%8B%A4%EC%83%8C%EB%93%9C",
+                  "naver": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EB%B0%94%EB%8B%A4%EC%83%8C%EB%93%9C"
+                }
+              },
+              {
+                "text": "💡 室溫可放 1 週，冷凍更好吃",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EB%B6%80%EC%82%B0%EB%B0%94%EB%8B%A4%EC%83%8C%EB%93%9C",
+                  "naver": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EB%B0%94%EB%8B%A4%EC%83%8C%EB%93%9C"
+                }
+              }
             ]
           },
           {
             "type": "subheading",
             "text": "이대명과 二代名菓 — 70 年老店傳統煎餅（1954 年）",
-            "maps": null
+            "maps": {
+              "google": "https://www.google.com/maps/search/?api=1&query=%EC%9D%B4%EB%8C%80%EB%AA%85%EA%B3%BC%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+              "naver": "https://map.naver.com/p/search/%EC%9D%B4%EB%8C%80%EB%AA%85%EA%B3%BC%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+            }
           },
           {
             "type": "text",
@@ -1983,20 +2481,74 @@
                 "₩32,000",
                 ""
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%9D%B4%EB%8C%80%EB%AA%85%EA%B3%BC%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/%EC%9D%B4%EB%8C%80%EB%AA%85%EA%B3%BC%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%9D%B4%EB%8C%80%EB%AA%85%EA%B3%BC%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/%EC%9D%B4%EB%8C%80%EB%AA%85%EA%B3%BC%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%9D%B4%EB%8C%80%EB%AA%85%EA%B3%BC%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/%EC%9D%B4%EB%8C%80%EB%AA%85%EA%B3%BC%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%9D%B4%EB%8C%80%EB%AA%85%EA%B3%BC%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/%EC%9D%B4%EB%8C%80%EB%AA%85%EA%B3%BC%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              }
             ]
           },
           {
             "type": "list",
             "items": [
-              "6 種口味：花生、芝麻花生（最人氣）、海苔、松子、開心果、胡桃",
-              "💡 烤的不是炸的，無防腐劑，送長輩最適合",
-              "💡 獨立包裝，辦公室分送方便"
+              {
+                "text": "6 種口味：花生、芝麻花生（最人氣）、海苔、松子、開心果、胡桃",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%9D%B4%EB%8C%80%EB%AA%85%EA%B3%BC%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/%EC%9D%B4%EB%8C%80%EB%AA%85%EA%B3%BC%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "text": "💡 烤的不是炸的，無防腐劑，送長輩最適合",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%9D%B4%EB%8C%80%EB%AA%85%EA%B3%BC%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/%EC%9D%B4%EB%8C%80%EB%AA%85%EA%B3%BC%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "text": "💡 獨立包裝，辦公室分送方便",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%9D%B4%EB%8C%80%EB%AA%85%EA%B3%BC%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/%EC%9D%B4%EB%8C%80%EB%AA%85%EA%B3%BC%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              }
             ]
           },
           {
             "type": "subheading",
             "text": "치플레 CHEFFLE — 糖葫蘆起司蛋糕",
-            "maps": null
+            "maps": {
+              "google": "https://www.google.com/maps/search/?api=1&query=%EC%B9%98%ED%94%8C%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+              "naver": "https://map.naver.com/p/search/%EC%B9%98%ED%94%8C%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+            }
           },
           {
             "type": "image",
@@ -2022,15 +2574,66 @@
                 "保冷袋",
                 "+₩1,000"
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%B9%98%ED%94%8C%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/%EC%B9%98%ED%94%8C%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%B9%98%ED%94%8C%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/%EC%B9%98%ED%94%8C%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%B9%98%ED%94%8C%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/%EC%B9%98%ED%94%8C%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              }
             ]
           },
           {
             "type": "list",
             "items": [
-              "口味：Original / Brulee / 巧克力 / 抹茶 / 開心果（季節限定）",
-              "💡 冷凍 4hr 後吃 = 冰淇淋口感 — 社群公認最佳吃法",
-              "💡 假日 14:00 前賣完，建議開門就去",
-              "💡 新世界百貨也有櫃，比較不用排隊"
+              {
+                "text": "口味：Original / Brulee / 巧克力 / 抹茶 / 開心果（季節限定）",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%B9%98%ED%94%8C%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/%EC%B9%98%ED%94%8C%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "text": "💡 冷凍 4hr 後吃 = 冰淇淋口感 — 社群公認最佳吃法",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%B9%98%ED%94%8C%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/%EC%B9%98%ED%94%8C%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "text": "💡 假日 14:00 前賣完，建議開門就去",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%B9%98%ED%94%8C%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/%EC%B9%98%ED%94%8C%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "text": "💡 新世界百貨也有櫃，比較不用排隊",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90&query_place_id=ChIJSSw7slWTaDURjMs-oU61YYc",
+                  "naver": "https://map.naver.com/p/search/%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90"
+                }
+              }
             ]
           }
         ]
@@ -2062,6 +2665,20 @@
                 "任一中華料理店",
                 "⭐⭐⭐ 幼兒愛吃"
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              }
             ]
           }
         ]
@@ -2119,6 +2736,28 @@
                 "~₩5,000-8,000/盒",
                 "韓國國產藍莓剛上市"
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              }
             ]
           },
           {
@@ -2129,10 +2768,32 @@
           {
             "type": "list",
             "items": [
-              "Homeplus Centum City 店（D2 雨天備案順路）— 超市水果區種類齊全，有切好的水果盒",
-              "便利商店（CU / GS25）— 有賣切好的「컵과일 水果杯」，約 ₩3,000-5,000，帶推車邊走邊吃最方便",
-              "海雲台傳統市場（D1 晚上）— 市場水果攤最便宜",
-              "釜田市場 부전시장（如果有經過西面）— 釜山最大傳統市場，水果價格最殺"
+              {
+                "text": "Homeplus Centum City 店（D2 雨天備案順路）— 超市水果區種類齊全，有切好的水果盒",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90&query_place_id=ChIJSSw7slWTaDURjMs-oU61YYc",
+                  "naver": "https://map.naver.com/p/search/%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90"
+                }
+              },
+              {
+                "text": "便利商店（CU / GS25）— 有賣切好的「컵과일 水果杯」，約 ₩3,000-5,000，帶推車邊走邊吃最方便",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=CU%20%ED%8E%B8%EC%9D%98%EC%A0%90%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/CU%20%ED%8E%B8%EC%9D%98%EC%A0%90%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "text": "海雲台傳統市場（D1 晚上）— 市場水果攤最便宜",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "釜田市場 부전시장（如果有經過西面）— 釜山最大傳統市場，水果價格最殺",
+                "photo": null,
+                "maps": null
+              }
             ]
           },
           {
@@ -2230,6 +2891,47 @@
                 "2025 爆紅，心型法式吐司",
                 "如果有去西面"
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://maps.google.com/?q=Working%20Holiday%20%EC%B9%B4%ED%8E%98%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/v5/search/Working%20Holiday%20%EC%B9%B4%ED%8E%98%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://maps.google.com/?q=TIDE%20Coffee%20Roasters%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/v5/search/TIDE%20Coffee%20Roasters%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://maps.google.com/?q=%EC%8B%AC%EC%9D%B4%EC%95%88%20%EC%B9%B4%ED%8E%98%20%EC%B2%AD%EC%82%AC%ED%8F%AC",
+                  "naver": "https://map.naver.com/v5/search/%EC%8B%AC%EC%9D%B4%EC%95%88%20%EC%B9%B4%ED%8E%98%20%EC%B2%AD%EC%82%AC%ED%8F%AC"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://maps.google.com/?q=Cafe%20Coralani%20%EA%B8%B0%EC%9E%A5",
+                  "naver": "https://map.naver.com/v5/search/Cafe%20Coralani%20%EA%B8%B0%EC%9E%A5"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://maps.google.com/?q=P.ARK%20%EC%B9%B4%ED%8E%98%20%EC%98%81%EB%8F%84",
+                  "naver": "https://map.naver.com/v5/search/P.ARK%20%EC%B9%B4%ED%8E%98%20%EC%98%81%EB%8F%84"
+                }
+              },
+              {
+                "photo": null,
+                "maps": null
+              }
             ]
           }
         ]
@@ -2271,6 +2973,33 @@
                 "⭐ 階梯多不利推車",
                 "離海雲台 30 分車程"
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://maps.google.com/?q=%ED%9D%B0%EC%97%AC%EC%9A%B8%EB%AC%B8%ED%99%94%EB%A7%88%EC%9D%84",
+                  "naver": "https://map.naver.com/v5/search/%ED%9D%B0%EC%97%AC%EC%9A%B8%EB%AC%B8%ED%99%94%EB%A7%88%EC%9D%84"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://maps.google.com/?q=%EC%98%A4%EB%A5%99%EB%8F%84%EC%8A%A4%EC%B9%B4%EC%9D%B4%EC%9B%8C%ED%81%AC",
+                  "naver": "https://map.naver.com/v5/search/%EC%98%A4%EB%A5%99%EB%8F%84%EC%8A%A4%EC%B9%B4%EC%9D%B4%EC%9B%8C%ED%81%AC"
+                }
+              },
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://maps.google.com/?q=%ED%95%B4%EB%8F%99%EC%9A%A9%EA%B6%81%EC%82%AC",
+                  "naver": "https://map.naver.com/v5/search/%ED%95%B4%EB%8F%99%EC%9A%A9%EA%B6%81%EC%82%AC"
+                }
+              }
             ]
           }
         ]
@@ -2312,6 +3041,40 @@
                 "釜山代表性魚糕",
                 "海雲台有分店"
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": "shopping/busan-bada-sand.jpg",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EB%B6%80%EC%82%B0%EB%B0%94%EB%8B%A4%EC%83%8C%EB%93%9C",
+                  "naver": "https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EB%B0%94%EB%8B%A4%EC%83%8C%EB%93%9C"
+                }
+              },
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": "shopping/cheffle.jpg",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%B9%98%ED%94%8C%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/%EC%B9%98%ED%94%8C%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "photo": "shopping/idae-myeonggwa.jpg",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%9D%B4%EB%8C%80%EB%AA%85%EA%B3%BC%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/%EC%9D%B4%EB%8C%80%EB%AA%85%EA%B3%BC%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "photo": "shopping/goraesa.jpg",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EA%B3%A0%EB%9E%98%EC%82%AC%EC%96%B4%EB%AC%B5%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/%EA%B3%A0%EB%9E%98%EC%82%AC%EC%96%B4%EB%AC%B5%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              }
             ]
           }
         ]
@@ -2328,9 +3091,30 @@
           {
             "type": "list",
             "items": [
-              "Delight Project 貝果餅乾（蜂蜜奶油 / 大蒜奶油）— 人手一包",
-              "大蒜番茄義大利麵餅乾 — 2026 新品，筆管麵造型",
-              "HBAF 杏仁果（蜂蜜奶油 / 芥末）— 送禮自用"
+              {
+                "text": "Delight Project 貝果餅乾（蜂蜜奶油 / 大蒜奶油）— 人手一包",
+                "photo": "shopping/delight-bagel.jpg",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4",
+                  "naver": "https://map.naver.com/p/search/%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4"
+                }
+              },
+              {
+                "text": "大蒜番茄義大利麵餅乾 — 2026 新品，筆管麵造型",
+                "photo": "shopping/garlic-tomato-chip.jpg",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4",
+                  "naver": "https://map.naver.com/p/search/%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4"
+                }
+              },
+              {
+                "text": "HBAF 杏仁果（蜂蜜奶油 / 芥末）— 送禮自用",
+                "photo": "shopping/hbaf-almond.jpg",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4",
+                  "naver": "https://map.naver.com/p/search/%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4"
+                }
+              }
             ]
           },
           {
@@ -2341,15 +3125,39 @@
           {
             "type": "list",
             "items": [
-              "VT CICA 積雪草舒緩霜 + 面膜 — 敏感肌必買",
-              "Abib 口香糖面膜 — 社群口碑款",
-              "消費滿 ₩15,000 可直接免稅結帳"
+              {
+                "text": "VT CICA 積雪草舒緩霜 + 面膜 — 敏感肌必買",
+                "photo": "shopping/vt-cica.jpg",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4",
+                  "naver": "https://map.naver.com/p/search/%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4"
+                }
+              },
+              {
+                "text": "Abib 口香糖面膜 — 社群口碑款",
+                "photo": "shopping/abib-mask.jpg",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4",
+                  "naver": "https://map.naver.com/p/search/%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4"
+                }
+              },
+              {
+                "text": "消費滿 ₩15,000 可直接免稅結帳",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4",
+                  "naver": "https://map.naver.com/p/search/%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4"
+                }
+              }
             ]
           },
           {
             "type": "subheading",
             "text": "購物地點 ：Olive Young 西面 Town 店（全韓最大旗艦店之一）或海雲台分店",
-            "maps": null
+            "maps": {
+              "google": "https://www.google.com/maps/search/?api=1&query=%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4",
+              "naver": "https://map.naver.com/p/search/%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4"
+            }
           }
         ]
       },
@@ -2384,33 +3192,104 @@
                 "童裝特價花車 CP 值高（PTT 媽媽推薦）",
                 "D3 南浦洞（已排入）"
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://maps.google.com/?q=%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90",
+                  "naver": "https://map.naver.com/v5/search/%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EB%A1%AF%EB%8D%B0%EB%B0%B1%ED%99%94%EC%A0%90%20%EA%B4%91%EB%B3%B5%EC%A0%90&query_place_id=ChIJxycp5AzpaDUR62VgFgUIPV0",
+                  "naver": "https://map.naver.com/p/search/%EB%A1%AF%EB%8D%B0%EB%B0%B1%ED%99%94%EC%A0%90%20%EA%B4%91%EB%B3%B5%EC%A0%90"
+                }
+              }
             ]
           },
           {
             "type": "subheading",
             "text": "大賣場嬰兒區（Homeplus / E-Mart）",
-            "maps": null
+            "maps": {
+              "google": "https://www.google.com/maps/search/?api=1&query=%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90",
+              "naver": "https://map.naver.com/p/search/%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90"
+            }
           },
           {
             "type": "list",
             "items": [
-              "Homeplus Centum City 店 — 離飯店近，順路補貨",
-              "推薦：ildong 日東嬰兒米餅、Maeil 每日幼兒牛奶/果汁、韓國嬰兒零食（米菓、海苔點心）",
-              "尿布、副食品、基本童裝也有"
+              {
+                "text": "Homeplus Centum City 店 — 離飯店近，順路補貨",
+                "photo": null,
+                "maps": {
+                  "google": "https://maps.google.com/?q=%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90",
+                  "naver": "https://map.naver.com/v5/search/%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90"
+                }
+              },
+              {
+                "text": "推薦：ildong 日東嬰兒米餅、Maeil 每日幼兒牛奶/果汁、韓國嬰兒零食（米菓、海苔點心）",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90",
+                  "naver": "https://map.naver.com/p/search/%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90"
+                }
+              },
+              {
+                "text": "尿布、副食品、基本童裝也有",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90",
+                  "naver": "https://map.naver.com/p/search/%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90"
+                }
+              }
             ]
           },
           {
             "type": "subheading",
             "text": "Olive Young 嬰幼兒好物",
-            "maps": null
+            "maps": {
+              "google": "https://www.google.com/maps/search/?api=1&query=%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4",
+              "naver": "https://map.naver.com/p/search/%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4"
+            }
           },
           {
             "type": "list",
             "items": [
-              "Green Finger 嬰幼兒防曬乳 / 護膚 — 韓國媽媽愛用品牌",
-              "Goongbe 궁비 嬰兒沐浴 / 護膚系列",
-              "MOTHER-K 拋棄式圍兜、吸管杯等外出用品",
-              "B&B 嬰兒洗衣精、奶瓶清潔液"
+              {
+                "text": "Green Finger 嬰幼兒防曬乳 / 護膚 — 韓國媽媽愛用品牌",
+                "photo": "shopping/green-finger.jpg",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4",
+                  "naver": "https://map.naver.com/p/search/%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4"
+                }
+              },
+              {
+                "text": "Goongbe 궁비 嬰兒沐浴 / 護膚系列",
+                "photo": "shopping/goongbe.jpg",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4",
+                  "naver": "https://map.naver.com/p/search/%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4"
+                }
+              },
+              {
+                "text": "MOTHER-K 拋棄式圍兜、吸管杯等外出用品",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4",
+                  "naver": "https://map.naver.com/p/search/%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4"
+                }
+              },
+              {
+                "text": "B&B 嬰兒洗衣精、奶瓶清潔液",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4",
+                  "naver": "https://map.naver.com/p/search/%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4"
+                }
+              }
             ]
           },
           {
@@ -2456,6 +3335,50 @@
                 "拋棄式圍兜、外出用品",
                 "大賣場 / Olive Young"
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": "shopping/agabang.jpg",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4",
+                  "naver": "https://map.naver.com/p/search/%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4"
+                }
+              },
+              {
+                "photo": "shopping/ozkiz.jpg",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4",
+                  "naver": "https://map.naver.com/p/search/%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4"
+                }
+              },
+              {
+                "photo": "shopping/green-finger.jpg",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4",
+                  "naver": "https://map.naver.com/p/search/%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90",
+                  "naver": "https://map.naver.com/p/search/%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90"
+                }
+              },
+              {
+                "photo": "shopping/goongbe.jpg",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4",
+                  "naver": "https://map.naver.com/p/search/%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4",
+                  "naver": "https://map.naver.com/p/search/%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4"
+                }
+              }
             ]
           }
         ]
@@ -2472,11 +3395,46 @@
           {
             "type": "list",
             "items": [
-              "韓國泡麵（辛拉麵、不倒翁起司拉麵、三養辣雞麵）",
-              "韓國海苔大包裝",
-              "Maxim 即溶咖啡（金色包裝最經典）",
-              "蜂蜜奶油洋芋片",
-              "韓國柚子茶 / 紅棗茶"
+              {
+                "text": "韓國泡麵（辛拉麵、不倒翁起司拉麵、三養辣雞麵）",
+                "photo": "shopping/shin-ramyun.png",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90",
+                  "naver": "https://map.naver.com/p/search/%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90"
+                }
+              },
+              {
+                "text": "韓國海苔大包裝",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90",
+                  "naver": "https://map.naver.com/p/search/%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90"
+                }
+              },
+              {
+                "text": "Maxim 即溶咖啡（金色包裝最經典）",
+                "photo": "shopping/maxim-mocha.png",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90",
+                  "naver": "https://map.naver.com/p/search/%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90"
+                }
+              },
+              {
+                "text": "蜂蜜奶油洋芋片",
+                "photo": "shopping/honey-butter-chip.jpg",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90",
+                  "naver": "https://map.naver.com/p/search/%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90"
+                }
+              },
+              {
+                "text": "韓國柚子茶 / 紅棗茶",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90",
+                  "naver": "https://map.naver.com/p/search/%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90"
+                }
+              }
             ]
           },
           {
@@ -2487,10 +3445,38 @@
           {
             "type": "list",
             "items": [
-              "ildong 日東嬰兒米餅 / 米菓",
-              "Maeil 每日幼兒牛奶 / 果汁",
-              "韓國嬰兒海苔點心",
-              "備用尿布（韓國 Huggies 好奇品質好）"
+              {
+                "text": "ildong 日東嬰兒米餅 / 米菓",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90",
+                  "naver": "https://map.naver.com/p/search/%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90"
+                }
+              },
+              {
+                "text": "Maeil 每日幼兒牛奶 / 果汁",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90",
+                  "naver": "https://map.naver.com/p/search/%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90"
+                }
+              },
+              {
+                "text": "韓國嬰兒海苔點心",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90",
+                  "naver": "https://map.naver.com/p/search/%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90"
+                }
+              },
+              {
+                "text": "備用尿布（韓國 Huggies 好奇品質好）",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90",
+                  "naver": "https://map.naver.com/p/search/%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90"
+                }
+              }
             ]
           }
         ]
@@ -2534,6 +3520,29 @@
                 "三星集團旗下，設計感強、剪裁時尚。適合想買韓系穿搭的人",
                 "南浦洞光復路 63-2（D3）"
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": "shopping/topten.jpg",
+                "maps": {
+                  "google": "https://www.google.com/maps/place/?q=place_id:ChIJBY2rnKDpaDURxohkZrjXWEw",
+                  "naver": "https://map.naver.com/v5/search/%ED%83%91%ED%85%90%20%EB%82%A8%ED%8F%AC%EB%8F%99"
+                }
+              },
+              {
+                "photo": "shopping/topten.jpg",
+                "maps": {
+                  "google": "https://www.google.com/maps/place/?q=place_id:ChIJ9RvZ-YzpaDURR-pIDH_EW8M",
+                  "naver": "https://map.naver.com/v5/search/SPAO%20%EC%84%9C%EB%A9%B4"
+                }
+              },
+              {
+                "photo": "shopping/8seconds.jpg",
+                "maps": {
+                  "google": "https://www.google.com/maps/place/?q=place_id:ChIJD7ZB_G7paDURFMVj7fNYVoI",
+                  "naver": "https://map.naver.com/v5/search/8seconds%20%EA%B4%91%EB%B3%B5"
+                }
+              }
             ]
           },
           {
@@ -2544,9 +3553,27 @@
           {
             "type": "list",
             "items": [
-              "韓國設計版型 → 更合亞洲人身材，穿起來更韓",
-              "聯名款在韓國買最便宜（SPAO × 哈利波特 / 蠟筆小新系列台灣代購很貴）",
-              "台灣完全買不到 TOPTEN 和 SPAO — 只有來韓國才能逛"
+              {
+                "text": "韓國設計版型 → 更合亞洲人身材，穿起來更韓",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "聯名款在韓國買最便宜（SPAO × 哈利波特 / 蠟筆小新系列台灣代購很貴）",
+                "photo": "shopping/spao.png",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%8A%A4%ED%8C%8C%EC%98%A4%20%EC%84%9C%EB%A9%B4&query_place_id=ChIJR_AMB2_raDURtkNgS_8-3FQ",
+                  "naver": "https://map.naver.com/p/search/%EC%8A%A4%ED%8C%8C%EC%98%A4%20%EC%84%9C%EB%A9%B4"
+                }
+              },
+              {
+                "text": "台灣完全買不到 TOPTEN 和 SPAO — 只有來韓國才能逛",
+                "photo": "shopping/topten.jpg",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%ED%83%91%ED%85%90%20%EB%82%A8%ED%8F%AC%EB%8F%99&query_place_id=ChIJBY2rnKDpaDURxohkZrjXWEw",
+                  "naver": "https://map.naver.com/p/search/%ED%83%91%ED%85%90%20%EB%82%A8%ED%8F%AC%EB%8F%99"
+                }
+              }
             ]
           },
           {
@@ -2557,9 +3584,30 @@
           {
             "type": "list",
             "items": [
-              "D3 南浦洞（已排購物）→ 光復路上 TOPTEN 和 8SECONDS 就在隔壁，順路逛 30 分鐘",
-              "D3 西面（回程順路）→ SPAO 西面店在中央大路上，逛聯名款",
-              "D2 雨天備案 Centum City → 新世界百貨內有 SPAO"
+              {
+                "text": "D3 南浦洞（已排購物）→ 光復路上 TOPTEN 和 8SECONDS 就在隔壁，順路逛 30 分鐘",
+                "photo": "shopping/topten.jpg",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%ED%83%91%ED%85%90%20%EB%82%A8%ED%8F%AC%EB%8F%99&query_place_id=ChIJBY2rnKDpaDURxohkZrjXWEw",
+                  "naver": "https://map.naver.com/p/search/%ED%83%91%ED%85%90%20%EB%82%A8%ED%8F%AC%EB%8F%99"
+                }
+              },
+              {
+                "text": "D3 西面（回程順路）→ SPAO 西面店在中央大路上，逛聯名款",
+                "photo": "shopping/spao.png",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%8A%A4%ED%8C%8C%EC%98%A4%20%EC%84%9C%EB%A9%B4&query_place_id=ChIJR_AMB2_raDURtkNgS_8-3FQ",
+                  "naver": "https://map.naver.com/p/search/%EC%8A%A4%ED%8C%8C%EC%98%A4%20%EC%84%9C%EB%A9%B4"
+                }
+              },
+              {
+                "text": "D2 雨天備案 Centum City → 新世界百貨內有 SPAO",
+                "photo": "shopping/spao.png",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90&query_place_id=ChIJSSw7slWTaDURjMs-oU61YYc",
+                  "naver": "https://map.naver.com/p/search/%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90"
+                }
+              }
             ]
           }
         ]
@@ -2571,20 +3619,47 @@
           {
             "type": "subheading",
             "text": "麥當勞 Happy Meal 해피밀",
-            "maps": null
+            "maps": {
+              "google": "https://www.google.com/maps/search/?api=1&query=%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+              "naver": "https://map.naver.com/p/search/%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+            }
           },
           {
             "type": "list",
             "items": [
-              "6 月玩具款式出發前查 韓國麥當勞官網",
-              "套餐約 ₩5,900-6,900，雨樂年紀剛好可以收集玩具",
-              "2026 已出過蠟筆小新（3 月）、超級瑪利歐銀河（4-5 月）"
+              {
+                "text": "6 月玩具款式出發前查 韓國麥當勞官網",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "text": "套餐約 ₩5,900-6,900，雨樂年紀剛好可以收集玩具",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "text": "2026 已出過蠟筆小新（3 月）、超級瑪利歐銀河（4-5 月）",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/%EB%A7%A5%EB%8F%84%EB%82%A0%EB%93%9C%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              }
             ]
           },
           {
             "type": "subheading",
             "text": "韓國星巴克 限定周邊",
-            "maps": null
+            "maps": {
+              "google": "https://www.google.com/maps/search/?api=1&query=%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+              "naver": "https://map.naver.com/p/search/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+            }
           },
           {
             "type": "image",
@@ -2615,6 +3690,29 @@
                 "Miffy 聯名",
                 "杯子、隨行杯、提袋（5 月開賣）"
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "photo": "shopping/starbucks-toystory.png",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              }
             ]
           },
           {
@@ -2624,7 +3722,10 @@
           {
             "type": "subheading",
             "text": "便利商店 必吃爆紅品（CU / GS25）",
-            "maps": null
+            "maps": {
+              "google": "https://www.google.com/maps/search/?api=1&query=CU%20%ED%8E%B8%EC%9D%98%EC%A0%90%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+              "naver": "https://map.naver.com/p/search/CU%20%ED%8E%B8%EC%9D%98%EC%A0%90%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+            }
           },
           {
             "type": "note",
@@ -2727,12 +3828,73 @@
                 "~₩1,500",
                 "經典 + 草莓/咖啡限定口味"
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": "shopping/yonsei-cream-bread.png",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=CU%20%ED%8E%B8%EC%9D%98%EC%A0%90%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/CU%20%ED%8E%B8%EC%9D%98%EC%A0%90%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "photo": "shopping/seongsu-bagel.jpg",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=GS25%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/GS25%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "photo": "shopping/kimhyeja-dosirak.jpg",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=GS25%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/GS25%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "photo": "https://lookaside.fbsbx.com/lookaside/crawler/threads/DIEMAiDSK43/0/image.jpg",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=GS25%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/GS25%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "photo": "shopping/dubai-choco.png",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=CU%20%ED%8E%B8%EC%9D%98%EC%A0%90%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/CU%20%ED%8E%B8%EC%9D%98%EC%A0%90%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "photo": "shopping/cu-music-candy.jpg",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=CU%20%ED%8E%B8%EC%9D%98%EC%A0%90%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/CU%20%ED%8E%B8%EC%9D%98%EC%A0%90%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "photo": "shopping/banana-kick.jpg",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=CU%20%ED%8E%B8%EC%9D%98%EC%A0%90%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/CU%20%ED%8E%B8%EC%9D%98%EC%A0%90%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "photo": "shopping/banana-milk.jpg",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=CU%20%ED%8E%B8%EC%9D%98%EC%A0%90%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/CU%20%ED%8E%B8%EC%9D%98%EC%A0%90%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              }
             ]
           },
           {
             "type": "subheading",
             "text": "Olive Young 2026 爆紅零食",
-            "maps": null
+            "maps": {
+              "google": "https://www.google.com/maps/search/?api=1&query=%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4",
+              "naver": "https://map.naver.com/p/search/%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4"
+            }
           },
           {
             "type": "image",
@@ -2787,6 +3949,43 @@
                 "~₩3,000",
                 "粉絲狂推"
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": "shopping/delight-bagel.jpg",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4",
+                  "naver": "https://map.naver.com/p/search/%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4"
+                }
+              },
+              {
+                "photo": "shopping/garlic-tomato-chip.jpg",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4",
+                  "naver": "https://map.naver.com/p/search/%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4"
+                }
+              },
+              {
+                "photo": "shopping/osulloc-pretzel.png",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4",
+                  "naver": "https://map.naver.com/p/search/%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4"
+                }
+              },
+              {
+                "photo": "shopping/hbaf-almond.jpg",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4",
+                  "naver": "https://map.naver.com/p/search/%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4",
+                  "naver": "https://map.naver.com/p/search/%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4"
+                }
+              }
             ]
           },
           {
@@ -2796,7 +3995,10 @@
           {
             "type": "subheading",
             "text": "韓國大創 DAISO 小物",
-            "maps": null
+            "maps": {
+              "google": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EB%82%A8%ED%8F%AC%EB%8F%99&query_place_id=ChIJm6rkQgrpaDURZmVLWHVIibQ",
+              "naver": "https://map.naver.com/p/search/%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EB%82%A8%ED%8F%AC%EB%8F%99"
+            }
           },
           {
             "type": "image",
@@ -2836,6 +4038,36 @@
                 "₩1,000",
                 "20-40 張入，追星必備"
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EB%82%A8%ED%8F%AC%EB%8F%99&query_place_id=ChIJm6rkQgrpaDURZmVLWHVIibQ",
+                  "naver": "https://map.naver.com/p/search/%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EB%82%A8%ED%8F%AC%EB%8F%99"
+                }
+              },
+              {
+                "photo": "shopping/lelabo-handcream.jpg",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EB%82%A8%ED%8F%AC%EB%8F%99&query_place_id=ChIJm6rkQgrpaDURZmVLWHVIibQ",
+                  "naver": "https://map.naver.com/p/search/%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EB%82%A8%ED%8F%AC%EB%8F%99"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EB%82%A8%ED%8F%AC%EB%8F%99&query_place_id=ChIJm6rkQgrpaDURZmVLWHVIibQ",
+                  "naver": "https://map.naver.com/p/search/%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EB%82%A8%ED%8F%AC%EB%8F%99"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EB%82%A8%ED%8F%AC%EB%8F%99&query_place_id=ChIJm6rkQgrpaDURZmVLWHVIibQ",
+                  "naver": "https://map.naver.com/p/search/%EB%8B%A4%EC%9D%B4%EC%86%8C%20%EB%82%A8%ED%8F%AC%EB%8F%99"
+                }
+              }
             ]
           }
         ]
@@ -2872,6 +4104,24 @@
                 "互動體驗、VR、戶外水上區",
                 "離市區遠，需半天"
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              }
             ]
           }
         ]
@@ -2922,6 +4172,31 @@
                 "平價咖啡",
                 "韓國本土連鎖，比星巴克便宜一半"
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              }
             ]
           },
           {
@@ -2957,6 +4232,27 @@
                 "零食伴手禮、飲料",
                 "葵花子巧克力、海苔、小點心"
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EB%A1%AF%EB%8D%B0%EB%A9%B4%EC%84%B8%EC%A0%90%20%EA%B9%80%ED%95%B4%EA%B3%B5%ED%95%AD&query_place_id=ChIJ2bjxgaDBaDUR_bo-HcZByj8",
+                  "naver": "https://map.naver.com/p/search/%EB%A1%AF%EB%8D%B0%EB%A9%B4%EC%84%B8%EC%A0%90%20%EA%B9%80%ED%95%B4%EA%B3%B5%ED%95%AD"
+                }
+              },
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              }
             ]
           },
           {
@@ -2983,6 +4279,23 @@
                 "餐廳只有 3 間",
                 "Angels、Dunkin' Donuts、韓式餐廳"
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": "shopping/banana-milk.jpg",
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=CU%20%ED%8E%B8%EC%9D%98%EC%A0%90%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                  "naver": "https://map.naver.com/p/search/CU%20%ED%8E%B8%EC%9D%98%EC%A0%90%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+                }
+              },
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              }
             ]
           },
           {
@@ -3009,12 +4322,36 @@
           {
             "type": "list",
             "items": [
-              "日期：6/27（六）- 6/28（日）",
-              "地點：釜山亞運主場館",
-              "內容：釜山最大 K-culture 慶典（第 10 屆）。大型 K-pop 演唱會 + 美妝/美食/品牌體驗 pop-up 區",
-              "已公布陣容：AKMU、RIIZE、CRAVITY、8TURN、Haechan (NCT) 等",
-              "親子：演唱會不適合帶幼兒（大聲擁擠），白天場外 pop-up 市集可以逛",
-              "需購票（KKday / NOL 平台）"
+              {
+                "text": "日期：6/27（六）- 6/28（日）",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "地點：釜山亞運主場館",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "內容：釜山最大 K-culture 慶典（第 10 屆）。大型 K-pop 演唱會 + 美妝/美食/品牌體驗 pop-up 區",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "已公布陣容：AKMU、RIIZE、CRAVITY、8TURN、Haechan (NCT) 等",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "親子：演唱會不適合帶幼兒（大聲擁擠），白天場外 pop-up 市集可以逛",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "需購票（KKday / NOL 平台）",
+                "photo": null,
+                "maps": null
+              }
             ]
           },
           {
@@ -3028,11 +4365,31 @@
           {
             "type": "list",
             "items": [
-              "展期：~6/30（最後一天！）",
-              "地點：Arte Museum，影島區（29 Haeyang-ro 247beon-gil, Yeongdo-gu）",
-              "內容：世界最大沉浸式數位藝術館 + 巨型可愛兔子裝置，花園/叢林/星空光影投影",
-              "親子：⭐⭐⭐ 超適合幼兒（類似 teamLab），室內冷氣，也是絕佳雨天備案",
-              "每日 10:00-20:00，免費停車 2hr"
+              {
+                "text": "展期：~6/30（最後一天！）",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "地點：Arte Museum，影島區（29 Haeyang-ro 247beon-gil, Yeongdo-gu）",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "內容：世界最大沉浸式數位藝術館 + 巨型可愛兔子裝置，花園/叢林/星空光影投影",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "親子：⭐⭐⭐ 超適合幼兒（類似 teamLab），室內冷氣，也是絕佳雨天備案",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "每日 10:00-20:00，免費停車 2hr",
+                "photo": null,
+                "maps": null
+              }
             ]
           }
         ]
@@ -3052,11 +4409,37 @@
           {
             "type": "list",
             "items": [
-              "展期：~10/11",
-              "地點：Centum City 附近（20 Centumseo-ro, Haeundae-gu），離新世界百貨很近",
-              "內容：8000 萬顆 LED 地板+牆面，浪漫主義主題沉浸式體驗，約 60 分鐘",
-              "親子：⭐⭐⭐ 幼兒愛光影，可跟新世界百貨雨天備案合併",
-              "平日 10-19 / 週末 10-20，Klook 可買折扣票"
+              {
+                "text": "展期：~10/11",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "地點：Centum City 附近（20 Centumseo-ro, Haeundae-gu），離新世界百貨很近",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90&query_place_id=ChIJSSw7slWTaDURjMs-oU61YYc",
+                  "naver": "https://map.naver.com/p/search/%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90"
+                }
+              },
+              {
+                "text": "內容：8000 萬顆 LED 地板+牆面，浪漫主義主題沉浸式體驗，約 60 分鐘",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "親子：⭐⭐⭐ 幼兒愛光影，可跟新世界百貨雨天備案合併",
+                "photo": null,
+                "maps": {
+                  "google": "https://www.google.com/maps/search/?api=1&query=%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90&query_place_id=ChIJSSw7slWTaDURjMs-oU61YYc",
+                  "naver": "https://map.naver.com/p/search/%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90"
+                }
+              },
+              {
+                "text": "平日 10-19 / 週末 10-20，Klook 可買折扣票",
+                "photo": null,
+                "maps": null
+              }
             ]
           },
           {
@@ -3067,11 +4450,31 @@
           {
             "type": "list",
             "items": [
-              "展期：~7/19",
-              "地點：乙淑島 MoCA（離市區較遠）",
-              "內容：繪本風格視覺藝術裝置，無文字敘事，7 組藝術家",
-              "親子：⭐⭐ 繪本風格適合小孩，免費入場",
-              "週二~日 10-18"
+              {
+                "text": "展期：~7/19",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "地點：乙淑島 MoCA（離市區較遠）",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "內容：繪本風格視覺藝術裝置，無文字敘事，7 組藝術家",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "親子：⭐⭐ 繪本風格適合小孩，免費入場",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "週二~日 10-18",
+                "photo": null,
+                "maps": null
+              }
             ]
           },
           {
@@ -3082,10 +4485,26 @@
           {
             "type": "list",
             "items": [
-              "展期：~6/28（只剩 2 天重疊）",
-              "地點：釜山市區 30+ 場館（釜山美術館衛星場館、F1963 等）",
-              "內容：錄像藝術、VR、AI 裝置、表演",
-              "需確認個別場館時間"
+              {
+                "text": "展期：~6/28（只剩 2 天重疊）",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "地點：釜山市區 30+ 場館（釜山美術館衛星場館、F1963 等）",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "內容：錄像藝術、VR、AI 裝置、表演",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "需確認個別場館時間",
+                "photo": null,
+                "maps": null
+              }
             ]
           }
         ]
@@ -3113,6 +4532,20 @@
                 "海雲台沙雕展",
                 "~6/14"
               ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              },
+              {
+                "photo": null,
+                "maps": null
+              }
             ]
           }
         ]
@@ -3134,9 +4567,21 @@
           {
             "type": "list",
             "items": [
-              "必帶：輕便雨衣 × 2、推車雨罩、折疊傘、防水涼鞋、速乾衣物",
-              "策略：每天安排 1 個室內備案，下雨就啟動",
-              "好消息：不會整天下，通常是陣雨夾晴天"
+              {
+                "text": "必帶：輕便雨衣 × 2、推車雨罩、折疊傘、防水涼鞋、速乾衣物",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "策略：每天安排 1 個室內備案，下雨就啟動",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "好消息：不會整天下，通常是陣雨夾晴天",
+                "photo": null,
+                "maps": null
+              }
             ]
           }
         ]
@@ -3148,10 +4593,26 @@
           {
             "type": "list",
             "items": [
-              "推車：必帶（折疊輕便型），釜山地鐵有電梯但部分站需找一下",
-              "午睡：每天 13:00-15:00 預留回飯店或推車睡覺時間",
-              "飲食：韓國餐廳大多有兒童餐具，白飯免費續、海苔飯捲 적합幼兒",
-              "備品：常備零食、水壺、防曬、防蚊"
+              {
+                "text": "推車：必帶（折疊輕便型），釜山地鐵有電梯但部分站需找一下",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "午睡：每天 13:00-15:00 預留回飯店或推車睡覺時間",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "飲食：韓國餐廳大多有兒童餐具，白飯免費續、海苔飯捲 적합幼兒",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "備品：常備零食、水壺、防曬、防蚊",
+                "photo": null,
+                "maps": null
+              }
             ]
           }
         ]
@@ -3163,10 +4624,26 @@
           {
             "type": "list",
             "items": [
-              "機場→市區：金海機場搭計程車到海雲台約 25-35 分鐘，費用約 30,000-40,000 KRW（~700-950 TWD）。帶推車+行李搭計程車最方便",
-              "市區移動：地鐵 + 計程車混用。雨樂未滿 6 歲，搭地鐵/公車免費",
-              "T-money 卡：便利商店購入（~2,500-4,000 KRW），儲值搭地鐵/公車/便利商店/計程車。單程地鐵 ~1,400 KRW",
-              "Visit Busan Pass（強烈推薦 48hr 版，~55,000 KRW）：含水族館（29,000）+ 藍線公園海灘列車（8,000）+ 松島纜車（17,000）+ 釜山塔 + 30 多個景點。實體卡版本還兼 T-money 功能，一卡搞定"
+              {
+                "text": "機場→市區：金海機場搭計程車到海雲台約 25-35 分鐘，費用約 30,000-40,000 KRW（~700-950 TWD）。帶推車+行李搭計程車最方便",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "市區移動：地鐵 + 計程車混用。雨樂未滿 6 歲，搭地鐵/公車免費",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "T-money 卡：便利商店購入（~2,500-4,000 KRW），儲值搭地鐵/公車/便利商店/計程車。單程地鐵 ~1,400 KRW",
+                "photo": null,
+                "maps": null
+              },
+              {
+                "text": "Visit Busan Pass（強烈推薦 48hr 版，~55,000 KRW）：含水族館（29,000）+ 藍線公園海灘列車（8,000）+ 松島纜車（17,000）+ 釜山塔 + 30 多個景點。實體卡版本還兼 T-money 功能，一卡搞定",
+                "photo": null,
+                "maps": null
+              }
             ]
           }
         ]
@@ -3593,6 +5070,56 @@
         "price": "",
         "note": "胡迪/巴斯小熊公仔杯",
         "img": "shopping/starbucks-toystory.png"
+      },
+      {
+        "slug": "topten",
+        "category": "服飾",
+        "nameZh": "TOPTEN 탑텐（韓版 Uniqlo）",
+        "nameKr": "탑텐 남포동",
+        "store": "南浦洞光復路 / 西面",
+        "price": "T 恤 ₩9,900~",
+        "note": "基本款高 CP，台灣買不到",
+        "img": "shopping/topten.jpg"
+      },
+      {
+        "slug": "spao",
+        "category": "服飾",
+        "nameZh": "SPAO 스파오（聯名王）",
+        "nameKr": "스파오 서면",
+        "store": "西面 / 新世界 Centum",
+        "price": "T 恤 ₩12,900~",
+        "note": "哈利波特/蠟筆小新等 IP 聯名最便宜",
+        "img": "shopping/spao.png"
+      },
+      {
+        "slug": "8seconds",
+        "category": "服飾",
+        "nameZh": "8SECONDS 에잇세컨즈（韓版 ZARA）",
+        "nameKr": "에잇세컨즈 남포동",
+        "store": "南浦洞光復路",
+        "price": "T 恤 ₩19,900~",
+        "note": "三星旗下，設計感強",
+        "img": "shopping/8seconds.jpg"
+      },
+      {
+        "slug": "ozkiz",
+        "category": "嬰幼兒",
+        "nameZh": "OZKIZ 오즈키즈 潮流童裝",
+        "nameKr": "오즈키즈",
+        "store": "百貨 / 網購",
+        "price": "",
+        "note": "韓劇常出現的童裝品牌",
+        "img": "shopping/ozkiz.jpg"
+      },
+      {
+        "slug": "agabang",
+        "category": "嬰幼兒",
+        "nameZh": "Agabang 아가방 有機棉嬰兒衣",
+        "nameKr": "아가방",
+        "store": "百貨專櫃",
+        "price": "",
+        "note": "韓國老牌嬰兒服飾",
+        "img": "shopping/agabang.jpg"
       }
     ]
   }

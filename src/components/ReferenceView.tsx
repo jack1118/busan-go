@@ -53,6 +53,51 @@ function MapButtons({ maps }: { maps: MapLinks | null | undefined }) {
   );
 }
 
+const asset = (src: string) =>
+  src.startsWith("http") ? src : import.meta.env.BASE_URL + src;
+
+function Thumb({ src }: { src: string }) {
+  return (
+    <img
+      src={asset(src)}
+      alt=""
+      loading="lazy"
+      className="h-12 w-12 shrink-0 rounded-lg object-cover"
+      onError={(e) => {
+        e.currentTarget.style.display = "none";
+      }}
+    />
+  );
+}
+
+function MiniMaps({ maps }: { maps?: MapLinks | null }) {
+  if (!maps || (!maps.google && !maps.naver)) return null;
+  return (
+    <div className="mt-1 flex gap-1.5">
+      {maps.naver && (
+        <a
+          href={maps.naver}
+          target="_blank"
+          rel="noreferrer"
+          className="rounded-md bg-[#03c75a]/15 px-2 py-0.5 text-[11px] font-semibold text-[#03a64a]"
+        >
+          📍 N
+        </a>
+      )}
+      {maps.google && (
+        <a
+          href={maps.google}
+          target="_blank"
+          rel="noreferrer"
+          className="rounded-md bg-busan-blue/15 px-2 py-0.5 text-[11px] font-semibold text-busan-blue-deep dark:text-busan-blue"
+        >
+          🗺 G
+        </a>
+      )}
+    </div>
+  );
+}
+
 function BlockView({ block }: { block: Block }) {
   switch (block.type) {
     case "image":
@@ -79,19 +124,29 @@ function BlockView({ block }: { block: Block }) {
       );
     case "list":
       return (
-        <ul className="my-1.5 space-y-1">
+        <ul className="my-1.5 space-y-2">
           {block.items?.map((it, i) => (
-            <li
-              key={i}
-              className="flex gap-2 text-[13.5px] leading-relaxed text-neutral-600 dark:text-neutral-300"
-            >
-              <span className="text-busan-blue-deep dark:text-busan-blue">·</span>
-              <span>{it}</span>
+            <li key={i} className="flex gap-2.5">
+              {it.photo ? (
+                <Thumb src={it.photo} />
+              ) : (
+                <span className="mt-0.5 text-busan-blue-deep dark:text-busan-blue">
+                  ·
+                </span>
+              )}
+              <div className="min-w-0 flex-1">
+                <span className="text-[13.5px] leading-relaxed text-neutral-600 dark:text-neutral-300">
+                  {it.text}
+                </span>
+                <MiniMaps maps={it.maps} />
+              </div>
             </li>
           ))}
         </ul>
       );
-    case "table":
+    case "table": {
+      const meta = block.rowsMeta || [];
+      const hasMeta = meta.some((m) => m && (m.photo || m.maps));
       return (
         <div className="my-2 overflow-x-auto">
           <table className="w-full text-left text-[13px]">
@@ -102,33 +157,44 @@ function BlockView({ block }: { block: Block }) {
                     {h}
                   </th>
                 ))}
+                {hasMeta && <th className="py-1 font-medium">圖／地圖</th>}
               </tr>
             </thead>
             <tbody>
-              {block.rows?.map((row, ri) => (
-                <tr
-                  key={ri}
-                  className="border-t border-black/5 dark:border-white/5"
-                >
-                  {row.map((c, ci) => (
-                    <td
-                      key={ci}
-                      className={
-                        "py-1.5 pr-3 align-top " +
-                        (ci === 0
-                          ? "font-medium text-neutral-800 dark:text-neutral-100"
-                          : "text-neutral-500 dark:text-neutral-400")
-                      }
-                    >
-                      {c}
-                    </td>
-                  ))}
-                </tr>
-              ))}
+              {block.rows?.map((row, ri) => {
+                const m = meta[ri];
+                return (
+                  <tr
+                    key={ri}
+                    className="border-t border-black/5 dark:border-white/5"
+                  >
+                    {row.map((c, ci) => (
+                      <td
+                        key={ci}
+                        className={
+                          "py-1.5 pr-3 align-top " +
+                          (ci === 0
+                            ? "font-medium text-neutral-800 dark:text-neutral-100"
+                            : "text-neutral-500 dark:text-neutral-400")
+                        }
+                      >
+                        {c}
+                      </td>
+                    ))}
+                    {hasMeta && (
+                      <td className="py-1.5 align-top">
+                        {m?.photo && <Thumb src={m.photo} />}
+                        <MiniMaps maps={m?.maps} />
+                      </td>
+                    )}
+                  </tr>
+                );
+              })}
             </tbody>
           </table>
         </div>
       );
+    }
     default:
       return (
         <p className="my-1.5 text-[13.5px] leading-relaxed text-neutral-600 dark:text-neutral-300">
