@@ -27,7 +27,8 @@
     "D2": [
       { "nameZh": "新世界百貨 Centum City", "nameKr": "신세계백화점 센텀시티점", "lat": 35.1689218, "lng": 129.1296311, "placeId": "ChIJSSw7slWTaDURjMs-oU61YYc", "note": "頂樓 Zooraji 兒童樂園 + 6F 兒童館 + Hello Kitty Cafe" },
       { "nameZh": "Pororo Park 釜山店（室內樂園）", "nameKr": "뽀로로파크 부산점", "note": "波露露主題室內遊樂場（南區 W Square），幼兒最愛" },
-      { "nameZh": "Club D Oasis（室內水樂園）", "nameKr": "클럽디 오아시스", "lat": 35.1600514, "lng": 129.1684719, "placeId": "ChIJN0Cv_r2NaDURKwfew3pTqi8", "note": "海雲台 LCT，室內泳池+汗蒸幕，雨樂免費" }
+      { "nameZh": "Club D Oasis（室內水樂園）", "nameKr": "클럽디 오아시스", "lat": 35.1600514, "lng": 129.1684719, "placeId": "ChIJN0Cv_r2NaDURKwfew3pTqi8", "note": "海雲台 LCT，室內泳池+汗蒸幕，雨樂免費" },
+      { "nameZh": "Hello Kitty Apple Cafe（Centum B1）", "nameKr": "헬로키티 애플카페 센텀시티점", "lat": 35.1698588, "lng": 129.1282597, "placeId": "ChIJX6DQHACTaDURi7i7v2p6a_k", "note": "蘋果×Kitty 主題咖啡廳，飲品 ₩5,500~8,500，拍照區+周邊，雨樂認得 Kitty 會很開心" }
     ],
     "D3": [
       { "nameZh": "新世界百貨 Centum City（室內）", "nameKr": "신세계백화점 센텀시티점", "lat": 35.1689218, "lng": 129.1296311, "placeId": "ChIJSSw7slWTaDURjMs-oU61YYc", "note": "雨天跳過甘川洞，改室內百貨" }

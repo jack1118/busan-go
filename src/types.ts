@@ -65,6 +65,9 @@ export interface RefNode {
   title: string;
   maps: MapLinks | null;
   blocks: Block[];
+  // Real food-photo gallery for this store (Google Places photos), matched by
+  // a store key during parse. Rendered as a horizontal strip under the title.
+  gallery?: string[];
 }
 
 export interface RefSection {

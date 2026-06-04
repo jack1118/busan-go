@@ -17,6 +17,15 @@ const SRC =
 const OUT = join(__dirname, "..", "src", "data", "itinerary.json");
 const COORDS = JSON.parse(readFileSync(join(__dirname, "coords.json"), "utf8"));
 const SHOP = JSON.parse(readFileSync(join(__dirname, "shopping.json"), "utf8"));
+// Per-store food-photo galleries (Google Places photos), keyed by a distinctive
+// substring of the food node title.
+const DISH_PHOTOS = JSON.parse(
+  readFileSync(join(__dirname, "..", "src", "data", "dish-photos.json"), "utf8")
+).stores;
+function galleryFor(title) {
+  const hit = DISH_PHOTOS.find((s) => title.includes(s.key));
+  return hit ? hit.photos : null;
+}
 
 const raw = readFileSync(SRC, "utf8");
 const lines = raw.split(/\r?\n/);
@@ -562,7 +571,11 @@ function parseNodes(ls) {
           b.maps = null;
         }
       }
-      return { title: n.title, maps, blocks };
+      const gallery = galleryFor(n.title);
+      // Avoid showing the same photo twice: drop standalone image blocks when a
+      // gallery exists (the gallery supersedes the single header image).
+      const finalBlocks = gallery ? blocks.filter((b) => b.type !== "image") : blocks;
+      return { title: n.title, maps, blocks: finalBlocks, ...(gallery ? { gallery } : {}) };
     });
 }
 
@@ -582,10 +595,11 @@ function parseSectionByHeading(re) {
 function attachPhotos(days, food) {
   const photoIndex = [];
   for (const n of food?.nodes || []) {
-    const img = n.blocks.find((b) => b.type === "image");
-    if (!img) continue;
+    // Prefer the gallery's first photo; fall back to a standalone image block.
+    const url = n.gallery?.[0] || n.blocks.find((b) => b.type === "image")?.url;
+    if (!url) continue;
     const kr = (n.title.match(/[가-힣][가-힣\s]*[가-힣]/) || [])[0];
-    if (kr) photoIndex.push({ key: kr.trim(), url: img.url });
+    if (kr) photoIndex.push({ key: kr.trim(), url });
   }
   for (const d of days) {
     for (const it of d.items) {
