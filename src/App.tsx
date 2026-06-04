@@ -4,6 +4,8 @@ import type { Day, Itinerary, RainPlace, RainPlan, TimelineItem } from "./types"
 import TaxiCard from "./components/TaxiCard";
 import TabBar, { type TabKey } from "./components/TabBar";
 import DaySwitcher from "./components/DaySwitcher";
+import { useSwipe } from "./lib/useSwipe";
+import { splitToBullets } from "./lib/text";
 import Timeline from "./components/Timeline";
 import BottomSheet from "./components/BottomSheet";
 import FlightCard from "./components/FlightCard";
@@ -110,14 +112,21 @@ function RainPlanCard({ plan }: { plan: RainPlan }) {
         🌧 雨天備案
       </div>
       <ul className="space-y-2">
-        {plan.text.map((r, i) => (
-          <li
-            key={i}
-            className="text-[13px] leading-relaxed text-neutral-600 dark:text-neutral-300"
-          >
-            {r.replace(/^雨天備案[\sA-B]*[:：]?\s*/, "")}
-          </li>
-        ))}
+        {plan.text
+          .flatMap((r) =>
+            splitToBullets(r.replace(/^雨天備案[\sA-B]*[:：]?\s*/, ""))
+          )
+          .map((line, i) => (
+            <li
+              key={i}
+              className="flex gap-2 text-[13.5px] leading-relaxed text-neutral-700 dark:text-neutral-200"
+            >
+              <span className="mt-[1px] shrink-0 text-busan-blue-deep dark:text-busan-blue">
+                ·
+              </span>
+              <span className="min-w-0 flex-1">{line}</span>
+            </li>
+          ))}
       </ul>
       {plan.places.length > 0 && (
         <div className="mt-3 space-y-2">
@@ -198,10 +207,29 @@ function DayView({
 
 function ItineraryPage() {
   const [activeId, setActiveId] = useState(data.days[0]?.id ?? "D1");
+  const [dir, setDir] = useState<1 | -1>(1);
   const [selected, setSelected] = useState<TimelineItem | null>(null);
+  const idx = data.days.findIndex((d) => d.id === activeId);
   const day = useMemo(
     () => data.days.find((d) => d.id === activeId) ?? data.days[0],
     [activeId]
+  );
+
+  const go = (delta: 1 | -1) => {
+    const next = idx + delta;
+    if (next < 0 || next >= data.days.length) return;
+    setDir(delta);
+    setActiveId(data.days[next].id);
+  };
+  const select = (id: string) => {
+    const next = data.days.findIndex((d) => d.id === id);
+    if (next === idx) return;
+    setDir(next > idx ? 1 : -1);
+    setActiveId(id);
+  };
+  const swipe = useSwipe(
+    () => go(1),
+    () => go(-1)
   );
 
   return (
@@ -212,9 +240,18 @@ function ItineraryPage() {
         </div>
       )}
 
-      <DaySwitcher days={data.days} activeId={activeId} onSelect={setActiveId} />
+      <DaySwitcher days={data.days} activeId={activeId} onSelect={select} />
 
-      {day && <DayView day={day} onSelect={setSelected} />}
+      <div {...swipe} className="touch-pan-y">
+        {day && (
+          <div
+            key={activeId}
+            className={dir === 1 ? "animate-day-next" : "animate-day-prev"}
+          >
+            <DayView day={day} onSelect={setSelected} />
+          </div>
+        )}
+      </div>
 
       <BottomSheet item={selected} onClose={() => setSelected(null)} />
     </div>

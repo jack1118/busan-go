@@ -546,11 +546,24 @@ function parseNodes(ls) {
   nodes.push(cur);
   return nodes
     .filter((n) => n.title || n.lines.some((x) => x.trim()))
-    .map((n) => ({
-      title: n.title,
-      maps: n.maps,
-      blocks: parseBlocks(n.lines, matchStore(n.title)),
-    }));
+    .map((n) => {
+      const blocks = parseBlocks(n.lines, matchStore(n.title));
+      let maps = n.maps || matchStore(n.title) || null;
+      // Surface the store's map links at node level so they render as buttons
+      // under the title, instead of being buried in the address text block.
+      // Promote the first text block's maps and null it out to avoid showing
+      // the same G/N twice.
+      if (!maps) {
+        const b = blocks.find(
+          (x) => x.type === "text" && x.maps && (x.maps.google || x.maps.naver)
+        );
+        if (b) {
+          maps = b.maps;
+          b.maps = null;
+        }
+      }
+      return { title: n.title, maps, blocks };
+    });
 }
 
 function parseSectionByHeading(re) {

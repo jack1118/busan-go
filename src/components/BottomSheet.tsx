@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import type { TimelineItem } from "../types";
 import { ICON_EMOJI, ICON_LABEL } from "../types";
+import { splitToBullets } from "../lib/text";
 import QRViewer from "./QRViewer";
 import TaxiCard from "./TaxiCard";
 
@@ -106,9 +107,19 @@ export default function BottomSheet({
           )}
 
           {data.note && (
-            <p className="mt-3 whitespace-pre-line text-[15px] leading-relaxed text-neutral-600 dark:text-neutral-300">
-              {data.note}
-            </p>
+            <ul className="mt-3 space-y-2">
+              {splitToBullets(data.note).map((line, i) => (
+                <li
+                  key={i}
+                  className="flex gap-2 text-[15px] leading-relaxed text-neutral-700 dark:text-neutral-200"
+                >
+                  <span className="mt-[2px] shrink-0 text-busan-blue-deep dark:text-busan-blue">
+                    ·
+                  </span>
+                  <span className="min-w-0 flex-1">{line}</span>
+                </li>
+              ))}
+            </ul>
           )}
 
           {(data.voucher || data.nameKr || data.coord) && (

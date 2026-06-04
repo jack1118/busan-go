@@ -1192,15 +1192,15 @@
       },
       {
         "title": "🥩 海雲台암소갈비집 — 米其林烤肉（1964 年老店）",
-        "maps": null,
+        "maps": {
+          "google": "https://maps.google.com/?q=%ED%95%B4%EC%9A%B4%EB%8C%80%EC%95%94%EC%86%8C%EA%B0%88%EB%B9%84%EC%A7%91",
+          "naver": "https://map.naver.com/v5/search/%ED%95%B4%EC%9A%B4%EB%8C%80%EC%95%94%EC%86%8C%EA%B0%88%EB%B9%84%EC%A7%91"
+        },
         "blocks": [
           {
             "type": "text",
             "text": "해운대해변로 333｜11:30-22:00（休 15:00-17:00）",
-            "maps": {
-              "google": "https://maps.google.com/?q=%ED%95%B4%EC%9A%B4%EB%8C%80%EC%95%94%EC%86%8C%EA%B0%88%EB%B9%84%EC%A7%91",
-              "naver": "https://map.naver.com/v5/search/%ED%95%B4%EC%9A%B4%EB%8C%80%EC%95%94%EC%86%8C%EA%B0%88%EB%B9%84%EC%A7%91"
-            }
+            "maps": null
           },
           {
             "type": "image",
@@ -1284,15 +1284,15 @@
       },
       {
         "title": "🥩 伍班長燒肉 오반장 — 海雲台 CP 值之王",
-        "maps": null,
+        "maps": {
+          "google": "https://maps.google.com/?q=%EC%98%A4%EB%B0%98%EC%9E%A5%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+          "naver": "https://map.naver.com/v5/search/%EC%98%A4%EB%B0%98%EC%9E%A5%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+        },
         "blocks": [
           {
             "type": "text",
             "text": "구남로24번길 20｜11:00-06:00（全年無休）",
-            "maps": {
-              "google": "https://maps.google.com/?q=%EC%98%A4%EB%B0%98%EC%9E%A5%20%ED%95%B4%EC%9A%B4%EB%8C%80",
-              "naver": "https://map.naver.com/v5/search/%EC%98%A4%EB%B0%98%EC%9E%A5%20%ED%95%B4%EC%9A%B4%EB%8C%80"
-            }
+            "maps": null
           },
           {
             "type": "image",
@@ -1385,15 +1385,15 @@
       },
       {
         "title": "🍜 수변최고 水邊最高豬肉湯飯 — 釜山三大湯飯",
-        "maps": null,
+        "maps": {
+          "google": "https://maps.google.com/?q=%EB%AC%BC%EA%B0%80%EC%97%90%EC%B5%9C%EA%B3%A0%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+          "naver": "https://map.naver.com/v5/search/%EB%AC%BC%EA%B0%80%EC%97%90%EC%B5%9C%EA%B3%A0%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+        },
         "blocks": [
           {
             "type": "text",
             "text": "구남로 39（海雲台店）｜24 小時營業",
-            "maps": {
-              "google": "https://maps.google.com/?q=%EB%AC%BC%EA%B0%80%EC%97%90%EC%B5%9C%EA%B3%A0%20%ED%95%B4%EC%9A%B4%EB%8C%80",
-              "naver": "https://map.naver.com/v5/search/%EB%AC%BC%EA%B0%80%EC%97%90%EC%B5%9C%EA%B3%A0%20%ED%95%B4%EC%9A%B4%EB%8C%80"
-            }
+            "maps": null
           },
           {
             "type": "image",
@@ -1477,15 +1477,15 @@
       },
       {
         "title": "🍜 해운대 31cm 해물칼국수 — 31 公分海鮮刀削麵",
-        "maps": null,
+        "maps": {
+          "google": "https://maps.google.com/?q=%ED%95%B4%EC%9A%B4%EB%8C%80%2031cm%20%EC%B9%BC%EA%B5%AD%EC%88%98",
+          "naver": "https://map.naver.com/v5/search/%ED%95%B4%EC%9A%B4%EB%8C%80%2031cm%20%EC%B9%BC%EA%B5%AD%EC%88%98"
+        },
         "blocks": [
           {
             "type": "text",
             "text": "구남로41번길 46｜~11:00-21:00（週一休）",
-            "maps": {
-              "google": "https://maps.google.com/?q=%ED%95%B4%EC%9A%B4%EB%8C%80%2031cm%20%EC%B9%BC%EA%B5%AD%EC%88%98",
-              "naver": "https://map.naver.com/v5/search/%ED%95%B4%EC%9A%B4%EB%8C%80%2031cm%20%EC%B9%BC%EA%B5%AD%EC%88%98"
-            }
+            "maps": null
           },
           {
             "type": "image",
@@ -1560,15 +1560,15 @@
       },
       {
         "title": "🍜 노홍만두칼국수 爐紅餃子刀削麵 — 海雲台市場 60 年老店",
-        "maps": null,
+        "maps": {
+          "google": "https://maps.google.com/?q=%EB%85%B8%ED%99%8D%EB%A7%8C%EB%91%90%EC%B9%BC%EA%B5%AD%EC%88%98%20%ED%95%B4%EC%9A%B4%EB%8C%80%EC%8B%9C%EC%9E%A5",
+          "naver": "https://map.naver.com/v5/search/%EB%85%B8%ED%99%8D%EB%A7%8C%EB%91%90%EC%B9%BC%EA%B5%AD%EC%88%98%20%ED%95%B4%EC%9A%B4%EB%8C%80%EC%8B%9C%EC%9E%A5"
+        },
         "blocks": [
           {
             "type": "text",
             "text": "海雲台傳統市場內｜10:30-22:30",
-            "maps": {
-              "google": "https://maps.google.com/?q=%EB%85%B8%ED%99%8D%EB%A7%8C%EB%91%90%EC%B9%BC%EA%B5%AD%EC%88%98%20%ED%95%B4%EC%9A%B4%EB%8C%80%EC%8B%9C%EC%9E%A5",
-              "naver": "https://map.naver.com/v5/search/%EB%85%B8%ED%99%8D%EB%A7%8C%EB%91%90%EC%B9%BC%EA%B5%AD%EC%88%98%20%ED%95%B4%EC%9A%B4%EB%8C%80%EC%8B%9C%EC%9E%A5"
-            }
+            "maps": null
           },
           {
             "type": "image",
@@ -1634,15 +1634,15 @@
       },
       {
         "title": "🫓 해운대명품호떡 海雲台市場名品糖餅",
-        "maps": null,
+        "maps": {
+          "google": "https://maps.google.com/?q=%ED%95%B4%EC%9A%B4%EB%8C%80%EB%AA%85%ED%92%88%ED%98%B8%EB%96%A1",
+          "naver": "https://map.naver.com/v5/search/%ED%95%B4%EC%9A%B4%EB%8C%80%EB%AA%85%ED%92%88%ED%98%B8%EB%96%A1"
+        },
         "blocks": [
           {
             "type": "text",
             "text": "中東1路 38（市場入口）｜11:30-23:00（週三休）｜只收現金",
-            "maps": {
-              "google": "https://maps.google.com/?q=%ED%95%B4%EC%9A%B4%EB%8C%80%EB%AA%85%ED%92%88%ED%98%B8%EB%96%A1",
-              "naver": "https://map.naver.com/v5/search/%ED%95%B4%EC%9A%B4%EB%8C%80%EB%AA%85%ED%92%88%ED%98%B8%EB%96%A1"
-            }
+            "maps": null
           },
           {
             "type": "image",
@@ -1726,15 +1726,15 @@
       },
       {
         "title": "🍞 Standard Bread 스탠다드브레드 — 海雲台最紅麵包店",
-        "maps": null,
+        "maps": {
+          "google": "https://maps.google.com/?q=Standard%20Bread%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+          "naver": "https://map.naver.com/v5/search/Standard%20Bread%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+        },
         "blocks": [
           {
             "type": "text",
             "text": "해운대로 571｜09:00-21:00",
-            "maps": {
-              "google": "https://maps.google.com/?q=Standard%20Bread%20%ED%95%B4%EC%9A%B4%EB%8C%80",
-              "naver": "https://map.naver.com/v5/search/Standard%20Bread%20%ED%95%B4%EC%9A%B4%EB%8C%80"
-            }
+            "maps": null
           },
           {
             "type": "image",
@@ -1818,7 +1818,10 @@
       },
       {
         "title": "🐟 고래사어묵 古來思魚糕（1963 年）— 吃 + 帶回台灣",
-        "maps": null,
+        "maps": {
+          "google": "https://www.google.com/maps/search/?api=1&query=%EA%B3%A0%EB%9E%98%EC%82%AC%EC%96%B4%EB%AC%B5%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+          "naver": "https://map.naver.com/p/search/%EA%B3%A0%EB%9E%98%EC%82%AC%EC%96%B4%EB%AC%B5%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+        },
         "blocks": [
           {
             "type": "text",
@@ -1970,7 +1973,10 @@
       },
       {
         "title": "🐟 삼진어묵 三進魚糕（1953 年）— 70 年傳統",
-        "maps": null,
+        "maps": {
+          "google": "https://www.google.com/maps/search/?api=1&query=%EC%82%BC%EC%A7%84%EC%96%B4%EB%AC%B5",
+          "naver": "https://map.naver.com/p/search/%EC%82%BC%EC%A7%84%EC%96%B4%EB%AC%B5"
+        },
         "blocks": [
           {
             "type": "image",
@@ -2102,15 +2108,15 @@
       },
       {
         "title": "🌃 The Bay 101 더베이101 — 釜山夜景第一名",
-        "maps": null,
+        "maps": {
+          "google": "https://maps.google.com/?q=%EB%8D%94%EB%B2%A0%EC%9D%B4101",
+          "naver": "https://map.naver.com/v5/search/%EB%8D%94%EB%B2%A0%EC%9D%B4101"
+        },
         "blocks": [
           {
             "type": "text",
             "text": "동백로 52｜08:00-24:00｜免費入場",
-            "maps": {
-              "google": "https://maps.google.com/?q=%EB%8D%94%EB%B2%A0%EC%9D%B4101",
-              "naver": "https://map.naver.com/v5/search/%EB%8D%94%EB%B2%A0%EC%9D%B4101"
-            }
+            "maps": null
           },
           {
             "type": "image",
@@ -2181,15 +2187,15 @@
       },
       {
         "title": "🐟 자갈치시장 札嘎其市場 — 韓國最大海鮮市場",
-        "maps": null,
+        "maps": {
+          "google": "https://maps.google.com/?q=%EC%9E%90%EA%B0%88%EC%B9%98%EC%8B%9C%EC%9E%A5",
+          "naver": "https://map.naver.com/v5/search/%EC%9E%90%EA%B0%88%EC%B9%98%EC%8B%9C%EC%9E%A5"
+        },
         "blocks": [
           {
             "type": "text",
             "text": "자갈치해안로 52｜1F 05:00-22:00 / 本館 09:00-21:00｜每月第 1、3 個週二休",
-            "maps": {
-              "google": "https://maps.google.com/?q=%EC%9E%90%EA%B0%88%EC%B9%98%EC%8B%9C%EC%9E%A5",
-              "naver": "https://map.naver.com/v5/search/%EC%9E%90%EA%B0%88%EC%B9%98%EC%8B%9C%EC%9E%A5"
-            }
+            "maps": null
           },
           {
             "type": "image",
@@ -2278,15 +2284,15 @@
       },
       {
         "title": "🫓 BIFF 廣場 씨앗호떡 — 南浦洞原祖堅果糖餅",
-        "maps": null,
+        "maps": {
+          "google": "https://maps.google.com/?q=BIFF%EA%B4%91%EC%9E%A5%20%EC%94%A8%EC%95%97%ED%98%B8%EB%96%A1",
+          "naver": "https://map.naver.com/v5/search/BIFF%EA%B4%91%EC%9E%A5%20%EC%94%A8%EC%95%97%ED%98%B8%EB%96%A1"
+        },
         "blocks": [
           {
             "type": "text",
             "text": "BIFF 廣場｜~10:00-22:00",
-            "maps": {
-              "google": "https://maps.google.com/?q=BIFF%EA%B4%91%EC%9E%A5%20%EC%94%A8%EC%95%97%ED%98%B8%EB%96%A1",
-              "naver": "https://map.naver.com/v5/search/BIFF%EA%B4%91%EC%9E%A5%20%EC%94%A8%EC%95%97%ED%98%B8%EB%96%A1"
-            }
+            "maps": null
           },
           {
             "type": "image",
@@ -2344,7 +2350,10 @@
       },
       {
         "title": "🎁 必買伴手禮店",
-        "maps": null,
+        "maps": {
+          "google": "https://maps.google.com/?q=%EB%B6%80%EC%82%B0%EB%B0%94%EB%8B%A4%EC%83%8C%EB%93%9C",
+          "naver": "https://map.naver.com/v5/search/%EB%B6%80%EC%82%B0%EB%B0%94%EB%8B%A4%EC%83%8C%EB%93%9C"
+        },
         "blocks": [
           {
             "type": "subheading",
@@ -2357,10 +2366,7 @@
           {
             "type": "text",
             "text": "海理團路巷內｜11:00-19:00",
-            "maps": {
-              "google": "https://maps.google.com/?q=%EB%B6%80%EC%82%B0%EB%B0%94%EB%8B%A4%EC%83%8C%EB%93%9C",
-              "naver": "https://map.naver.com/v5/search/%EB%B6%80%EC%82%B0%EB%B0%94%EB%8B%A4%EC%83%8C%EB%93%9C"
-            }
+            "maps": null
           },
           {
             "type": "image",
@@ -3081,7 +3087,10 @@
       },
       {
         "title": "Olive Young 必買（西面 Town 店最齊全）",
-        "maps": null,
+        "maps": {
+          "google": "https://www.google.com/maps/search/?api=1&query=%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4",
+          "naver": "https://map.naver.com/p/search/%EC%98%AC%EB%A6%AC%EB%B8%8C%EC%98%81%20%EC%84%9C%EB%A9%B4%20%ED%83%80%EC%9A%B4"
+        },
         "blocks": [
           {
             "type": "subheading",
@@ -3385,7 +3394,10 @@
       },
       {
         "title": "超市掃貨清單（E-Mart / Homeplus）",
-        "maps": null,
+        "maps": {
+          "google": "https://www.google.com/maps/search/?api=1&query=%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90",
+          "naver": "https://map.naver.com/p/search/%ED%99%88%ED%94%8C%EB%9F%AC%EC%8A%A4%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90"
+        },
         "blocks": [
           {
             "type": "subheading",
