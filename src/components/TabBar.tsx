@@ -17,7 +17,7 @@ export default function TabBar({
 }) {
   return (
     <nav
-      className="fixed bottom-0 inset-x-0 z-30 border-t border-black/5 bg-white/80 backdrop-blur-xl dark:border-white/10 dark:bg-black/70"
+      className="z-30 shrink-0 border-t border-black/5 bg-white/80 backdrop-blur-xl dark:border-white/10 dark:bg-black/70"
       style={{ paddingBottom: "var(--safe-bottom)" }}
     >
       <ul className="mx-auto flex max-w-md">

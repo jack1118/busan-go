@@ -409,10 +409,10 @@ export default function App() {
   const [tab, setTab] = useState<TabKey>("itinerary");
 
   return (
-    <div className="mx-auto min-h-full max-w-md">
+    <div className="mx-auto flex h-[100dvh] max-w-md flex-col">
       <Header subtitle={data.subtitle} />
 
-      <main className="pb-[calc(5.5rem+var(--safe-bottom))] pt-2">
+      <main className="min-h-0 flex-1 overflow-y-auto overscroll-contain pb-4 pt-2">
         {tab === "itinerary" && <ItineraryPage />}
         {tab === "food" && <FoodPage />}
         {tab === "shop" && <ShopPage />}
