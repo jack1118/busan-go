@@ -46,7 +46,23 @@ function countdownLabel(): string | null {
 }
 
 function Header({ subtitle }: { subtitle: string }) {
-  const cd = countdownLabel();
+  // Recompute on mount, when the PWA returns to the foreground, and once a
+  // minute — so the day count never goes stale across midnight / app resume.
+  const [cd, setCd] = useState(countdownLabel());
+  useEffect(() => {
+    const update = () => setCd(countdownLabel());
+    const onVisible = () => {
+      if (document.visibilityState === "visible") update();
+    };
+    document.addEventListener("visibilitychange", onVisible);
+    window.addEventListener("focus", update);
+    const t = setInterval(update, 60_000);
+    return () => {
+      document.removeEventListener("visibilitychange", onVisible);
+      window.removeEventListener("focus", update);
+      clearInterval(t);
+    };
+  }, []);
   return (
     <div
       className="bg-gradient-to-b from-busan-blue/15 to-transparent px-4 pb-2"
