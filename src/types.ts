@@ -22,6 +22,15 @@ export interface Coord {
   addr?: string;
 }
 
+// A recommended restaurant linked to a timeline stop; resolves to a full food
+// RefNode by `key` on the front-end.
+export interface PlaceLink {
+  key: string;
+  title: string;
+  thumb: string | null;
+  maps: MapLinks | null;
+}
+
 export interface TimelineItem {
   time: string;
   activity: string;
@@ -34,6 +43,7 @@ export interface TimelineItem {
   photo: string | null;
   nameKr: string | null;
   addr: string | null;
+  places?: PlaceLink[];
 }
 
 // Generic block model for the rich reference sections (food / shopping /
@@ -68,6 +78,8 @@ export interface RefNode {
   // Real food-photo gallery for this store (Google Places photos), matched by
   // a store key during parse. Rendered as a horizontal strip under the title.
   gallery?: string[];
+  // Stable key so timeline stops can link to this restaurant.
+  key?: string;
 }
 
 export interface RefSection {

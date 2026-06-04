@@ -12,9 +12,11 @@ function slug(s: string) {
 export default function BottomSheet({
   item,
   onClose,
+  onOpenRestaurant,
 }: {
   item: TimelineItem | null;
   onClose: () => void;
+  onOpenRestaurant?: (key: string) => void;
 }) {
   // Keep the last item mounted during the close animation.
   const [shown, setShown] = useState<TimelineItem | null>(item);
@@ -120,6 +122,47 @@ export default function BottomSheet({
                 </li>
               ))}
             </ul>
+          )}
+
+          {data.places && data.places.length > 0 && (
+            <div className="mt-4">
+              <div className="mb-2 flex items-center gap-1.5 text-[14px] font-bold">
+                🍴 這裡的推薦店家
+              </div>
+              <div className="grid grid-cols-2 gap-2.5">
+                {data.places.map((p) => (
+                  <button
+                    key={p.key}
+                    onClick={() => onOpenRestaurant?.(p.key)}
+                    className="flex flex-col overflow-hidden rounded-2xl bg-neutral-100 text-left active:scale-[0.98] dark:bg-neutral-800"
+                  >
+                    {p.thumb ? (
+                      <img
+                        src={p.thumb}
+                        alt=""
+                        loading="lazy"
+                        className="h-24 w-full object-cover"
+                        onError={(e) => {
+                          e.currentTarget.style.display = "none";
+                        }}
+                      />
+                    ) : (
+                      <div className="grid h-24 w-full place-items-center bg-busan-blue/10 text-2xl">
+                        🍽
+                      </div>
+                    )}
+                    <div className="flex items-center justify-between gap-1 px-2.5 py-2">
+                      <span className="line-clamp-2 text-[13px] font-semibold leading-tight">
+                        {p.title.replace(/^[^一-鿿가-힣A-Za-z0-9]+/, "")}
+                      </span>
+                      <span className="shrink-0 text-[15px] text-busan-blue-deep dark:text-busan-blue">
+                        ›
+                      </span>
+                    </div>
+                  </button>
+                ))}
+              </div>
+            </div>
           )}
 
           {(data.voucher || data.nameKr || data.coord) && (

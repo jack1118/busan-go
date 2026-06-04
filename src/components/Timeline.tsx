@@ -53,6 +53,29 @@ export default function Timeline({
                 {item.note}
               </p>
             )}
+            {item.places && item.places.length > 0 && (
+              <div className="mt-2 flex items-center gap-1.5">
+                <div className="flex -space-x-2">
+                  {item.places.slice(0, 4).map((p, j) =>
+                    p.thumb ? (
+                      <img
+                        key={j}
+                        src={p.thumb}
+                        alt=""
+                        loading="lazy"
+                        className="h-8 w-8 rounded-full object-cover ring-2 ring-white dark:ring-neutral-800"
+                        onError={(e) => {
+                          e.currentTarget.style.display = "none";
+                        }}
+                      />
+                    ) : null
+                  )}
+                </div>
+                <span className="text-[12px] font-semibold text-coral-deep dark:text-coral">
+                  🍴 {item.places.length} 間推薦
+                </span>
+              </div>
+            )}
             {item.maps && (
               <span className="mt-1.5 inline-block text-[12px] font-medium text-busan-blue-deep dark:text-busan-blue">
                 📍 有地圖

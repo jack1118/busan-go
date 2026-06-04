@@ -609,6 +609,72 @@ function attachPhotos(days, food) {
   }
 }
 
+// ---------- link timeline stops to their recommended restaurants ----------
+// Each food node gets a stable `key`; timeline items get `places` = the food
+// nodes you'd actually go to at that stop, resolved on the front-end by key.
+// Match only on DISTINCTIVE store names (KR + ZH) to avoid generic words like
+// 魚板串/刀削麵 cross-linking the wrong area's shop.
+const FOOD_KEYS = [
+  { key: "암소갈비집", re: /암소갈비/ },
+  { key: "오반장", re: /오반장|伍班長/ },
+  { key: "수변최고", re: /수변최고|水邊最高/ },
+  { key: "31cm", re: /31\s?cm|31\s?公分/i },
+  { key: "노홍만두", re: /노홍만두|爐紅餃子/ },
+  { key: "명품호떡", re: /명품호떡|名品糖餅/ },
+  { key: "Standard Bread", re: /Standard Bread|스탠다드브레드/i },
+  { key: "고래사", re: /고래사|古來思/ },
+  { key: "삼진", re: /삼진어묵|三進/ },
+  { key: "The Bay 101", re: /The Bay 101|더베이\s?101/i },
+  { key: "자갈치", re: /자갈치|札嘎其/ },
+  { key: "BIFF", re: /씨앗호떡|BIFF/ },
+];
+// Geographically-correct extras the name-match alone wouldn't catch.
+const ITEM_EXTRA = [
+  { day: "D1", act: /海雲台市場/, keys: ["고래사", "31cm"] },
+  { day: "D3", act: /南浦.*就近吃|就近吃/, keys: ["자갈치", "BIFF"] },
+];
+// Drop false matches: e.g. the D3 南浦 dinner note mentions 海雲台's 암소갈비/오반장
+// only to say "move them to D1/D2" — they don't belong to this 南浦 stop.
+const ITEM_EXCLUDE = [
+  { day: "D3", act: /南浦.*就近吃|就近吃/, keys: ["암소갈비집", "오반장"] },
+];
+
+function assignFoodKeys(food) {
+  for (const n of food?.nodes || []) {
+    if (!n.title) continue;
+    const hit = FOOD_KEYS.find((f) => f.re.test(n.title));
+    if (hit) n.key = hit.key;
+  }
+}
+
+function attachPlaces(days, food) {
+  const nodes = (food?.nodes || []).filter((n) => n.key);
+  const byKey = new Map(nodes.map((n) => [n.key, n]));
+  for (const d of days) {
+    for (const it of d.items) {
+      const text = `${it.activity} ${it.note || ""}`;
+      const keys = new Set();
+      for (const f of FOOD_KEYS) if (byKey.has(f.key) && f.re.test(text)) keys.add(f.key);
+      for (const ex of ITEM_EXTRA)
+        if (ex.day === d.id && ex.act.test(it.activity))
+          ex.keys.forEach((k) => byKey.has(k) && keys.add(k));
+      for (const ex of ITEM_EXCLUDE)
+        if (ex.day === d.id && ex.act.test(it.activity))
+          ex.keys.forEach((k) => keys.delete(k));
+      const places = [...keys].map((k) => {
+        const n = byKey.get(k);
+        return {
+          key: k,
+          title: n.title,
+          thumb: n.gallery?.[0] || n.blocks.find((b) => b.type === "image")?.url || null,
+          maps: n.maps || null,
+        };
+      });
+      if (places.length) it.places = places;
+    }
+  }
+}
+
 // ---------- assemble ----------
 const data = {
   title,
@@ -648,6 +714,8 @@ const data = {
 };
 
 attachPhotos(data.days, data.food);
+assignFoodKeys(data.food);
+attachPlaces(data.days, data.food);
 
 mkdirSync(dirname(OUT), { recursive: true });
 writeFileSync(OUT, JSON.stringify(data, null, 2), "utf8");

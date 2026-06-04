@@ -225,7 +225,7 @@ function BlockView({ block }: { block: Block }) {
   }
 }
 
-function NodeCard({
+export function NodeCard({
   node,
   speakable,
 }: {

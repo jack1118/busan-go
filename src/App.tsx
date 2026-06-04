@@ -8,6 +8,7 @@ import { useSwipe } from "./lib/useSwipe";
 import { splitToBullets } from "./lib/text";
 import Timeline from "./components/Timeline";
 import BottomSheet from "./components/BottomSheet";
+import RestaurantSheet from "./components/RestaurantSheet";
 import FlightCard from "./components/FlightCard";
 import WeatherBanner from "./components/WeatherBanner";
 import PackingList from "./components/PackingList";
@@ -205,10 +206,16 @@ function DayView({
   );
 }
 
+// Resolve a timeline stop's recommended-restaurant key to its full food node.
+const foodByKey = new Map(
+  (data.food?.nodes ?? []).filter((n) => n.key).map((n) => [n.key as string, n])
+);
+
 function ItineraryPage() {
   const [activeId, setActiveId] = useState(data.days[0]?.id ?? "D1");
   const [dir, setDir] = useState<1 | -1>(1);
   const [selected, setSelected] = useState<TimelineItem | null>(null);
+  const [restaurantKey, setRestaurantKey] = useState<string | null>(null);
   const idx = data.days.findIndex((d) => d.id === activeId);
   const day = useMemo(
     () => data.days.find((d) => d.id === activeId) ?? data.days[0],
@@ -253,7 +260,15 @@ function ItineraryPage() {
         )}
       </div>
 
-      <BottomSheet item={selected} onClose={() => setSelected(null)} />
+      <BottomSheet
+        item={selected}
+        onClose={() => setSelected(null)}
+        onOpenRestaurant={setRestaurantKey}
+      />
+      <RestaurantSheet
+        node={restaurantKey ? foodByKey.get(restaurantKey) ?? null : null}
+        onClose={() => setRestaurantKey(null)}
+      />
     </div>
   );
 }
