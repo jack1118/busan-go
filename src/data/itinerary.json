@@ -530,59 +530,37 @@
     {
       "id": "D3",
       "date": "6/28（日）",
-      "title": "甘川洞 × 南浦洞 — 文化 × 購物 × 美食",
-      "theme": "彩色村拍照 + 市場美食 + 南浦購物",
+      "title": "南浦洞一日 — 市場美食 × 購物 × 慢慢逛",
+      "theme": "南浦慢慢逛 + 市場美食 + 購物",
       "colorIndex": 2,
       "items": [
         {
-          "time": "09:00",
+          "time": "09:30",
           "activity": "飯店免費早餐後出發",
-          "note": "搭地鐵到土城站（토성역），轉公車或搭計程車上山",
+          "note": "搭地鐵前往南浦洞（海雲台→南浦約 50-60 分），不趕、慢慢來",
           "icon": "food",
-          "maps": null,
+          "maps": {
+            "google": "https://www.google.com/maps/search/?api=1&query=%EB%B9%84%ED%94%84%EA%B4%91%EC%9E%A5&query_place_id=ChIJL1scg6DpaDURxXQZg1kWGZ4",
+            "naver": "https://map.naver.com/p/search/%EB%B9%84%ED%94%84%EA%B4%91%EC%9E%A5"
+          },
           "tags": [],
           "voucher": null,
-          "coord": null,
-          "nameKr": null,
-          "addr": null,
-          "photo": null
-        },
-        {
-          "time": "10:00",
-          "activity": "甘川洞文化村 감천문화마을 🎨",
-          "note": "彩色房屋、壁畫巷、小王子雕像。⚠️ 推車不適用！全程階梯+窄巷，務必帶背帶。走入口附近主路線拍照即可，約 1-1.5hr。免費入園（集章地圖 ~2,000 KRW）",
-          "icon": "spot",
-          "maps": {
-            "google": "https://www.google.com/maps/search/?api=1&query=%EA%B0%90%EC%B2%9C%EB%AC%B8%ED%99%94%EB%A7%88%EC%9D%84&query_place_id=ChIJUToRo7fpaDURo_ZMItcBfpc",
-            "naver": "https://map.naver.com/p/search/%EA%B0%90%EC%B2%9C%EB%AC%B8%ED%99%94%EB%A7%88%EC%9D%84"
-          },
-          "tags": [
-            {
-              "emoji": "👶",
-              "label": "兒童免費"
-            },
-            {
-              "emoji": "⚠️",
-              "label": "推車不適用"
-            }
-          ],
-          "voucher": null,
           "coord": {
-            "lat": 35.0973904,
-            "lng": 129.0105924,
-            "name": "甘川洞文化村",
-            "nameKr": "감천문화마을",
-            "addr": "부산 사하구 감내2로 203",
-            "placeId": "ChIJUToRo7fpaDURo_ZMItcBfpc"
+            "lat": 35.098243,
+            "lng": 129.029212,
+            "name": "南浦洞 BIFF廣場",
+            "nameKr": "비프광장",
+            "addr": "부산 중구 비프광장로",
+            "placeId": "ChIJL1scg6DpaDURxXQZg1kWGZ4"
           },
-          "nameKr": "감천문화마을",
-          "addr": "부산 사하구 감내2로 203",
+          "nameKr": "비프광장",
+          "addr": "부산 중구 비프광장로",
           "photo": null
         },
         {
-          "time": "12:00",
-          "activity": "午餐：南浦洞 남포동",
-          "note": "搭計程車下山（5 分鐘）。到 BIFF 廣場 吃 씨앗호떡（堅果黑糖糖餅）、魚板串",
+          "time": "10:30",
+          "activity": "南浦洞 + BIFF 廣場 남포동",
+          "note": "早上人潮少、好逛好拍。到 BIFF 廣場 吃 씨앗호떡（堅果黑糖糖餅）、魚板串當早午餐",
           "icon": "food",
           "maps": {
             "google": "https://www.google.com/maps/search/?api=1&query=%EB%B9%84%ED%94%84%EA%B4%91%EC%9E%A5&query_place_id=ChIJL1scg6DpaDURxXQZg1kWGZ4",
@@ -614,9 +592,9 @@
           ]
         },
         {
-          "time": "12:30",
+          "time": "11:00",
           "activity": "札嘎其市場 자갈치시장 🐟",
-          "note": "一樓逛海鮮、看活魚。幼兒看魚很開心。可在 2 樓吃新鮮生魚片（회）或海鮮鍋",
+          "note": "一樓逛海鮮、看活魚。幼兒看魚很開心。可在 2 樓吃新鮮生魚片（회）或海鮮鍋當午餐",
           "icon": "food",
           "maps": {
             "google": "https://www.google.com/maps/search/?api=1&query=%EC%9E%90%EA%B0%88%EC%B9%98%EC%8B%9C%EC%9E%A5&query_place_id=ChIJudkrFArpaDURbbCzajeQs0c",
@@ -785,13 +763,13 @@
       ],
       "rainPlan": {
         "text": [
-          "雨天備案：跳過甘川洞（雨天階梯濕滑不安全），改排 Centum City 新世界百貨 室內行程，下午照原計畫南浦+西面"
+          "雨天備案：南浦行程多為室內市場／地下街／百貨，照常進行；若雨太大，可整天改去 Centum City 新世界百貨 室內一日"
         ],
         "places": [
           {
             "nameZh": "新世界百貨 Centum City（室內）",
             "nameKr": "신세계백화점 센텀시티점",
-            "note": "雨天跳過甘川洞，改室內百貨",
+            "note": "雨太大改室內百貨一日",
             "maps": {
               "google": "https://www.google.com/maps/search/?api=1&query=%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90&query_place_id=ChIJSSw7slWTaDURjMs-oU61YYc",
               "naver": "https://map.naver.com/p/search/%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90"
@@ -1243,7 +1221,7 @@
           "done": false
         },
         {
-          "text": "背帶（甘川洞、札嘎其等推車不方便的地方用）",
+          "text": "背帶（札嘎其市場、南浦窄巷等推車不方便、人多的地方用）",
           "done": false
         },
         {
@@ -2543,7 +2521,7 @@
         "scheduled": [
           {
             "dayId": "D3",
-            "time": "12:30",
+            "time": "11:00",
             "activity": "札嘎其市場 자갈치시장 🐟"
           },
           {
@@ -2622,8 +2600,8 @@
         "scheduled": [
           {
             "dayId": "D3",
-            "time": "12:00",
-            "activity": "午餐：南浦洞 남포동"
+            "time": "10:30",
+            "activity": "南浦洞 + BIFF 廣場 남포동"
           },
           {
             "dayId": "D3",
