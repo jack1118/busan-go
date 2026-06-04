@@ -70,6 +70,26 @@ function Thumb({ src }: { src: string }) {
   );
 }
 
+// Horizontal strip of real food photos for a store (Google Places).
+function Gallery({ photos }: { photos: string[] }) {
+  return (
+    <div className="no-scrollbar -mx-1 my-2 flex gap-2 overflow-x-auto px-1">
+      {photos.map((src, i) => (
+        <img
+          key={i}
+          src={src}
+          alt=""
+          loading="lazy"
+          className="h-32 w-44 shrink-0 rounded-2xl object-cover"
+          onError={(e) => {
+            e.currentTarget.style.display = "none";
+          }}
+        />
+      ))}
+    </div>
+  );
+}
+
 function MiniMaps({ maps }: { maps?: MapLinks | null }) {
   if (!maps || (!maps.google && !maps.naver)) return null;
   return (
@@ -221,6 +241,9 @@ function NodeCard({
           <h3 className="text-[16px] font-bold leading-snug">{node.title}</h3>
           <MapButtons maps={node.maps} />
         </div>
+      )}
+      {node.gallery && node.gallery.length > 0 && (
+        <Gallery photos={node.gallery} />
       )}
       {node.blocks.map((b, i) => (
         <BlockView key={i} block={b} />

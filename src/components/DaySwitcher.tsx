@@ -1,3 +1,4 @@
+import { useEffect, useRef } from "react";
 import type { Day } from "../types";
 
 export default function DaySwitcher({
@@ -9,6 +10,14 @@ export default function DaySwitcher({
   activeId: string;
   onSelect: (id: string) => void;
 }) {
+  const activeRef = useRef<HTMLButtonElement>(null);
+  useEffect(() => {
+    activeRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "nearest",
+      inline: "center",
+    });
+  }, [activeId]);
   return (
     <div className="no-scrollbar -mx-4 flex gap-2 overflow-x-auto px-4 py-1">
       {days.map((d) => {
@@ -16,6 +25,7 @@ export default function DaySwitcher({
         return (
           <button
             key={d.id}
+            ref={on ? activeRef : undefined}
             onClick={() => onSelect(d.id)}
             className={
               "flex shrink-0 flex-col items-center rounded-2xl px-4 py-2 transition-all " +

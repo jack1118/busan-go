@@ -1,0 +1,93 @@
+{
+  "_note": "Per-store food photo galleries sourced from Google Places (real photos of each restaurant's food). Keyed by a distinctive substring of the food node title. Hotlinked googleusercontent URLs — same domain as existing store header images. Broken URLs are hidden by the <Thumb>/onError fallback.",
+  "stores": [
+    {
+      "key": "암소갈비집",
+      "photos": [
+        "https://lh3.googleusercontent.com/place-photos/AJRVUZMeU1FE9aSN65MIQYwUvycRoJ7DPfIwzGf0jxn3NCRsxKS8NI4kI96EVqQK95CF4Uba7uvqpGDy4tIoXMYlifFeUXeoRfuyZd6vug4z4kEV_F3z_ZdMOFbczonBprMLr6vHyBBgNGo_5tiX=s4800-w800",
+        "https://lh3.googleusercontent.com/place-photos/AJRVUZNxHwWdczsCVLBSakl86Fn7h7GWT9A-Phg05fyoP__t4KIo6p1L64IDI1PpUU6ayBqSytiJmYIAIsDwgYO6T9L2lwrPUBOQ4yjeyOsWfvNQJWNRV3jujNVgefev6usglAjKjvLHJkVnxKny=s4800-w800",
+        "https://lh3.googleusercontent.com/place-photos/AJRVUZOegCp4wf5YjxC0KWc4ChWABlBLfXEKNxo8cBZEYTLKTo6zDPhjK7_KGjeNOx3seCmARAs_5zIdXeitlgsAUx1RsDCtEAhpI2w_l6UvTcLKS0cK6AYQuRJyNy3v9PhF-GZwSgsCOUpe_rw9RIxYjt4GHg=s4800-w800"
+      ]
+    },
+    {
+      "key": "오반장",
+      "photos": [
+        "https://lh3.googleusercontent.com/place-photos/AJRVUZPqkGYBdSPl9-HnCkxBD_7CUd15r7qzooQHxVz3EAsJGJTuso0-c4HXwmDHAQ2FNHNrZ2RRu9jgzbOowPpjgndUKmC-_UMaaeIS-DR0LN58mbvyW6qKQy7508ZWXpyv-f5pHlAGWcrw8QnN=s4800-w800",
+        "https://lh3.googleusercontent.com/place-photos/AJRVUZN_LDFyIa-ZRuybgofkGSmTSYNOIV8hdEaNeX5S29WPJhP5Uf4JX63r6KYcdHOnKzk3-V4ShfuPSfo6xe-2YxZV1FxFtxol0uSnc-pX5pdPSPAPzPu1TEj8A7ReqNHkWZMYe1IZJbAbLTS9mTE1bqo2Bw=s4800-w800",
+        "https://lh3.googleusercontent.com/place-photos/AJRVUZOtNYWWbGhvrA9ODaID32nz4LZU4KnXDObtX7TU8oMIPN5l6jx-ihWi0uuWxYNjg5sXQh9E1ECImOApPiIcKIi6kAomS-9P00Jzq-upSafw6Bh_u8wG8vxo4h7vf_LjN0raAzvYbU7q5ND7lJv6vMHT=s4800-w800"
+      ]
+    },
+    {
+      "key": "수변최고",
+      "photos": [
+        "https://lh3.googleusercontent.com/place-photos/AJRVUZNx4s7HYruco_Vts4leiIltQCN__1AFMOH2nXjESQUJaOBLazmAlCxoKndal2MrOcDxZXdwO1qw_Kpc4tfFweNGHMxqybBM8LqFoioWyJ2mQFqjmevokEkzYDWKZFQL34JpCof50Xa5GwNW5_d9d-igdw=s4800-w800",
+        "https://lh3.googleusercontent.com/place-photos/AJRVUZOXku3tQVr67Rhch-dqzdaaa3xLqgp8TXetACBatSjg0SYuxfJV0toVIbCwBz6ovAQukJDt58BKvHOOcu9BpeVB56J8aNGYLV9_JXuMKu9aq5ypp5pk8eSx4ZQGH4HI05lHaanh88-bWLkkcEDwEjtz=s4800-w800",
+        "https://lh3.googleusercontent.com/place-photos/AJRVUZNLFHO751Dk8uPi_dT2f0zhpQVaR0M713YTEVLRWjnduktMfig7H86qvHe0Vp5lIowrc9ExUauJp-ilQFWv7kIwuCf5lJXrgyIaL6FFxfHGS-0ckOY1iJnzKMs1hNknnI8khPjVfkWm7YKCqfXoz6PX=s4800-w800"
+      ]
+    },
+    {
+      "key": "31cm",
+      "photos": [
+        "https://lh3.googleusercontent.com/place-photos/AJRVUZPw5s1N-5NPN8YhSRWj-4BKDQtdajYQTmPpJ1QKK1MsChqSEfN9dKTVQIgPDBDl4CMb7Ozg-lZ7pp-ykqlVoY0v8f2P_qur277KUAgLSXiCh2vh1XvDUI38T6CoU73mWV3s1xWJ8ek7ZNJU5w=s4800-w800",
+        "https://lh3.googleusercontent.com/place-photos/AJRVUZP09LVAlKor0Twz1XkoykXo4HJCXC7_o5xJ5nfOsq6my2rCZulX_UTPz29HMa_OOSUZmKtfi-QkvEmHW21vIdnWoTgfUemV8rs-rZdeMBqjNJywiL2YMsyauiQ8GXKt-g5zhGDLOZlKfi7YwAk=s4800-w800",
+        "https://lh3.googleusercontent.com/place-photos/AJRVUZPELXPcQvNALIEO3voi3vlfIEpcnou1evq3CzECeOqVxphM1D_fM-q8cIm69p77ZvLEM8VQj3fiIKcwwilzq2VEFxsOcupnqF61BRoSpxyvpQ_-eBrRkWLNkAOwJgqiRJZvj1yGI9keotsEZEarvvEW9w=s4800-w800"
+      ]
+    },
+    {
+      "key": "노홍만두",
+      "photos": [
+        "https://lh3.googleusercontent.com/place-photos/AJRVUZNZhph8p5BvVeY7v803D8u1e0oGsUa3t0uuPJlmRbfbnq7buADoM5QMK8UB18VTYlw_oZCu80nd-vMAC_wFv_FQRRYgX926flv0qPm-71zAGK-O_v63z6ndINDZp0xSUP92Qu2s3NQCnuIw=s4800-w800",
+        "https://lh3.googleusercontent.com/place-photos/AJRVUZPWo6I4YVZvcIOSkgQhx31UX8GbzcXoS6RuDB7eUVkP7J8TRS-nxAy9kWYXpvNd6zggr4b3rCmM8KRFSh-wCD2rK3s0rCXtVMnDVIObb4mis7TjblL5wU0chJrc_ctzarv-0ojvduMEfW32bXKoVyR37w=s4800-w800",
+        "https://lh3.googleusercontent.com/place-photos/AJRVUZP3RkoJKVkHyVCMqTN1XxBZglYSgdFCohY6l8DOiti7tnXzAMQW7LThEwJOSu_GnCVp7c4yOvA8oD8rTEQ8VN_Qhxc-JZgkxiWYhkFtuOe_13azZHvlRsguCBK0VtUL98Eogg0YCuIWGl7Yufr-xieW_Q=s4800-w800"
+      ]
+    },
+    {
+      "key": "명품호떡",
+      "photos": [
+        "https://lh3.googleusercontent.com/place-photos/AJRVUZNXwHldAkRponbQHmd7Rl0LkyzL0zoNNVL_9zIa3_s-LUtCu1kZRjsZSOgGR8CXU9MqFDmA6g-Q-fZDyk1Pk3OhdDno570QX9zfv4lizeKQwz88NV9LIBL61WgjIcOPKecmFh0nqh1KZRbVf1q_OR3ZvQ=s4800-w800",
+        "https://lh3.googleusercontent.com/place-photos/AJRVUZOlJZa4eF1u1hVZo5d4fr_XCbf_9WGkYKjj3zoWygs2wAzKK_eAQXicmy-iC2Y0VQ_fkqwE3Gl4Uf0W9usY84E1SfO1tIR1DdGQmXNFYRHSGZH35xxTCsi7E_S8flcaAlM1BNf8zSF2Py_GUz4=s4800-w800",
+        "https://lh3.googleusercontent.com/place-photos/AJRVUZOwuuziWBNwg70v86lgGU-Btixv8HedPkB917MmEJUXZfo5pFGKOtEignKeppLAacUsm3LfKG754ihzYht2xpfKNeG8F_rCc9rYlUOjiKP5fDxHU-68NY_Qby5Q-gEnqz7EchT_7VmfIWFOyxjRme_djg=s4800-w800"
+      ]
+    },
+    {
+      "key": "Standard Bread",
+      "photos": [
+        "https://lh3.googleusercontent.com/place-photos/AJRVUZNfcvs5-9yuHJbI46a57YUQuL-qPvZokqFlJ3KEAjs18u6h3_nSD61UbLaW8Enfu_bUtJkZjsh_pGR_GZwd1Xca21GycViZvFj5aT9SljMPUUgs47QGCGQqB4WQHm1ffnP_8aUmjqnW_qiT5U0zq2ngOA=s4800-w800",
+        "https://lh3.googleusercontent.com/place-photos/AJRVUZMdeXqkzS-hPPnd8-Pv6YnNfNctPG9g1A1WvHrjSW3Wwi4zUZrepnphzFrP7Efcyh1QvUzGd5mQe_eOkkUCXfLPCslLr4dgMTu1hxrsaJpCqVwcP4qsAxvq0t_cd7eFhb5-M3VScEVLYRbBoHH8weghjQ=s4800-w800",
+        "https://lh3.googleusercontent.com/place-photos/AJRVUZNEqfczY7-2K_mo57elkj--AJfOGVwWdFUDdkDWTzOilSkAcU-ndsGtsfzOCWCfXVlsk7xk1QjuTmzUZKQc_eOI0qDkg9I-MtK3ocf772TCyKv5_-WUx6h7a_8Kf2_muARb-tqo0Hzh2FbjwMxaRwtF=s4800-w800"
+      ]
+    },
+    {
+      "key": "고래사",
+      "photos": [
+        "https://lh3.googleusercontent.com/place-photos/AJRVUZMbcqDXzXjXBqf1_dSMYljY3t0PWzX44RUD78vCTeJPQuHv4NXXaFm2fBfx91GK8AJx0nkbM72LkFWiVEAs8MayLuqIHeRUTB9bMLjSmp4opsuZ41df_dJC4X3gG-cYRdD8szALuOQ4D-pFHvnyNwDzEg=s4800-w800",
+        "https://lh3.googleusercontent.com/place-photos/AJRVUZMske1v7snflgzsJZYG7KwAKzuIPT4Agqe-sU8tc8WhUSJ_8YNwjd1laXR-4OxJwcm8QWVKjuorLzeBubZ742bSOn0qkgpGLG7Q1uQDrwar8FlzAFW9qO5yvo8VKgC_F_RHF1xhnOWXEP2ps6HJEZwOYQ=s4800-w800",
+        "https://lh3.googleusercontent.com/place-photos/AJRVUZMkzr3i1ZcfAyP6VX6CltGJuwPN1eB4vPt02MLrG4iNGq1HSTckm67KpAClXvm2dmLlSVlKmRjIe0Uicq6-Gl-i-aSUJOlb7D0Byo590UF4nksHC-esfMVQ0T-iKdsp7Hly3siZmZ0We1HmmfSjbOTw=s4800-w800"
+      ]
+    },
+    {
+      "key": "삼진",
+      "photos": [
+        "https://lh3.googleusercontent.com/place-photos/AJRVUZMUx-hS39oVuCcelpwxqfr8jOvlWhpHFUCyccJaQienvKCy8kAdTsBCSNI2hwWtgH8T4AJA7zp3aOMvsefTHneSeS7PpmFgS_rZL39Z7dLffjj49FvIpopoOenc1CdJ72H7QlQ5ffv1GLAaF6k=s4800-w800",
+        "https://lh3.googleusercontent.com/place-photos/AJRVUZNkUZ6qGGKk8nEk9Zxk4MaMDQIPQ_c9MJ5QopHpu6ELcfabqe_irFqZ-wJmhKhOxs9-fx1yQmiAxpxttEPdtoExY-spUKPWfwjgpgjc8NJgeffJlsLxPI9fQF4Z52uDZE3puSOTCJoJMZ8MHw9pYK1mBA=s4800-w800",
+        "https://lh3.googleusercontent.com/place-photos/AJRVUZPyR2AVaQ5mCFnyU473GcLcQPNb1VoaLvCFdPtPtakhoLOKCGEI79ggOoa2KSz097ChK8kJXPYBbs67UbZKmGGKlhHNQJGitOLShDpYl8dzDncjVwLWXcz8r9bJl9yZEFA86RQYP547OoGNYA=s4800-w800"
+      ]
+    },
+    {
+      "key": "The Bay 101",
+      "photos": [
+        "https://lh3.googleusercontent.com/place-photos/AJRVUZPNWdfh02SfiYi70jiWDplGWHYzDjHaEH5sOSCCI2KOAHfKJu6IwpbIqyCHAADWqRqfJ3U0_hq7sAdl6OcrbfgUcerD7ozR4cedhmdS3werfp5aVyAvw4x-BtwLLtKtwUd4EuYgulq_QzKbqw1KbqGajA=s4800-w800",
+        "https://lh3.googleusercontent.com/place-photos/AJRVUZPjvgl-EGH-c-hHPOQ-cCyXtCms2IvHNr-3KtfMvjeixaFFzf3fCEGeMTyRvGcs_R3OLNwb78-XiYZxuL_MjJmyRJcWslOym3234UHgj4NIi_6cLZepb7avxf9Z9mtUXaB9hVahVQtR8Z1LW8s=s4800-w800",
+        "https://lh3.googleusercontent.com/place-photos/AJRVUZOasv4NrQbB6hLN2coDVSrjegIfxPHkyM40X5fObZYxZ6M2KsIwrMFlusQa15NxnP8yiFrTz3alDOZ5GS3-ckWpCOF7ZMyw8wgHdAAXdAdThkZFiEZRL3nKAjMJrHVecro7__czfO39LjdvUnU=s4800-w800"
+      ]
+    },
+    {
+      "key": "BIFF",
+      "photos": [
+        "https://lh3.googleusercontent.com/place-photos/AJRVUZPRd41lGWhz3uVbyDdBL0eqUZcwC-BLdvGweAZ2wNwYNMSPqjteqa4HNmzMWJ9zQXhscPRw_HHJmVLYxgdnknO3wYOyUnNtgEU9pi5KL6Dkn9wqHfIbn4N0LkMvQA3KalkoxQCCbWz4FLP4rc14u28OPA=s4800-w800",
+        "https://lh3.googleusercontent.com/place-photos/AJRVUZMKFWI07pC-Y90oeiiea8K_ZdzTxao-aLjCdKqduSGkjywzHuQZZHEHkpM0duErtLGTbD33ZJUUn9bW-7zH_AM19J59JHRkZ5RbZhfXyFRcv1quEyUURTyALSG2gsYnjwYZPJx6X9NDQWUvBtI=s4800-w800",
+        "https://lh3.googleusercontent.com/place-photos/AJRVUZPyDBD76z-ZCnRrka4WXlWlMdg9F2NLIS6CORGuaEWemHNSL-TtxRsqLYCktt_Le-Mi48HTvbbR8U43lllUQeIn7nSPBqV42UT6czbMkvjd7_8plgwGPyzACftzWoPeHvcOEsVN09Rfx55DHoTjvZ1zlw=s4800-w800"
+      ]
+    }
+  ]
+}

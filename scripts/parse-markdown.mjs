@@ -17,6 +17,15 @@ const SRC =
 const OUT = join(__dirname, "..", "src", "data", "itinerary.json");
 const COORDS = JSON.parse(readFileSync(join(__dirname, "coords.json"), "utf8"));
 const SHOP = JSON.parse(readFileSync(join(__dirname, "shopping.json"), "utf8"));
+// Per-store food-photo galleries (Google Places photos), keyed by a distinctive
+// substring of the food node title.
+const DISH_PHOTOS = JSON.parse(
+  readFileSync(join(__dirname, "..", "src", "data", "dish-photos.json"), "utf8")
+).stores;
+function galleryFor(title) {
+  const hit = DISH_PHOTOS.find((s) => title.includes(s.key));
+  return hit ? hit.photos : null;
+}
 
 const raw = readFileSync(SRC, "utf8");
 const lines = raw.split(/\r?\n/);
@@ -546,11 +555,28 @@ function parseNodes(ls) {
   nodes.push(cur);
   return nodes
     .filter((n) => n.title || n.lines.some((x) => x.trim()))
-    .map((n) => ({
-      title: n.title,
-      maps: n.maps,
-      blocks: parseBlocks(n.lines, matchStore(n.title)),
-    }));
+    .map((n) => {
+      const blocks = parseBlocks(n.lines, matchStore(n.title));
+      let maps = n.maps || matchStore(n.title) || null;
+      // Surface the store's map links at node level so they render as buttons
+      // under the title, instead of being buried in the address text block.
+      // Promote the first text block's maps and null it out to avoid showing
+      // the same G/N twice.
+      if (!maps) {
+        const b = blocks.find(
+          (x) => x.type === "text" && x.maps && (x.maps.google || x.maps.naver)
+        );
+        if (b) {
+          maps = b.maps;
+          b.maps = null;
+        }
+      }
+      const gallery = galleryFor(n.title);
+      // Avoid showing the same photo twice: drop standalone image blocks when a
+      // gallery exists (the gallery supersedes the single header image).
+      const finalBlocks = gallery ? blocks.filter((b) => b.type !== "image") : blocks;
+      return { title: n.title, maps, blocks: finalBlocks, ...(gallery ? { gallery } : {}) };
+    });
 }
 
 function parseSectionByHeading(re) {
@@ -569,10 +595,11 @@ function parseSectionByHeading(re) {
 function attachPhotos(days, food) {
   const photoIndex = [];
   for (const n of food?.nodes || []) {
-    const img = n.blocks.find((b) => b.type === "image");
-    if (!img) continue;
+    // Prefer the gallery's first photo; fall back to a standalone image block.
+    const url = n.gallery?.[0] || n.blocks.find((b) => b.type === "image")?.url;
+    if (!url) continue;
     const kr = (n.title.match(/[가-힣][가-힣\s]*[가-힣]/) || [])[0];
-    if (kr) photoIndex.push({ key: kr.trim(), url: img.url });
+    if (kr) photoIndex.push({ key: kr.trim(), url });
   }
   for (const d of days) {
     for (const it of d.items) {
