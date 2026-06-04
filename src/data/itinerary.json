@@ -1450,7 +1450,14 @@
           "https://lh3.googleusercontent.com/place-photos/AJRVUZNxHwWdczsCVLBSakl86Fn7h7GWT9A-Phg05fyoP__t4KIo6p1L64IDI1PpUU6ayBqSytiJmYIAIsDwgYO6T9L2lwrPUBOQ4yjeyOsWfvNQJWNRV3jujNVgefev6usglAjKjvLHJkVnxKny=s4800-w800",
           "https://lh3.googleusercontent.com/place-photos/AJRVUZOegCp4wf5YjxC0KWc4ChWABlBLfXEKNxo8cBZEYTLKTo6zDPhjK7_KGjeNOx3seCmARAs_5zIdXeitlgsAUx1RsDCtEAhpI2w_l6UvTcLKS0cK6AYQuRJyNy3v9PhF-GZwSgsCOUpe_rw9RIxYjt4GHg=s4800-w800"
         ],
-        "key": "암소갈비집"
+        "key": "암소갈비집",
+        "scheduled": [
+          {
+            "dayId": "D2",
+            "time": "18:30",
+            "activity": "晚餐：The Bay 101 더베이101 🌃"
+          }
+        ]
       },
       {
         "title": "🥩 伍班長燒肉 오반장 — 海雲台 CP 值之王",
@@ -1552,7 +1559,14 @@
           "https://lh3.googleusercontent.com/place-photos/AJRVUZN_LDFyIa-ZRuybgofkGSmTSYNOIV8hdEaNeX5S29WPJhP5Uf4JX63r6KYcdHOnKzk3-V4ShfuPSfo6xe-2YxZV1FxFtxol0uSnc-pX5pdPSPAPzPu1TEj8A7ReqNHkWZMYe1IZJbAbLTS9mTE1bqo2Bw=s4800-w800",
           "https://lh3.googleusercontent.com/place-photos/AJRVUZOtNYWWbGhvrA9ODaID32nz4LZU4KnXDObtX7TU8oMIPN5l6jx-ihWi0uuWxYNjg5sXQh9E1ECImOApPiIcKIi6kAomS-9P00Jzq-upSafw6Bh_u8wG8vxo4h7vf_LjN0raAzvYbU7q5ND7lJv6vMHT=s4800-w800"
         ],
-        "key": "오반장"
+        "key": "오반장",
+        "scheduled": [
+          {
+            "dayId": "D2",
+            "time": "18:30",
+            "activity": "晚餐：The Bay 101 더베이101 🌃"
+          }
+        ]
       },
       {
         "title": "🍜 수변최고 水邊最高豬肉湯飯 — 釜山三大湯飯",
@@ -1645,7 +1659,14 @@
           "https://lh3.googleusercontent.com/place-photos/AJRVUZOXku3tQVr67Rhch-dqzdaaa3xLqgp8TXetACBatSjg0SYuxfJV0toVIbCwBz6ovAQukJDt58BKvHOOcu9BpeVB56J8aNGYLV9_JXuMKu9aq5ypp5pk8eSx4ZQGH4HI05lHaanh88-bWLkkcEDwEjtz=s4800-w800",
           "https://lh3.googleusercontent.com/place-photos/AJRVUZNLFHO751Dk8uPi_dT2f0zhpQVaR0M713YTEVLRWjnduktMfig7H86qvHe0Vp5lIowrc9ExUauJp-ilQFWv7kIwuCf5lJXrgyIaL6FFxfHGS-0ckOY1iJnzKMs1hNknnI8khPjVfkWm7YKCqfXoz6PX=s4800-w800"
         ],
-        "key": "수변최고"
+        "key": "수변최고",
+        "scheduled": [
+          {
+            "dayId": "D4",
+            "time": "11:30",
+            "activity": "午餐：海雲台就近吃"
+          }
+        ]
       },
       {
         "title": "🍜 해운대 31cm 해물칼국수 — 31 公分海鮮刀削麵",
@@ -1729,7 +1750,19 @@
           "https://lh3.googleusercontent.com/place-photos/AJRVUZP09LVAlKor0Twz1XkoykXo4HJCXC7_o5xJ5nfOsq6my2rCZulX_UTPz29HMa_OOSUZmKtfi-QkvEmHW21vIdnWoTgfUemV8rs-rZdeMBqjNJywiL2YMsyauiQ8GXKt-g5zhGDLOZlKfi7YwAk=s4800-w800",
           "https://lh3.googleusercontent.com/place-photos/AJRVUZPELXPcQvNALIEO3voi3vlfIEpcnou1evq3CzECeOqVxphM1D_fM-q8cIm69p77ZvLEM8VQj3fiIKcwwilzq2VEFxsOcupnqF61BRoSpxyvpQ_-eBrRkWLNkAOwJgqiRJZvj1yGI9keotsEZEarvvEW9w=s4800-w800"
         ],
-        "key": "31cm"
+        "key": "31cm",
+        "scheduled": [
+          {
+            "dayId": "D1",
+            "time": "19:30",
+            "activity": "晚餐：海雲台市場 해운대시장"
+          },
+          {
+            "dayId": "D4",
+            "time": "11:30",
+            "activity": "午餐：海雲台就近吃"
+          }
+        ]
       },
       {
         "title": "🍜 노홍만두칼국수 爐紅餃子刀削麵 — 海雲台市場 60 年老店",
@@ -1804,7 +1837,14 @@
           "https://lh3.googleusercontent.com/place-photos/AJRVUZPWo6I4YVZvcIOSkgQhx31UX8GbzcXoS6RuDB7eUVkP7J8TRS-nxAy9kWYXpvNd6zggr4b3rCmM8KRFSh-wCD2rK3s0rCXtVMnDVIObb4mis7TjblL5wU0chJrc_ctzarv-0ojvduMEfW32bXKoVyR37w=s4800-w800",
           "https://lh3.googleusercontent.com/place-photos/AJRVUZP3RkoJKVkHyVCMqTN1XxBZglYSgdFCohY6l8DOiti7tnXzAMQW7LThEwJOSu_GnCVp7c4yOvA8oD8rTEQ8VN_Qhxc-JZgkxiWYhkFtuOe_13azZHvlRsguCBK0VtUL98Eogg0YCuIWGl7Yufr-xieW_Q=s4800-w800"
         ],
-        "key": "노홍만두"
+        "key": "노홍만두",
+        "scheduled": [
+          {
+            "dayId": "D1",
+            "time": "19:30",
+            "activity": "晚餐：海雲台市場 해운대시장"
+          }
+        ]
       },
       {
         "title": "🫓 해운대명품호떡 海雲台市場名品糖餅",
@@ -1897,7 +1937,14 @@
           "https://lh3.googleusercontent.com/place-photos/AJRVUZOlJZa4eF1u1hVZo5d4fr_XCbf_9WGkYKjj3zoWygs2wAzKK_eAQXicmy-iC2Y0VQ_fkqwE3Gl4Uf0W9usY84E1SfO1tIR1DdGQmXNFYRHSGZH35xxTCsi7E_S8flcaAlM1BNf8zSF2Py_GUz4=s4800-w800",
           "https://lh3.googleusercontent.com/place-photos/AJRVUZOwuuziWBNwg70v86lgGU-Btixv8HedPkB917MmEJUXZfo5pFGKOtEignKeppLAacUsm3LfKG754ihzYht2xpfKNeG8F_rCc9rYlUOjiKP5fDxHU-68NY_Qby5Q-gEnqz7EchT_7VmfIWFOyxjRme_djg=s4800-w800"
         ],
-        "key": "명품호떡"
+        "key": "명품호떡",
+        "scheduled": [
+          {
+            "dayId": "D1",
+            "time": "19:30",
+            "activity": "晚餐：海雲台市場 해운대시장"
+          }
+        ]
       },
       {
         "title": "🍞 Standard Bread 스탠다드브레드 — 海雲台最紅麵包店",
@@ -1990,7 +2037,14 @@
           "https://lh3.googleusercontent.com/place-photos/AJRVUZMdeXqkzS-hPPnd8-Pv6YnNfNctPG9g1A1WvHrjSW3Wwi4zUZrepnphzFrP7Efcyh1QvUzGd5mQe_eOkkUCXfLPCslLr4dgMTu1hxrsaJpCqVwcP4qsAxvq0t_cd7eFhb5-M3VScEVLYRbBoHH8weghjQ=s4800-w800",
           "https://lh3.googleusercontent.com/place-photos/AJRVUZNEqfczY7-2K_mo57elkj--AJfOGVwWdFUDdkDWTzOilSkAcU-ndsGtsfzOCWCfXVlsk7xk1QjuTmzUZKQc_eOI0qDkg9I-MtK3ocf772TCyKv5_-WUx6h7a_8Kf2_muARb-tqo0Hzh2FbjwMxaRwtF=s4800-w800"
         ],
-        "key": "Standard Bread"
+        "key": "Standard Bread",
+        "scheduled": [
+          {
+            "dayId": "D4",
+            "time": "10:00",
+            "activity": "海雲台海邊慢活 🏖"
+          }
+        ]
       },
       {
         "title": "🐟 고래사어묵 古來思魚糕（1963 年）— 吃 + 帶回台灣",
@@ -2146,7 +2200,19 @@
           "https://lh3.googleusercontent.com/place-photos/AJRVUZMske1v7snflgzsJZYG7KwAKzuIPT4Agqe-sU8tc8WhUSJ_8YNwjd1laXR-4OxJwcm8QWVKjuorLzeBubZ742bSOn0qkgpGLG7Q1uQDrwar8FlzAFW9qO5yvo8VKgC_F_RHF1xhnOWXEP2ps6HJEZwOYQ=s4800-w800",
           "https://lh3.googleusercontent.com/place-photos/AJRVUZMkzr3i1ZcfAyP6VX6CltGJuwPN1eB4vPt02MLrG4iNGq1HSTckm67KpAClXvm2dmLlSVlKmRjIe0Uicq6-Gl-i-aSUJOlb7D0Byo590UF4nksHC-esfMVQ0T-iKdsp7Hly3siZmZ0We1HmmfSjbOTw=s4800-w800"
         ],
-        "key": "고래사"
+        "key": "고래사",
+        "scheduled": [
+          {
+            "dayId": "D1",
+            "time": "19:30",
+            "activity": "晚餐：海雲台市場 해운대시장"
+          },
+          {
+            "dayId": "D4",
+            "time": "10:00",
+            "activity": "海雲台海邊慢活 🏖"
+          }
+        ]
       },
       {
         "title": "🐟 삼진어묵 三進魚糕（1953 年）— 70 年傳統",
@@ -2282,7 +2348,8 @@
           "https://lh3.googleusercontent.com/place-photos/AJRVUZNkUZ6qGGKk8nEk9Zxk4MaMDQIPQ_c9MJ5QopHpu6ELcfabqe_irFqZ-wJmhKhOxs9-fx1yQmiAxpxttEPdtoExY-spUKPWfwjgpgjc8NJgeffJlsLxPI9fQF4Z52uDZE3puSOTCJoJMZ8MHw9pYK1mBA=s4800-w800",
           "https://lh3.googleusercontent.com/place-photos/AJRVUZPyR2AVaQ5mCFnyU473GcLcQPNb1VoaLvCFdPtPtakhoLOKCGEI79ggOoa2KSz097ChK8kJXPYBbs67UbZKmGGKlhHNQJGitOLShDpYl8dzDncjVwLWXcz8r9bJl9yZEFA86RQYP547OoGNYA=s4800-w800"
         ],
-        "key": "삼진"
+        "key": "삼진",
+        "scheduled": []
       },
       {
         "title": "🌃 The Bay 101 더베이101 — 釜山夜景第一名",
@@ -2362,7 +2429,19 @@
           "https://lh3.googleusercontent.com/place-photos/AJRVUZPjvgl-EGH-c-hHPOQ-cCyXtCms2IvHNr-3KtfMvjeixaFFzf3fCEGeMTyRvGcs_R3OLNwb78-XiYZxuL_MjJmyRJcWslOym3234UHgj4NIi_6cLZepb7avxf9Z9mtUXaB9hVahVQtR8Z1LW8s=s4800-w800",
           "https://lh3.googleusercontent.com/place-photos/AJRVUZOasv4NrQbB6hLN2coDVSrjegIfxPHkyM40X5fObZYxZ6M2KsIwrMFlusQa15NxnP8yiFrTz3alDOZ5GS3-ckWpCOF7ZMyw8wgHdAAXdAdThkZFiEZRL3nKAjMJrHVecro7__czfO39LjdvUnU=s4800-w800"
         ],
-        "key": "The Bay 101"
+        "key": "The Bay 101",
+        "scheduled": [
+          {
+            "dayId": "D2",
+            "time": "18:30",
+            "activity": "晚餐：The Bay 101 더베이101 🌃"
+          },
+          {
+            "dayId": "D4",
+            "time": "19:30",
+            "activity": "晚餐：The Bay 101 더베이101 🌃"
+          }
+        ]
       },
       {
         "title": "🐟 자갈치시장 札嘎其市場 — 韓國最大海鮮市場",
@@ -2460,7 +2539,19 @@
             ]
           }
         ],
-        "key": "자갈치"
+        "key": "자갈치",
+        "scheduled": [
+          {
+            "dayId": "D3",
+            "time": "12:30",
+            "activity": "札嘎其市場 자갈치시장 🐟"
+          },
+          {
+            "dayId": "D3",
+            "time": "18:00",
+            "activity": "晚餐：南浦／中區就近吃 🍽"
+          }
+        ]
       },
       {
         "title": "🫓 BIFF 廣場 씨앗호떡 — 南浦洞原祖堅果糖餅",
@@ -2527,7 +2618,19 @@
           "https://lh3.googleusercontent.com/place-photos/AJRVUZMKFWI07pC-Y90oeiiea8K_ZdzTxao-aLjCdKqduSGkjywzHuQZZHEHkpM0duErtLGTbD33ZJUUn9bW-7zH_AM19J59JHRkZ5RbZhfXyFRcv1quEyUURTyALSG2gsYnjwYZPJx6X9NDQWUvBtI=s4800-w800",
           "https://lh3.googleusercontent.com/place-photos/AJRVUZPyDBD76z-ZCnRrka4WXlWlMdg9F2NLIS6CORGuaEWemHNSL-TtxRsqLYCktt_Le-Mi48HTvbbR8U43lllUQeIn7nSPBqV42UT6czbMkvjd7_8plgwGPyzACftzWoPeHvcOEsVN09Rfx55DHoTjvZ1zlw=s4800-w800"
         ],
-        "key": "BIFF"
+        "key": "BIFF",
+        "scheduled": [
+          {
+            "dayId": "D3",
+            "time": "12:00",
+            "activity": "午餐：南浦洞 남포동"
+          },
+          {
+            "dayId": "D3",
+            "time": "18:00",
+            "activity": "晚餐：南浦／中區就近吃 🍽"
+          }
+        ]
       },
       {
         "title": "🎁 必買伴手禮店",

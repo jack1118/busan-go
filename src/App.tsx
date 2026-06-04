@@ -1,4 +1,14 @@
-import { lazy, Suspense, useMemo, useRef, useState } from "react";
+import {
+  lazy,
+  Suspense,
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
+import { AppContext } from "./lib/appctx";
+import Lightbox from "./components/Lightbox";
 import raw from "./data/itinerary.json";
 import type { Day, Itinerary, RainPlace, RainPlan, TimelineItem } from "./types";
 import TaxiCard from "./components/TaxiCard";
@@ -211,12 +221,37 @@ const foodByKey = new Map(
   (data.food?.nodes ?? []).filter((n) => n.key).map((n) => [n.key as string, n])
 );
 
-function ItineraryPage() {
+interface PendingStop {
+  dayId: string;
+  time: string;
+  activity: string;
+}
+
+function ItineraryPage({
+  pendingStop,
+  onConsumed,
+}: {
+  pendingStop: PendingStop | null;
+  onConsumed: () => void;
+}) {
   const [activeId, setActiveId] = useState(data.days[0]?.id ?? "D1");
   const [dir, setDir] = useState<1 | -1>(1);
   const [selected, setSelected] = useState<TimelineItem | null>(null);
   const [restaurantKey, setRestaurantKey] = useState<string | null>(null);
   const idx = data.days.findIndex((d) => d.id === activeId);
+
+  // Jump here from a restaurant's schedule badge: switch day + open the stop.
+  useEffect(() => {
+    if (!pendingStop) return;
+    const d = data.days.find((x) => x.id === pendingStop.dayId);
+    const it = d?.items.find(
+      (i) => i.time === pendingStop.time && i.activity === pendingStop.activity
+    );
+    if (d) setActiveId(d.id);
+    setRestaurantKey(null);
+    setSelected(it ?? null);
+    onConsumed();
+  }, [pendingStop, onConsumed]);
   const day = useMemo(
     () => data.days.find((d) => d.id === activeId) ?? data.days[0],
     [activeId]
@@ -422,30 +457,53 @@ function Row({ k, v }: { k: string; v: string }) {
 
 export default function App() {
   const [tab, setTab] = useState<TabKey>("itinerary");
+  const [lightbox, setLightbox] = useState<string | null>(null);
+  const [pendingStop, setPendingStop] = useState<PendingStop | null>(null);
+
+  const clearPendingStop = useCallback(() => setPendingStop(null), []);
+  const goToStop = useCallback(
+    (dayId: string, time: string, activity: string) => {
+      setTab("itinerary");
+      setPendingStop({ dayId, time, activity });
+    },
+    []
+  );
+  const ctx = useMemo(
+    () => ({ openLightbox: setLightbox, goToStop }),
+    [goToStop]
+  );
 
   return (
-    <div className="mx-auto flex h-[100dvh] max-w-md flex-col">
-      <Header subtitle={data.subtitle} />
+    <AppContext.Provider value={ctx}>
+      <div className="mx-auto flex h-[100dvh] max-w-md flex-col">
+        <Header subtitle={data.subtitle} />
 
-      <main className="min-h-0 flex-1 overflow-y-auto overscroll-contain pb-4 pt-2">
-        {tab === "itinerary" && <ItineraryPage />}
-        {tab === "food" && <FoodPage />}
-        {tab === "shop" && <ShopPage />}
-        {tab === "map" && (
-          <Suspense
-            fallback={
-              <div className="px-4 pt-24 text-center text-[14px] text-neutral-400">
-                載入地圖中…
-              </div>
-            }
-          >
-            <MapView days={data.days} />
-          </Suspense>
-        )}
-        {tab === "tools" && <ToolsPage />}
-      </main>
+        <main className="min-h-0 flex-1 overflow-y-auto overscroll-contain pb-4 pt-2">
+          {tab === "itinerary" && (
+            <ItineraryPage
+              pendingStop={pendingStop}
+              onConsumed={clearPendingStop}
+            />
+          )}
+          {tab === "food" && <FoodPage />}
+          {tab === "shop" && <ShopPage />}
+          {tab === "map" && (
+            <Suspense
+              fallback={
+                <div className="px-4 pt-24 text-center text-[14px] text-neutral-400">
+                  載入地圖中…
+                </div>
+              }
+            >
+              <MapView days={data.days} />
+            </Suspense>
+          )}
+          {tab === "tools" && <ToolsPage />}
+        </main>
 
-      <TabBar active={tab} onChange={setTab} />
-    </div>
+        <TabBar active={tab} onChange={setTab} />
+      </div>
+      <Lightbox src={lightbox} onClose={() => setLightbox(null)} />
+    </AppContext.Provider>
   );
 }

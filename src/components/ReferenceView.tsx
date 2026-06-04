@@ -1,6 +1,10 @@
 import { useState } from "react";
 import type { Block, MapLinks, RefNode } from "../types";
 import TaxiCard from "./TaxiCard";
+import { useAppCtx } from "../lib/appctx";
+
+const SHORT_ACTIVITY = (a: string) =>
+  a.replace(/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}]/gu, "").replace(/\s+/g, " ").trim().slice(0, 14);
 
 function firstKorean(text: string): string | null {
   const m = text.match(/[가-힣][가-힣\s·,()]*[가-힣]/);
@@ -57,12 +61,14 @@ const asset = (src: string) =>
   src.startsWith("http") ? src : import.meta.env.BASE_URL + src;
 
 function Thumb({ src }: { src: string }) {
+  const { openLightbox } = useAppCtx();
   return (
     <img
       src={asset(src)}
       alt=""
       loading="lazy"
-      className="h-12 w-12 shrink-0 rounded-lg object-cover"
+      onClick={() => openLightbox(asset(src))}
+      className="h-12 w-12 shrink-0 cursor-pointer rounded-lg object-cover"
       onError={(e) => {
         e.currentTarget.style.display = "none";
       }}
@@ -72,6 +78,7 @@ function Thumb({ src }: { src: string }) {
 
 // Horizontal strip of real food photos for a store (Google Places).
 function Gallery({ photos }: { photos: string[] }) {
+  const { openLightbox } = useAppCtx();
   return (
     <div className="no-scrollbar -mx-1 my-2 flex gap-2 overflow-x-auto px-1">
       {photos.map((src, i) => (
@@ -80,11 +87,51 @@ function Gallery({ photos }: { photos: string[] }) {
           src={src}
           alt=""
           loading="lazy"
-          className="h-32 w-44 shrink-0 rounded-2xl object-cover"
+          onClick={() => openLightbox(src)}
+          className="h-32 w-44 shrink-0 cursor-pointer rounded-2xl object-cover"
           onError={(e) => {
             e.currentTarget.style.display = "none";
           }}
         />
+      ))}
+    </div>
+  );
+}
+
+function ImageBlock({ block }: { block: Block }) {
+  const { openLightbox } = useAppCtx();
+  if (!block.url) return null;
+  return (
+    <img
+      src={block.url}
+      alt={block.alt || ""}
+      loading="lazy"
+      onClick={() => openLightbox(block.url!)}
+      className="my-2 max-h-56 w-full cursor-pointer rounded-2xl object-cover"
+    />
+  );
+}
+
+// Restaurant schedule line: which timeline stop(s) go here, or not-yet-planned.
+function ScheduleLine({ node }: { node: RefNode }) {
+  const { goToStop } = useAppCtx();
+  if (!node.key || !node.scheduled) return null;
+  if (node.scheduled.length === 0)
+    return (
+      <div className="mt-2 inline-flex items-center gap-1 rounded-full bg-neutral-100 px-2.5 py-1 text-[12px] font-medium text-neutral-400 dark:bg-neutral-800 dark:text-neutral-500">
+        🗓 尚未排入行程
+      </div>
+    );
+  return (
+    <div className="mt-2 flex flex-wrap gap-1.5">
+      {node.scheduled.map((s, i) => (
+        <button
+          key={i}
+          onClick={() => goToStop(s.dayId, s.time, s.activity)}
+          className="inline-flex items-center gap-1 rounded-full bg-coral/10 px-2.5 py-1 text-[12px] font-semibold text-coral-deep active:scale-95 dark:text-coral"
+        >
+          🗓 {s.dayId} {s.time} {SHORT_ACTIVITY(s.activity)} ›
+        </button>
       ))}
     </div>
   );
@@ -121,14 +168,7 @@ function MiniMaps({ maps }: { maps?: MapLinks | null }) {
 function BlockView({ block }: { block: Block }) {
   switch (block.type) {
     case "image":
-      return (
-        <img
-          src={block.url}
-          alt={block.alt || ""}
-          loading="lazy"
-          className="my-2 max-h-56 w-full rounded-2xl object-cover"
-        />
-      );
+      return <ImageBlock block={block} />;
     case "subheading":
       return (
         <div className="mt-3">
@@ -240,6 +280,7 @@ export function NodeCard({
         <div className="mb-1">
           <h3 className="text-[16px] font-bold leading-snug">{node.title}</h3>
           <MapButtons maps={node.maps} />
+          <ScheduleLine node={node} />
         </div>
       )}
       {node.gallery && node.gallery.length > 0 && (

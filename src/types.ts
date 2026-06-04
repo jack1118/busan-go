@@ -80,6 +80,15 @@ export interface RefNode {
   gallery?: string[];
   // Stable key so timeline stops can link to this restaurant.
   key?: string;
+  // Timeline stops that go to this restaurant ([] = not yet scheduled).
+  // Only set for keyed restaurant nodes.
+  scheduled?: ScheduledStop[];
+}
+
+export interface ScheduledStop {
+  dayId: string;
+  time: string;
+  activity: string;
 }
 
 export interface RefSection {

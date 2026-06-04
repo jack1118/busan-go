@@ -675,6 +675,20 @@ function attachPlaces(days, food) {
   }
 }
 
+// Reverse index: tag each keyed restaurant with the timeline stops that go
+// there, so the 美食 tab can show「排定 D1 19:30…」or「尚未排入行程」.
+function attachSchedule(days, food) {
+  const nodes = (food?.nodes || []).filter((n) => n.key);
+  for (const n of nodes) {
+    const hits = [];
+    for (const d of days)
+      for (const it of d.items)
+        if (it.places?.some((p) => p.key === n.key))
+          hits.push({ dayId: d.id, time: it.time, activity: it.activity });
+    n.scheduled = hits; // [] means not yet scheduled
+  }
+}
+
 // ---------- assemble ----------
 const data = {
   title,
@@ -716,6 +730,7 @@ const data = {
 attachPhotos(data.days, data.food);
 assignFoodKeys(data.food);
 attachPlaces(data.days, data.food);
+attachSchedule(data.days, data.food);
 
 mkdirSync(dirname(OUT), { recursive: true });
 writeFileSync(OUT, JSON.stringify(data, null, 2), "utf8");
