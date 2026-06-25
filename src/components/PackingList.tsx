@@ -12,6 +12,7 @@ function emojiFor(category: string): string {
   if (category.includes("預訂")) return "📋";
   if (category.includes("打包")) return "🧳";
   if (category.includes("衣物")) return "👕";
+  if (category.includes("登機") || category.includes("出發當天")) return "✈️";
   if (category.includes("APP")) return "📱";
   return "📦";
 }
