@@ -58,39 +58,57 @@
       "colorIndex": 0,
       "items": [
         {
-          "time": "13:30",
-          "activity": "桃園機場出發 BX794",
-          "note": "提前 2hr 到機場",
-          "icon": "transport",
-          "maps": {
-            "google": "https://www.google.com/maps/search/?api=1&query=%EA%B9%80%ED%95%B4%EA%B5%AD%EC%A0%9C%EA%B3%B5%ED%95%AD&query_place_id=ChIJDfcSIsGSaDUR7DKMmkKpoxU",
-            "naver": "https://map.naver.com/p/search/%EA%B9%80%ED%95%B4%EA%B5%AD%EC%A0%9C%EA%B3%B5%ED%95%AD"
-          },
+          "time": "09:10",
+          "activity": "松山車站 → 台北車站 →機捷直達車→ A13 第二航廈",
+          "note": "⚠️ Air Busan 在 T2（非 T1）。目標 10:30 到、10:45 報到。台北車站轉乘找電梯、拖行李走一段",
+          "icon": "spot",
+          "maps": null,
           "tags": [],
           "voucher": null,
-          "coord": {
-            "lat": 35.1728688,
-            "lng": 128.9471783,
-            "name": "金海國際機場",
-            "nameKr": "김해국제공항",
-            "addr": "부산 강서구 공항진입로 108",
-            "placeId": "ChIJDfcSIsGSaDUR7DKMmkKpoxU"
-          },
-          "nameKr": "김해국제공항",
-          "addr": "부산 강서구 공항진입로 108",
+          "coord": null,
+          "nameKr": null,
+          "addr": null,
+          "photo": null
+        },
+        {
+          "time": "10:45",
+          "activity": "T2 報到、託運行李",
+          "note": "推車「登機門託運」gate-check；廉航櫃台約起飛前 50-60 分關閉",
+          "icon": "spot",
+          "maps": null,
+          "tags": [],
+          "voucher": null,
+          "coord": null,
+          "nameKr": null,
+          "addr": null,
+          "photo": null
+        },
+        {
+          "time": "13:30",
+          "activity": "桃園 T2 出發 BX794",
+          "note": "嬰幼兒可優先登機；飛行約 2h35m，自備幼兒零食/奶（廉航無嬰兒餐）",
+          "icon": "transport",
+          "maps": null,
+          "tags": [],
+          "voucher": null,
+          "coord": null,
+          "nameKr": null,
+          "addr": null,
           "photo": null
         },
         {
           "time": "17:05",
           "activity": "抵達金海機場",
-          "note": "入境+領行李約 30-40 分",
+          "note": "下機留意推車在艙門口/轉盤領回；入境+領行李約 30-40 分。📱 領完行李到 SK 漫遊中心（國際線 1F・GATE 3・06:00–22:00）：出示購買憑證（含訂單編號條碼）領 T-money 卡 + 開通 eSIM／領 SIM，就在 Gate 3、出關找司機前順路",
           "icon": "transport",
           "maps": {
             "google": "https://www.google.com/maps/search/?api=1&query=%EA%B9%80%ED%95%B4%EA%B5%AD%EC%A0%9C%EA%B3%B5%ED%95%AD&query_place_id=ChIJDfcSIsGSaDUR7DKMmkKpoxU",
             "naver": "https://map.naver.com/p/search/%EA%B9%80%ED%95%B4%EA%B5%AD%EC%A0%9C%EA%B3%B5%ED%95%AD"
           },
           "tags": [],
-          "voucher": null,
+          "voucher": {
+            "code": ""
+          },
           "coord": {
             "lat": 35.1728688,
             "lng": 128.9471783,
@@ -104,15 +122,20 @@
           "photo": null
         },
         {
-          "time": "~18:00",
-          "activity": "搭計程車前往海雲台飯店",
-          "note": "車程約 40-50 分",
+          "time": "~17:45",
+          "activity": "預約接送（含兒童座椅）→ 海雲台飯店",
+          "note": "入境大廳找舉牌司機；車程約 40-50 分。T-money 已在 SK 漫遊中心領取（充值在便利商店／地鐵站皆可）。💱 換錢：機場也有 MoneyBox 김해공항지점（06:00–21:00、兼 SIM/WiFi 租借），但在輕軌站不在航廈大廳 → 搭接送不順路，直接到海雲台店換即可；只有改搭輕軌或落地急需現金才順路",
           "icon": "transport",
           "maps": {
             "google": "https://www.google.com/maps/search/?api=1&query=%ED%86%A0%EC%9A%94%EC%BD%94%EC%9D%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%202&query_place_id=ChIJ_0E5KRKNaDURKSPthqrI1-I",
             "naver": "https://map.naver.com/p/search/%ED%86%A0%EC%9A%94%EC%BD%94%EC%9D%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%202"
           },
-          "tags": [],
+          "tags": [
+            {
+              "emoji": "🪑",
+              "label": "兒童餐/座椅"
+            }
+          ],
           "voucher": null,
           "coord": {
             "lat": 35.1595422,
@@ -127,16 +150,18 @@
           "photo": null
         },
         {
-          "time": "~19:00",
+          "time": "~18:35",
           "activity": "Check-in、整頓",
-          "note": "讓雨樂適應環境",
-          "icon": "rest",
+          "note": "💳 付款時出示「東橫INN 會員卡」才有折扣！別忘了。放行李、讓雨樂適應環境（晚餐 19:30 非硬性，看狀況）",
+          "icon": "food",
           "maps": {
             "google": "https://www.google.com/maps/search/?api=1&query=%ED%86%A0%EC%9A%94%EC%BD%94%EC%9D%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%202&query_place_id=ChIJ_0E5KRKNaDURKSPthqrI1-I",
             "naver": "https://map.naver.com/p/search/%ED%86%A0%EC%9A%94%EC%BD%94%EC%9D%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%202"
           },
           "tags": [],
-          "voucher": null,
+          "voucher": {
+            "code": ""
+          },
           "coord": {
             "lat": 35.1595422,
             "lng": 129.1573807,
@@ -152,7 +177,7 @@
         {
           "time": "19:30",
           "activity": "晚餐：海雲台市場 해운대시장",
-          "note": "推薦：名品糖餅（排隊人氣王）、爐紅餃子刀削麵（60 年老店）、魚板串、海鮮煎餅。順便在市場水果攤買참외（韓國香瓜）+ 水蜜桃帶回飯店吃！",
+          "note": "推薦：名品糖餅（排隊人氣王）、爐紅餃子刀削麵（60 年老店）、魚板串、海鮮煎餅。順便在市場水果攤買참외（韓國香瓜）+ 水蜜桃帶回飯店吃！\n🥩 想好好吃一頓 → 海雲台烤韓牛（4 選 1，見〈必吃〉比較表；首選 암소갈비집／규우정）：需 CatchTable 預約，建議訂 19:30 留航班緩衝；航班誤點或雨樂太累就回市場小吃／Puradak。\n🍗 備案（雨樂累爆/不想再逛）→ Puradak 푸라닭 중동점外帶炸雞回飯店吃（中洞店離飯店近、開到 24:00，走進去手指菜單 포장 即可，免韓國外送 App）",
           "icon": "food",
           "maps": {
             "google": "https://www.google.com/maps/search/?api=1&query=%ED%95%B4%EC%9A%B4%EB%8C%80%EC%8B%9C%EC%9E%A5&query_place_id=ChIJCXner12NaDURvTHbPe3S9tU",
@@ -172,6 +197,15 @@
           "addr": "부산 해운대구 구남로41번길",
           "photo": "https://lh3.googleusercontent.com/place-photos/AJRVUZPw5s1N-5NPN8YhSRWj-4BKDQtdajYQTmPpJ1QKK1MsChqSEfN9dKTVQIgPDBDl4CMb7Ozg-lZ7pp-ykqlVoY0v8f2P_qur277KUAgLSXiCh2vh1XvDUI38T6CoU73mWV3s1xWJ8ek7ZNJU5w=s4800-w800",
           "places": [
+            {
+              "key": "암소갈비집",
+              "title": "🥩 海雲台암소갈비집 — 米其林烤肉（1964 年老店）",
+              "thumb": "https://lh3.googleusercontent.com/place-photos/AJRVUZMeU1FE9aSN65MIQYwUvycRoJ7DPfIwzGf0jxn3NCRsxKS8NI4kI96EVqQK95CF4Uba7uvqpGDy4tIoXMYlifFeUXeoRfuyZd6vug4z4kEV_F3z_ZdMOFbczonBprMLr6vHyBBgNGo_5tiX=s4800-w800",
+              "maps": {
+                "google": "https://maps.google.com/?q=%ED%95%B4%EC%9A%B4%EB%8C%80%EC%95%94%EC%86%8C%EA%B0%88%EB%B9%84%EC%A7%91",
+                "naver": "https://map.naver.com/v5/search/%ED%95%B4%EC%9A%B4%EB%8C%80%EC%95%94%EC%86%8C%EA%B0%88%EB%B9%84%EC%A7%91"
+              }
+            },
             {
               "key": "노홍만두",
               "title": "🍜 노홍만두칼국수 爐紅餃子刀削麵 — 海雲台市場 60 年老店",
@@ -289,7 +323,7 @@
         {
           "time": "10:00",
           "activity": "海雲台海灘 해운대해수욕장 🏖",
-          "note": "沙灘玩沙、踩水。帶換洗衣物和小毛巾",
+          "note": "只玩沙踩水（不下水）。輕便包：替換衣+小毛巾+防曬+帽子+水（不帶泳裝）。早上太陽已強，玩約 1hr 別曬太久",
           "icon": "spot",
           "maps": {
             "google": "https://www.google.com/maps/search/?api=1&query=%ED%95%B4%EC%9A%B4%EB%8C%80%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5&query_place_id=ChIJXwf-DlyNaDURmKxjwdWxY5k",
@@ -316,8 +350,8 @@
         },
         {
           "time": "11:30",
-          "activity": "SEA LIFE 釜山水族館 🐠",
-          "note": "就在海灘旁。海底隧道、觸摸池。未滿 3 歲免費（帶護照證明年齡）。平日 10:00-19:00。約 1-1.5hr",
+          "activity": "SEA LIFE 釜山水族館 🐠（彈性／雨天備案）",
+          "note": "就在海灘旁。海底隧道、觸摸池。雨樂未滿 3 歲（35 個月內）免費（帶護照）。約 1-1.5hr。⚠️ 館偏小、推車難推（週六最擠），21 個月稍小、CP 值普通。建議：晴天就玩海灘，雨天／太熱才進；要去買開放日期票，當天看狀況再決定。 想讓雨樂室內玩，Club D Oasis（戲水）或 Arte 月兔更適合",
           "icon": "spot",
           "maps": {
             "google": "https://www.google.com/maps/search/?api=1&query=%EC%94%A8%EB%9D%BC%EC%9D%B4%ED%94%84%20%EB%B6%80%EC%82%B0%EC%95%84%EC%BF%A0%EC%95%84%EB%A6%AC%EC%9B%80&query_place_id=ChIJq7TCXVyNaDURsEf5F93nr84",
@@ -325,8 +359,8 @@
           },
           "tags": [
             {
-              "emoji": "👶",
-              "label": "兒童免費"
+              "emoji": "🧸",
+              "label": "適合幼兒"
             }
           ],
           "voucher": null,
@@ -343,17 +377,52 @@
           "photo": null
         },
         {
-          "time": "13:00",
-          "activity": "午餐：水族館附近餐廳",
-          "note": "推薦韓式豆腐鍋、拌飯等方便幼兒共食",
+          "time": "~12:00",
+          "activity": "午餐：해운대 31cm 해물칼국수（직영점） 🍜 已鎖定",
+          "note": "구남로41번길 46（海雲台市場/구남로，海灘走過去近）。⏰ 週六營業，建議 12:00 前到（假日等 1hr+，早到少排）。⚠️ 下午 break 14:40–16:00 不供餐、最後點餐 20:40 → 一定要在 14:40 前點到。31cm 海鮮刀削麵 ₩10,000 麵 Q 彈幼兒友善（泡菜極辣別給雨樂）。備案不想排：수변최고 兒童湯飯 / 순두부",
           "icon": "food",
-          "maps": null,
-          "tags": [],
+          "maps": {
+            "google": "https://www.google.com/maps/search/?api=1&query=%ED%95%B4%EC%9A%B4%EB%8C%80%EC%8B%9C%EC%9E%A5&query_place_id=ChIJCXner12NaDURvTHbPe3S9tU",
+            "naver": "https://map.naver.com/p/search/%ED%95%B4%EC%9A%B4%EB%8C%80%EC%8B%9C%EC%9E%A5"
+          },
+          "tags": [
+            {
+              "emoji": "🪑",
+              "label": "兒童餐/座椅"
+            }
+          ],
           "voucher": null,
-          "coord": null,
-          "nameKr": null,
-          "addr": null,
-          "photo": null
+          "coord": {
+            "lat": 35.1614537,
+            "lng": 129.1622489,
+            "name": "海雲台市場",
+            "nameKr": "해운대시장",
+            "addr": "부산 해운대구 구남로41번길",
+            "placeId": "ChIJCXner12NaDURvTHbPe3S9tU"
+          },
+          "nameKr": "해운대시장",
+          "addr": "부산 해운대구 구남로41번길",
+          "photo": "https://lh3.googleusercontent.com/place-photos/AJRVUZPw5s1N-5NPN8YhSRWj-4BKDQtdajYQTmPpJ1QKK1MsChqSEfN9dKTVQIgPDBDl4CMb7Ozg-lZ7pp-ykqlVoY0v8f2P_qur277KUAgLSXiCh2vh1XvDUI38T6CoU73mWV3s1xWJ8ek7ZNJU5w=s4800-w800",
+          "places": [
+            {
+              "key": "수변최고",
+              "title": "🍜 수변최고 水邊最高豬肉湯飯 — 釜山三大湯飯",
+              "thumb": "https://lh3.googleusercontent.com/place-photos/AJRVUZNx4s7HYruco_Vts4leiIltQCN__1AFMOH2nXjESQUJaOBLazmAlCxoKndal2MrOcDxZXdwO1qw_Kpc4tfFweNGHMxqybBM8LqFoioWyJ2mQFqjmevokEkzYDWKZFQL34JpCof50Xa5GwNW5_d9d-igdw=s4800-w800",
+              "maps": {
+                "google": "https://maps.google.com/?q=%EB%AC%BC%EA%B0%80%EC%97%90%EC%B5%9C%EA%B3%A0%20%ED%95%B4%EC%9A%B4%EB%8C%80",
+                "naver": "https://map.naver.com/v5/search/%EB%AC%BC%EA%B0%80%EC%97%90%EC%B5%9C%EA%B3%A0%20%ED%95%B4%EC%9A%B4%EB%8C%80"
+              }
+            },
+            {
+              "key": "31cm",
+              "title": "🍜 해운대 31cm 해물칼국수 — 31 公分海鮮刀削麵",
+              "thumb": "https://lh3.googleusercontent.com/place-photos/AJRVUZPw5s1N-5NPN8YhSRWj-4BKDQtdajYQTmPpJ1QKK1MsChqSEfN9dKTVQIgPDBDl4CMb7Ozg-lZ7pp-ykqlVoY0v8f2P_qur277KUAgLSXiCh2vh1XvDUI38T6CoU73mWV3s1xWJ8ek7ZNJU5w=s4800-w800",
+              "maps": {
+                "google": "https://maps.google.com/?q=%ED%95%B4%EC%9A%B4%EB%8C%80%2031cm%20%EC%B9%BC%EA%B5%AD%EC%88%98",
+                "naver": "https://map.naver.com/v5/search/%ED%95%B4%EC%9A%B4%EB%8C%80%2031cm%20%EC%B9%BC%EA%B5%AD%EC%88%98"
+              }
+            }
+          ]
         },
         {
           "time": "13:30-15:30",
@@ -380,36 +449,40 @@
         },
         {
           "time": "16:00",
-          "activity": "下午悠閒二選一",
-          "note": "A. Club D Oasis （水上樂園+泳池，雨樂免費，走路到，₩69,000/大人 6hr 或 VBP 免費入場）\nB. 新世界百貨 Centum City（Hello Kitty Cafe B1 + Zooraji 兒童樂園頂樓 + SPAO 聯名款 + 6F 童裝館）",
+          "activity": "下午（看天氣二擇一）",
+          "note": "🅰 Centum City 新世界百貨（預設，地鐵 2 號線 2 站）：B1 Hello Kitty Cafe → 頂樓 Zooraji 兒童樂園（海盜船+恐龍）→ 6F 童裝/SPAO → Homeplus 補貨。免門票、室內。\n🅱 Club D Oasis 水上樂園（想玩水/太熱時）：飯店走路到，無邊際泳池+兒童戲水池+溫泉。雨樂 36 個月以下免費（帶護照），大人旺季 ₩69,000。⚠️ 必帶：雨樂防水尿布或嬰兒泳裝、泳帽 ×3、全家泳裝（泳帽強制、3 歲以下下水須穿防水尿布/嬰兒泳裝）",
           "icon": "shop",
           "maps": {
-            "google": "https://www.google.com/maps/search/?api=1&query=%ED%81%B4%EB%9F%BD%EB%94%94%20%EC%98%A4%EC%95%84%EC%8B%9C%EC%8A%A4&query_place_id=ChIJN0Cv_r2NaDURKwfew3pTqi8",
-            "naver": "https://map.naver.com/p/search/%ED%81%B4%EB%9F%BD%EB%94%94%20%EC%98%A4%EC%95%84%EC%8B%9C%EC%8A%A4"
+            "google": "https://www.google.com/maps/search/?api=1&query=%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90&query_place_id=ChIJSSw7slWTaDURjMs-oU61YYc",
+            "naver": "https://map.naver.com/p/search/%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90"
           },
           "tags": [
             {
               "emoji": "👶",
               "label": "兒童免費"
+            },
+            {
+              "emoji": "🧸",
+              "label": "適合幼兒"
             }
           ],
           "voucher": null,
           "coord": {
-            "lat": 35.1600514,
-            "lng": 129.1684719,
-            "name": "Club D Oasis",
-            "nameKr": "클럽디 오아시스",
-            "addr": "부산 해운대구 달맞이길 30",
-            "placeId": "ChIJN0Cv_r2NaDURKwfew3pTqi8"
+            "lat": 35.1689218,
+            "lng": 129.1296311,
+            "name": "新世界 Centum City",
+            "nameKr": "신세계백화점 센텀시티점",
+            "addr": "부산 해운대구 센텀남대로 35",
+            "placeId": "ChIJSSw7slWTaDURjMs-oU61YYc"
           },
-          "nameKr": "클럽디 오아시스",
-          "addr": "부산 해운대구 달맞이길 30",
+          "nameKr": "신세계백화점 센텀시티점",
+          "addr": "부산 해운대구 센텀남대로 35",
           "photo": null
         },
         {
-          "time": "18:30",
-          "activity": "晚餐：The Bay 101 더베이101 🌃",
-          "note": "面對海雲台天際線的露天美食區，邊吃邊看夕陽（19:40 日落）→ 夜景！💡 想吃烤肉的話這晚改 해운대암소갈비집 牛肋排 / 오반장 伍班長（都在海雲台，最順）",
+          "time": "~18:30",
+          "activity": "晚餐：Centum/新世界就近吃 🍽",
+          "note": "百貨美食街餐廳多、有兒童椅。💡 The Bay 101 夕陽夜景留到 D4 那晚（週一人少）。想看無人機秀的話可吃快一點",
           "icon": "food",
           "maps": {
             "google": "https://www.google.com/maps/search/?api=1&query=%EB%8D%94%EB%B2%A0%EC%9D%B4101&query_place_id=ChIJcSqHWSKTaDURtVMxseKq6zY",
@@ -427,26 +500,8 @@
           },
           "nameKr": "더베이101",
           "addr": "부산 해운대구 동백로 52",
-          "photo": "https://lh3.googleusercontent.com/place-photos/AJRVUZPNWdfh02SfiYi70jiWDplGWHYzDjHaEH5sOSCCI2KOAHfKJu6IwpbIqyCHAADWqRqfJ3U0_hq7sAdl6OcrbfgUcerD7ozR4cedhmdS3werfp5aVyAvw4x-BtwLLtKtwUd4EuYgulq_QzKbqw1KbqGajA=s4800-w800",
+          "photo": null,
           "places": [
-            {
-              "key": "암소갈비집",
-              "title": "🥩 海雲台암소갈비집 — 米其林烤肉（1964 年老店）",
-              "thumb": "https://lh3.googleusercontent.com/place-photos/AJRVUZMeU1FE9aSN65MIQYwUvycRoJ7DPfIwzGf0jxn3NCRsxKS8NI4kI96EVqQK95CF4Uba7uvqpGDy4tIoXMYlifFeUXeoRfuyZd6vug4z4kEV_F3z_ZdMOFbczonBprMLr6vHyBBgNGo_5tiX=s4800-w800",
-              "maps": {
-                "google": "https://maps.google.com/?q=%ED%95%B4%EC%9A%B4%EB%8C%80%EC%95%94%EC%86%8C%EA%B0%88%EB%B9%84%EC%A7%91",
-                "naver": "https://map.naver.com/v5/search/%ED%95%B4%EC%9A%B4%EB%8C%80%EC%95%94%EC%86%8C%EA%B0%88%EB%B9%84%EC%A7%91"
-              }
-            },
-            {
-              "key": "오반장",
-              "title": "🥩 伍班長燒肉 오반장 — 海雲台 CP 值之王",
-              "thumb": "https://lh3.googleusercontent.com/place-photos/AJRVUZPqkGYBdSPl9-HnCkxBD_7CUd15r7qzooQHxVz3EAsJGJTuso0-c4HXwmDHAQ2FNHNrZ2RRu9jgzbOowPpjgndUKmC-_UMaaeIS-DR0LN58mbvyW6qKQy7508ZWXpyv-f5pHlAGWcrw8QnN=s4800-w800",
-              "maps": {
-                "google": "https://maps.google.com/?q=%EC%98%A4%EB%B0%98%EC%9E%A5%20%ED%95%B4%EC%9A%B4%EB%8C%80",
-                "naver": "https://map.naver.com/v5/search/%EC%98%A4%EB%B0%98%EC%9E%A5%20%ED%95%B4%EC%9A%B4%EB%8C%80"
-              }
-            },
             {
               "key": "The Bay 101",
               "title": "🌃 The Bay 101 더베이101 — 釜山夜景第一名",
@@ -459,9 +514,32 @@
           ]
         },
         {
-          "time": "20:00",
+          "time": "19:45",
+          "activity": "☀️ 天氣好 → 廣安里無人機秀（第一優先！） 🛸",
+          "note": "計程車/地鐵到 廣安里海灘 광안리（海雲台/Centum ~10-15 分）、約 10 分、免費，海灘任一處可看。🎉 6/27（六）官方特別場「Best Cuts」：1,500 架無人機、民眾票選 8 大經典場景重現，當晚 20:00「只演這一場」（非平常兩場制，沒有 22:00 第二場 → 直接鎖 20:00）。⚠️ 可能因雨/強風/颱風/通訊問題於前一天或當天公告取消或延期 → 出發前及當天傍晚務必看官方公告：6/27 特別場公告（無人機最新動態以此為準）/ 官網 / IG",
+          "icon": "transport",
+          "maps": {
+            "google": "https://www.google.com/maps/search/?api=1&query=%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90&query_place_id=ChIJSSw7slWTaDURjMs-oU61YYc",
+            "naver": "https://map.naver.com/p/search/%EC%8B%A0%EC%84%B8%EA%B3%84%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%A0%90"
+          },
+          "tags": [],
+          "voucher": null,
+          "coord": {
+            "lat": 35.1689218,
+            "lng": 129.1296311,
+            "name": "新世界 Centum City",
+            "nameKr": "신세계백화점 센텀시티점",
+            "addr": "부산 해운대구 센텀남대로 35",
+            "placeId": "ChIJSSw7slWTaDURjMs-oU61YYc"
+          },
+          "nameKr": "신세계백화점 센텀시티점",
+          "addr": "부산 해운대구 센텀남대로 35",
+          "photo": null
+        },
+        {
+          "time": "~21:00",
           "activity": "回飯店",
-          "note": "便利商店買消夜 + 컵과일 水果杯（切好的當季水果）",
+          "note": "便利商店買消夜 + 컵과일 水果杯。🌧 若無人機秀因雨取消 → 跳過，直接回飯店休息（這趟只有這個週六有秀，沒下雨千萬別錯過）",
           "icon": "food",
           "maps": {
             "google": "https://www.google.com/maps/search/?api=1&query=%ED%86%A0%EC%9A%94%EC%BD%94%EC%9D%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%202&query_place_id=ChIJ_0E5KRKNaDURKSPthqrI1-I",
@@ -485,7 +563,7 @@
       "rainPlan": {
         "text": [
           "雨天備案 A：上午去水族館（室內），下午改去 Centum City 新世界百貨（世界最大百貨公司，頂樓有 Zooraji 兒童樂園 — 海盜船遊樂場+恐龍）或 Pororo Park（波露露主題室內遊樂場，幼兒最愛）。B1 先去 Hello Kitty Apple Cafe （蘋果×Kitty 主題咖啡廳，飲品 ₩5,500~8,500，拍照區+周邊商品，雨樂認得 Kitty 會很開心），再逛 6F 兒童館（韓國童裝品牌）+ SPAO Centum City 店（聯名款）+ 旁邊 Homeplus Centum City 店補貨嬰兒零食",
-          "雨天備案 B：Club D Oasis — 海雲台 LCT 大樓 3-6F 的高級水上樂園+汗蒸幕，離飯店走路可到。無邊際泳池正對海雲台海景、兒童戲水池、滑水道、室外溫泉足湯。雨樂 36 個月以下免費！ 大人旺季 ₩69,000/人（水上樂園 6hr）或 ₩30,000/人（純 SPA 5hr）。⚠️ 需自備泳帽（泳池區必戴），救生衣可租。可用 Visit Busan Pass 免費入場。營業 10:00–22:00（週二到 18:00）。室內設施不怕下雨，也適合太熱不想在外面走的日子"
+          "雨天備案 B：Club D Oasis — 海雲台 LCT 大樓 3-6F 的高級水上樂園+汗蒸幕，離飯店走路可到。無邊際泳池正對海雲台海景、兒童戲水池、滑水道、室外溫泉足湯。雨樂 36 個月以下免費！ 大人旺季 ₩69,000/人（水上樂園 6hr）或 ₩30,000/人（純 SPA 5hr）。⚠️ 需自備泳帽（泳池區必戴），救生衣可租。Visit Busan Pass 只含 SPA/찜질방（汗蒸幕＋露天溫泉 청수당 4hr），不含水上樂園（水樂園要現場 +₩10,000 升級 6hr Combo，優惠至 6/30；持 Pass 청수당/Sand Cafe 餐飲 9 折）。營業 10:00–22:00（週二到 18:00）。室內設施不怕下雨，也適合太熱不想在外面走的日子"
         ],
         "places": [
           {
@@ -537,7 +615,7 @@
         {
           "time": "09:30",
           "activity": "飯店免費早餐後出發",
-          "note": "搭地鐵前往南浦洞（海雲台→南浦約 50-60 分），不趕、慢慢來",
+          "note": "搭地鐵前往南浦洞（2 號線 海雲台 → 西面轉 1 號線 → 南浦，約 50-60 分），不趕、慢慢來",
           "icon": "food",
           "maps": {
             "google": "https://www.google.com/maps/search/?api=1&query=%EB%B9%84%ED%94%84%EA%B4%91%EC%9E%A5&query_place_id=ChIJL1scg6DpaDURxXQZg1kWGZ4",
@@ -628,30 +706,30 @@
         {
           "time": "13:30-15:30",
           "activity": "午睡時間 💤",
-          "note": "附近咖啡廳坐坐或計程車回飯店",
+          "note": "就地（南浦）睡：推車或咖啡廳坐。別回海雲台（來回近 2 小時不划算）",
           "icon": "food",
           "maps": {
-            "google": "https://www.google.com/maps/search/?api=1&query=%ED%86%A0%EC%9A%94%EC%BD%94%EC%9D%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%202&query_place_id=ChIJ_0E5KRKNaDURKSPthqrI1-I",
-            "naver": "https://map.naver.com/p/search/%ED%86%A0%EC%9A%94%EC%BD%94%EC%9D%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%202"
+            "google": "https://www.google.com/maps/search/?api=1&query=%EB%B9%84%ED%94%84%EA%B4%91%EC%9E%A5&query_place_id=ChIJL1scg6DpaDURxXQZg1kWGZ4",
+            "naver": "https://map.naver.com/p/search/%EB%B9%84%ED%94%84%EA%B4%91%EC%9E%A5"
           },
           "tags": [],
           "voucher": null,
           "coord": {
-            "lat": 35.1595422,
-            "lng": 129.1573807,
-            "name": "東橫INN 海雲台2號店",
-            "nameKr": "토요코인 부산 해운대 2",
-            "addr": "부산 해운대구 해운대해변로237번길 5",
-            "placeId": "ChIJ_0E5KRKNaDURKSPthqrI1-I"
+            "lat": 35.098243,
+            "lng": 129.029212,
+            "name": "南浦洞 BIFF廣場",
+            "nameKr": "비프광장",
+            "addr": "부산 중구 비프광장로",
+            "placeId": "ChIJL1scg6DpaDURxXQZg1kWGZ4"
           },
-          "nameKr": "토요코인 부산 해운대 2",
-          "addr": "부산 해운대구 해운대해변로237번길 5",
+          "nameKr": "비프광장",
+          "addr": "부산 중구 비프광장로",
           "photo": null
         },
         {
           "time": "16:00",
           "activity": "南浦洞購物 + 國際市場 국제시장 🛍",
-          "note": "光復路商店街：TOPTEN + 8SECONDS （都在光復路上，韓版 Uniqlo/ZARA 順路逛）、樂天百貨光復店（逛童裝特價花車 + 買 Busan Bada Sand、二代名菓）、Olive Young 買 Green Finger 嬰兒防曬。樂天超市 B1 買西瓜🍉（切半包裝）+ 참외 帶回飯店",
+          "note": "光復路商店街：TOPTEN + 8SECONDS （都在光復路上，韓版 Uniqlo/ZARA 順路逛）、樂天百貨光復店（逛童裝特價花車 + 買 Busan Bada Sand、二代名菓）、Olive Young 買 Green Finger 嬰兒防曬（💚 可用 LINE Pay，地區選韓國；結帳前問櫃台這家有無支援）。樂天超市 B1 買西瓜🍉（切半包裝）+ 참외 帶回飯店。🛒 結帳前先辦「Lotte Tourist Membership Card」（外國人觀光客會員卡）：帶護照到服務台填同意書+email 當場辦，樂天超市折 7%、樂天百貨本店 5%、樂天免稅店/7-11 10%，一卡通用、可累 L.POINT。一進樂天就先辦再逛。海外卡結帳記得選韓元 KRW（別選台幣 DCC）",
           "icon": "shop",
           "maps": {
             "google": "https://www.google.com/maps/search/?api=1&query=%ED%83%91%ED%85%90%20%EB%82%A8%ED%8F%AC%EB%8F%99%EC%A0%90&query_place_id=ChIJBY2rnKDpaDURxohkZrjXWEw",
@@ -673,14 +751,19 @@
         },
         {
           "time": "18:00",
-          "activity": "晚餐：南浦／中區就近吃 🍽",
-          "note": "在南浦吃，省去回海雲台約 1 小時車程。選擇多：南浦洞烤肉、돼지국밥 豬肉湯飯、或回札嘎其市場 2 樓吃生魚片/海鮮鍋。💡 海雲台牛肋排（해운대암소갈비집）/ 伍班長（오반장）改到 D1 或 D2 晚上吃，住海雲台那兩天最順",
+          "activity": "晚餐：南浦烤肉 🍽",
+          "note": "跟午餐海鮮鍋換口味，烤肉夾肉配飯給雨樂。在南浦吃，省去回海雲台約 1 小時車程。窄巷人多用背帶",
           "icon": "food",
           "maps": {
             "google": "https://www.google.com/maps/search/?api=1&query=%EB%B9%84%ED%94%84%EA%B4%91%EC%9E%A5&query_place_id=ChIJL1scg6DpaDURxXQZg1kWGZ4",
             "naver": "https://map.naver.com/p/search/%EB%B9%84%ED%94%84%EA%B4%91%EC%9E%A5"
           },
-          "tags": [],
+          "tags": [
+            {
+              "emoji": "⚠️",
+              "label": "推車不適用"
+            }
+          ],
           "voucher": null,
           "coord": {
             "lat": 35.098243,
@@ -692,27 +775,7 @@
           },
           "nameKr": "비프광장",
           "addr": "부산 중구 비프광장로",
-          "photo": null,
-          "places": [
-            {
-              "key": "자갈치",
-              "title": "🐟 자갈치시장 札嘎其市場 — 韓國最大海鮮市場",
-              "thumb": "https://lh3.googleusercontent.com/place-photos/AJRVUZM3m92MuaGjrQEPWkctkeAcHrNyo7HTL03tNeUqxt0M0GEISlAlWti7LvPuh521PMlkI2ZFYyW1BK_Zpj1mvgSvQTL4USzYg1vvG_EJtEl8q2oDheqGAjRu6OSkbkfiJSkLOzqu4JjP8zG2k40j856t5Q=s4800-w800",
-              "maps": {
-                "google": "https://maps.google.com/?q=%EC%9E%90%EA%B0%88%EC%B9%98%EC%8B%9C%EC%9E%A5",
-                "naver": "https://map.naver.com/v5/search/%EC%9E%90%EA%B0%88%EC%B9%98%EC%8B%9C%EC%9E%A5"
-              }
-            },
-            {
-              "key": "BIFF",
-              "title": "🫓 BIFF 廣場 씨앗호떡 — 南浦洞原祖堅果糖餅",
-              "thumb": "https://lh3.googleusercontent.com/place-photos/AJRVUZPRd41lGWhz3uVbyDdBL0eqUZcwC-BLdvGweAZ2wNwYNMSPqjteqa4HNmzMWJ9zQXhscPRw_HHJmVLYxgdnknO3wYOyUnNtgEU9pi5KL6Dkn9wqHfIbn4N0LkMvQA3KalkoxQCCbWz4FLP4rc14u28OPA=s4800-w800",
-              "maps": {
-                "google": "https://maps.google.com/?q=BIFF%EA%B4%91%EC%9E%A5%20%EC%94%A8%EC%95%97%ED%98%B8%EB%96%A1",
-                "naver": "https://map.naver.com/v5/search/BIFF%EA%B4%91%EC%9E%A5%20%EC%94%A8%EC%95%97%ED%98%B8%EB%96%A1"
-              }
-            }
-          ]
+          "photo": null
         },
         {
           "time": "19:00",
@@ -763,7 +826,7 @@
       ],
       "rainPlan": {
         "text": [
-          "雨天備案：南浦行程多為室內市場／地下街／百貨，照常進行；若雨太大，可整天改去 Centum City 新世界百貨 室內一日"
+          "雨天備案：南浦行程多為室內市場／地下街／百貨，照常進行。若雨太大／想吹冷氣 → 首選 Arte Museum「月兔」特展 🐰（影島，與南浦一橋之隔、計程車 ~15 分，室內沉浸光影 ⭐⭐⭐ 雨樂最愛，10:00-20:00、免費停車 2hr。⚠️ 6/30 閉展，這趟只剩 D3 這天能去，雨天就衝）；或整天改去 Centum City 新世界百貨 室內一日"
         ],
         "places": [
           {
@@ -801,11 +864,11 @@
         {
           "time": "10:00",
           "activity": "海雲台海邊慢活 🏖",
-          "note": "不趕行程：海灘散步撿貝殼、Standard Bread 스탠다드브레드 買鹽奶油吐司、고래사어묵 現吃魚糕，讓雨樂放電。💡 想看 廣安里廣安大橋夜景（六/日有無人機秀） 的話，挑一晚傍晚專程去，別排在這個早上來回橫跨",
+          "note": "不趕行程：海灘散步撿貝殼、Standard Bread 스탠다드브레드 買鹽奶油吐司、고래사어묵 現吃魚糕，讓雨樂放電。💡 上午順手買魚糕禮盒（純海鮮款、避肉，台灣禁肉入境），回飯店裝託運箱，D5 機場才輕鬆。💡 想看廣安里無人機秀挑一晚傍晚專程去，別排這早上來回橫跨",
           "icon": "food",
           "maps": {
-            "google": "https://www.google.com/maps/search/?api=1&query=%ED%95%B4%EC%9A%B4%EB%8C%80%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5&query_place_id=ChIJXwf-DlyNaDURmKxjwdWxY5k",
-            "naver": "https://map.naver.com/p/search/%ED%95%B4%EC%9A%B4%EB%8C%80%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5"
+            "google": "https://www.google.com/maps/search/?api=1&query=%ED%86%A0%EC%9A%94%EC%BD%94%EC%9D%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%202&query_place_id=ChIJ_0E5KRKNaDURKSPthqrI1-I",
+            "naver": "https://map.naver.com/p/search/%ED%86%A0%EC%9A%94%EC%BD%94%EC%9D%B8%20%EB%B6%80%EC%82%B0%20%ED%95%B4%EC%9A%B4%EB%8C%80%202"
           },
           "tags": [
             {
@@ -815,15 +878,15 @@
           ],
           "voucher": null,
           "coord": {
-            "lat": 35.1586975,
-            "lng": 129.1603842,
-            "name": "海雲台海灘",
-            "nameKr": "해운대해수욕장",
-            "addr": "부산 해운대구 우동",
-            "placeId": "ChIJXwf-DlyNaDURmKxjwdWxY5k"
+            "lat": 35.1595422,
+            "lng": 129.1573807,
+            "name": "東橫INN 海雲台2號店",
+            "nameKr": "토요코인 부산 해운대 2",
+            "addr": "부산 해운대구 해운대해변로237번길 5",
+            "placeId": "ChIJ_0E5KRKNaDURKSPthqrI1-I"
           },
-          "nameKr": "해운대해수욕장",
-          "addr": "부산 해운대구 우동",
+          "nameKr": "토요코인 부산 해운대 2",
+          "addr": "부산 해운대구 해운대해변로237번길 5",
           "photo": null,
           "places": [
             {
@@ -849,7 +912,7 @@
         {
           "time": "11:30",
           "activity": "午餐：海雲台就近吃",
-          "note": "수변최고 豬肉湯飯（有兒童湯飯 ₩5,000）或 31cm 海鮮刀削麵，幼兒友善",
+          "note": "수변최고 豬肉湯飯（24hr，有兒童湯飯 ₩5,000，最適合雨樂）。⚠️ 31cm 海鮮刀削麵週一公休，今天（6/29 一）吃不到，想吃要改別天",
           "icon": "food",
           "maps": null,
           "tags": [
@@ -910,7 +973,7 @@
         {
           "time": "15:00",
           "activity": "走到尾浦站",
-          "note": "海雲台步行或計程車到尾浦，準備搭海灘列車",
+          "note": "沿海灘步行到尾浦（~15-20 分），準備搭海灘列車",
           "icon": "transport",
           "maps": null,
           "tags": [],
@@ -948,7 +1011,7 @@
         {
           "time": "16:00-18:45",
           "activity": "青沙浦 청사포",
-          "note": "紅白燈塔拍照 → 踏石觀景台（天空步道）走透明玻璃棧道看海（免費，夏季開到 20:00）→ 挑一間海景咖啡廳坐（推薦 青沙森林 Cheongsa Foret 4F 落地窗看海、Broni 巴斯克乳酪蛋糕必點）。時間超充裕，慢慢逛",
+          "note": "紅白燈塔拍照 → 踏石觀景台（天空步道）走透明玻璃棧道看海（免費，夏季開到 20:00）→ 海景咖啡廳坐 청사森林 Cheongsa Foret（4F 落地窗看海）。⚠️ Simmian 是 노키즈존，帶雨樂不能進。時間超充裕，慢慢逛",
           "icon": "food",
           "maps": {
             "google": "https://www.google.com/maps/search/?api=1&query=%EC%B2%AD%EC%82%AC%ED%8F%AC&query_place_id=ChIJGcDcTCeNaDURouI8V8vtsX0",
@@ -971,7 +1034,7 @@
         {
           "time": "19:00",
           "activity": "🌅 天空膠囊回尾浦（Golden Hour！）",
-          "note": "青沙浦→尾浦，2 人座（雨樂坐腿上），全程 30 分鐘正好在 golden hour（日落 ~19:40），夕照打在海面超美！已訂 KKday #26KK270020066",
+          "note": "青沙浦→尾浦，2 人座（雨樂坐腿上），全程 30 分鐘正好在 golden hour（日落 ~19:40），夕照打在海面超美！已訂 KKday #26KK270020066。⚠️ 膠囊無冷氣只有電扇，帶水給雨樂；折疊推車收折放腳邊，大行李留飯店",
           "icon": "transport",
           "maps": null,
           "tags": [],
@@ -1066,7 +1129,7 @@
       "colorIndex": 4,
       "items": [
         {
-          "time": "07:00",
+          "time": "06:50",
           "activity": "起床、最後整理",
           "note": "",
           "icon": "rest",
@@ -1079,7 +1142,7 @@
           "photo": null
         },
         {
-          "time": "07:30",
+          "time": "07:20",
           "activity": "退房",
           "note": "",
           "icon": "rest",
@@ -1102,15 +1165,20 @@
           "photo": null
         },
         {
-          "time": "08:00",
-          "activity": "搭計程車前往金海機場",
-          "note": "預抓 50 分鐘車程（週二早上可能塞車）",
+          "time": "07:30",
+          "activity": "預約接送（含兒童座椅）→ 金海機場",
+          "note": "預抓 50 分鐘車程（週二早上可能塞車）。比原計畫提早 30 分出發，留安全邊際；接送車準時來、免一早臨時叫車",
           "icon": "transport",
           "maps": {
             "google": "https://www.google.com/maps/search/?api=1&query=%EA%B9%80%ED%95%B4%EA%B5%AD%EC%A0%9C%EA%B3%B5%ED%95%AD&query_place_id=ChIJDfcSIsGSaDUR7DKMmkKpoxU",
             "naver": "https://map.naver.com/p/search/%EA%B9%80%ED%95%B4%EA%B5%AD%EC%A0%9C%EA%B3%B5%ED%95%AD"
           },
-          "tags": [],
+          "tags": [
+            {
+              "emoji": "🪑",
+              "label": "兒童餐/座椅"
+            }
+          ],
           "voucher": null,
           "coord": {
             "lat": 35.1728688,
@@ -1125,7 +1193,7 @@
           "photo": null
         },
         {
-          "time": "08:50",
+          "time": "08:20",
           "activity": "抵達機場 3F 美食街吃早餐",
           "note": "설빙 雪冰（9 號登機門旁）：紅豆雪花冰 + 飯捲 + 咖啡，邊吃邊看飛機！或 K라면바 吃最後一碗韓式拉麵",
           "icon": "food",
@@ -1138,9 +1206,9 @@
           "photo": null
         },
         {
-          "time": "09:20",
+          "time": "09:00",
           "activity": "2F 最後掃貨",
-          "note": "① 退稅（海關後右手邊）→ ② 樂天免稅店（最後機會買正官莊紅蔘、化妝品）→ ③ Boogie Shop 釜山主題店（釜山觀光公社聯名，~300 種釜山限定商品，最後補伴手禮）→ ④ CU 便利商店（管制區內唯一超商，最後買香蕉牛奶、零食上飛機）",
+          "note": "① 退稅（海關後右手邊）→ ② 樂天免稅店（週二 09:30 開門，最後機會買正官莊紅蔘、化妝品）→ ③ Boogie Shop 釜山主題店（釜山觀光公社聯名，~300 種釜山限定商品，最後補伴手禮）→ ④ CU 便利商店（管制區內唯一超商，最後買香蕉牛奶、零食上飛機）",
           "icon": "shop",
           "maps": null,
           "tags": [],
@@ -1179,8 +1247,12 @@
           "done": true
         },
         {
-          "text": "確認 K-ETA 政策（台灣目前免簽 90 天，但請出發前再查最新規定）",
-          "done": false
+          "text": "確認 K-ETA 台灣免辦 K-ETA（免申請延長至 2026/12/31，已上官網查證）",
+          "done": true
+        },
+        {
+          "text": "填電子入境卡 e-Arrival Card ×3 三人都已填（Jack / 太太 / 雨樂；ISSNO 截圖存手機，入境查驗出示）",
+          "done": true
         }
       ]
     },
@@ -1192,19 +1264,27 @@
           "done": true
         },
         {
-          "text": "⚠️ 取消路易斯漢密爾頓（Booking.com 確認碼 5304.325.257，6/23 前免費取消）",
-          "done": false
+          "text": "取消路易斯漢密爾頓 已取消（Booking.com 5304.325.257）",
+          "done": true
         },
         {
           "text": "預訂天空膠囊 KKday #26KK270020066 — 6/29（一）19:00 青沙浦→尾浦 2 人座 NT$1,034",
           "done": true
         },
         {
-          "text": "購買 Visit Busan Pass 48hr（KKday/Klook）",
+          "text": "Visit Busan Pass ❌ 決定不買（48hr 兜不攏 D2↔D4，且單買水族館+海灘列車更省）",
+          "done": true
+        },
+        {
+          "text": "SEA LIFE 水族館門票 — 彈性，看天氣再去；要買選 KKday/Klook 開放日期票（晴天可不去）",
           "done": false
         },
         {
-          "text": "購買 SEA LIFE 水族館門票（線上購票省 30%）",
+          "text": "⏰ 6/24（三）13:30 線上報到搶 2 個相鄰座（起飛前 48hr 開放；暑假週五班機易滿，越早越好，建議走道側。嬰兒坐腿上只需 2 座）",
+          "done": false
+        },
+        {
+          "text": "預訂金海↔海雲台雙程接送（含兒童座椅） — Klook/KKday，註明兒童座椅+行李/推車空間；填 BX794：6/26 抵 17:05、6/30 退房 07:30 出發",
           "done": false
         },
         {
@@ -1241,7 +1321,48 @@
           "done": false
         },
         {
-          "text": "雨樂護照（水族館免費入場需出示）",
+          "text": "雨樂護照（水族館 / Club D Oasis 免費入場需出示）",
+          "done": false
+        },
+        {
+          "text": "（若去 Club D Oasis） 雨樂防水尿布（泳池專用）或嬰兒泳裝 + 泳帽 ×3（含雨樂，須完全蓋住頭髮）+ 全家泳裝",
+          "done": false
+        }
+      ]
+    },
+    {
+      "category": "衣物（梅雨季・輕薄速乾＋洋蔥式）",
+      "items": [
+        {
+          "text": "大人短袖上衣 各 4–5 件（濕熱會流汗，速乾材質佳）",
+          "done": false
+        },
+        {
+          "text": "大人薄外套／薄長袖 各 1 件（百貨・水族館・餐廳冷氣超強）",
+          "done": false
+        },
+        {
+          "text": "大人長褲＋短褲混搭（速乾）、1 雙好走的鞋",
+          "done": false
+        },
+        {
+          "text": "雨樂上衣／褲子 各「天數 ×1.5」（幼兒易髒易濕、玩沙更要換）",
+          "done": false
+        },
+        {
+          "text": "雨樂薄外套／罩衫 1 件（室內冷氣）＋ 遮陽帽",
+          "done": false
+        },
+        {
+          "text": "隨身包常備 雨樂替換衣 1 套（海灘/吃飯弄濕用）",
+          "done": false
+        },
+        {
+          "text": "全家內衣褲、襪子 足量",
+          "done": false
+        },
+        {
+          "text": "💡 省行李：確認東橫INN有投幣洗衣 → 帶約 3 天份循環洗即可（出發前跟櫃台確認）",
           "done": false
         }
       ]
@@ -1334,6 +1455,91 @@
           {
             "type": "note",
             "text": "G = Google Maps / N = Naver Map"
+          }
+        ]
+      },
+      {
+        "title": "🥩 海雲台烤韓牛 4 選 1 — 比較表（帶雨樂參考）",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "note",
+            "text": "帶雨樂判準：有包廂(룸) + 店員代烤 最省事；預約走 CatchTable。"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "店（Naver）",
+              "韓牛・招牌・價位",
+              "包廂",
+              "代烤",
+              "離中洞飯店",
+              "營業"
+            ],
+            "rows": [
+              [
+                "🥇 암소갈비집 母牛排骨",
+                "암소生排骨(限量)；양념갈비 ₩59k／생갈비 ₩63k",
+                "✅ 榻榻米",
+                "✅",
+                "해변로 333・近海灘",
+                "11:30–22:00(休15–17)"
+              ],
+              [
+                "🥈 규우정 圭牛井",
+                "1++韓牛；불고기 ₩19k／午間雙人套餐 ₩129k(2人)",
+                "✅ 私人(無景)",
+                "未確認",
+                "中洞 팔레드시즈・最近",
+                "11–22(休15–17)"
+              ],
+              [
+                "거대갈비 巨大排骨",
+                "2++頂級；午間特選 平日₩57k／假日₩62k(240g)、프리미엄모듬₩592k",
+                "✅(幾乎要預約)",
+                "✅",
+                "해수욕장附近",
+                "11:30–22:00"
+              ],
+              [
+                "일품한우 一品韓牛",
+                "정육식당直營；生等心/生排骨、韓牛갈비탕一絕、CP值",
+                "未確認",
+                "未確認",
+                "해운대로(稍內)",
+                "11:30–24:00"
+              ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": null,
+                "maps": {
+                  "naver": "https://naver.me/5LHsNhM3"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "naver": "https://naver.me/5xj2qFCE"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "naver": "https://naver.me/GFB10OTI"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "naver": "https://naver.me/FMcgFsaE"
+                }
+              }
+            ]
+          },
+          {
+            "type": "note",
+            "text": "🥇 想要招牌＋帶娃最省事 → 암소갈비집（米其林釜山 2026・包廂・店員代烤，CatchTable 預約＋預訂생갈비）；🥈 性價比＋包廂＋離飯店最近 → 규우정。⚠️ 규우정／일품한우 的「代烤・包廂幼兒友善度」未完全查證，訂位時順便問；일품한우開到半夜、雨樂可喝갈비탕配飯。"
           }
         ]
       },
@@ -1431,9 +1637,9 @@
         "key": "암소갈비집",
         "scheduled": [
           {
-            "dayId": "D2",
-            "time": "18:30",
-            "activity": "晚餐：The Bay 101 더베이101 🌃"
+            "dayId": "D1",
+            "time": "19:30",
+            "activity": "晚餐：海雲台市場 해운대시장"
           }
         ]
       },
@@ -1538,13 +1744,7 @@
           "https://lh3.googleusercontent.com/place-photos/AJRVUZOtNYWWbGhvrA9ODaID32nz4LZU4KnXDObtX7TU8oMIPN5l6jx-ihWi0uuWxYNjg5sXQh9E1ECImOApPiIcKIi6kAomS-9P00Jzq-upSafw6Bh_u8wG8vxo4h7vf_LjN0raAzvYbU7q5ND7lJv6vMHT=s4800-w800"
         ],
         "key": "오반장",
-        "scheduled": [
-          {
-            "dayId": "D2",
-            "time": "18:30",
-            "activity": "晚餐：The Bay 101 더베이101 🌃"
-          }
-        ]
+        "scheduled": []
       },
       {
         "title": "🍜 수변최고 水邊最高豬肉湯飯 — 釜山三大湯飯",
@@ -1640,6 +1840,11 @@
         "key": "수변최고",
         "scheduled": [
           {
+            "dayId": "D2",
+            "time": "~12:00",
+            "activity": "午餐：해운대 31cm 해물칼국수（직영점） 🍜 已鎖定"
+          },
+          {
             "dayId": "D4",
             "time": "11:30",
             "activity": "午餐：海雲台就近吃"
@@ -1734,6 +1939,11 @@
             "dayId": "D1",
             "time": "19:30",
             "activity": "晚餐：海雲台市場 해운대시장"
+          },
+          {
+            "dayId": "D2",
+            "time": "~12:00",
+            "activity": "午餐：해운대 31cm 해물칼국수（직영점） 🍜 已鎖定"
           },
           {
             "dayId": "D4",
@@ -2411,13 +2621,102 @@
         "scheduled": [
           {
             "dayId": "D2",
-            "time": "18:30",
-            "activity": "晚餐：The Bay 101 더베이101 🌃"
+            "time": "~18:30",
+            "activity": "晚餐：Centum/新世界就近吃 🍽"
           },
           {
             "dayId": "D4",
             "time": "19:30",
             "activity": "晚餐：The Bay 101 더베이101 🌃"
+          }
+        ]
+      },
+      {
+        "title": "🦐 南浦／中區 在地海鮮 5 選 — 比較表（都落在 D3 南浦那天，帶雨樂參考）",
+        "maps": null,
+        "blocks": [
+          {
+            "type": "note",
+            "text": "⚠️ 帶雨樂能一起吃的只有 어묵탕／돌게탕；꼼장어・아구찜・생회偏大人重口/生食。價格未標者、부영집/새옹지마營業時間，訂前再確認。"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "店（連結）",
+              "類型・招牌",
+              "價位",
+              "雨樂",
+              "位置・時間"
+            ],
+            "rows": [
+              [
+                "수복센타 魚板湯",
+                "스지어묵탕(牛筋魚板湯)、1945 노포",
+                "₩30k",
+                "✅ 最友善",
+                "남포길25-3(남포역4分)・15:30–24:00、週一休"
+              ],
+              [
+                "새옹지마 石蟳湯",
+                "돌게탕(石蟹湯,1982 特許)",
+                "未確認",
+                "△ 湯+飯可,蟹殼多",
+                "중앙동・可預約"
+              ],
+              [
+                "김해식당 鮟鱇",
+                "생아구찜/수육(白種元 3 大天王)",
+                "수육小₩60k・찜大₩62k",
+                "△ 찜辣,수육較溫和",
+                "자갈치로51-2(자갈치역10번5分)・09:30–21:00"
+              ],
+              [
+                "부영집 烤盲鰻",
+                "꼼장어(辣味碳烤盲鰻)",
+                "未確認",
+                "❌ 辣",
+                "南浦/자갈치一帶・未確認"
+              ],
+              [
+                "원조청조횟집 生海鮮",
+                "회(棒球主題套餐,在地愛店)",
+                "₩45k/55k/65k",
+                "❌ 生食不宜",
+                "광복로12번길(자갈치역3번)・15:00–01:00"
+              ]
+            ],
+            "rowsMeta": [
+              {
+                "photo": null,
+                "maps": {
+                  "naver": "https://naver.me/xl0DlHjF"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "naver": "https://naver.me/FMctJlIB"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "naver": "https://naver.me/F884MHsk"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "naver": "https://naver.me/5chudWmW"
+                }
+              },
+              {
+                "photo": null,
+                "maps": {
+                  "naver": "https://map.naver.com/v5/search/%EC%9B%90%EC%A1%B0%EC%B2%AD%EC%A1%B0%ED%9A%9F%EC%A7%91"
+                }
+              }
+            ]
           }
         ]
       },
@@ -2523,11 +2822,6 @@
             "dayId": "D3",
             "time": "11:00",
             "activity": "札嘎其市場 자갈치시장 🐟"
-          },
-          {
-            "dayId": "D3",
-            "time": "18:00",
-            "activity": "晚餐：南浦／中區就近吃 🍽"
           }
         ]
       },
@@ -2602,11 +2896,6 @@
             "dayId": "D3",
             "time": "10:30",
             "activity": "南浦洞 + BIFF 廣場 남포동"
-          },
-          {
-            "dayId": "D3",
-            "time": "18:00",
-            "activity": "晚餐：南浦／中區就近吃 🍽"
           }
         ]
       },
@@ -2920,8 +3209,8 @@
             "rows": [
               [
                 "韓式炸雞",
-                "BBQ / BHC / 橋村，任一品牌",
-                "⭐⭐ 去骨肉給幼兒"
+                "首選 Puradak 푸라닭 중동점（中洞，離飯店近、12:00–24:00、走路外帶回房；招牌 고추마요/블랙알리오）。想換口味的外送備案：60계치킨 부산장산점（每天新油只炸 60 隻，但在 좌동/장산、走不到 → 用 Shuttle Delivery 等英文外送 App 試送到飯店，送不到就回頭吃 Puradak）。其次 BBQ / BHC / 橋村",
+                "⭐⭐ 去骨肉給雨樂吃原味 오리지널"
               ],
               [
                 "海苔飯捲 김밥",
@@ -4630,7 +4919,7 @@
           },
           {
             "type": "subheading",
-            "text": "Arte Museum「月兔 Moon Rabbit」特展 🐰",
+            "text": "Arte Museum「月兔 Moon Rabbit」特展 🐰 （✅ 已排為 D3 雨天首選）",
             "maps": {
               "google": "https://maps.google.com/?q=Arte%20Museum%20%EB%B6%80%EC%82%B0",
               "naver": "https://map.naver.com/v5/search/Arte%20Museum%20%EB%B6%80%EC%82%B0"
@@ -4914,7 +5203,7 @@
                 "maps": null
               },
               {
-                "text": "Visit Busan Pass（強烈推薦 48hr 版，~55,000 KRW）：含水族館（29,000）+ 藍線公園海灘列車（8,000）+ 松島纜車（17,000）+ 釜山塔 + 30 多個景點。實體卡版本還兼 T-money 功能，一卡搞定",
+                "text": "Visit Busan Pass（24h ₩49,000~55,000／48h ₩69,000~85,000／計次 BIG3 ₩45,000・BIG5 ₩65,000，各平台報價不一、購買前確認；另傳 BIG3/5 將停售，先確認還有無）：含水族館、藍線海灘列車、松島纜車、釜山塔等 30+ 景點，實體卡兼 T-money。\n⚠️ 本行程評估：不划算 → 建議「單買 à la carte ＋ 一般 T-money」。理由：免費景點佔多數（海灘/市場/無人機/The Bay/青沙浦）、付費景點少又多是彈性或輪流玩、天空膠囊已另訂（不走 Pass）；計時版會被「慢玩＋午睡」浪費；計次 BIG3 要 2 大人都跑滿 3 個付費景點才回本，且受 A/B 分組限制。只有「確定 2 大人都會玩 SEA LIFE＋Club D 汗蒸＋해변열차」才回頭考慮 BIG3",
                 "photo": null,
                 "maps": null
               }
